@@ -180,11 +180,7 @@ cart-drawer {
 }
 
 .cart-drawer thead {
-  display: inline-table;
-  width: 100%;
-  position: sticky;
-  top: 0;
-  z-index: 2;
+  display: none;
 }
 
 cart-drawer-items {
@@ -454,5 +450,9 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
 
   .cart-drawer .cart-item__error {
     margin-left: 0;
+  }
+
+  .cart-item__media {
+    width: 100%;
   }
 }
