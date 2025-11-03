@@ -520,9 +520,14 @@ slider-component .card__media .media img {
     font-size: 16px;
     line-height: 1.33;
     padding: 0 24px;
-    margin-bottom: 13px;  
+    margin-bottom: 13px;
     font-family: Masqualero, serif !important;
 }
+
+#product-grid .card__heading {
+  font-size: 1.3rem;
+}
+
 @media screen and (max-width: 749px) {
   .card--standard .card__media {
     margin: 0;
