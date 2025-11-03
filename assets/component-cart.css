@@ -284,7 +284,7 @@ cart-items .title-wrapper-with-link .title {
 @media screen and (max-width: 989px) {
   .cart__summary {
     border-left: none;
-    padding-left: 0;
+    padding-left: 2rem;
     border-top: 1px solid rgba(var(--color-foreground), 0.08);
     padding-top: 3rem;
   }
