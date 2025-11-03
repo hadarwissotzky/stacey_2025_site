@@ -1,0 +1,123 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_DMrYDk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PLwtj7": {
+          "type": "heading",
+          "settings": {
+            "heading": "RE-USE YOUR OWN GEMS & JEWELRY",
+            "heading_size": "h1"
+          }
+        },
+        "text_HaHHYV": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Jewelry can symbolize the most special people and experiences in our lives. Shouldn't your most important pieces be made just for you?</h3>"
+          }
+        },
+        "text_NbLekf": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><a href=\"/pages/use-your-own-gems-metal\" title=\"Use your own gems & metal\">LEARN MORE</a></h5>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PLwtj7",
+        "text_HaHHYV",
+        "text_NbLekf"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".rich-text__blocks {max-width: 59rem;}",
+        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: 26px; font-weight: 300; line-height: 26px;}",
+        ".rich-text h3 {font-family: \"GoudyOldStyle\", sans-serif !important;}",
+        ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [
+        "h1 {text-align: center; margin-top: 1.3rem;}"
+      ],
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "rich_text_xGJR4m": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LfFiNR": {
+          "type": "heading",
+          "settings": {
+            "heading": "ALL SALE",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LfFiNR"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.card__media {min-height: 194px !important; }}"
+      ],
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "rich_text_DMrYDk",
+    "banner",
+    "rich_text_xGJR4m",
+    "product-grid"
+  ]
+}

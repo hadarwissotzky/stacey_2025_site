@@ -1,0 +1,122 @@
+.rich-text {
+  z-index: 1;
+}
+
+.rich-text__wrapper {
+  display: flex;
+  justify-content: center;
+  width: calc(100% - 4rem / var(--font-body-scale));
+}
+
+.rich-text:not(.rich-text--full-width) .rich-text__wrapper {
+  margin: auto;
+  width: calc(100% - 8rem / var(--font-body-scale));
+}
+
+.rich-text__blocks {
+  width: 100%;
+}
+
+@media screen and (min-width: 750px) {
+  .rich-text__wrapper {
+    width: 100%;
+  }
+
+  .rich-text__wrapper--left {
+    justify-content: flex-start;
+  }
+
+  .rich-text__wrapper--right {
+    justify-content: flex-end;
+  }
+
+  .rich-text__blocks {
+    max-width: 50rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .rich-text__blocks {
+    max-width: 78rem;
+  }
+}
+
+.rich-text__blocks * {
+  overflow-wrap: break-word;
+}
+
+.rich-text__blocks > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.rich-text__blocks > * + * {
+  margin-top: 1rem;
+}
+
+.rich-text__blocks > * + a {
+  margin-top: 3rem;
+}
+
+.rich-text__buttons {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  max-width: 45rem;
+  word-break: break-word;
+}
+
+.rich-text__buttons--multiple > * {
+  flex-grow: 1;
+  min-width: 22rem;
+}
+
+.rich-text__buttons + .rich-text__buttons {
+  margin-top: 1rem;
+}
+
+.rich-text__blocks.left .rich-text__buttons {
+  justify-content: flex-start;
+}
+
+.rich-text__blocks.right .rich-text__buttons {
+  justify-content: flex-end;
+}
+
+/* stacey custom buttons */
+
+.rich-text__buttons .button:before,
+.rich-text__buttons .button:after {
+  position: initial;
+      --border-opacity: none;
+}
+.rich-text__buttons .outter-button {
+    border: 1px solid;
+    border-color:var(--color-button-text);
+    border-radius: 13px;
+    padding: 4px 4px 4px 4px;
+    display: inline-block;
+}
+
+.rich-text__buttons .base-button {
+    color: var(--color-button-text);
+    text-transform: uppercase;
+    border: 2px solid;
+    border-color:var(--color-button-text);
+    border-radius: 8px;
+    padding: 8px 60px;
+    font-family: A gothic, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    transition-property: none;
+}
+
+
+/* Mobile line-height for specific rich text heading */
+@media screen and (max-width: 749px) {
+  #shopify-section-template--21717722104091__20029078-d2df-4c46-b126-e7d5ff72f316 .rich-text__heading {
+    line-height: 36px !important;
+  }
+}

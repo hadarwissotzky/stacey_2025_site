@@ -1,0 +1,560 @@
+{{ 'lorinczi-contact-form.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .lorinczi-contact-form-1-{{ section.id }} .contact {
+    background-color: {{ section.settings.left_background_color }} !important;
+  }
+
+  .lorinczi-contact-form-1-{{ section.id }} .title {
+    color: {{ section.settings.header_text_color }} !important;
+  }
+
+  .lorinczi-contact-form-1-{{ section.id }} .field__input,
+  .lorinczi-contact-form-1-{{ section.id }} .text-area {
+    background-color: {{ section.settings.field_background_color }} !important;
+  }
+
+  .lorinczi-contact-form-1-{{ section.id }} .field:after {
+    box-shadow: 0 0 0 var(--inputs-border-width) {{ section.settings.field_border_color }} !important;
+  }
+
+  .lorinczi-contact-form-1-{{ section.id }} .drop-area {
+    background-color: {{ section.settings.drop_area_background_color }} !important;
+    border: 1px solid {{ section.settings.drop_area_border_color }} !important;
+  }
+
+  .lorinczi-contact-form-1-{{ section.id }} .contact__button .button {
+    background-color: {{ section.settings.button_background_color }} !important;
+    border: 1px solid {{ section.settings.button_border_color }} !important;
+    color: {{ section.settings.button_text_color }} !important;
+  }
+
+  .lorinczi-contact-form-1-{{ section.id }} .contact__button .button:hover {
+    background-color: color-mix(in srgb, {{ section.settings.left_background_color }} 50%, white 50%) !important;
+  }
+{%- endstyle -%}
+<div class="page-width">
+  <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
+    <div class="container">
+      <div class="column lorinczi-contact-form-1 lorinczi-contact-form-1-{{ section.id }}">
+        <div class="color-{{ section.settings.color_scheme }} gradient">
+          <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
+            {%- if section.settings.heading != blank -%}
+              <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+                {{ section.settings.heading }}
+              </h2>
+            {%- else -%}
+              <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
+            {%- endif -%}
+            {%- liquid
+              assign contact_form_class = 'isolate'
+              if settings.animations_reveal_on_scroll
+                assign contact_form_class = 'isolate scroll-trigger animate--slide-in'
+              endif
+            -%}
+            {%- form 'contact', id: 'ContactForm', class: contact_form_class -%}
+              {%- if form.posted_successfully? -%}
+                <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
+                  {% render 'icon-success' %}
+                  {{ 'templates.contact.form.post_success' | t }}
+                </h2>
+              {%- elsif form.errors -%}
+                <div class="form__message">
+                  <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+                    {% render 'icon-error' %}
+                    {{ 'templates.contact.form.error_heading' | t }}
+                  </h2>
+                </div>
+                <ul class="form-status-list caption-large" role="list">
+                  <li>
+                    <a href="#ContactForm-email" class="link">
+                      {{ form.errors.translated_fields.email | capitalize }}
+                      {{ form.errors.messages.email }}
+                    </a>
+                  </li>
+                </ul>
+              {%- endif -%}
+              <div class="contact__fields">
+                <div class="field">
+                  <input
+                    class="field__input"
+                    autocomplete="name"
+                    type="text"
+                    id="ContactForm-name"
+                    name="contact[{{ 'templates.contact.form.name' | t }}]"
+                    value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+                    placeholder="{{ 'templates.contact.form.name' | t }}"
+                  >
+                  <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
+                </div>
+                <div class="field field--with-error">
+                  <input
+                    autocomplete="email"
+                    type="email"
+                    id="ContactForm-email"
+                    class="field__input"
+                    name="contact[email]"
+                    spellcheck="false"
+                    autocapitalize="off"
+                    value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                    aria-required="true"
+                    {% if form.errors contains 'email' %}
+                      aria-invalid="true"
+                      aria-describedby="ContactForm-email-error"
+                    {% endif %}
+                    placeholder="{{ 'templates.contact.form.email' | t }}"
+                  >
+                  <label class="field__label" for="ContactForm-email">
+                    {{- 'templates.contact.form.email' | t }}
+                    <span aria-hidden="true">*</span></label
+                  >
+                  {%- if form.errors contains 'email' -%}
+                    <small class="contact__field-error" id="ContactForm-email-error">
+                      <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+                      <span class="form__message">
+                        {%- render 'icon-error' -%}
+                        {{- form.errors.translated_fields.email | capitalize }}
+                        {{ form.errors.messages.email -}}
+                      </span>
+                    </small>
+                  {%- endif -%}
+                </div>
+              </div>
+              <div class="field">
+                <input
+                  type="text"
+                  id="ContactForm-phone"
+                  class="field__input"
+                  autocomplete="off"
+                  name="contact[{{ 'templates.contact.form.phone' | t }}]"
+                  value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+                  placeholder="{{ 'templates.contact.form.phone.placeholder' | t }}"
+                >
+                <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
+              </div>
+              <div class="field">
+                <input
+                  type="text"
+                  id="ContactForm-budget"
+                  class="field__input"
+                  autocomplete="off"
+                  name="contact[{{ 'templates.contact.form.budget.placeholder' | t }}]"
+                  value="{% if form.budget %}{{ form.budget }}{% elsif customer %}{{ customer.budget }}{% endif %}"
+                  placeholder="{{ 'templates.contact.form.budget' | t }}"
+                >
+                <label class="field__label" for="ContactForm-budget">{{ 'templates.contact.form.budget' | t }}</label>
+              </div>
+              <div class="field">
+                <textarea
+                  rows="10"
+                  id="ContactForm-body"
+                  class="text-area field__input"
+                  name="contact[{{ 'templates.contact.form.comment' | t }}]"
+                  placeholder="{{ 'templates.contact.form.comment' | t }}"
+                >
+          {{- form.body -}}
+        </textarea>
+                <label class="form__label field__label" for="ContactForm-body">
+                  {{- 'templates.contact.form.comment' | t -}}
+                </label>
+              </div>
+              <!-- … all your other <div class="field"> blocks … -->
+            
+              <!-- 1) HIDDEN FIELDS FOR XANO INTEGRATION -->
+              <input type="hidden" id="ContactForm-form_id" name="contact[form_id]" value="" />
+              <input type="hidden" id="ContactForm-image_links" name="contact[image_links]" value="" />
+              <!-- 2) FILE UPLOAD UI -->
+              <div class="field file-upload">
+                <label class="field__label" for="ContactForm-file">Upload photos (optional)</label>
+                <div id="drop-area" class="drop-area">
+                    <image style="max-width: 11%; margin: 0" src="https://cdn-icons-png.freepik.com/512/2725/2725144.png?ga=GA1.1.842726204.1750957865"></image>
+                    <h4 style="margin: 0" >Upload files</h4>
+                  <p>
+                    Drag &amp; drop photos here or<button type="button" id="file-select-button" class="link">browse files</button>
+                  </p>
+                  <input
+                    type="file"
+                    id="ContactForm-file"
+                    accept="image/*"
+                    multiple
+                    capture="environment"
+                    class="visually-hidden"
+                  />
+                </div>
+                <div id="preview" class="file-preview"></div>
+              </div>
+            
+              <!-- 3) SEND BUTTON -->              
+              <div  class="contact__button">
+                <button style="border: 1px solid " type="submit" class="button">
+                  {{ 'templates.contact.form.send' | t }}
+                </button>
+              </div>
+            {%- endform -%}
+          </div>
+        </div>
+      </div>
+      <div class="column image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
+        <div
+          class="image-with-text__media image-with-text__media--{{ section.settings.height }} global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}{% if section.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
+          {% if section.settings.height == 'adapt' and section.settings.image != blank %}
+            style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
+          {% endif %}
+        >
+          {%- if section.settings.image != blank -%}
+            {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
+              {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
+              {%- capture sizes -%}
+              (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+              (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+            {%- endcapture -%}
+            {%- else -%}
+              {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+              {%- capture sizes -%}
+              (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+              (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+            {%- endcapture -%}
+            {%- endif -%}
+            {{
+              section.settings.image
+              | image_url: width: 1500
+              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+            }}
+          {%- else -%}
+            {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}
+        </div>
+      </div>
+        <script>          
+        document.addEventListener('DOMContentLoaded', () => {
+          const form        = document.getElementById('ContactForm');
+          const fileInput   = document.getElementById('ContactForm-file');
+          const dropArea    = document.getElementById('drop-area');
+          const btnBrowse   = document.getElementById('file-select-button');
+          const preview     = document.getElementById('preview');
+          const hiddenLinks = document.getElementById('ContactForm-image_links');
+        
+          // keep our own array of Files
+          let allFiles = [];
+        
+          // open file picker
+          btnBrowse.addEventListener('click', () => fileInput.click());
+        
+          // drag/drop styling
+          ['dragenter','dragover','dragleave','drop'].forEach(evt => {
+            dropArea.addEventListener(evt, e => {
+              e.preventDefault(); e.stopPropagation();
+              dropArea.classList[evt==='dragenter'||evt==='dragover' ? 'add':'remove']('dragover');
+            });
+          });
+        
+          // on drop, merge new files
+          dropArea.addEventListener('drop', e => {
+            const dropped = Array.from(e.dataTransfer.files);
+            allFiles.push(...dropped);
+            updateFileInput();
+            renderPreviews();
+          });
+        
+          // on manual select, merge new files
+          fileInput.addEventListener('change', () => {
+            const selected = Array.from(fileInput.files);
+            allFiles.push(...selected);
+            updateFileInput();
+            renderPreviews();
+          });
+        
+          function updateFileInput() {
+            // rebuild FileList from our array
+            const dataTransfer = new DataTransfer();
+            allFiles.forEach(f => dataTransfer.items.add(f));
+            fileInput.files = dataTransfer.files;
+          }
+        
+          function renderPreviews() {
+            preview.innerHTML = '';
+            allFiles.forEach(file => {
+              const reader = new FileReader();
+              reader.onload = e => {
+                const img = document.createElement('img');
+                img.src = e.target.result;
+                img.classList.add('file-thumb');
+                preview.appendChild(img);
+              };
+              reader.readAsDataURL(file);
+            });
+          }
+        
+          form.addEventListener('submit', async e => {
+            e.preventDefault();
+          
+            // 1) Read & Base64-encode images as before…
+            const base64s = await Promise.all(
+              allFiles.map(f => new Promise((res, rej) => {
+                const reader = new FileReader();
+                reader.onload  = () => res(reader.result);
+                reader.onerror = rej;
+                reader.readAsDataURL(f);
+              }))
+            );
+          
+            // 2) Build dynamic form_id as you already do…
+            const email     = document.getElementById('ContactForm-email').value.trim();
+            const timestamp = new Date().toISOString();
+            const formId    = `${email}-${timestamp}`;
+            document.getElementById('ContactForm-form_id').value = formId;
+          
+            // 3) POST images → Xano
+            const resp = await fetch(
+              'https://app.ezquotepro.com/api:1KsPryE0/uploadImages',
+              {
+                method:  'POST',
+                headers: {'Content-Type':'application/json'},
+                body:    JSON.stringify({ form_id: formId, images: base64s })
+              }
+            );
+          
+            // 4) Parse Xano’s response (array of { image: { url: … } })
+            const returned = await resp.json();
+            // e.g. [ { image: { url: '…' } }, { image: { url: '…' } } ]
+        
+            // 5) Extract just the URLs
+            const urls = returned.map(item => item.image.url);
+          
+            // 6) Inject into your hidden field (comma- or newline-separated)
+          const hiddenField = document.getElementById('ContactForm-image_links');
+          hiddenField.value = 'sdfsdfsdfsdfdsfsdfsf';//urls.join('\n');
+
+            form.submit();
+          });
+        });
+          document.addEventListener('DOMContentLoaded', () => {
+            // ——————— CURRENCY FORMATTER FOR BUDGET FIELD ———————
+            const budgetInput = document.getElementById('ContactForm-budget');
+            if (budgetInput) {
+              const formatCurrency = (value) => {
+                const digits = value.replace(/[^\d]/g, '');
+                if (!digits) return '';
+                return new Intl.NumberFormat('en-US', {
+                  style: 'currency',
+                  currency: 'USD',
+                  minimumFractionDigits: 0,
+                  maximumFractionDigits: 0
+                }).format(parseInt(digits, 10));
+              };
+          
+              budgetInput.addEventListener('focus', () => {
+                budgetInput.value = budgetInput.value.replace(/[^\d]/g, '');
+              });
+              budgetInput.addEventListener('blur', () => {
+                budgetInput.value = formatCurrency(budgetInput.value);
+              });
+              budgetInput.addEventListener('input', () => {
+                const pos = budgetInput.selectionStart;
+                const oldLen = budgetInput.value.length;
+                budgetInput.value = formatCurrency(budgetInput.value);
+                const newLen = budgetInput.value.length;
+                budgetInput.setSelectionRange(pos + (newLen - oldLen), pos + (newLen - oldLen));
+              });
+            }
+          
+            // ——————— PHONE FORMATTER FOR US NUMBERS ———————
+            const phoneInput = document.getElementById('ContactForm-phone');
+            if (phoneInput) {
+              const formatPhone = (digits) => {
+                if (digits.length <= 3) return digits;
+                if (digits.length <= 6) {
+                  return `(${digits.slice(0,3)}) ${digits.slice(3)}`;
+                }
+                return `(${digits.slice(0,3)}) ${digits.slice(3,6)}-${digits.slice(6,10)}`;
+              };
+          
+              phoneInput.addEventListener('focus', () => {
+                phoneInput.value = phoneInput.value.replace(/[^\d]/g, '');
+              });
+          
+              phoneInput.addEventListener('blur', () => {
+                const digits = phoneInput.value.replace(/[^\d]/g, '').slice(0,10);
+                phoneInput.value = formatPhone(digits);
+              });
+          
+              // optional live-formatting as they type
+              phoneInput.addEventListener('input', () => {
+                const cursor = phoneInput.selectionStart;
+                const oldLen = phoneInput.value.length;
+                const digits = phoneInput.value.replace(/[^\d]/g, '').slice(0,10);
+                phoneInput.value = formatPhone(digits);
+                const newLen = phoneInput.value.length;
+                phoneInput.setSelectionRange(cursor + (newLen - oldLen), cursor + (newLen - oldLen));
+              });
+            }
+          });
+      </script>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "lorinczi contact form",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "Contact form",
+      "label": "Heading"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "background-1"
+    },
+    {
+      "type": "color",
+      "id": "left_background_color",
+      "label": "Left side background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "field_background_color",
+      "label": "Field background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "field_border_color",
+      "label": "Field border color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "drop_area_background_color",
+      "label": "Upload area background color",
+      "default": "#E6E5E2"
+    },
+    {
+      "type": "color",
+      "id": "drop_area_border_color",
+      "label": "Upload area border color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_background_color",
+      "label": "Button background color",
+      "default": "#f3e5d6"
+    },
+    {
+      "type": "color",
+      "id": "button_border_color",
+      "label": "Button border color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "header_text_color",
+      "label": "Title text color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+        {
+      "type": "select",
+      "id": "mobile_content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__3.label"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.image-with-text.settings.mobile_content_alignment.label"
+    },
+  ],
+  "presets": [
+    {
+      "name": "lorinczi contact form"
+    }
+  ]
+}
+{% endschema %}

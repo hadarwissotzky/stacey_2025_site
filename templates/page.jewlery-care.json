@@ -1,0 +1,221 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_jtfqhM": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_htXqMf": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Jewelry Care</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_acUhh3": {
+          "type": "text",
+          "settings": {
+            "text": "See how easy it is to preserve your treasures.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_htXqMf",
+        "text_acUhh3"
+      ],
+      "custom_css": [
+        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/TRULY_Final_Jewelry_Care_Section_Main_Top_Image_4ef1e5d3-21ae-4cda-b606-3a42b22dba83.jpg",
+        "video_background": false,
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_9BhXzA": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_HGBVyA": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_gdPFWR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I care for my jewelry?",
+            "icon": "none",
+            "row_content": "<h5>To keep your jewelry in top condition, handle it gently. Remove your jewelry for heavy activities like exercise, gardening, or carpentry to avoid damage.</h5><h5>Avoid wearing jewelry while swimming, as cold water can cause fingers to shrink, leading to rings slipping off. For sterling silver pieces, lotions and perfumes can speed up tarnishing and may loosen stones. Additionally, avoid wearing any jewelry in pools, hot tubs, or saltwater, as chemicals and salt can damage both the metal and gemstones.</h5><h5><strong>How do I make sure my stones are safe and secure in their settings? </strong></h5><h5>Regular self-checks are crucial for maintaining your jewelry's integrity, especially for pieces with gemstones in prongs or bezels. Here's how to inspect your jewelry at home:</h5><ol><li><h5><strong>Visual Check</strong>: Use a magnifying glass or readers to examine prongs, prong tips, and bezels for signs of thinning, bending, or opening.</h5></li><li><h5><strong>Physical Testing</strong>:</h5></li></ol><ul><li><h5><strong>Gentle Wiggling</strong>: Carefully wiggle the gemstones with a clean fingertip. Any movement indicates a loose setting.</h5></li><li><h5><strong>Listening</strong>: Shake the jewelry gently near your ear. Rattling sounds suggest a stone is loose.</h5></li></ul><ol><li><h5><strong>Inspection:</strong> After tactile and auditory tests, inspect the jewelry closely using a magnifying glass or readers. Ensure the stone sits flush in its setting, check for lifted or bent prongs, and confirm no prong tips are broken.</h5></li><li><h5><strong>Routine Cleaning</strong>: Clean your jewelry with mild soap and warm water to remove buildup that can hide problems.</h5></li><li><h5><strong>Monitor Changes</strong>: Watch for changes in your jewelry’s appearance to catch issues early.</h5></li><li><h5><strong>Professional Help</strong>: If you find loose stones or damage, stop wearing the piece and consult me or another professional jeweler for repairs.</h5></li><li><h5><strong>Storage</strong>: Store your jewelry in a fabric-lined box with separate compartments to prevent scratches and impacts.</h5></li></ol><h5>By following these steps, you can help ensure your stones remain safe and secure in their settings.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fD7mj7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I make sure my stones are safe and secure in their settings?",
+            "icon": "none",
+            "row_content": "<h5>Regular self-checks are crucial for maintaining your jewelry's integrity, especially for pieces with gemstones in prongs or bezels. Here's how to inspect your jewelry at home:</h5><ol><li><h5><strong>Visual Check</strong>: Use a magnifying glass or readers to examine prongs, prong tips, and bezels for signs of thinning, bending, or opening.</h5></li><li><h5><strong>Physical Testing</strong>:</h5></li></ol><ul><li><h5><strong>Gentle Wiggling</strong>: Carefully wiggle the gemstones with a clean fingertip. Any movement indicates a loose setting.</h5></li><li><h5><strong>Listening</strong>: Shake the jewelry gently near your ear. Rattling sounds suggest a stone is loose.</h5></li></ul><ol><li><h5><strong>Inspection:</strong> After tactile and auditory tests, inspect the jewelry closely using a magnifying glass or readers. Ensure the stone sits flush in its setting, check for lifted or bent prongs, and confirm no prong tips are broken.</h5></li><li><h5><strong>Routine Cleaning</strong>: Clean your jewelry with mild soap and warm water to remove buildup that can hide problems.</h5></li><li><h5><strong>Monitor Changes</strong>: Watch for changes in your jewelry’s appearance to catch issues early.</h5></li><li><h5><strong>Professional Help</strong>: If you find loose stones or damage, stop wearing the piece and consult me or another professional jeweler for repairs.</h5></li><li><h5><strong>Storage</strong>: Store your jewelry in a fabric-lined box with separate compartments to prevent scratches and impacts.</h5></li></ol><h5>By following these steps, you can help ensure your stones remain safe and secure in their settings.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jgFhHF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I clean my gold and platinum jewelry?",
+            "icon": "none",
+            "row_content": "<h5>To keep your gold and platinum jewelry sparkling, follow these steps:</h5><ol><li><h5>Gentle Cleaning: Mix a few drops of mild dish soap with warm water. Use a soft-bristled brush or your fingers to gently scrub the jewelry, reaching all nooks and crannies. Rinse thoroughly under running water to remove soap residue.</h5></li><li><h5>Polishing for Stubborn Tarnish:</h5></li></ol><ul><li><h5>Gold: Use a specialized jewelry polish with mild abrasives, like Weiman Gold Jewelry Cleaner. Apply a small amount to a soft cloth and gently rub it into the gold, following the metal's grain if it’s textured. Avoid getting polish on gemstones, as it can damage them. Rinse thoroughly and dry completely.</h5></li><li><h5>Platinum: Use a polish formulated for platinum, such as TriNova Platinum Jewelry Cleaner. Follow the same technique as with gold. Always do a spot test first and follow product instructions carefully.</h5></li></ul><ol><li><h5>Maintaining Shine: Use a jeweler's polishing cloth to gently buff the surface in small, circular motions. This removes fingerprints and light tarnish, restoring the jewelry's finish.</h5></li><li><h5>Proper Storage: Store jewelry in a cool, dry place away from moisture, chemicals, and direct sunlight. Use anti-tarnish strips or zip-top bags for added protection.</h5></li></ol><h5>With a little time and effort, you can easily clean and polish your gold and platinum jewelry at home.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_y6rBGq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I clean my gem-set jewelry?",
+            "icon": "none",
+            "row_content": "<h5>For jewelry with gemstones, use extra caution:</h5><ol><li><h5>Mix mild dish soap with lukewarm water.</h5></li><li><h5>Soak the jewelry for 20 minutes.</h5></li><li><h5>Gently scrub around settings and stones with a soft toothbrush. Be careful with softer gemstones like pearls, opals, or emeralds.</h5></li><li><h5>Rinse with clean water and dry with a soft cloth.</h5></li><li><h5>Avoid harsh chemicals, ultrasonic cleaners, or steam cleaners on delicate stones.</h5></li></ol><h5>Note: For translucent gemstones in closed settings, avoid submerging in water or exposing to lotions, oils, or creams, as these can get trapped under the stone, making them almost impossible to remove.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_QTEdxM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I clean my sterling silver jewelry?",
+            "icon": "none",
+            "row_content": "<h5>I'm quite fond of the dark, dramatic look of oxidized sterling silver, but if you prefer your silver to shine brightly, maintaining its luster is simple. Sterling silver does tarnish over time, but a little care goes a long way. Here's what you can do:</h5><ol><li><h5><strong>Basic Cleaning</strong>: Create a solution of warm water and mild dish soap. Soak your silver pieces for a few minutes, then gently scrub with a soft toothbrush to remove dirt or residue. Rinse thoroughly and dry with a soft cloth.</h5></li><li><h5><strong>Polishing</strong>: For regular maintenance, use a soft, non-abrasive cloth to gently polish the silver. Specific silver polishing cloths are available and effective for removing tarnish.</h5></li><li><h5><strong>Stubborn Tarnish</strong>: Use Goddard's Silver Polish, which contains mild abrasives to polish away tarnish while leaving the silver's finish intact. Always do a spot test first and follow the product instructions carefully.</h5></li><li><h5><strong>Preventive Care</strong>: Avoid exposing silver to chemicals in lotions, perfumes, and hairsprays. Apply these products before putting on your jewelry. Also, avoid using harsh jewelry cleaners.</h5></li></ol><h5>By following these steps, your sterling silver jewelry will stay radiant and tarnish-free.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kLYAGk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I clean my brass and bronze jewelry?",
+            "icon": "none",
+            "row_content": "<h5>Brass and bronze jewelry can develop a patina over time, which some people love. If you don't, use a polish with a gentle acidic agent, like Brasso Multi-Purpose Metal Polish. Always do a spot test first and follow the instructions carefully.</h5><h5>For quick touch-ups, use a brass or bronze-specific polishing cloth to keep your pieces bright and shiny. The cloth will help remove light tarnish without damaging the metal.</h5><h5>To maintain the beauty of your brass and bronze jewelry, store it in a dry place away from moisture and chemicals. This will help prevent additional oxidation and tarnishing.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wxHfMa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I store my jewelry?",
+            "icon": "none",
+            "row_content": "<h5>Proper storage ensures your jewelry stays beautiful and damage-free:</h5><ul><li><h5><strong>Use a Jewelry Box</strong>: Store pieces in a clean, dry box with padded compartments to prevent scratching and dust.</h5></li><li><h5><strong>Avoid Hard Surfaces</strong>: Use original boxes or pouches for protection instead of tossing jewelry into drawers or on dressers.</h5></li><li><h5><strong>Separate Pieces</strong>: Store each item separately in pouches, compartments, or soft wraps to avoid tangling and scratching, especially delicate chains and gemstone pieces.</h5></li><li><h5><strong>Keep Away from Moisture</strong>: Store jewelry in a dry area, away from bathrooms and humidity.</h5></li><li><h5><strong>Avoid Direct Sunlight</strong>: Prolonged sun exposure can affect gemstone color. Store in a shaded area.</h5></li><li><h5><strong>Use Anti-Tarnish Strips</strong>: For silver, place anti-tarnish strips in your jewelry box to absorb moisture and sulfur.</h5></li><li><h5><strong>Be Mindful of Skincare Products</strong>: Keep jewelry away from lotions, perfumes, and other products that can cause damage or discoloration.</h5></li></ul><h5>Taking these precautions will help maintain your jewelry's excellent condition. If you have any other questions, feel free to ask!</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xc8nUh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why has my sterling silver, brass, or bronze jewelry tarnished?",
+            "icon": "none",
+            "row_content": "<h5>Tarnishing is a natural reaction when sterling silver, brass, or bronze is exposed to environmental elements. Here's why it happens and how to mitigate it:</h5><ul><li><h5><strong>Sterling Silver</strong>: Tarnishes due to reactions with sulfur compounds in the air, water, or on your skin, forming a dark layer of silver sulfide. Humidity, pollution, and exposure to chemicals can accelerate this. Store silver jewelry in a dry, airtight environment and clean regularly with a silver polishing cloth.</h5></li><li><h5><strong>Brass</strong>: Made of copper and zinc, brass tarnishes when it oxidizes, producing a dull, often greenish or brownish patina. To keep brass shiny, clean and dry it regularly. Some prefer the natural patina for an aged look.</h5></li><li><h5><strong>Bronze</strong>: Similar to brass, bronze tarnishes through oxidation, developing a protective patina ranging from brown to green. Regular cleaning and drying after use will maintain its original appearance.</h5></li></ul><h5><strong>General Care Tips</strong>: Store all jewelry in a cool, dry place away from sunlight and harsh chemicals. Use anti-tarnish strips to absorb moisture and prevent tarnishing. Regular, gentle cleaning specific to each metal type will keep your jewelry looking its best.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fhdt7J": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I restore the finish on my jewelry?",
+            "icon": "none",
+            "row_content": "<h5>Over time, jewelry finishes can wear down. Here’s how to restore different finishes at home. If your jewelry has soft gemstones like opals, emeralds, pearls, or turquoise, avoid these methods and feel free to reach out for advice.</h5><h5><strong>High Polish Finish</strong>:</h5><ul><li><h5><strong>Method</strong>: Use a jewelry polishing cloth and a polishing compound.</h5></li><li><h5><strong>Process</strong>: Gently buff the surface until it gleams.</h5></li></ul><h5><strong>Matte Finish</strong>:</h5><ul><li><h5><strong>Method</strong>: Use a fine abrasive pad or an old toothbrush with abrasive scrubbing powder.</h5></li><li><h5><strong>Process</strong>: Lightly buff the jewelry to restore its subtle sheen, avoiding contact with gemstones.</h5></li></ul><h5><strong>Satin Finish</strong>:</h5><ul><li><h5><strong>Method</strong>: Use a fine abrasive pad.</h5></li><li><h5><strong>Process</strong>: Gently rub the surface, then polish with a soft cloth. Avoid if your jewelry includes soft stones.</h5></li></ul><h5><strong>Brushed Finish</strong>:</h5><ul><li><h5><strong>Method</strong>: Use fine-grit sandpaper or a brass brush.</h5></li><li><h5><strong>Process</strong>: Lightly sand or brush to recreate the parallel lines, taking care to avoid gemstones.</h5></li></ul><h5><strong>Patina Finish on Sterling Silver</strong>:</h5><ul><li><h5><strong>Method</strong>: Reapply a patina solution or use household items like vinegar and salt.</h5></li><li><h5><strong>Process</strong>: Recreate the oxidized look.</h5></li></ul><h5><strong>Additional Tips</strong>:</h5><ul><li><h5><strong>Storage</strong>: Store your jewelry in a dry, cool place, away from sunlight and chemicals.</h5></li><li><h5><strong>Maintenance</strong>: Regular cleaning and gentle handling help maintain the finish and overall appearance.</h5></li></ul><h5>By following these steps, you can keep your jewelry looking as beautiful as the day you got it. </h5>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_gdPFWR",
+        "collapsible_row_fD7mj7",
+        "collapsible_row_jgFhHF",
+        "collapsible_row_y6rBGq",
+        "collapsible_row_QTEdxM",
+        "collapsible_row_kLYAGk",
+        "collapsible_row_wxHfMa",
+        "collapsible_row_xc8nUh",
+        "collapsible_row_fhdt7J"
+      ],
+      "custom_css": [
+        "li {line-height: 0.6em; margin-bottom: 1.4rem;}",
+        "ol li > h5,ul li > h5 {display: inline;}",
+        "ol li {font-size: 13px; font-family: \"A Gothic\" !important;}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Simple jewelry tips to keep your favorite pieces shining.",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 40,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_dTeCqp": {
+      "type": "rich-text",
+      "blocks": {
+        "button_pUdJcr": {
+          "type": "button",
+          "settings": {
+            "button_label": "MORE CARE TIPS",
+            "button_link": "shopify://pages/faq",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_pUdJcr"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner_jtfqhM",
+    "main",
+    "custom_liquid_9BhXzA",
+    "collapsible_content_HGBVyA",
+    "rich_text_dTeCqp"
+  ]
+}

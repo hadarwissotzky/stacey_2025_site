@@ -1,0 +1,201 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_HWnefV": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_VG4fEK": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Shipping</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_wkPNqD": {
+          "type": "text",
+          "settings": {
+            "text": "From my hands to yours.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VG4fEK",
+        "text_wkPNqD"
+      ],
+      "custom_css": [
+        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/V2_TRULY_Final_Shipping_Section_Main_Top_Image.jpg",
+        "video_background": false,
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_jzW3Ce": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_j9WbYh": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_LtUUqG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are my shipping options and their associated costs?",
+            "icon": "none",
+            "row_content": "<h5>I offer various shipping options to suit your needs. The timelines provided below are estimated from the time the product is shipped:</h5><h5><strong>Domestic Orders:</strong></h5><ul><li><h5><strong>UPS 2-Day Shipping</strong>: Complimentary for orders valued at $1000 or more, otherwise $25 flat rate.</h5></li><li><h5><strong>USPS Ground Advantage (~5 business days)</strong>: $20 flat rate including tracking and signature confirmation, or $15 flat rate including tracking but no signature confirmation.*</h5></li><li><h5><strong>USPS Priority Mail</strong>: Cost varies by location and weight. </h5></li><li><h5><strong>UPS Next Day Shipping</strong>: $50 flat rate.</h5></li><li><h5><strong>FedEx</strong> available upon request.</h5></li></ul><h5><strong>International Orders:</strong></h5><ul><li><h5><strong>FedEx International Priority</strong>: $100 flat rate (duties and taxes not included).</h5></li></ul><h5>All shipments are trackable and fully insured during transit. </h5><h5>*For your security, a signature is required upon delivery unless you request otherwise via email.</h5><h5>Refer to the specific product page for production turnaround times, which typically range from 2-8 weeks as most items are made-to-order.</h5><h5>For in-stock pieces that ship within 1-3 business days, check out my Ready-to-Ship items.</h5><h5>Shipping times are approximate. FedEx and UPS deliver Monday-Friday, so Overnight Delivery shipped on a Friday will arrive on Monday.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4VHccM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you provide Rush service?",
+            "icon": "none",
+            "row_content": "<h5>If the jewelry you desire is not in stock, creation times can vary from 2 to 8 weeks, depending on complexity, number of stones, and engraving details. I understand that sometimes you need something sooner, especially for special occasions. I can often accommodate rush requests, depending on the specific piece and style. Please <a href=\"/pages/contact\" title=\"Contact\">contact me</a> with your requirements, and I'll provide a more precise timeframe. Note that fulfilling rush orders during peak seasons like Christmas may be more challenging. If you’re flexible with the type of piece, let’s discuss options for a quicker turnaround, ensuring you can present your special gift just in time.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9HByrq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I tell if a piece is in-stock or made-to-order?",
+            "icon": "none",
+            "row_content": "<h5>Product availability and production timelines are listed on each item's product page. In-stock items usually ship within 1-3 business days. Made-to-order pieces generally take 2 to 8 weeks, depending on design and complexity. For tight timelines, check the product page or contact me directly. I may be able to accommodate shorter turnaround times. Explore my <a href=\"/collections/ready-to-ship\" title=\"Ready To Ship\"><span style=\"text-decoration:underline\">Ready-to-Ship</span></a> collection for beautiful pieces available immediately.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_eRVEnE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I’m considering a custom order, but I’m not located in the United States. Do you ship internationally?",
+            "icon": "none",
+            "row_content": "<h5>Absolutely! I work with customers worldwide to deliver beautiful, one-of-a-kind jewelry. Your pieces are fully insured and shipped via FedEx International Priority for a flat fee of $100, ensuring safe and timely delivery. Feel free to <a href=\"/pages/contact\" title=\"Contact\"><span style=\"text-decoration:underline\">reach out</span></a>, book a <a href=\"/pages/where-to-start\" title=\"Where to start\"><span style=\"text-decoration:underline\">virtual appointment</span></a>, or learn more in the <a href=\"/pages/about-custom-jewelry\" title=\"About Custom Jewelry\"><span style=\"text-decoration:underline\">Design Process</span></a> section of my website.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tyQLrP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What parcel delivery service do you use to ship internationally?",
+            "icon": "none",
+            "row_content": "<h5>I use FedEx International Priority for international shipments. This service includes full insurance for $100 per package. Shipping times vary from three days to two weeks, depending on the destination. Please note that international orders may incur additional duties and taxes, which are your responsibility upon delivery. If an international order is refused and sent back, the shipping charges will be deducted from your refund.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_PQ7GJV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will my jewelry shipment be subject to additional duties and taxes?",
+            "icon": "none",
+            "row_content": "<h5>Yes, all international orders may incur duties and taxes payable by you upon delivery. If an order is refused at delivery and returned, the shipping charges will be deducted from your refund.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ahcHnf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much will customs fees cost?",
+            "icon": "none",
+            "row_content": "<h5>International duties and taxes vary by country and can change. Check with your local courier for the most current rates to ensure you have all the necessary details before your package arrives.</h5>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_LtUUqG",
+        "collapsible_row_4VHccM",
+        "collapsible_row_9HByrq",
+        "collapsible_row_eRVEnE",
+        "collapsible_row_tyQLrP",
+        "collapsible_row_PQ7GJV",
+        "collapsible_row_ahcHnf"
+      ],
+      "custom_css": [
+        "li {line-height: 0.6em; margin-bottom: 1.4rem;}",
+        "ol li > h5,ul li > h5 {display: inline;}",
+        "ol li {font-size: 13px; font-family: \"A Gothic\" !important;}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Everything you need to know about jewelry shipping.",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_XPJNAd": {
+      "type": "rich-text",
+      "blocks": {
+        "button_3EPaTW": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW MORE FAQS",
+            "button_link": "shopify://pages/faq",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_3EPaTW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner_HWnefV",
+    "main",
+    "custom_liquid_jzW3Ce",
+    "collapsible_content_j9WbYh",
+    "rich_text_XPJNAd"
+  ]
+}

@@ -1,0 +1,890 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_F9JYJK": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n.banner__text p {\n  font-size: calc(var(--font-heading-scale) * 2.5rem) !important;\n}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_7RCNFH": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_LAUBVT": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Commitment Jewelry </strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_QF94RF": {
+          "type": "text",
+          "settings": {
+            "text": "Your love story is one-of-a-kind—celebrate it with a ring as unique as you.",
+            "text_style": "body"
+          }
+        },
+        "buttons_Wh9cqD": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Get Started",
+            "button_link_1": "#shopify-section-template--24145717788955__lorinczi_contact_form_QdTKnW",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LAUBVT",
+        "text_QF94RF",
+        "buttons_Wh9cqD"
+      ],
+      "custom_css": [
+        ".outter-button {border: 1px solid #121212; border-radius: 13px; padding: 4px; display: inline-block; transition: all 0.3s;}",
+        ".outter-button:hover {border-color: #000;}",
+        ".button {background: #fff; color: #000; border: 2px solid #121212; font-size: 11px; border-radius: 9px; padding: 12px 30px; min-width: 120px; transition: all 0.3s;}",
+        ".outter-button:hover .button {background: #000; color: #fff; border-color: #000;}",
+        "p {text-shadow: 0 2px 7px rgba(0, 0, 0, 1);}",
+        ".banner__media {width: 100% !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/FINAL_Commitment_Section_Main_Top_Image_2735919e-9916-4c1a-80e3-f767edef57cb.jpg",
+        "video_background": false,
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_with_text_hEgPig": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hViWbx": {
+          "type": "heading",
+          "settings": {
+            "heading": "MEET THE JEWELER",
+            "heading_size": "h2"
+          }
+        },
+        "text_AqJLGn": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Let’s Create Something Unforgettable.</h3><p></p><p>Commitment jewelry is deeply personal and one of the most meaningful pieces you’ll ever wear. I’m honored to hear your story and craft a design that reflects you. No matter your style or budget, I’ll create a timeless piece for you to cherish. </p><p>Begin with a complimentary consultation. </p><p></p>",
+            "text_style": "body"
+          }
+        },
+        "button_BHdtyD": {
+          "type": "button",
+          "settings": {
+            "button_label": "Virtual Appointment",
+            "button_link": "shopify://products/free-consultation",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_hViWbx",
+        "text_AqJLGn",
+        "button_BHdtyD"
+      ],
+      "custom_css": [
+        ".image-with-text__heading,.image-with-text .image-with-text__heading {font-size: 1.3rem !important;}",
+        "h3 {font: 400 31px / 35px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px;}",
+        "p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important;}",
+        "@media (min-width: 750px) {.image-with-text__text-item {width: 40%; } .image-with-text__media-item {width: 60%; }}",
+        ".button {background: #fff;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/FINAL_New_Brighter_FINAL_Index_Info_Stacey_Commitment.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-2",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_CeFEGf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JmKVk6": {
+          "type": "heading",
+          "settings": {
+            "heading": "RE-USE YOUR OWN GEMS & JEWELRY",
+            "heading_size": "h1"
+          }
+        },
+        "text_nKqtXR": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Custom commitment jewelry is my specialty, whether you want to refresh an heirloom or create a new one.</h3>"
+          }
+        },
+        "text_rVMmRP": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><a href=\"/pages/use-your-own-gems-metal\" title=\"Use your own gems & metal\">LEARN MORE</a></h5>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JmKVk6",
+        "text_nKqtXR",
+        "text_rVMmRP"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 59rem;}",
+        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: 26px; font-weight: 300; line-height: 26px;}",
+        ".rich-text h3 {font-family: \"GoudyOldStyle\", sans-serif !important;}",
+        ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_process_nDkDtm": {
+      "type": "custom-process",
+      "blocks": {
+        "slide_xQUtLD": {
+          "type": "slide",
+          "settings": {
+            "heading": "DESIGNING CUSTOM COMMITMENT JEWELRY",
+            "heading_size": "h1",
+            "subheading": "is a deeply personal, collaborative journey... <strong>Here's how it works.</strong>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_HweMbt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Commitment_Where_to_Start_Step__1.jpg",
+            "heading": "First Steps",
+            "heading_size": "h1",
+            "subheading": "We’ll start with a virtual consultation and create a jewelry mood board that reflects your vision.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_eMjXYc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Commitment_Where_to_Start_Step__2.jpg",
+            "heading": "Estimate & Timeline",
+            "heading_size": "h1",
+            "subheading": "I tailor each piece to your budget and can repurpose your gems and metals. Final design determines cost and timeline.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_PV3CeK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Commitment_Where_to_Start_Step__3.jpg",
+            "heading": "Design",
+            "heading_size": "h1",
+            "subheading": "With your feedback, I’ll sketch and refine renderings to match your vision.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_dUD8KK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Commitment_Where_to_Start_Step__4.jpg",
+            "heading": "Choosing Gemstones",
+            "heading_size": "h1",
+            "subheading": "I can repurpose your gemstones or offer beautiful, ethically sourced natural and lab-created stones.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_YryD6L": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Commitment_Where_to_Start_Step__5.jpg",
+            "heading": "Fabrication",
+            "heading_size": "h1",
+            "subheading": "Once you select your gems and finalize the design, a 50% deposit starts fabrication. I’ll share updates with photos and videos to ensure it matches your vision.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_iHFTBx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Commitment_Where_to_Start_Step__6.jpg",
+            "heading": "Wax to Metal",
+            "heading_size": "h1",
+            "subheading": "For cast pieces, I’ll craft a wax model and cast it in your chosen metal. I can recycle your old jewelry and apply its value to your costs.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_HVikpD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Commitment_Where_to_Start_Step__7.jpg",
+            "heading": "Stonesetting",
+            "heading_size": "h1",
+            "subheading": "After casting, your gems will be set, the piece polished to your preferred finish, followed by any desired engraving.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_GhwDrt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Commitment_Where_to_Start_Step__8.jpg",
+            "heading": "Finishing",
+            "heading_size": "h1",
+            "subheading": "After ensuring it's perfect, your jewelry is beautifully packaged and sent, ready to be cherished.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_xQUtLD",
+        "slide_HweMbt",
+        "slide_eMjXYc",
+        "slide_PV3CeK",
+        "slide_dUD8KK",
+        "slide_YryD6L",
+        "slide_iHFTBx",
+        "slide_HVikpD",
+        "slide_GhwDrt"
+      ],
+      "custom_css": [],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "rich_text_7zKXXk": {
+      "type": "rich-text",
+      "blocks": {
+        "text_rmjprM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All my commitment jewelry is made-to-order, so I don’t offer ready-to-buy rings. Explore my portfolio for designs to customize or inspire your own.</p>"
+          }
+        },
+        "button_Bf6twh": {
+          "type": "button",
+          "settings": {
+            "button_label": "EXPLORE PAST CREATIONS",
+            "button_link": "shopify://collections/engagement-rings",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_rmjprM",
+        "button_Bf6twh"
+      ],
+      "custom_css": [],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_eT4ph9": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".product-card-wrapper .card {--border-width: none; --image-padding: 0rem; position: relative;}",
+        ".card:not(.ratio) > .card__content {display: none;}",
+        ".card--media .card__inner .card__content {padding: 0; width: 100%;}",
+        ".card__inner .full-unstyled-link {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2;}",
+        ".slider {margin-top: 0.2rem;}",
+        ".slider-counter {display: none;}",
+        ".grid__item {padding-bottom: 0px;}",
+        ".grid li:first-child {margin-left: 0;}",
+        ".slider-mobile-gutter {padding: 0; max-width: 100%;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "custom-gallery",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_dXMhfT": {
+      "type": "rich-text",
+      "blocks": {
+        "text_e6gVjx": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>TESTIMONIALS</h1>"
+          }
+        },
+        "text_7btDVQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I'm so thankful for my clients, and proud to share in their joy.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_e6gVjx",
+        "text_7btDVQ"
+      ],
+      "custom_css": [
+        "h1 {font-family: \"A Gothic\" !important;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "slideshow_wERMQy": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_86bzGV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Breanne_Logan_Testimonial_Slide.jpg",
+            "heading": "-Breanne",
+            "heading_size": "h2",
+            "subheading": "“My husband and I are a quirky couple. For our last anniversary he created a handmade Tardis from <em>Doctor Who</em> — see what I mean? Quirky. After he proposed, I began the search for a wedding band that would reflect who we were as a couple; not only the journey we had taken, but where we hoped our path would lead. Finding Stacey was like finding that perfect wedding gown, the one you <em>know</em> you’re going to walk down the aisle in.”",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_bnp6ij": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Brett_and_Cindy_Testimonial_Slide_eb116b6b-5af2-457e-8cd0-5a8a82c8c220.jpg",
+            "heading": "-B.",
+            "heading_size": "h2",
+            "subheading": "“After dating only six months, C. and I knew we’d be spending our lives together. However, a formal proposal loomed.. . My grandmother had given me her earring, which led me to the Jewelry Mart to see about repurposing the gems. After they pronounced the rubies cracked and the diamonds too small, and suggested a gaudier token of my affections, I knew I had to find a jewelry designer who could appreciate my grandmother’s contribution.”",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_rWUhH9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sarah_Zaner_Necklace_Custom_Testimonial.jpg",
+            "heading": "-Sarah",
+            "heading_size": "h2",
+            "subheading": "Sarah asked me to make something special with a family heirloom: a gorgeous, big blue topaz. The substantial briolette became the focal point of a romantic Edwardian-influenced necklace. The perfect complement to her wedding gown, it hung precisely in the “V” of her halter-neck: “I described it all to Stacey in words that you would never imagine could successfully translate into a single piece of jewelry and Stacey made it come to life.\"",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_NGazzn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Noelle_Jeremy_Testimonial_Slide.jpg",
+            "heading": "-Noelle",
+            "heading_size": "h2",
+            "subheading": "“I looked into a custom ring because I wanted more control over the outcome and cost. Stacey and I pored over pictures as I tried to explain my vision; at first, there were so many looks that appealed to me that I had difficulty expressing what I wanted. That initial creative process was most beneficial, because she saw what I liked and created a ring that truly spoke to my style.”",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_AD9mxA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Chris_Lyrica_Testimonial_Slide.jpg",
+            "heading": "–Chris",
+            "heading_size": "h2",
+            "subheading": "\"The first person who knew I was going to propose, Stacey was a trusted co-conspirator every step of the way — from suggesting strategies for measuring Lyrica’s ring finger, to providing ideas for engagement rings, and ultimately designing the wedding rings we wear every day.”",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_njPAGx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Allison_Eric_Testimonial_Slide.jpg",
+            "heading": "–Allison",
+            "heading_size": "h2",
+            "subheading": "“I might have been the least helpful client a jewelry designer could have, but thankfully, Stacey is incredibly patient and encouraging. With her gentle and tenacious guidance, she coaxed out the qualities I valued, and edited out the superfluous.”",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_MgMALi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Jason_Karli_Commitment_Testimonial.jpg",
+            "heading": "–Jason",
+            "heading_size": "h2",
+            "subheading": "“i look at these rings everyday. one iwear everyday of course. they are the most beautiful reminders of not just ourwedding, the fact that we are married, our kids and all that goes with creatinga life together, but also what we want our future together to be, what we wantour lives to be. the rings hold, reflect, and remind us of some of the mostprecious and important ideas of our life together.”",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_LLNENB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Mike_Kasey_Commitment_Testimonial.jpg",
+            "heading": "-Mike",
+            "heading_size": "h2",
+            "subheading": "\"We wanted a custom ring because to us that feels special and unique. We really liked that you met with us, did a little interview to learn about us and then worked on crafting the ring...that feels more 'right' to me than some mass-produced ring. In the end, I got a beautiful, masculine ring that was made just for me. I won't ever see another like it, and it will stay in my family for ever.<em>\"</em>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_y3GMag": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Erik_Elizabeth_Commitment_Testimonial.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "\"When Elizabeth approached me to create her rings, she captivated me with her plans to sail the Pacific on an extended honeymoon. It seemed like the perfect way to launch a lifetime of adventure. I get a vicarious thrill every time I see the beautiful photos of her on her voyage across the blue velvet ocean. <em>Have ring — will travel.\"</em>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_nRiLL6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Seth_Julianna_Commitment_Testimonial.jpg",
+            "heading": "–Julianna",
+            "heading_size": "h1",
+            "subheading": " “Somehow, Stacey divined all of our years into these gorgeous pieces we’re still so moved to have. I’m a drummer and an artist and a gardener. My fingernails are inevitably a disaster and I’ve barely worn jewelry in my life. So it’s all the more wonderful to feel so enchanted by the rings I wear, to feel that even in their imperishable loveliness, they are so perfectly me.”",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_86bzGV",
+        "slide_bnp6ij",
+        "slide_rWUhH9",
+        "slide_NGazzn",
+        "slide_AD9mxA",
+        "slide_njPAGx",
+        "slide_MgMALi",
+        "slide_LLNENB",
+        "slide_y3GMag",
+        "slide_nRiLL6"
+      ],
+      "custom_css": [
+        ".banner__heading {font-size: 1.6rem !important; text-transform: none;}",
+        "@media screen and (max-width: 749px) {.slideshow__text {padding-left: 0 !important; padding-right: 0 !important; margin: 0px; } .slideshow__text-wrapper {top: 0px !important; } .slideshow__text-wrapper h2, .slideshow__text-wrapper p {color: rgba(var(--color-foreground), 0.75) !important; padding-right: 0rem !important; } .slider-button--next {top: 46% !important; right: -5rem !important; } , .slider-button--prev {top: 46% !important; left: -3rem !important; }}"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "lorinczi_contact_form_QdTKnW": {
+      "type": "lorinczi-contact-form",
+      "settings": {
+        "heading": "Got questions? <em>Let's chat!</em>",
+        "image": "shopify://shop_images/FINAL_Commitment_Image_Contact_Form.jpg",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "left_background_color": "#a9a469",
+        "field_background_color": "#ffffff",
+        "field_border_color": "#484d1c",
+        "drop_area_background_color": "#f3f3f3",
+        "drop_area_border_color": "#484d1c",
+        "button_background_color": "#f3e5d6",
+        "button_border_color": "#484d1c",
+        "button_text_color": "#000000",
+        "header_text_color": "#ffffff",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_content_alignment": "left"
+      }
+    },
+    "featured_collection_yB6zFN": {
+      "type": "featured-collection",
+      "disabled": true,
+      "custom_css": [
+        ".product-card-wrapper .card {--image-padding: 0rem;}",
+        ".card:not(.ratio) > .card__content {display: none;}",
+        ".card--media .card__inner .card__content {padding: 0; width: 100%;}",
+        ".slider {margin-top: 0.4rem;}",
+        ".grid li:first-child {margin-left: 0;}",
+        ".slider-mobile-gutter {padding: 0; max-width: 100%;}",
+        "@media screen and (max-width: 749px) {.grid {column-gap: 0; } .title {justify-self: center; } .slider-counter {display: none; } .slider-button {margin-left: -4px; }}"
+      ],
+      "settings": {
+        "title": "SHOP ONE-OF-A-KIND",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "one-off-collection",
+        "products_to_show": 7,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_rxr8FU": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_7pnUAy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is custom commitment jewelry expensive?",
+            "icon": "none",
+            "row_content": "<h5>Custom jewelry can be surprisingly affordable! I start by understanding your budget and work with you to make smart, creative choices. Even with a limited budget, we can find innovative solutions—often, creativity thrives within constraints. My goal is to bring your vision to life in a way that fits your style and finances.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xfrnM3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you work with clients remotely?",
+            "icon": "none",
+            "row_content": "<h5>Absolutely! I can collaborate with you no matter where you are. You can expect a straightforward and transparent design process, with involvement every step of the way—from initial sketches to the final creation. With regular updates, photos, and videos, you’ll be part of the entire process, ensuring your finished piece is exactly as you imagined—no surprises, just the joy of seeing your vision come to life.</h5><h5>Consultations are available via phone, video, or your preferred method. Feel free to <span style=\"text-decoration:underline\">email me</span> or <span style=\"text-decoration:underline\">schedule a virtual consultation</span> to start your custom jewelry journey.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EVwynV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long will it take to make my custom commitment jewelry? Do you offer Rush Service?",
+            "icon": "none",
+            "row_content": "<h5>The timeframe for crafting handmade jewelry varies based on design complexity. If you have a specific design ready, we can proceed quickly. If you're still deciding, the design stage may take longer. Enjoying the collaborative process without rushing is key.</h5><h5>After finalizing the design, simpler pieces typically take 2-3 weeks, while intricate designs may take up to 6 weeks. Quality craftsmanship takes time but is worth the wait.</h5><h5>If you’re on a tight schedule, please let me know. I’ll do my best to ensure timely delivery and keep you updated with photos and progress reports throughout the process.</h5><h5>For faster options, consider my ready-to-wear collection, which can often be customized quickly.</h5><h5>Please reach out to discuss your timeline needs. Depending on your design, I might be able to expedite the creation.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Mwgnmz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I design jewelry for someone without involving them directly?",
+            "icon": "none",
+            "row_content": "<h5>To design jewelry discreetly, observe their current style and note the types of jewelry they wear and appreciate. You can also seek insights from their close friends.</h5><h5>If they have distinct tastes, consider involving them to ensure they love the final product and enjoy the process. For surprise moments like engagements, use a placeholder ring.</h5><h5>Focus first on the overall design rather than specifics like gem characteristics. We can refine details like diamond cut or gemstone type later, ensuring a special and collaborative final design.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kc9dre": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I customize a piece I see on your website?",
+            "icon": "none",
+            "row_content": "<h5>Absolutely! I can adapt any design to fit your preferences, including changing gems, selecting a different metal, or adding personalized details like engravings. Each modification makes your piece uniquely yours.</h5><h5>If you don't find exactly what you're looking for, I can also craft completely custom pieces inspired by your personal tastes and story. You can be as involved as you like in the design process, ensuring the final piece is a one-of-a-kind heirloom.</h5><h5>Learn more about the <a href=\"#shopify-section-template--24145717788955__custom_process_jeCjEQ\" title=\"#shopify-section-template--24145717788955__custom_process_jeCjEQ\"><span style=\"text-decoration:underline\">Custom Design Process</span></a>.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cfwQDT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use my own stones in one of your designs?",
+            "icon": "none",
+            "row_content": "<h5>Definitely! Using your heirloom stones in a new piece is a great way to honor your history and update your style. It’s eco-friendly and cost-effective. To get started, send photos and details about your stones so I can design something that perfectly showcases them.</h5><h5>Please note, I’m not liable for any damage to your gemstones during removal from old settings or the setting process in a new piece. They may have pre-existing wear that affects their integrity. If concerned, you can have the piece designed and fabricated by me, then set by your local jeweler.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_h8eXKz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I have my commitment jewelry engraved?",
+            "icon": "none",
+            "row_content": "<h5>Certainly! Engraving is a beautiful way to personalize your jewelry, whether it's a custom design or a piece from my ready-to-buy collection. The cost and time required depend on the complexity of your design. Please send me your ideas for an estimate.</h5>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_7pnUAy",
+        "collapsible_row_xfrnM3",
+        "collapsible_row_EVwynV",
+        "collapsible_row_Mwgnmz",
+        "collapsible_row_kc9dre",
+        "collapsible_row_cfwQDT",
+        "collapsible_row_h8eXKz"
+      ],
+      "custom_css": [
+        "li {line-height: 0.6em; margin-bottom: 1.4rem;}",
+        "ol li > h5,ul li > h5 {display: inline;}",
+        "ol li {font-size: 13px; font-family: \"A Gothic\" !important;}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "<em>Commitment </em>FAQ'S",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_HmEMgz": {
+      "type": "rich-text",
+      "blocks": {
+        "button_QpDjwG": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW MORE FAQS",
+            "button_link": "shopify://pages/faq",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_QpDjwG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_F9JYJK",
+    "image_banner_7RCNFH",
+    "image_with_text_hEgPig",
+    "rich_text_CeFEGf",
+    "custom_process_nDkDtm",
+    "rich_text_7zKXXk",
+    "featured_collection_eT4ph9",
+    "rich_text_dXMhfT",
+    "slideshow_wERMQy",
+    "lorinczi_contact_form_QdTKnW",
+    "featured_collection_yB6zFN",
+    "collapsible_content_rxr8FU",
+    "rich_text_HmEMgz"
+  ]
+}

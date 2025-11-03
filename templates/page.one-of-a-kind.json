@@ -1,0 +1,348 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "3e100e01-3b41-4f3f-90ae-600bcc39f096": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21717722202395__3e100e01-3b41-4f3f-90ae-600bcc39f096-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Custom Jewelry",
+            "heading_size": "h1"
+          }
+        },
+        "template--21717722202395__3e100e01-3b41-4f3f-90ae-600bcc39f096-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Jewelry can symbolize the most special people and experiences in our lives. Shouldn't your most important pieces be made just for you?",
+            "text_style": "body"
+          }
+        },
+        "template--21717722202395__3e100e01-3b41-4f3f-90ae-600bcc39f096-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Get an Estimate",
+            "button_link_1": "shopify://products/free-consultation",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21717722202395__3e100e01-3b41-4f3f-90ae-600bcc39f096-heading-1",
+        "template--21717722202395__3e100e01-3b41-4f3f-90ae-600bcc39f096-text-1",
+        "template--21717722202395__3e100e01-3b41-4f3f-90ae-600bcc39f096-buttons-1"
+      ],
+      "custom_css": [
+        ".outter-button{border:1px solid #fff;border-radius:13px;padding:4px;display:inline-block;transition:all .3s}.outter-button:hover{border-color:#000}",
+        ".button{background:#fff;color:#000;border:1px solid #fff;font-size:11px;text-align:center;border-radius:9px;padding:12px 30px;min-width:120px;min-height:44px;transition:all .3s}",
+        ".outter-button:hover .button{background:#000;color:#fff;border-color:#000}.button:active{opacity:0.5}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Final_Index_Portal_Left_c3ddf3b9-00e7-44c0-b3ca-972de3dd8b81.jpg",
+        "video_background": false,
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "7379f655-6c51-4570-b7c2-42e08fb87dff": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".product-grid {margin-top: 0px !important;}",
+        ".card__information {display: none;}",
+        ".collection__title {padding-top: 40px !important; padding-bottom: 15px !important;}",
+        ".collection__title .title {text-align: center; margin-bottom: 1.4rem; letter-spacing: 2px; color: #676977; font-family: Nexa, sans-serif !important; font-weight: 400; line-height: 40px; font-size: calc(var(--font-heading-scale) * 2.4rem);}",
+        ".card__badge {display: none;}",
+        ".product-grid {margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "custom-gallery",
+        "products_to_show": 5,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "889305dc-c0a7-432a-8921-ddef96b9644e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21744677978395__889305dc-c0a7-432a-8921-ddef96b9644e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Custom jewelry is the heart of my craft. </strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--21744677978395__889305dc-c0a7-432a-8921-ddef96b9644e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Let me transform your heirloom or create a new one that celebrates your unique style and story.</p>"
+          }
+        },
+        "f6037926-c6ba-4b4c-8f8e-3941b5a1d8a3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"/collections/custom-gallery\" title=\"Custom Gallery\">EXPLORE CUSTOM GALLERY</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21744677978395__889305dc-c0a7-432a-8921-ddef96b9644e-heading-1",
+        "template--21744677978395__889305dc-c0a7-432a-8921-ddef96b9644e-text-1",
+        "f6037926-c6ba-4b4c-8f8e-3941b5a1d8a3"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 59rem;}",
+        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: 26px; font-weight: 300; line-height: 26px;}",
+        ".rich-text h3 {font-family: \"GoudyOldStyle\", sans-serif !important;}",
+        ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "14a9fbf5-63bf-4d1d-8277-6c91b7aaa944": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21744677978395__14a9fbf5-63bf-4d1d-8277-6c91b7aaa944-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "My design process is personalized and collaborative. Here’s how it works:",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21744677978395__14a9fbf5-63bf-4d1d-8277-6c91b7aaa944-heading-1"
+      ],
+      "custom_css": [
+        ".rich-text h2 {font-family: \"GoudyOldStyle\", sans-serif !important;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "68b36c76-75a9-4b02-bb0f-dab17ef16d26": {
+      "type": "multirow",
+      "blocks": {
+        "template--21717722202395__68b36c76-75a9-4b02-bb0f-dab17ef16d26-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/20230131_-_foundrae_-_block_2b_1440x_2_1-1.png",
+            "caption": "01",
+            "heading": "First Steps",
+            "text": "<p>We'll start with a virtual consultation to discuss your style, interests, and inspirations. Then, I’ll create a jewelry mood board that reflects your unique story and aesthetic.</p><p>Let's start the conversation with a <span style=\"text-decoration:underline\">virtual appointment</span>.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--21717722202395__68b36c76-75a9-4b02-bb0f-dab17ef16d26-row-2": {
+          "type": "row",
+          "settings": {
+            "caption": "02",
+            "heading": "Estimate & Timeline",
+            "text": "<p>Starting with your budget, I optimize your resources, repurposing your gems and metals if you wish. The initial project scope allows a rough estimate, but the final design will determine the cost and timeline.</p><p><span style=\"text-decoration:underline\">How long will it take?</span> (link to TIMELINE/ SHIPPING)</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--21717722202395__68b36c76-75a9-4b02-bb0f-dab17ef16d26-row-3": {
+          "type": "row",
+          "settings": {
+            "caption": "03",
+            "heading": "Design",
+            "text": "<p>I'll create initial sketches and renderings inspired by your mood board. With your feedback, I’ll continue refining your design till it aligns perfectly with your vision.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "6130c4e6-e573-4510-ae46-0f2e68c86981": {
+          "type": "row",
+          "settings": {
+            "caption": "04",
+            "heading": "Gemstones",
+            "text": "<p>I'm happy to repurpose your gemstones or offer a selection of beautiful, ethically sourced natural and lab-created stones.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "91b11f1f-e7ae-4fe0-a5c0-70920c711eb5": {
+          "type": "row",
+          "settings": {
+            "caption": "05",
+            "heading": "Fabrication",
+            "text": "<p>After you select your gems and finalize the design, I'll provide the total cost. A 50% deposit initiates the fabrication stage. Throughout, I’ll update you with videos and photos to ensure it captures your vision.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "8986c340-84a0-450b-aa36-2950a0ca9171": {
+          "type": "row",
+          "settings": {
+            "caption": "06",
+            "heading": "From Wax to Metal",
+            "text": "<p>If your piece will be cast, I’ll first craft a wax model, then cast it in your chosen metal. If you have old gold or platinum, I can recycle it and apply its full value to your new piece, potentially covering the entire cost.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "95bbb40a-b743-42f5-87d0-471ec9344d12": {
+          "type": "row",
+          "settings": {
+            "caption": "07",
+            "heading": "Stonesetting",
+            "text": "<p>After cleaning your casting, your gems will be expertly set. Then, I'll hand-polish the piece to your preferred finish—matte, shiny, etc. Any engraving will be done after stone-setting.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "8e5de1b4-ba1f-4f98-a580-ce7215aab7db": {
+          "type": "row",
+          "settings": {
+            "caption": "08",
+            "heading": "Completion",
+            "text": "<p>After ensuring your jewelry is perfect, I package it beautifully and send it off, confident you'll cherish it as much as the experience of creating it.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21717722202395__68b36c76-75a9-4b02-bb0f-dab17ef16d26-row-1",
+        "template--21717722202395__68b36c76-75a9-4b02-bb0f-dab17ef16d26-row-2",
+        "template--21717722202395__68b36c76-75a9-4b02-bb0f-dab17ef16d26-row-3",
+        "6130c4e6-e573-4510-ae46-0f2e68c86981",
+        "91b11f1f-e7ae-4fe0-a5c0-70920c711eb5",
+        "8986c340-84a0-450b-aa36-2950a0ca9171",
+        "95bbb40a-b743-42f5-87d0-471ec9344d12",
+        "8e5de1b4-ba1f-4f98-a580-ce7215aab7db"
+      ],
+      "custom_css": [
+        ".multirow__inner {row-gap: normal;}",
+        ".image-with-text__content--desktop-left {padding-left: 10rem; padding-right: 20rem;}",
+        ".image-with-text__content--desktop-left {padding-left: 10rem; padding-right: 20rem;}",
+        ".multirow {border-top: 1px solid #dee0e3;}"
+      ],
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "7aa24d5f-d6f2-4f50-8552-5969f338e408": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21717722202395__7aa24d5f-d6f2-4f50-8552-5969f338e408-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--21717722202395__7aa24d5f-d6f2-4f50-8552-5969f338e408-text-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--21717722202395__7aa24d5f-d6f2-4f50-8552-5969f338e408-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Custom FAQ's",
+            "button_link": "",
+            "button_style_secondary": true,
+            "button_label_2": "GET STARTED",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "template--21717722202395__7aa24d5f-d6f2-4f50-8552-5969f338e408-heading-1",
+        "template--21717722202395__7aa24d5f-d6f2-4f50-8552-5969f338e408-text-1",
+        "template--21717722202395__7aa24d5f-d6f2-4f50-8552-5969f338e408-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e100e01-3b41-4f3f-90ae-600bcc39f096",
+    "7379f655-6c51-4570-b7c2-42e08fb87dff",
+    "889305dc-c0a7-432a-8921-ddef96b9644e",
+    "14a9fbf5-63bf-4d1d-8277-6c91b7aaa944",
+    "68b36c76-75a9-4b02-bb0f-dab17ef16d26",
+    "7aa24d5f-d6f2-4f50-8552-5969f338e408"
+  ]
+}

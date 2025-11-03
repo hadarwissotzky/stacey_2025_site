@@ -1,0 +1,171 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_cQMTKm": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_4hQzX8": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Ring Sizing</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_47jiMr": {
+          "type": "text",
+          "settings": {
+            "text": "Tips for sizing your ring perfectly every time.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4hQzX8",
+        "text_47jiMr"
+      ],
+      "custom_css": [
+        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Truly_Final_Ring_Sizing_Section_Main_Top_Image_26d9511a-8f4c-4920-bf02-f2aa1a8f543f.jpg",
+        "video_background": false,
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "custom_liquid_7Hbf4n": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "collapsible_content_Vpx7Ee": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_bppyQw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I size myself if we’re meeting remotely?",
+            "icon": "none",
+            "row_content": "<h5>For accurate measurements if I can’t size you in person, use a metal ring sizer (not a flexible plastic strip). These can be easily purchased online; for international orders, check the sizing standard used.</h5><h5><strong>To measure your finger:</strong></h5><ul><li><h5>Measure at the end of the day when your body temperature is normalized.</h5></li><li><h5>Avoid measuring when your fingers are very cold or warm.</h5></li><li><h5>Measure several times at different times of the day to find an accurate average.</h5></li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xJ3maE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I measure someone’s finger size without them knowing?",
+            "icon": "none",
+            "row_content": "<ul><li><h5>Use one of their frequently worn rings and measure it using a tapered candlestick.</h5></li><li><h5>Slide the ring onto the candlestick until snug, mark the upper and lower edges with a thin permanent marker, then cut that segment and send it to me.</h5></li><li><h5>Alternatively, take their ring to a jewelry store for a quick sizing.</h5></li><li><h5>Ensure the borrowed ring is for the same finger as the intended new ring.</h5></li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Yx6xqC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I can't get a ring sizer or visit a local jewelry store to size myself?",
+            "icon": "none",
+            "row_content": "<h5><strong>ESTIMATE YOUR RING SIZE WITH A RING SIZER APP OR ONLINE TOO</strong>L.</h5><h5>Digital tools like the Ring Sizer app by Jason Withers or websites such as ringsizeronline.com are convenient but might not be as precise as a metal ring sizer. If you don't have a metal ring sizer, cross-check your results using different methods. Consistent measurements across various methods usually indicate an accurate size.</h5><h5>If you find discrepancies, consider investing in an inexpensive metal ring sizer for the most reliable measurement. If you have any doubts about your measurements, feel free to <a href=\"/pages/contact\" title=\"Contact\">reach out</a> for assistance. I'm here to help!</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NdnxKA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you resize my jewelry if it doesn’t fit?",
+            "icon": "none",
+            "row_content": "<h5>Absolutely! I offer complimentary resizing for custom jewelry. However, some pieces, such as heavily engraved rings, eternity-style, or flush-set rings, may not be resizable. Please contact me to discuss your specific needs, and I’ll ensure your piece fits perfectly.</h5>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_bppyQw",
+        "collapsible_row_xJ3maE",
+        "collapsible_row_Yx6xqC",
+        "collapsible_row_NdnxKA"
+      ],
+      "custom_css": [
+        "li {line-height: 0.6em; margin-bottom: 1.4rem;}",
+        "ol li > h5,ul li > h5 {display: inline;}",
+        "ol li {font-size: 13px; font-family: \"A Gothic\" !important;}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Finding Your Ideal Fit.",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_mtq6XQ": {
+      "type": "rich-text",
+      "blocks": {
+        "button_rF4jTk": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW MORE FAQS",
+            "button_link": "shopify://pages/faq",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_rF4jTk"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner_cQMTKm",
+    "custom_liquid_7Hbf4n",
+    "main",
+    "collapsible_content_Vpx7Ee",
+    "rich_text_mtq6XQ"
+  ]
+}

@@ -1,0 +1,851 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "layout": "theme.sidebar",
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_MtmwAX": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.section-template--23010096775451__collapsible_content_miigHj-padding {\nborder-top: 0px;\n}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_miigHj": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_4K6QQ3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is Custom Jewelry Expensive?",
+            "icon": "none",
+            "row_content": "<h5>Custom jewelry can be surprisingly affordable! I start by understanding your budget and work with you to make smart, creative choices. Even with a limited budget, we can find innovative solutions—often, creativity thrives within constraints. My goal is to bring your vision to life in a way that fits your style and finances.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9RYQVW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you work with clients remotely?",
+            "icon": "none",
+            "row_content": "<h5>Absolutely! I can collaborate with you no matter where you are. You can expect a straightforward and transparent design process, with involvement every step of the way—from initial sketches to the final creation. With regular updates, photos, and videos, you’ll be part of the entire process, ensuring your finished piece is exactly as you imagined—no surprises, just the joy of seeing your vision come to life.</h5><h5>Consultations are available via phone, video, or your preferred method. Feel free to <a href=\"/pages/contact\" title=\"Contact\"><span style=\"text-decoration:underline\">email me</span></a> or <a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\"><span style=\"text-decoration:underline\">schedule a virtual consultation</span></a> to start your custom jewelry journey.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JtjwkV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long will it take to make my custom jewelry? Do you offer Rush Service?",
+            "icon": "none",
+            "row_content": "<h5>The timeframe for crafting handmade jewelry varies based on design complexity. If you have a specific design ready, we can proceed quickly. If you're still deciding, the design stage may take longer. Enjoying the collaborative process without rushing is key.</h5><h5>After finalizing the design, simpler pieces typically take 2-3 weeks, while intricate designs may take up to 6 weeks. Quality craftsmanship takes time but is worth the wait.</h5><h5>If you’re on a tight schedule, please let me know. I’ll do my best to ensure timely delivery and keep you updated with photos and progress reports throughout the process.</h5><h5>For faster options, consider my ready-to-wear collection, which can often be customized quickly.</h5><h5>Please reach out to discuss your timeline needs. Depending on your design, I might be able to expedite the creation.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ac3DyT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I design jewelry for someone without involving them directly?",
+            "icon": "none",
+            "row_content": "<h5>To design jewelry discreetly, observe their current style and note the types of jewelry they wear and appreciate. You can also seek insights from their close friends.</h5><h5>If they have distinct tastes, consider involving them to ensure they love the final product and enjoy the process. For surprise moments like engagements, use a placeholder ring.</h5><h5>Focus first on the overall design rather than specifics like gem characteristics. We can refine details like diamond cut or gemstone type later, ensuring a special and collaborative final design.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9HwXTW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I customize a piece I see on your website?",
+            "icon": "none",
+            "row_content": "<h5>Absolutely! I can adapt any design to fit your preferences, including changing gems, selecting a different metal, or adding personalized details like engravings. Each modification makes your piece uniquely yours.</h5><h5>If you don't find exactly what you're looking for, I can also craft completely custom pieces inspired by your personal tastes and story. You can be as involved as you like in the design process, ensuring the final piece is a one-of-a-kind heirloom.</h5><h5>Learn more about the <a href=\"/pages/custom-design-journey\" title=\"Custom Design Journey\"><span style=\"text-decoration:underline\">Custom Design Process</span></a>.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TD7h8N": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use my own stones in one of your designs?",
+            "icon": "none",
+            "row_content": "<h5>Definitely! Using your heirloom stones in a new piece is a great way to honor your history and update your style. It’s eco-friendly and cost-effective. To get started, send photos and details about your stones so I can design something that perfectly showcases them.</h5><h5>Please note, I’m not liable for any damage to your gemstones during removal from old settings or the setting process in a new piece. They may have pre-existing wear that affects their integrity. If concerned, you can have the piece designed and fabricated by me, then set by your local jeweler.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_gpnpLB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I have my jewelry engraved?",
+            "icon": "none",
+            "row_content": "<h5>Certainly! Engraving is a beautiful way to personalize your jewelry, whether it's a custom design or a piece from my ready-to-buy collection. The cost and time required depend on the complexity of your design. Please send me your ideas for an estimate.</h5><h5>Many made-to-order pieces can be customized with engraving. [Insert examples or links to engravable pieces here, if applicable.]</h5><h5>Please note that all engraved pieces are final sale.</h5>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_4K6QQ3",
+        "collapsible_row_9RYQVW",
+        "collapsible_row_JtjwkV",
+        "collapsible_row_ac3DyT",
+        "collapsible_row_9HwXTW",
+        "collapsible_row_TD7h8N",
+        "collapsible_row_gpnpLB"
+      ],
+      "custom_css": [
+        ".gradient {border-top: 0px !important;}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Custom & Bridal Jewelry",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_igzE3b": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_PykXKm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use my own stones in a new piece?",
+            "icon": "none",
+            "row_content": "<h5>Definitely! Using your heirloom stones in a new piece is a great way to honor your history and update your style. It’s eco-friendly and cost-effective. To get started, send photos and details about your stones so I can design something that perfectly showcases them.</h5><h5>Please note, I’m not liable for any damage to your gemstones during removal from old settings or the setting process in a new piece. They may have pre-existing wear that affects their integrity. If concerned, you can have the piece designed and fabricated by me, then set by your local jeweler.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_h4EgFa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use my own gold or other precious metals in a new piece?",
+            "icon": "none",
+            "row_content": "<h5>Yes! Using your old gold or platinum in a new piece is a great idea. However, casting directly from old jewelry is not recommended. Metals that have been cast before, especially those with solder or multiple recasts, might develop issues like pitting or structural weakness. Instead, I prefer to refine your old metals first, then apply the full value of your refined metal toward your new creation. Recycling your gold isn’t just eco-friendly and cost-effective—it can reduce or even cover the entire cost of your new piece.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_GCTx7G": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Instead of recycling my old gems or metal, can you repurpose it in a new way?",
+            "icon": "none",
+            "row_content": "<h5>I love transforming cherished pieces to reflect your current style while preserving their sentimental value. Instead of dismantling and recycling them, I can thoughtfully adapt their original form to better suit your tastes.</h5><h5>A <a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\">virtual appointment</a> is ideal for assessing whether your jewelry can be reimagined or if its design and construction present any challenges. Please send pictures or short videos of your jewelry so I can understand what we're working with. I’m excited to start this creative journey with you!</h5>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_PykXKm",
+        "collapsible_row_h4EgFa",
+        "collapsible_row_GCTx7G"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Recycling Your Jewelry",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_ByzWCx": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_BQtWpg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I size myself if we’re meeting remotely?",
+            "icon": "none",
+            "row_content": "<h5>For accurate measurements if I can’t size you in person, use a metal ring sizer (not a flexible plastic strip). These can be easily purchased online; for international orders, check the sizing standard used.</h5><h5><strong>To measure your finger:</strong></h5><h5>1. Measure at the end of the day when your body temperature is normalized.</h5><h5>2. Avoid measuring when your fingers are very cold or warm.</h5><h5>3. Measure several times at different times of the day to find an accurate average.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_c9UbKx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I measure someone’s finger size without them knowing?",
+            "icon": "none",
+            "row_content": "<h5>Use one of their frequently worn rings and measure it using a tapered candlestick.</h5><h5>Slide the ring onto the candlestick until snug, mark the upper and lower edges with a thin permanent marker, then cut that segment and send it to me.</h5><h5>Alternatively, take their ring to a jewelry store for a quick sizing.</h5><h5>Ensure the borrowed ring is for the same finger as the intended new ring.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ryjxhD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I can't get a ring sizer or visit a local jewelry store to size myself?",
+            "icon": "none",
+            "row_content": "<h5><strong>ESTIMATE YOUR RING SIZE WITH A RING SIZER APP OR ONLINE TOO</strong>L:</h5><h5>Digital tools like the Ring Sizer app by Jason Withers or websites such as ringsizeronline.com are convenient but might not be as precise as a metal ring sizer. If you don't have a metal ring sizer, cross-check your results using different methods. Consistent measurements across various methods usually indicate an accurate size.</h5><h5>If you find discrepancies, consider investing in an inexpensive metal ring sizer for the most reliable measurement. If you have any doubts about your measurements, feel free to reach out for assistance. I'm here to help!</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TrLVEw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you resize my jewelry if it doesn’t fit?",
+            "icon": "none",
+            "row_content": "<h5>Absolutely! I offer complimentary resizing for custom jewelry. However, some pieces, such as heavily engraved rings, eternity-style, or flush-set rings, may not be resizable. Please contact me to discuss your specific needs, and I’ll ensure your piece fits perfectly.</h5>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_BQtWpg",
+        "collapsible_row_c9UbKx",
+        "collapsible_row_ryjxhD",
+        "collapsible_row_TrLVEw"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Sizing & Fit",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_ke4nH7": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_xqE9Yt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What’s your return policy?",
+            "icon": "none",
+            "row_content": "<h5>All <strong>custom jewelry</strong> is <strong>final sale</strong> and cannot be returned. This includes:</h5><h5><strong>Bespoke jewelry</strong>, meaning any design customized to your preferences.</h5><h5><strong>All gold jewelry</strong>, as it is made to order unless listed in my Ready-to-Ship inventory.</h5><h5><strong>Personalized or engraved pieces</strong>.</h5><h5>Throughout the design and fabrication process, I provide updates, videos, and images to ensure you’re fully involved and thrilled with the final piece.</h5><h5>For <strong>non-custom pieces</strong>, you may return the jewelry within <strong>14 days of delivery</strong>. To initiate a return, please contact me for instructions. Items must be returned in their original condition to my San Francisco studio.</h5><h5>A <strong>10% restocking fee</strong> (up to $200) applies to returns.</h5><h5>The restocking fee is <strong>waived if you exchange the item</strong> for another piece.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_KjcD4C": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I want to cancel my order?",
+            "icon": "none",
+            "row_content": "<h5>Please cancel your order within 24 hours of placing it. For ready-to-buy jewelry already being prepared for shipment or in transit, a 10% restocking fee (up to $200) applies. Custom orders and personalized jewelry cannot be canceled or refunded once the customization process begins. To request a cancellation, please <a href=\"/pages/contact\" title=\"Contact\"><span style=\"text-decoration:underline\">contact me</span></a> directly.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pFLAz3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Which jewelry is considered final sale?",
+            "icon": "none",
+            "row_content": "<h5>All <strong>bespoke and custom jewelry</strong>, including <strong>personalized or engraved pieces, sale items, and gift certificates</strong>, are <strong>final sale</strong> and not eligible for a refund.</h5><h5>Additionally, all <strong>gold jewelry</strong> (unless listed in my Ready-to-Ship inventory) is made-to-order and considered <strong>custom</strong>, and therefore <strong>final sale</strong>.</h5><h5>The same applies to <strong>custom sterling silver pieces</strong>, whether bespoke, personalized, or engraved.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Mj3Mf9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I send my return or exchange back to Lorinczi Jewelry?",
+            "icon": "none",
+            "row_content": "<h5>After confirming your return via email, send your clean, unworn jewelry back in its original packaging using a traceable and insured parcel service. Insure your package for its full value, as I am not responsible for lost or stolen items. Note that all shipping costs are the client's responsibility, and the cost of outgoing shipping (from San Francisco to you) is not refundable.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_QKewa4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When can I expect to receive my refund?",
+            "icon": "none",
+            "row_content": "<h5>Once I receive your return, please allow 1-3 business days for processing. The cost of outgoing shipping (from San Francisco to you) will not be refunded. After processing, the credit should appear on your account within 3-10 business days. For Venmo purchases, please allow up to 5 business days for the refund.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nbWi4U": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you charge a Restocking Fee?",
+            "icon": "none",
+            "row_content": "<h5>Yes, I do charge a 10% restocking fee for returns, up to $200. However, if you choose to exchange an item instead, I’m happy to waive this fee.</h5>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_xqE9Yt",
+        "collapsible_row_KjcD4C",
+        "collapsible_row_pFLAz3",
+        "collapsible_row_Mj3Mf9",
+        "collapsible_row_QKewa4",
+        "collapsible_row_nbWi4U"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Cancellations & Returns",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_YmDfhi": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_ieNtWf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are your sustainability practices?",
+            "icon": "none",
+            "row_content": "<h5>I’m proud to craft my jewelry in San Francisco with a strong commitment to sustainability and a robust recycled metals and gems program. I source my diamonds exclusively from suppliers who follow the System of Warranties and Kimberley Process guidelines, ensuring they are ethically sourced and conflict-free.</h5><h5>Additionally, I offer recycled center and melee diamonds and Canadian Mined Diamonds upon request. These diamonds are extracted from the Canadian Arctic under strict standards, certified conflict-free, and adhere to the Canadian Code of Conduct and Northwest Territories regulations, which protect the Arctic environment, mine workers, and local communities.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_KftCLN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer lab-created diamonds?",
+            "icon": "none",
+            "row_content": "<h5>Yes! Lab-created diamonds are as stunning as natural ones and are a responsible choice for environmentally-conscious consumers. They are also more cost-effective, making them a great option for maximizing your budget. Additionally, I offer Certified Sustainability Rated Diamonds that adhere to the SCS-007 Jewelry Sustainability Standard, ensuring rigorous evaluation across key sustainability metrics. Whether you're interested in ethical or aesthetic aspects, we can explore how these diamonds might enhance your custom jewelry design. Feel free to <a href=\"/pages/contact\" title=\"Contact\"><span style=\"text-decoration:underline\">reach out</span></a> to discuss how they can fit your style and ethical considerations.</h5>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_ieNtWf",
+        "collapsible_row_KftCLN"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Ethics & Sustainability",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_rhJCMm": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_rnG66k": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I care for my jewelry?",
+            "icon": "none",
+            "row_content": "<h5>To keep your jewelry in top condition, handle it gently. Remove your jewelry for heavy activities like exercise, gardening, or carpentry to avoid damage.</h5><h5>Avoid wearing jewelry while swimming, as cold water can cause fingers to shrink, leading to rings slipping off. For sterling silver pieces, lotions and perfumes can speed up tarnishing and may loosen stones. Additionally, avoid wearing any jewelry in pools, hot tubs, or saltwater, as chemicals and salt can damage both the metal and gemstones.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FTeUFa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I make sure my stones are safe and secure in their settings?",
+            "icon": "none",
+            "row_content": "<h5>Regular self-checks are crucial for maintaining your jewelry's integrity, especially for pieces with gemstones in prongs or bezels. Here's how to inspect your jewelry at home:</h5><h5>1. V<strong>isual Check</strong>: Use a magnifying glass or readers to examine prongs, prong tips, and bezels for signs of thinning, bending, or opening.</h5><h5>2. <strong>Physical Testing</strong>:</h5><h5><strong>Gentle Wiggling</strong>: Carefully wiggle the gemstones with a clean fingertip. Any movement indicates a loose setting.</h5><h5><strong>Listening</strong>: Shake the jewelry gently near your ear. Rattling sounds suggest a stone is loose.</h5><h5><strong>Inspection:</strong> After tactile and auditory tests, inspect the jewelry closely using a magnifying glass or readers. Ensure the stone sits flush in its setting, check for lifted or bent prongs, and confirm no prong tips are broken.</h5><h5>3. <strong>Routine Cleaning</strong>: Clean your jewelry with mild soap and warm water to remove buildup that can hide problems.</h5><h5>4. M<strong>onitor Changes</strong>: Watch for changes in your jewelry’s appearance to catch issues early.</h5><h5>5. <strong>Professional Help</strong>: If you find loose stones or damage, stop wearing the piece and consult me or another professional jeweler for repairs.</h5><h5>6. S<strong>torage</strong>: Store your jewelry in a fabric-lined box with separate compartments to prevent scratches and impacts.</h5><h5>By following these steps, you can help ensure your stones remain safe and secure in their settings.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CNDzNb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I clean my gold and platinum jewelry?",
+            "icon": "none",
+            "row_content": "<h5>To keep your gold and platinum jewelry sparkling, follow these steps:</h5><h5>1. <strong>Gentle Cleaning</strong>: Mix a few drops of mild dish soap with warm water. Use a soft-bristled brush or your fingers to gently scrub the jewelry, reaching all nooks and crannies. Rinse thoroughly under running water to remove soap residue.</h5><h5>2. <strong>Polishing for Stubborn Tarnish</strong>:</h5><h5><strong>Gold</strong>: Use a specialized jewelry polish with mild abrasives, like Weiman Gold Jewelry Cleaner. Apply a small amount to a soft cloth and gently rub it into the gold, following the metal's grain if it’s textured. Avoid getting polish on gemstones, as it can damage them. Rinse thoroughly and dry completely.</h5><h5><strong>Platinum</strong>: Use a polish formulated for platinum, such as TriNova Platinum Jewelry Cleaner. Follow the same technique as with gold. Always do a spot test first and follow product instructions carefully.</h5><h5>3. <strong>Maintaining Shine</strong>: Use a jeweler's polishing cloth to gently buff the surface in small, circular motions. This removes fingerprints and light tarnish, restoring the jewelry's finish.</h5><h5>4. <strong>Proper Storage</strong>: Store jewelry in a cool, dry place away from moisture, chemicals, and direct sunlight. Use anti-tarnish strips or zip-top bags for added protection.</h5><h5>With a little time and effort, you can easily clean and polish your gold and platinum jewelry at home.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UefnTy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I clean my sterling silver jewelry?",
+            "icon": "none",
+            "row_content": "<h5>I'm quite fond of the dark, dramatic look of oxidized sterling silver, but if you prefer your silver to shine brightly, maintaining its luster is simple. Sterling silver does tarnish over time, but a little care goes a long way. Here's what you can do:</h5><h5>1. <strong>Basic Cleaning</strong>: Create a solution of warm water and mild dish soap. Soak your silver pieces for a few minutes, then gently scrub with a soft toothbrush to remove dirt or residue. Rinse thoroughly and dry with a soft cloth.</h5><h5>2. <strong>Polishing</strong>: For regular maintenance, use a soft, non-abrasive cloth to gently polish the silver. Specific silver polishing cloths are available and effective for removing tarnish.</h5><h5>3. <strong>Stubborn Tarnish</strong>: Use Goddard's Silver Polish, which contains mild abrasives to polish away tarnish while leaving the silver's finish intact. Always do a spot test first and follow the product instructions carefully.</h5><h5>4. <strong>Preventive Care</strong>: Avoid exposing silver to chemicals in lotions, perfumes, and hairsprays. Apply these products before putting on your jewelry. Also, avoid using harsh jewelry cleaners.</h5><h5>By following these steps, your sterling silver jewelry will stay radiant and tarnish-free. </h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rBf8hq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I clean my brass and bronze jewelry?",
+            "icon": "none",
+            "row_content": "<h5>Brass and bronze jewelry can develop a patina over time, which some people love. If you don't, use a polish with a gentle acidic agent, like Brasso Multi-Purpose Metal Polish. Always do a spot test first and follow the instructions carefully.</h5><h5>For quick touch-ups, use a brass or bronze-specific polishing cloth to keep your pieces bright and shiny. The cloth will help remove light tarnish without damaging the metal.</h5><h5>To maintain the beauty of your brass and bronze jewelry, store it in a dry place away from moisture and chemicals. This will help prevent additional oxidation and tarnishing.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LDXbg9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I restore the matte finish on my jewelry?",
+            "icon": "none",
+            "row_content": "<h5>To restore the matte or satin finish on your jewelry at home, follow these steps:</h5><h5><strong>Materials Needed:</strong></h5><h5>1. Hard-bristled toothbrush</h5><h5>2. Pumice powder</h5><h5><strong>Steps:</strong></h5><h5>1. Get a firm toothbrush with stiff bristles to abrade the metal surface.</h5><h5>2. Add a small amount of pumice powder to the bristles.</h5><h5>3. Gently brush the metal portions using circular or linear motions, applying light pressure to re-texture the matte finish.*</h5><h5>4. Rinse thoroughly with warm water to remove powder residue.</h5><h5>5. Check progress frequently to avoid over-brushing and scratching the metal.</h5><h5><em><strong>*Important Note</strong></em><strong>: </strong>Avoid brushing any gemstones with a Mohs hardness below 7 (e.g., pearls, opals, turquoise) as the abrasive action could damage softer gemstones. Only brush the metal portions.</h5><h5>With patience and care, you can revive the beautiful matte finish using a toothbrush and pumice powder at home. Take it slowly until you achieve the desired look. If you need more tips for caring for your matte jewelry, feel free to reach out!</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3yKmDy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I clean my gem-set jewelry?",
+            "icon": "none",
+            "row_content": "<h5>For jewelry with gemstones, use extra caution:</h5><h5>1. Mix mild dish soap with lukewarm water.</h5><h5>2. Soak the jewelry for 20 minutes.</h5><h5>3. Gently scrub around settings and stones with a soft toothbrush. Be careful with softer gemstones like pearls, opals, or emeralds.</h5><h5>4. Rinse with clean water and dry with a soft cloth.</h5><h5>5. Avoid harsh chemicals, ultrasonic cleaners, or steam cleaners on delicate stones.</h5><h5>Note: For translucent gemstones in closed settings, avoid submerging in water or exposing to lotions, oils, or creams, as these can get trapped under the stone, making them almost impossible to remove.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cRy8QB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I store my jewelry?",
+            "icon": "none",
+            "row_content": "<h5>Proper storage ensures your jewelry stays beautiful and damage-free:</h5><h5>1. <strong>Use a Jewelry Box</strong>: Store pieces in a clean, dry box with padded compartments to prevent scratching and dust.</h5><h5>2. <strong>Avoid Hard Surfaces</strong>: Use original boxes or pouches for protection instead of tossing jewelry into drawers or on dressers.</h5><h5>3. <strong>Separate Pieces</strong>: Store each item separately in pouches, compartments, or soft wraps to avoid tangling and scratching, especially delicate chains and gemstone pieces.</h5><h5>4. <strong>Keep Away from Moisture</strong>: Store jewelry in a dry area, away from bathrooms and humidity.</h5><h5>5. <strong>Avoid Direct Sunlight</strong>: Prolonged sun exposure can affect gemstone color. Store in a shaded area.</h5><h5>6. <strong>Use Anti-Tarnish Strips</strong>: For silver, place anti-tarnish strips in your jewelry box to absorb moisture and sulfur.</h5><h5>7. <strong>Be Mindful of Skincare Products</strong>: Keep jewelry away from lotions, perfumes, and other products that can cause damage or discoloration.</h5><h5>Taking these precautions will help maintain your jewelry's excellent condition. If you have any other questions, feel free to ask!</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rzxPTD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why has my sterling silver, brass, or bronze jewelry tarnished?",
+            "icon": "none",
+            "row_content": "<h5>Tarnishing is a natural reaction when sterling silver, brass, or bronze is exposed to environmental elements. Here's why it happens and how to mitigate it:</h5><h5><strong>Sterling Silver</strong>: Tarnishes due to reactions with sulfur compounds in the air, water, or on your skin, forming a dark layer of silver sulfide. Humidity, pollution, and exposure to chemicals can accelerate this. Store silver jewelry in a dry, airtight environment and clean regularly with a silver polishing cloth.</h5><h5><strong>Brass</strong>: Made of copper and zinc, brass tarnishes when it oxidizes, producing a dull, often greenish or brownish patina. To keep brass shiny, clean and dry it regularly. Some prefer the natural patina for an aged look.</h5><h5><strong>Bronze</strong>: Similar to brass, bronze tarnishes through oxidation, developing a protective patina ranging from brown to green. Regular cleaning and drying after use will maintain its original appearance.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_eRntTe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "General Care Tips:",
+            "icon": "none",
+            "row_content": "<h5>Store all jewelry in a cool, dry place away from sunlight and harsh chemicals. Use anti-tarnish strips to absorb moisture and prevent tarnishing. Regular, gentle cleaning specific to each metal type will keep your jewelry looking its best.</h5>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_rnG66k",
+        "collapsible_row_FTeUFa",
+        "collapsible_row_CNDzNb",
+        "collapsible_row_UefnTy",
+        "collapsible_row_rBf8hq",
+        "collapsible_row_LDXbg9",
+        "collapsible_row_3yKmDy",
+        "collapsible_row_cRy8QB",
+        "collapsible_row_rzxPTD",
+        "collapsible_row_eRntTe"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Jewelry Care",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_PVCUyt": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_MwQt6q": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer a warranty on my jewelry?",
+            "icon": "none",
+            "row_content": "<h5>Yes, I offer a one-year warranty from the date of delivery. Here’s what’s included:</h5><h5>One complimentary resizing for custom rings and bands, if the design permits.</h5><h5>Repair for defects in materials or workmanship.</h5><h5>The warranty does <em>not</em> cover normal wear and tear (scratches, dents, bent ring shanks) or damage from neglect or accidents. Repairs or alterations by another jeweler will void the warranty.</h5><h5><strong>Sterling Silver and Gem-Set Pieces:</strong></h5><h5>Six-month limited warranty, excluding tarnishing or damage from daily activities and chemical/mineral exposure. Avoid wearing in pools, hot tubs, saltwater, and any gem-set jewelry in these environments, as the chemicals and salt can harm the metal and stones.</h5><h5><strong>Softer Stones:</strong></h5><h5>No warranty on jewelry with softer stones like pearls, turquoise, opals, and emeralds, which need more care than harder gemstones like diamonds and sapphires.</h5><h5>Whether within the warranty period or not, I'm always here to help with resizing, repairs, or other issues. Feel free to <a href=\"/pages/contact\" title=\"Contact\"><span style=\"text-decoration:underline\">contact me</span></a> anytime for questions or estimates.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_e4jEnX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you resize my jewelry if it doesn’t fit?",
+            "icon": "none",
+            "row_content": "<h5>Absolutely! I offer complimentary resizing for custom jewelry. However, some pieces, such as heavily engraved rings, eternity-style, or flush-set rings, may not be resizable. Please contact me to discuss your specific needs, and I’ll ensure your piece fits perfectly.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dk7LdX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I need a piece of jewelry repaired?",
+            "icon": "none",
+            "row_content": "<h5>No problem! <a href=\"/pages/contact\" title=\"Contact\"><span style=\"text-decoration:underline\">Reach out to me</span></a> with your name, details of the repair, and photos if possible. I'll respond quickly with shipping details and an estimated repair time. Please note, there may be a repair fee.</h5>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_MwQt6q",
+        "collapsible_row_e4jEnX",
+        "collapsible_row_dk7LdX"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Repairs & Warranties",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_nwKJeH": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_KGh9Lq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you provide an evaluation report or appraisal?",
+            "icon": "none",
+            "row_content": "<h5>Once you've completed your purchase, I'm happy to provide an evaluation report outlining the retail value of your jewelry, useful for insurance purposes. Please note that an evaluation report is different from a formal appraisal, which requires an independent assessment by a certified appraiser—a service I currently do not offer.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rKzmPn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer insurance for my jewelry purchase?",
+            "icon": "none",
+            "row_content": "<h5>I recommend insuring your jewelry against loss, theft, or damage. Jewelers Mutual is a trusted partner for protecting fine jewelry. Please note that while your items are insured during transit, coverage ends upon delivery.</h5>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_KGh9Lq",
+        "collapsible_row_rKzmPn"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Appraisals & Insurance",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_KWY7TC": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_cdLQDR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are my shipping options and their associated costs?",
+            "icon": "none",
+            "row_content": "<h5>I offer various shipping options to suit your needs. The timelines provided below are estimated from the time the product is shipped:</h5><h5><em><strong>Domestic Orders</strong></em><strong>:</strong></h5><h5>All domestic orders over $1000 enjoy complimentary <strong>UPS 2-Day Shipping</strong>.</h5><h5>For <strong>orders under $1000</strong>, you have the option to ship via:</h5><h5><strong>UPS 2-Day Shipping</strong> for a flat rate of $25.</h5><h5><strong>USPS Ground Advantage</strong> for a flat rate of $20 (tracking included, with signature confirmation) or $15 (tracking included, no signature confirmation). Estimated delivery time is approximately five business days. <em>If you opt out of signature confirmation, you assume full liability for any loss, theft, or damage once the package is marked as delivered.</em></h5><h5><strong>USPS Priority Mail</strong>, with shipping costs based on location and package weight.</h5><h5>Expedited shipping options are available, including <strong>Next Day Shipping</strong> for a flat rate of $50. <strong>FedEx shipping</strong> is also available upon request.</h5><h5><em><strong>International Orders</strong></em><strong>:</strong></h5><h5><strong>FedEx International Priority</strong>: $100 flat rate (duties and taxes not included).</h5><h5>All shipments are fully trackable and insured during transit. For your security, <strong>a signature is required upon delivery </strong>unless you request otherwise in writing via email. </h5><h5>Refer to the specific product page for production turnaround times, which typically range from 2-8 weeks if your item is made-to-order.</h5><h5>For in-stock pieces that ship within 1-3 business days, check out my Ready-to-Ship items.</h5><h5>Shipping times are approximate. FedEx and UPS deliver Monday-Friday, so Overnight Delivery shipped on a Friday will arrive on Monday.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yBLhkW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you provide Rush service?",
+            "icon": "none",
+            "row_content": "<h5>If the jewelry you desire is not in stock, creation times can vary from 2 to 8 weeks, depending on complexity, number of stones, and engraving details. I understand that sometimes you need something sooner, especially for special occasions. I can often accommodate rush requests, depending on the specific piece and style. Please contact me with your requirements, and I'll provide a more precise timeframe. Note that fulfilling rush orders during peak seasons like Christmas may be more challenging. If you’re flexible with the type of piece, let’s discuss options for a quicker turnaround, ensuring you can present your special gift just in time.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_emUGag": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I tell if a piece is in-stock or made-to-order?",
+            "icon": "none",
+            "row_content": "<h5>Product availability and production timelines are listed on each item's product page. In-stock items usually ship within 1-3 business days. Made-to-order pieces generally take 2 to 8 weeks, depending on design and complexity. For tight timelines, check the product page or contact me directly. I may be able to accommodate shorter turnaround times. Explore my <a href=\"/collections/ready-to-ship\" title=\"Ready To Ship\">Ready-to-Ship</a> collection for beautiful pieces available immediately.</h5>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_cdLQDR",
+        "collapsible_row_yBLhkW",
+        "collapsible_row_emUGag"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Shipping",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_bVeyBD": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_BBCryc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I’m considering a custom order, but I’m not located in the United States. Do you ship internationally?",
+            "icon": "none",
+            "row_content": "<h5>Absolutely! I work with customers worldwide to deliver beautiful, one-of-a-kind jewelry. Your pieces are fully insured and shipped via FedEx International Priority for a flat fee of $100, ensuring safe and timely delivery. Feel free to <a href=\"/pages/contact\" title=\"Contact\"><span style=\"text-decoration:underline\">reach out</span></a>, book a <a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\"><span style=\"text-decoration:underline\">virtual appointment</span></a>, or learn more in the <a href=\"/pages/custom-design-journey\" title=\"Custom Design Journey\"><span style=\"text-decoration:underline\">Design Process</span></a> section of my website.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aCE7bQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What parcel delivery service do you use to ship internationally?",
+            "icon": "none",
+            "row_content": "<h5>I use FedEx International Priority for international shipments. This service includes full insurance for $100 per package. Shipping times vary from three days to two weeks, depending on the destination. Please note that international orders may incur additional duties and taxes, which are your responsibility upon delivery. If an international order is refused and sent back, the shipping charges will be deducted from your refund.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TNPyTW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will my jewelry shipment be subject to additional duties and taxes?",
+            "icon": "none",
+            "row_content": "<h5>Yes, all international orders may incur duties and taxes payable by you upon delivery. If an order is refused at delivery and returned, the shipping charges will be deducted from your refund.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aCfNEk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much will customs fees cost?",
+            "icon": "none",
+            "row_content": "<h5>International duties and taxes vary by country and can change. Check with your local courier for the most current rates to ensure you have all the necessary details before your package arrives.</h5>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_BBCryc",
+        "collapsible_row_aCE7bQ",
+        "collapsible_row_TNPyTW",
+        "collapsible_row_aCfNEk"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "International Orders",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_rUDThb": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_GWrTPf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I choose the right stone for an engagement ring?",
+            "icon": "none",
+            "row_content": "<h5>Choosing the best gemstone for an engagement ring is about finding what feels right for you. While diamonds are a traditional choice symbolizing eternal love and strength, exploring other gemstones or different diamond cuts can give your ring a unique, personal touch.</h5><h5><strong>Understanding the Mohs Hardness Scale</strong></h5><h5>The Mohs hardness scale measures a gemstone's resistance to scratching, from 1 (softest) to 10 (hardest). For engagement rings, which are worn daily, a hardness of 8 or higher is recommended. If you're very careful and use a protective bezel setting, a hardness of 7.5 is acceptable.</h5><h5><strong>Why Mohs Hardness Matters</strong></h5><h5>Engagement rings are worn daily, so selecting a gemstone with a Mohs hardness of 7.5-8 or higher ensures durability against everyday wear and tear. Harder gemstones like diamonds, sapphires, and rubies are ideal because they resist scratching and chipping, maintaining their beauty over time.</h5><h5>When in doubt about caring for or selecting the right gemstone, feel free to reach out for personalized advice. Your engagement ring should be as enduring and unique as your love story!</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jJF3Ha": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are your top gemstone choices for engagement rings?",
+            "icon": "none",
+            "row_content": "<h5><strong>Diamonds (Mohs Hardness: 10):</strong></h5><h5><strong>Advantages</strong>: Diamonds are the hardest natural material, offering unmatched durability and brilliance. They symbolize eternal love and come in various cuts, colors, and clarity levels.</h5><h5><strong>Potential Drawbacks</strong>: They can be expensive, especially larger stones or those with higher clarity and color grades.</h5><h5><strong>How to Overcome</strong>: Consider lab-grown diamonds, which provide the same beauty and strength at a lower cost and less environmental impact, or salt-and-pepper diamonds.</h5><h5>Salt and pepper diamonds, along with other included diamonds like opalescent and icy diamonds, are gaining popularity for their unique look and budget-friendly benefits. These diamonds feature black and white inclusions, giving them a cool, speckled appearance. Each stone is unique, offering a modern, edgy style distinct from traditional, flawless diamonds. If you appreciate the beauty in imperfections and want something that stands out, these diamonds add character and personal meaning to your engagement ring.</h5><h5><em><strong>Budget-Friendly Benefits:</strong></em></h5><h5>1. <strong>Affordability</strong>: Diamonds with visible inclusions, like salt and pepper diamonds, are generally more affordable.</h5><h5>2. <strong>Larger Stones and Intricate Settings</strong>: Allows for larger stones or more intricate settings without breaking the bank.</h5><h5>3. <strong>Budget Allocation</strong>: Spend more on other ring features, like a unique band design or additional accent stones.</h5><h5>4. <strong>Ethical Sourcing</strong>: Often more available and can be sourced more ethically, addressing environmental and social concerns.</h5><h5>5. <strong>Unique and One-of-a-Kind</strong>: Each stone's distinct inclusions ensure your ring is truly unique and personal.</h5><h5><br/><strong>Sapphires (Mohs Hardness: 9):</strong></h5><h5><em><strong>Advantages:</strong></em></h5><h5>1. <strong>Color Variety</strong>: Sapphires are most known for their deep blue color but are available in pink, purple, yellow, white, green, grey, brown, amber, rust, and many other hues.</h5><h5>2. <strong>Durability</strong>: Their exceptional durability makes them ideal for everyday wear.</h5><h5>3. <strong>Personal Favorite</strong>: The wide variety of colors combined with durability makes sapphires a top choice.</h5><h5><em><strong>Potential Drawbacks: </strong></em>High-quality sapphires can be expensive.</h5><h5><em><strong>How to Overcome:</strong></em></h5><h5><strong>Smaller Stone or Different Cut</strong>: Opt for a slightly smaller stone or a rose cut or portrait cut.</h5><h5><strong>Inclusions</strong>: Sapphires with natural inclusions can be beautiful and more affordable. These inclusions, natural features within the gemstone, add character and uniqueness, making each sapphire one-of-a-kind.</h5><h5>1. <strong>Desirable Effects</strong>: Inclusions can create desirable effects, such as asterism in star sapphires, where needle-like inclusions form a star-like pattern.</h5><h5>2. <strong>Natural Origin</strong>: Inclusions highlight the gemstone's natural origin, showcasing its journey from deep within the Earth to a piece of jewelry.</h5><h5>3. <strong>Enhancement</strong>: They can enhance the overall color and depth of the sapphire.</h5><h5>4. <strong>Authenticity</strong>: For collectors and enthusiasts, inclusions testify to the stone’s authenticity and natural beauty.</h5><h5>5. <strong>Historical and Cultural Significance</strong>: In various cultures, gemstones with inclusions are believed to possess mystical or healing properties, adding value and allure.</h5><h5>6. <strong>True Beauty</strong>: While clarity is important, the true beauty of a sapphire often lies in its vibrant color and unique characteristics, making inclusions a celebrated feature rather than a flaw.</h5><h5><br/><strong>Rubies (Mohs Hardness: 9):</strong></h5><h5><em><strong>Advantages:</strong></em></h5><h5>1. <strong>Vivid Red Color</strong>: Celebrated for their striking red hue.</h5><h5>2. <strong>Excellent Hardness</strong>: Suitable for daily wear due to their durability.</h5><h5><em><strong>Potential Drawbacks: </strong></em><strong>Cost.</strong> High-quality rubies can be very expensive.</h5><h5><em><strong>How to Overcome:</strong></em></h5><h5><strong>Inclusions</strong>: Look for rubies with inclusions that don’t affect their overall beauty or durability. Inclusions can add uniqueness and character, making each ruby one-of-a-kind. Here's why:</h5><h5>1. <strong>Unique Patterns</strong>: Inclusions create distinctive patterns, such as asterism in star rubies, which display a star-like pattern on the surface.</h5><h5>2. <strong>Natural Origin</strong>: Inclusions highlight the natural journey of the ruby from deep within the Earth to a polished gemstone.</h5><h5>3. <strong>Enhanced Color</strong>: Inclusions can enhance the color and depth of the ruby.</h5><h5>4. <strong>Authenticity</strong>: Many collectors value inclusions for their testament to the stone’s natural beauty and authenticity.</h5><h5>5. <strong>Cultural Significance</strong>: In various cultures, rubies with inclusions are believed to possess mystical or healing properties, adding to their allure.</h5><h5>6. <strong>True Beauty</strong>: While clarity is important, the vibrant color and unique inclusions often define a ruby’s true beauty.</h5><h5></h5><h5><strong>Emeralds (Mohs Hardness: 7.5-8):</strong></h5><h5><em><strong>Advantages: </strong></em><strong>Rich Green Color. </strong>Known for their deep, vibrant green, offering a unique and timeless beauty.</h5><h5><em><strong>Potential Drawbacks:</strong></em></h5><h5>1. <strong>Fragile Nature</strong>: Prone to chipping and cracking due to their brittle crystalline structure, making them susceptible to damage from sudden impacts or pressure.</h5><h5>2. <strong>Inclusions (\"Jardin\")</strong>: Often have inclusions that can affect durability.</h5><h5>3. <strong>Active Lifestyle</strong>: Not ideal for those with active lifestyles or energetic hand use. Consider green sapphire as an alternative.</h5><h5><em><strong>How to Overcome:</strong></em></h5><h5>1. <strong>Protective Setting</strong>: Choose a bezel setting to shield the stone from impact.</h5><h5>2. <strong>Fewer Inclusions</strong>: Opt for stones with fewer inclusions for better durability.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pU674C": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you have recommendations for alternatives to diamonds, sapphires, rubies and emeralds?",
+            "icon": "none",
+            "row_content": "<h5><strong>Aquamarines (Mohs Hardness: 7.5-8)</strong></h5><h5><em><strong>Advantages:</strong></em></h5><h5>1. <strong>Serene Blue Color</strong>: Beautiful and calming.</h5><h5>2. <strong>Durable</strong>: Fairly durable for everyday wear.</h5><h5><em><strong>Potential Drawbacks: </strong></em><strong>Susceptible to Scratches and Chips.</strong> Not as hard as some other gemstones.</h5><h5><em><strong>How to Overcome:</strong></em></h5><h5>1. <strong>Protective Setting</strong>: Use a protective setting to minimize damage.</h5><h5>2. <strong>Mindful Handling</strong>: Avoid harsh impacts to maintain its integrity.<br/></h5><h5><em><strong>Morganites (Mohs Hardness: 7.5-8)</strong></em></h5><h5><strong>Advantages: Blush Pink Tones. </strong>Offers lovely blush pink tones for a romantic and feminine touch.</h5><h5><em><strong>Potential Drawbacks: </strong></em><strong>Prone to Scratches and Chips.</strong> Its softer nature makes it more susceptible to damage compared to harder stones.</h5><h5><em><strong>How to Overcome:</strong></em></h5><h5>1. <strong>Protective Setting</strong>: Opt for a protective setting and handle with care.</h5><h5>2. <strong>Alternative Options</strong>: Consider a pink, peach, or blush-colored sapphire, which resembles morganite but offers greater durability.</h5><h5></h5><h5><strong>Spinels (Mohs Hardness: 8):</strong></h5><h5><em><strong>Advantages:</strong></em></h5><h5>1. <strong>Color Variety</strong>: Available in red, blue, pink, black, and more.</h5><h5>2. <strong>Brilliance and Durability</strong>: Excellent brilliance and durability make it ideal for engagement rings.</h5><h5><em><strong>Potential Drawbacks: </strong></em><strong>Cost.</strong> High-quality, vividly colored spinel can be rare and expensive.</h5><h5><em><strong>How to Overcome:</strong></em></h5><h5>1. <strong>Smaller Stones</strong>: Opt for slightly smaller stones to stay within budget.</h5><h5>2. <strong>Less Rare Colors</strong>: Choose colors that are not as rare to manage costs.</h5><h5></h5><h5><strong>Chrysoberyls (Mohs Hardness: 8.5):</strong></h5><h5><em><strong>Advantages:</strong></em></h5><h5>1. <strong>Rare Varieties</strong>: Includes the rare cat’s eye variety and alexandrite, which changes color under different lighting.</h5><h5>2. <strong>Durability</strong>: Very durable with excellent clarity and brilliance.</h5><h5><em><strong>Potential Drawbacks: </strong></em><strong>Cost.</strong> High-quality alexandrite can be extremely expensive.</h5><h5><em><strong>How to Overcome: </strong></em><strong>Affordable Varieties.</strong> Opt for chrysoberyl or cat’s eye varieties, which are generally more affordable than alexandrite.</h5><h5></h5><h5><strong>Zircons (Mohs Hardness: 7.5-8):</strong></h5><h5><em><strong>Advantages:</strong></em></h5><h5>1. <strong>Diamond-Like Brilliance</strong>: Offers strong dispersion and fire.</h5><h5>2. <strong>Color Variety</strong>: Available in blue, green, red, yellow, and more.</h5><h5><em><strong>Potential Drawbacks: </strong></em><strong>Brittleness.</strong> Prone to chipping and cracking.</h5><h5><em><strong>How to Overcome: </strong></em><strong>Protective Setting.</strong> Use a protective setting and handle with care.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_iQXV9g": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I love diamonds, but I’m overwhelmed. Can you help?",
+            "icon": "none",
+            "row_content": "<h5><strong>I Can Find Your Perfect Diamond</strong></h5><h5>Choosing the right diamond is about what resonates with you. Whether you prioritize environmental sustainability, seek an exquisite, colorless, internally flawless traditional diamond, or prefer a unique salt-and-pepper diamond in a portrait cut, I’m here to help. With so many diamond types available, having an experienced guide makes all the difference. Together, we can find a diamond that meets your criteria and reflects your individuality.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_F7HCTU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the 4Cs of diamonds?",
+            "icon": "none",
+            "row_content": "<h5><em><strong>Cut</strong></em></h5><h5><strong>Definition</strong>: Determines how well a diamond reflects light, impacting its brilliance and sparkle. Grades range from Poor to Excellent.</h5><h5><strong>Importance</strong>: A well-cut diamond maximizes light return, enhancing its beauty and brilliance.</h5><h5><em><strong>Color</strong></em></h5><h5><strong>Definition</strong>: Graded from D (colorless) to Z (light yellow or brown). The less color, the higher the value.</h5><h5><strong>Importance</strong>: Colorless diamonds are rare and highly prized, but even brown and grey diamonds can be stunning. Colorless stones are more expensive, but if you prefer an edgier or more organic look, a darker diamond may be perfect for you.</h5><h5><em><strong>Clarity</strong></em></h5><h5><strong>Definition</strong>: Assesses the presence of inclusions or blemishes, graded from Flawless to Included.</h5><h5><strong>Importance</strong>: Higher clarity diamonds are rarer and more expensive, but many inclusions are not visible to the naked eye. Plus, visible inclusions can add unique beauty and character, like salt-and-pepper or icy diamonds, which offer distinct charm and one-of-a-kind patterns.</h5><h5><em><strong>Carat Weight</strong></em></h5><h5><strong>Definition</strong>: Measures a diamond's weight. One carat equals 0.2 grams.</h5><h5><strong>Importance</strong>: Larger diamonds are rarer and more valuable, but well-cut smaller diamonds can be stunning. Choosing the right cut can make a diamond appear larger without increasing carat weight. Cuts that maximize the top face, like portrait cuts, shield cuts, and rose cuts, can create the illusion of a larger diamond, reflecting light beautifully and offering a unique aesthetic. They’re perfect for those who want a distinctive look while optimizing their budget.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LwrMzA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are recycled diamonds?",
+            "icon": "none",
+            "row_content": "<h5>Recycled diamonds are natural diamonds that have been previously set in jewelry, removed, and reintroduced into the supply chain. This process reduces reliance on environmentally damaging mining practices.</h5><h5><em><strong>Advantages</strong></em><strong>:</strong></h5><h5>1. <strong>Environmentally Friendly:</strong> Helps minimize the environmental impact by reducing the need for new mining.</h5><h5>2. <strong>Affordability:</strong> Often more affordable than newly mined diamonds.</h5><h5><em><strong>Details</strong></em><strong>: </strong>Approximately 4.5 billion carats of diamonds have been extracted since the 1870s, creating a substantial above-ground supply.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rpRi46": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are Canadian mined diamonds?",
+            "icon": "none",
+            "row_content": "<h5>Canadian mined diamonds are certified conflict-free, sourced from the Canadian Arctic, and are mined, cut, and polished under stringent environmental and ethical standards.</h5><h5><em><strong>Advantages</strong></em><strong>:</strong></h5><h5>1. <strong>Exceptional Quality:</strong> Known for their exceptional sparkle and clarity.</h5><h5>2. <strong>Ethical Mining:</strong> Mined under regulations designed to protect the environment and ensure fair labor practices.</h5><h5><strong>Details: </strong>These diamonds are among the most spectacular and ethical choices currently available.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_VKJXMi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are \"non-traditional\" diamonds?",
+            "icon": "none",
+            "row_content": "<h5><em><strong>Salt-and-Pepper Diamonds</strong></em></h5><h5><strong>Characteristics:</strong> Mix of black and white inclusions, giving a unique, speckled appearance.</h5><h5><strong>Benefits:</strong> Generally more affordable and perfect for a modern, edgy style.</h5><h5><em><strong>Icy Diamonds</strong></em></h5><h5><strong>Characteristics:</strong> Frosted, cloudy appearance due to numerous tiny inclusions.</h5><h5><strong>Benefits:</strong> Offer a cool, ethereal beauty and are often more budget-friendly.</h5><h5><em><strong>Opalescent Diamonds</strong></em></h5><h5><strong>Characteristics:</strong> Exhibit a play of color similar to opals.</h5><h5><strong>Benefits:</strong> Provide a mesmerizing, colorful look that stands out.</h5><h5><em><strong>Rose-Cut Diamonds</strong></em></h5><h5><strong>Characteristics:</strong> Flat bottom and a domed top with triangular facets, exuding vintage charm.</h5><h5><strong>Benefits:</strong> Reflect light in a subtle, romantic way.</h5><h5><em><strong>Portrait-Cut Diamonds</strong></em></h5><h5><strong>Characteristics:</strong> Thin, flat diamonds resembling miniature portraits.</h5><h5><strong>Benefits:</strong> Provide a unique and artistic look.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9QLxF4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are lab-grown diamonds?",
+            "icon": "none",
+            "row_content": "<h5>Lab-grown diamonds are created using advanced technology that replicates the natural diamond formation process. They possess identical physical, chemical, and optical properties as natural diamonds, making them virtually indistinguishable.</h5><h5><em><strong>Advantages</strong></em><strong>:</strong></h5><h5>1. <strong>Cost-Effective:</strong> Typically 20-40% less expensive than natural diamonds, allowing for a larger or higher-quality diamond within the same budget.</h5><h5>2. <strong>Ethical Production:</strong> Created under controlled, ethical conditions, avoiding many of the labor and environmental concerns associated with mining.</h5><h5><em><strong>Sustainability</strong></em><strong>:</strong></h5><h5>1. <strong>Environmental Impact:</strong> Lab-grown diamonds offer a sustainable alternative to mined diamonds, with production processes managed to minimize environmental impact. Sourcing certified lab-grown diamonds ensures adherence to high environmental standards.</h5><h5>2. <strong>Energy Consumption:</strong> While creating lab-grown diamonds requires significant energy, advancements in technology are reducing the carbon footprint. Some producers use renewable energy sources to further mitigate environmental impact.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Mg6hUc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are “Certified Sustainability Rated” diamonds?",
+            "icon": "none",
+            "row_content": "<h5>Certified Sustainability Rated Diamonds are a category of lab-grown diamonds evaluated for adherence to stringent sustainability criteria, conforming to the SCS-007 Jewelry Sustainability Standard. This standard assesses five pillars of sustainability:</h5><h5>1. <strong>Environmental Responsibility:</strong> Ensures production processes minimize environmental impacts.</h5><h5>2. <strong>Ethical Stewardship:</strong> Confirms fair labor practices and ethical sourcing of materials.</h5><h5>3. <strong>Climate Neutrality:</strong> Evaluates and encourages practices that offset the carbon footprint.</h5><h5>4. <strong>Sustainable Production:</strong> Encourages renewable energy use and sustainable manufacturing.</h5><h5>5. <strong>Transparency:</strong> Requires full disclosure of the diamond's origins and production processes.</h5><h5>By choosing Certified Sustainability Rated Diamonds, you support diamond production that is both eco-friendly and socially responsible, helping offset the social and environmental harms often associated with newly mined natural diamonds.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9yP7YT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are “As-Grown” lab grown diamonds?",
+            "icon": "none",
+            "row_content": "<h5>As-Grown Lab Grown Diamonds are certified to be 'as grown,' meaning no post-growth treatments or color enhancements have been performed. This certification ensures that the diamonds remain in their purest form, preserving their natural beauty and integrity.</h5><h5>By choosing lab-grown diamonds, especially those that are Certified Sustainability Rated or As-Grown, you support sustainable, ethical, and environmentally friendly practices in the diamond industry. This choice helps reduce the demand for new mining and ensures that your diamond's beauty comes without the associated social and environmental costs.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qaYN8V": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I choose what kind of finish I want on my jewelry?",
+            "icon": "none",
+            "row_content": "<h5>Selecting the right finish for your jewelry is crucial for achieving the perfect look and feel. The finish adds texture, shine, and unique character to each piece, significantly enhancing its beauty. Here’s a guide to help you decide:</h5><h5><em><strong>High Polish Finish</strong></em>:</h5><h5><strong>Description</strong>: Shiny, mirror-like surface that reflects light beautifully.</h5><h5><strong>Achieved By</strong>: Extensive polishing with increasingly fine abrasives.</h5><h5><em><strong>Matte Finish</strong></em>:</h5><h5><strong>Description</strong>: Subtle sheen, less reflective.</h5><h5><strong>Achieved By</strong>: Light buffing.</h5><h5><em><strong>Satin Finish</strong></em>:</h5><h5><strong>Description</strong>: Soft, non-reflective texture, great for hiding fingerprints and minor scratches.</h5><h5><strong>Achieved By</strong>: Scratch brushing with soapy water.</h5><h5><em><strong>Brushed Finish</strong></em>:</h5><h5><strong>Description</strong>: Similar to satin but more noticeable, with parallel lines creating a distinctive texture.</h5><h5><strong>Achieved By</strong>: Using a brush or sandpaper.</h5><h5><em><strong>Hammered Finish</strong></em>:</h5><h5><strong>Description</strong>: Textured, faceted look.</h5><h5><strong>Achieved By</strong>: Striking the metal with a ball-peen hammer.</h5><h5><em><strong>Patina Finish</strong></em>:</h5><h5><strong>Description</strong>: Dark, aged look.</h5><h5><strong>Achieved By</strong>: Applying chemicals or heat to accelerate oxidation.</h5><h5><em><strong>Sandblasted Finish</strong></em>: </h5><h5><strong>Description</strong>: Matte, textured surface.</h5><h5><strong>Achieved By</strong>: Using tiny glass beads or other abrasives.</h5><h5>Consider your personal style and how you want your jewelry to complement your wardrobe. If you're unsure, feel free to <a href=\"/pages/contact\" title=\"Contact\"><span style=\"text-decoration:underline\">reach out for personalized advice</span></a>!</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_VVaBUQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I restore the finish on my jewelry?",
+            "icon": "none",
+            "row_content": "<h5>Over time, jewelry finishes can wear down. Here’s how to restore different finishes at home. If your jewelry has soft gemstones like opals, emeralds, pearls, or turquoise, avoid these methods and feel free to reach out for advice.</h5><h5><em><strong>High Polish Finish</strong></em>:</h5><h5><strong>Method</strong>: Use a jewelry polishing cloth and a polishing compound.</h5><h5><strong>Process</strong>: Gently buff the surface until it gleams.</h5><h5><em><strong>Matte Finish</strong></em>:</h5><h5><strong>Method</strong>: Use a fine abrasive pad or an old toothbrush with abrasive scrubbing powder.</h5><h5><strong>Process</strong>: Lightly buff the jewelry to restore its subtle sheen, avoiding contact with gemstones.</h5><h5><em><strong>Satin Finish</strong></em>:</h5><h5><strong>Method</strong>: Use a fine abrasive pad.</h5><h5><strong>Process</strong>: Gently rub the surface, then polish with a soft cloth. Avoid if your jewelry includes soft stones.</h5><h5><em><strong>Brushed Finish</strong></em>:</h5><h5><strong>Method</strong>: Use fine-grit sandpaper or a brass brush.</h5><h5><strong>Process</strong>: Lightly sand or brush to recreate the parallel lines, taking care to avoid gemstones.</h5><h5><em><strong>Patina Finish on Sterling Silver</strong></em>:</h5><h5><strong>Method</strong>: Reapply a patina solution or use household items like vinegar and salt.</h5><h5><strong>Process</strong>: Recreate the oxidized look.</h5><h5><em><strong>Additional Tips</strong></em>:</h5><h5><strong>Storage</strong>: Store your jewelry in a dry, cool place, away from sunlight and chemicals.</h5><h5><strong>Maintenance</strong>: Regular cleaning and gentle handling help maintain the finish and overall appearance.</h5><h5>By following these steps, you can keep your jewelry looking as beautiful as the day you got it. </h5>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_GWrTPf",
+        "collapsible_row_jJF3Ha",
+        "collapsible_row_pU674C",
+        "collapsible_row_iQXV9g",
+        "collapsible_row_F7HCTU",
+        "collapsible_row_LwrMzA",
+        "collapsible_row_rpRi46",
+        "collapsible_row_VKJXMi",
+        "collapsible_row_9QLxF4",
+        "collapsible_row_Mg6hUc",
+        "collapsible_row_9yP7YT",
+        "collapsible_row_qaYN8V",
+        "collapsible_row_VVaBUQ"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Educational Resources",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_MtmwAX",
+    "collapsible_content_miigHj",
+    "collapsible_content_igzE3b",
+    "collapsible_content_ByzWCx",
+    "collapsible_content_ke4nH7",
+    "collapsible_content_YmDfhi",
+    "collapsible_content_rhJCMm",
+    "collapsible_content_PVCUyt",
+    "collapsible_content_nwKJeH",
+    "collapsible_content_KWY7TC",
+    "collapsible_content_bVeyBD",
+    "collapsible_content_rUDThb"
+  ]
+}

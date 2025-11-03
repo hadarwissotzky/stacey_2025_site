@@ -1,0 +1,75 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "d03a880b-bd91-4214-ab70-0166e3855006": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "06a23115-9065-4f55-9cab-419a267595a1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "CUSTOMER SERVICE",
+            "menu": "footer"
+          }
+        },
+        "e5b7ef4a-b916-429f-bbd3-64045dd8a4c9": {
+          "type": "link_list",
+          "settings": {
+            "heading": "POLICIES",
+            "menu": "policies"
+          }
+        },
+        "d55eb1c7-cfd7-4b0b-9a12-00738691cdfb": {
+          "type": "text",
+          "settings": {
+            "heading": "CONTACT",
+            "subtext": "<h6>415.425.7394</h6><h5><a href=\"/pages/contact\" title=\"Contact\">support@lorinczi.com</a></h5>"
+          }
+        }
+      },
+      "block_order": [
+        "d03a880b-bd91-4214-ab70-0166e3855006",
+        "06a23115-9065-4f55-9cab-419a267595a1",
+        "e5b7ef4a-b916-429f-bbd3-64045dd8a4c9",
+        "d55eb1c7-cfd7-4b0b-9a12-00738691cdfb"
+      ],
+      "custom_css": [
+        ".footer {padding-left: 10px;}",
+        "h6 {margin-top: 30px !important; margin-bottom: 13px !important; font-size: 1.1rem; color: rgba(var(--color-foreground), 0.75);}",
+        "h5 {margin-top: 0px !important; font-size: 1.1rem; color: rgba(var(--color-foreground), 0.75); margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 100,
+        "padding_bottom": 12
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

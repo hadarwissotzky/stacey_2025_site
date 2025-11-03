@@ -1,0 +1,64 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_7RCNFH": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_LAUBVT": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Use Your Own Gems & Metal</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_QF94RF": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LAUBVT",
+        "text_QF94RF"
+      ],
+      "custom_css": [
+        "p {font-family: \"Masqualero\", serif !important; font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); line-height: normal; margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 1.3rem); font-family: sans-serif !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Final_Use_Your_Own_Gems_and_Metal_Section_Main_Top_Image.jpg",
+        "video_background": false,
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "image_banner_7RCNFH",
+    "main"
+  ]
+}

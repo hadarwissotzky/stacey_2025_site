@@ -1,0 +1,146 @@
+.newsletter__wrapper {
+  padding-right: calc(4rem / var(--font-body-scale));
+  padding-left: calc(4rem / var(--font-body-scale));
+}
+
+@media screen and (min-width: 750px) {
+  .newsletter__wrapper {
+    padding-right: 9rem;
+    padding-left: 9rem;
+  }
+}
+
+.newsletter__wrapper > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.newsletter__wrapper > * + * {
+  margin-top: 2rem;
+}
+
+.newsletter__wrapper > * + .newsletter-form {
+  margin-top: 3rem;
+}
+
+.newsletter__subheading {
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter__wrapper .newsletter-form__field-wrapper {
+  max-width: 36rem;
+}
+
+.newsletter-form__field-wrapper .newsletter-form__message {
+  margin-top: 1.5rem;
+}
+
+.newsletter__button {
+  margin-top: 3rem;
+  width: fit-content;
+}
+
+@media screen and (min-width: 750px) {
+  .newsletter__button {
+    flex-shrink: 0;
+    margin: 0 0 0 1rem;
+  }
+}
+
+
+/* Hadar Custom */
+.newsletter__wrapper {
+      -webkit-text-fill-color: inherit;
+    background-color: var(--color-n58536e15);
+    background-image: url(//1fb93f.myshopify.com/cdn/shop/files/Truly_Final_Left_Side_Discover_More_47fd043e-179b-49ad-b620-6070a25945dc.png?v=1690236479), url(//1fb93f.myshopify.com/cdn/shop/files/Truly_Final_Right_Side_Discover_More.png?v=1690230374);
+    background-position: 0 0, 100% 100% !important;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, auto !important;
+    background-clip: border-box;
+    padding: 96px 118px 118px !important;
+    background-attachment: initial !important;
+    background-size: 34% auto !important;
+}
+
+.newsletter__wrapper h2{
+      margin-bottom: 0;
+    font-family: Nexa, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.newsletter__wrapper p{
+      text-align: center;
+    margin-bottom: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: Crimson Pro, sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.newsletter .outter-button {
+    border: 1px solid #000;
+    border-radius: 13px;
+    padding: 4px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+.newsletter .outter-button:hover {
+    border-color: #000;
+}
+.newsletter .base-button.button {
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+    font-size: 11px;
+    border-radius: 9px !important;
+    padding: 12px 30px;
+    min-width: 120px;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-family: A-Gothic, sans-serif;
+    box-shadow: none !important;
+}
+.newsletter .base-button.button:after {
+    box-shadow: none !important;
+}
+.newsletter .outter-button:hover .button,
+.newsletter .button:hover {
+    background: #000;
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 9px !important;
+    box-shadow: none !important;
+}
+.newsletter .outter-button:hover .button:after,
+.newsletter .button:hover:after {
+    box-shadow: none !important;
+}
+.banner__buttons {
+      align-self: center;
+}
+.button:after, .button:after {
+  box-shadow: none;
+}
+.filed__link,
+.newsletter__wrapper [type=email] {
+      background-color: rgba(0, 0, 0, 0);
+    border: 1px var(--color-203c2ae);
+    border-bottom-style: solid;
+}
+
+/* lornczi custom */
+.newsletter__subheading {
+      max-width: 50rem;
+}
+@media screen and (max-width: 749px) { 
+  .newsletter__wrapper {
+   padding: 60px 30px 50px!important;  
+  }
+  .newsletter__wrapper p {
+    padding: 0;
+  }
+}

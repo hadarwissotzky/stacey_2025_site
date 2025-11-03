@@ -1,0 +1,122 @@
+.product__title h1,
+.product-info-container .product__title h1,
+h1.product__title {
+  margin-bottom: 0 !important;
+  margin-top: 3% !important;
+  width: 100% !important;
+  font-size: 26px !important;
+  line-height: 1.35 !important;
+  font-weight: 300 !important;
+  text-align: left !important;
+}
+
+.product__description p {
+  font-size: 14px;
+  line-height: 1.35;
+  font-weight: 300;
+}
+
+.price {
+  font-size: 15px;
+  line-height: 1.35;
+  font-weight: 300;
+}
+
+.product-form__input input[type="radio"] + label {
+  padding: 0.5rem 1.5rem;
+}
+
+.shopify-payment-button {
+  display: none !important;
+}
+
+/* Force product form and buttons to be visible */
+product-form {
+  display: block !important;
+}
+
+.product-form {
+  display: block !important;
+}
+
+.product-form__buttons {
+  border-radius: 0 !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  margin-top: 2rem !important;
+  height: auto !important;
+  min-height: 50px !important;
+  overflow: visible !important;
+  max-height: none !important;
+  clip: auto !important;
+  clip-path: none !important;
+  background: none !important;
+  border: none !important;
+  padding: 0px !important;
+}
+
+.product-form__buttons button,
+.product-form__buttons .button,
+.product-form__submit,
+button[name="add"],
+button[type="submit"][name="add"] {
+  background-color: #f3e5d6 !important;
+  color: #000 !important;
+  font-size: 1.2rem !important;
+  min-height: calc(4.1rem + var(--buttons-border-width) * 2) !important;
+  border: none !important;
+  border-radius: 0 !important;
+  display: block !important;
+  visibility: visible !important;
+  width: 100% !important;
+  opacity: 1 !important;
+  position: relative !important;
+  height: auto !important;
+  max-height: none !important;
+  clip: auto !important;
+  clip-path: none !important;
+  transform: none !important;
+  left: auto !important;
+  top: auto !important;
+  z-index: 99999 !important;
+  padding: 1.5rem 3rem !important;
+  cursor: pointer !important;
+}
+
+.price__regular {
+  display: flex !important;
+  align-items: baseline !important;
+  gap: 0.3rem !important;
+}
+
+.price__regular .visually-hidden {
+  position: static !important;
+  clip: auto !important;
+  clip-path: none !important;
+  width: 55px !important;
+  height: auto !important;
+  overflow: visible !important;
+  white-space: normal !important;
+  font-size: 0 !important;
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.price__regular .visually-hidden::before {
+  content: 'FROM';
+  visibility: visible;
+  font-size: 15px;
+  line-height: 1.35;
+  font-weight: 300;
+}
+
+.price__regular .price-item--regular {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.slider-buttons {
+  display: none !important;
+}

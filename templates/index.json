@@ -1,0 +1,421 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Handmade jewelry to celebrate commitments, milestones, and every day in between.",
+            "heading_size": "h2"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Stacey's Favorites",
+            "button_link_1": "shopify://collections/my-favorits",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "custom_css": [
+        ".banner__heading {font: normal 37px Masqualero, serif !important; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px;}",
+        ".outter-button {border: 1px solid #121212; border-radius: 13px; padding: 4px; display: inline-block; transition: all 0.3s;}",
+        ".outter-button:hover {border-color: #000;}",
+        ".button {background: #fff; color: #000; border: 2px solid #121212; font-size: 11px; border-radius: 9px; padding: 12px 30px; min-width: 120px; transition: all 0.3s;}",
+        ".outter-button:hover .button {background: #000; color: #fff;}",
+        ".button:active {opacity: 0.5;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Final_Index_Hero_Image_d6dac852-69d0-43e4-b2c3-4a3a5d6f7494.jpg",
+        "image_2": "shopify://shop_images/Final_Index_Portal_Center_89260efc-f6be-4cc3-94ca-96936483627f.jpg",
+        "video_background": false,
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "20029078-d2df-4c46-b126-e7d5ff72f316": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21717722104091__20029078-d2df-4c46-b126-e7d5ff72f316-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "RE-USE YOUR OWN GEMS & JEWELRY",
+            "heading_size": "h2"
+          }
+        },
+        "template--21717722104091__20029078-d2df-4c46-b126-e7d5ff72f316-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Custom jewelry is my specialty, whether you want to refresh an heirloom or create a new one.</h3>"
+          }
+        },
+        "d09b86e9-970d-4b0f-b002-3f75515d6f6d": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><a href=\"/pages/use-your-own-gems-metal\" title=\"Use your own gems & metal\">LEARN MORE</a></h5>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21717722104091__20029078-d2df-4c46-b126-e7d5ff72f316-heading-1",
+        "template--21717722104091__20029078-d2df-4c46-b126-e7d5ff72f316-text-1",
+        "d09b86e9-970d-4b0f-b002-3f75515d6f6d"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 59rem;}",
+        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: 26px; font-weight: 300; line-height: 26px;}",
+        ".rich-text h3 {font-family: \"GoudyOldStyle\", sans-serif !important;}",
+        ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "f41a3fd7-37b6-4c9f-88f4-f137330d43e8": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21717722104091__f41a3fd7-37b6-4c9f-88f4-f137330d43e8-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Final_Index_Portal_Left_c3ddf3b9-00e7-44c0-b3ca-972de3dd8b81.jpg",
+            "title": "CUSTOM",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://pages/custom-design-journey"
+          }
+        },
+        "template--21717722104091__f41a3fd7-37b6-4c9f-88f4-f137330d43e8-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Truly_Final_Index_Portal_Center_e574cb19-e274-489a-a3db-3ddd0cf3d546.jpg",
+            "title": "SHOP",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections"
+          }
+        },
+        "template--21717722104091__f41a3fd7-37b6-4c9f-88f4-f137330d43e8-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Truly_Final_Index_Portal_Right_09309f11-9b2d-4910-9ef1-244604775b43.jpg",
+            "title": "COMMITMENT",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://pages/where-to-start"
+          }
+        }
+      },
+      "block_order": [
+        "template--21717722104091__f41a3fd7-37b6-4c9f-88f4-f137330d43e8-column-1",
+        "template--21717722104091__f41a3fd7-37b6-4c9f-88f4-f137330d43e8-column-2",
+        "template--21717722104091__f41a3fd7-37b6-4c9f-88f4-f137330d43e8-column-3"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info {padding: 0;}",
+        ".background-none .multicolumn-card__image-wrapper {margin: 0;}",
+        ".multicolumn-list.grid {}",
+        ".section-template--21717722104091__f41a3fd7-37b6-4c9f-88f4-f137330d43e8-padding {padding: 0; margin: 0; max-width: 100%;}",
+        ".multicolumn-card__info h3 {position: absolute; top: 10%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 3.2rem; font-weight: 700; text-shadow: 0 1px 2px #846e50; font-family: Nexa, sans-serif !important; width: 100%; text-align: center;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "bedcfa7e-20a7-4a07-a886-5d92ed4dfb2a": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".collection__title {border-top: 1px solid #dee0e3; border-bottom: 1px solid #dee0e3; padding: 40px 0 15px !important;}",
+        ".collection__title .title {text-align: center; margin-bottom: 1.4rem; letter-spacing: 2px; color: #676977; font: 400 40px/40px Nexa, sans-serif !important;}",
+        ".product-grid {margin-bottom: 0;}",
+        ".card__badge {display: none;}",
+        ".slider__slide:last-child .card {border-right: none !important;}",
+        ".slider-counter {display: none;}"
+      ],
+      "settings": {
+        "title": "SHOP READY-TO-SHIP",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "uppercase",
+        "collection": "frontpage",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "a756bebb-30dd-41eb-ac82-eae61074a709": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "MEET THE JEWELER",
+            "heading_size": "h2"
+          }
+        },
+        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Let me tell your story in metal.</h1><p>Handcrafted jewelry combines beauty and meaning to honor milestones, celebrate love, and reflect your unique journey. Whether a simple silver pendant or the reinvention of a family treasure, I craft each piece to be a cherished future heirloom.</p>",
+            "text_style": "body"
+          }
+        },
+        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "MY DESIGN PROCESS",
+            "button_link": "/pages/custom-design-journey#shopify-section-template--21823938887963__custom_process_jeCjEQ",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-heading-1",
+        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-text-1",
+        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-button-1"
+      ],
+      "custom_css": [
+        ".rich-text__buttons .outter-button .button:hover{background: #000 !important;}",
+        ".rich-text__buttons .base-button {background-color: #fff;}",
+        ".image-with-text__heading {font-size: 11px; letter-spacing: 1.3px !important;}",
+        ".image-with-text__text h1 {font: 400 31px/35px Nexa, sans-serif; text-align: left; margin-bottom: 10px;}",
+        ".image-with-text__text p {font: 400 1.6rem/25px Nexa, sans-serif;}",
+        "@media (min-width: 750px) {.image-with-text__text-item {width: 40%; } .image-with-text__media-item {width: 60%; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/New_FINAL_Index_Info_Logo_Stacey_Homepage_Portrait_3172325b-1425-4fa2-a549-a5e950de0d0c.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_xgVpRH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PgdbDa": {
+          "type": "heading",
+          "settings": {
+            "heading": "CUSTOM GALLERY",
+            "heading_size": "h1"
+          }
+        },
+        "text_ENax4n": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Available to re-create, personalize, or inspire your new custom piece.</h3>"
+          }
+        },
+        "text_aL4bUE": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><a href=\"/collections/custom-gallery\" title=\"Custom Gallery\">SEE THEM ALL</a></h5>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PgdbDa",
+        "text_ENax4n",
+        "text_aL4bUE"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 59rem;}",
+        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: 26px; font-weight: 300; line-height: 26px;}",
+        ".rich-text h3 {font-family: \"GoudyOldStyle\", sans-serif !important;}",
+        ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "e4e33329-ee5b-49bd-a1eb-718e509a397d": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".card__information,.card__badge {display: none;}",
+        ".product-grid {margin-bottom: 0;}",
+        ".grid__item .card {border: none !important;}",
+        ".grid__item {border-right: 2px solid #fff !important; padding-bottom: 0px !important;}",
+        ".grid__item:last-child {border-right: none !important;}",
+        ".slider {margin-top: 0.2rem;}",
+        ".slider-counter {display: none;}",
+        ".slider-mobile-gutter {padding: 0; max-width: 100%;}",
+        ".card a {pointer-events: auto !important; cursor: pointer !important;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "custom-gallery",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "170344157572f198e3": {
+      "type": "apps",
+      "blocks": {
+        "9e867019-e479-4e53-95e7-6d11ee139cb5": {
+          "type": "shopify://apps/instafeed-story/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "9e867019-e479-4e53-95e7-6d11ee139cb5"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "17034417271b642a76": {
+      "type": "apps",
+      "blocks": {
+        "35ed1899-64f5-4e5f-a742-0785f9c7c87f": {
+          "type": "shopify://apps/instafeed-story/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "35ed1899-64f5-4e5f-a742-0785f9c7c87f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "c302798e-a893-4dca-af4b-9f44f51a0307": {
+      "type": "newsletter",
+      "blocks": {
+        "template--21717722104091__c302798e-a893-4dca-af4b-9f44f51a0307-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "DISCOVER MORE",
+            "heading_size": "h2"
+          }
+        },
+        "template--21717722104091__c302798e-a893-4dca-af4b-9f44f51a0307-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Follow to see more of my work and in-depth explorations of my custom commissions.</p>"
+          }
+        },
+        "template--21717722104091__c302798e-a893-4dca-af4b-9f44f51a0307-email_form-1": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--21717722104091__c302798e-a893-4dca-af4b-9f44f51a0307-heading-1",
+        "template--21717722104091__c302798e-a893-4dca-af4b-9f44f51a0307-paragraph-1",
+        "template--21717722104091__c302798e-a893-4dca-af4b-9f44f51a0307-email_form-1"
+      ],
+      "custom_css": [
+        ".newsletter {border-top: 1px solid #dee0e3;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "20029078-d2df-4c46-b126-e7d5ff72f316",
+    "f41a3fd7-37b6-4c9f-88f4-f137330d43e8",
+    "bedcfa7e-20a7-4a07-a886-5d92ed4dfb2a",
+    "a756bebb-30dd-41eb-ac82-eae61074a709",
+    "rich_text_xgVpRH",
+    "e4e33329-ee5b-49bd-a1eb-718e509a397d",
+    "170344157572f198e3",
+    "17034417271b642a76",
+    "c302798e-a893-4dca-af4b-9f44f51a0307"
+  ]
+}

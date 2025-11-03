@@ -1,0 +1,114 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share_PHhmmb": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "quantity_selector_LHY83D": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "9f5086ea-7d6c-494d-a76b-032dd0a0d171": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ 'gift-card-custom.css' | asset_url | stylesheet_tag }}\n\n<div class=\"pdp__help__links\">\n\n<style>\n.pdp__help__links {\n    font-size: 11px;\n    letter-spacing: 0.5px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    order: 4;\n    padding: 32px 0 52px;\n    margin-top: auto;\n      line-height: inherit;\n    color: #919191;\n      font-family: 'A-Gothic', sans-serif;\n}\n.pdp__help__links__left {\n    display: flex;\n    border-top: none;\n}\n.pdp__help__links__left .pdp__help__links__item {\n    border-bottom: none;\n}\n.pdp__help__links__item {\n    margin-right: 29px;\n}\n.pdp__help__links__right a,\n.pdp__help__links__item a {\n    color: #919191;\n}\n</style>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "description",
+        "share_PHhmmb",
+        "variant_picker",
+        "quantity_selector_LHY83D",
+        "buy_buttons",
+        "9f5086ea-7d6c-494d-a76b-032dd0a0d171"
+      ],
+      "custom_css": [
+        ".share-button__button {font-family: \"A Gothic\" !important; font-size: 1.3rem;}",
+        ".customer span {font-family: \"A Gothic\" !important; font-size: 1.3rem; padding-top: 3px;}",
+        ".product__tax {display: none;}",
+        ".product__description p span {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: 1.8rem; font-weight: 300; line-height: 1.4em;}",
+        ".select__select {font-size: 1.6rem;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "background-1",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "More things you may like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products"
+  ]
+}

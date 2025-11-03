@@ -1,0 +1,356 @@
+.contact img {
+  max-width: 100%;
+}
+
+.contact .form__message {
+  align-items: flex-start;
+}
+
+.contact .icon-success {
+  margin-top: 0.2rem;
+}
+
+.contact .field {
+  margin-bottom: 1.5rem;
+}
+[id*="lorinczi_contact_form"] .image-with-text__grid {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 0 auto;
+    margin: unset;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    min-height: inherit;
+}
+  [id*="lorinczi_contact_form"] .container {
+   opacity: 1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    white-space: normal;
+    width: 100%;
+    min-height: inherit;
+    height: auto;
+    overflow-x: unset;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: calc(-0px + 0px);
+    margin-right: calc(0px + 0px);
+    width: calc(100% + 0px);
+    z-index: 1;
+  }
+
+[id*="lorinczi_contact_form"] .column {
+    min-height: inherit;
+    box-sizing: border-box;
+    margin: 0;
+    white-space: normal;
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    max-width: 100%;
+    width: 100%;
+    box-shadow: unset;
+  }
+
+ .lorinczi-contact-form-1 .contact {
+       max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 0 auto;
+    margin: unset;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+ }
+.lorinczi-contact-form-1 .field__input {
+      height: 2.7rem;
+      padding: 1rem 1.5rem 0.8rem 2rem;
+}
+.lorinczi-contact-form-1  .field__label{
+      font-size: 1.1rem;
+  line-height: 1;
+      color: #aaa;
+  left: calc(var(--inputs-border-width) + 1rem);
+}
+.title {
+          align-items: baseline;
+        margin-top: 3rem;
+}
+.contact__button {
+      text-align: left;
+    margin-top: 0;
+
+}
+.contact__button .button {
+      background-color: transparent;
+    color: #000;
+  background-color: #f3e5d6;
+    padding: 10px 30px;
+    height: 40px;
+    -webkit-transition: background-color .4s ease, color .4s ease;
+    -moz-transition: background-color .4s ease, color .4s ease;
+    transition: background-color .4s ease, color .4s ease;
+    text-align: center;
+    border-radius: 0;
+        font-size: 1.1rem;
+      font-family: 'A Gothic' !important;
+  text-transform: uppercase;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+@media screen and (min-width: 750px) {
+  .contact .field {
+    margin-bottom: 1rem;
+  }
+}
+
+.contact__button {
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 750px) {
+  .contact__button {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .contact__fields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1rem;
+  }
+  .contact__button {
+        margin-top: 0 !important;
+    }  
+  .contact__button button {
+    min-height: calc(2.5rem + var(--buttons-border-width) * 2);
+  }
+}
+
+.file-upload{
+  flex-direction: column;
+}
+.file-upload h4 {
+  color: #6c6a68;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: var(--font-heading-family) !important;
+}
+.drop-area {
+  padding: 0px;
+  text-align: center;
+  cursor: pointer;
+  flex: 1;
+  background-color: #E6E5E2;
+}
+.drop-area p,
+#MainContent .drop-area p {
+  margin-top: 3px !important;
+  color: #6c6a68;
+  font-size: 1.5rem !important;
+  font-weight: 500;
+  font-family: var(--font-heading-family) !important;
+}
+.drop-area.dragover {
+  background-color: #f9f9f9;
+}
+.file-preview {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.file-thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(1px,1px,1px,1px);
+}
+
+
+@media (min-width: 1000px) {
+  [id*="lorinczi_contact_form"] .image-with-text__grid {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        margin: unset;
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: left;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+  [id*="lorinczi_contact_form"] .container {
+        opacity: 1;
+        width: 100%;
+        white-space: normal;
+        min-height: inherit;
+        height: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-bottom: calc(-0px + 0px);
+        margin-right: calc(-50px + 0px);
+        width: calc(100% + 50px);
+  }
+
+  [id*="lorinczi_contact_form"] .column {
+        flex-basis: 55%;
+        flex-grow: 0;
+        flex-shrink: 1;
+        max-width: 55%;
+        width: 55%;
+        white-space: normal;
+        box-shadow: unset;
+        padding-bottom: 0px;
+
+    }
+ .lorinczi-contact-form-1 {
+   max-width: 45% !important;
+ } 
+ .lorinczi-contact-form-1 .contact {
+    max-width: 100%;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        margin: unset;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0px;
+       background-color: #f5f4f2;
+ }
+}
+
+/* ContactForm placeholder color - Input fields */
+#ContactForm .field__input::placeholder {
+  color: #6c6a68;
+  opacity: 1;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  font-family: var(--font-heading-family) !important;
+}
+
+/* ContactForm placeholder color - Textarea */
+#ContactForm textarea::placeholder {
+  color: #6c6a68;
+  opacity: 1;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  font-family: var(--font-heading-family) !important;
+}
+
+
+/* Hide labels when using placeholders */
+#ContactForm .field__label {
+  display: none;
+}
+
+/* Browser-specific placeholder styles - Input fields */
+#ContactForm .field__input::-webkit-input-placeholder {
+  color: #6c6a68;
+  opacity: 1;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  font-family: var(--font-heading-family) !important;
+}
+
+#ContactForm .field__input::-moz-placeholder {
+  color: #6c6a68;
+  opacity: 1;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  font-family: var(--font-heading-family) !important;
+}
+
+#ContactForm .field__input:-ms-input-placeholder {
+  color: #6c6a68;
+  opacity: 1;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  font-family: var(--font-heading-family) !important;
+}
+
+#ContactForm .field__input:-moz-placeholder {
+  color: #6c6a68;
+  opacity: 1;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  font-family: var(--font-heading-family) !important;
+}
+
+/* Browser-specific placeholder styles - Textarea */
+#ContactForm textarea::-webkit-input-placeholder {
+  color: #6c6a68;
+  opacity: 1;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  font-family: var(--font-heading-family) !important;
+}
+
+#ContactForm textarea::-moz-placeholder {
+  color: #6c6a68;
+  opacity: 1;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  font-family: var(--font-heading-family) !important;
+}
+
+#ContactForm textarea:-ms-input-placeholder {
+  color: #6c6a68;
+  opacity: 1;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  font-family: var(--font-heading-family) !important;
+}
+
+#ContactForm textarea:-moz-placeholder {
+  color: #6c6a68;
+  opacity: 1;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  font-family: var(--font-heading-family) !important;
+}
+
+/* Mobile margins for contact form section */
+@media screen and (max-width: 749px) {
+  [id*="lorinczi_contact_form_QdTKnW"] .contact.page-width {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    width: calc(100% - 20px) !important;
+  }
+
+  .lorinczi-contact-form-1 .contact {
+    align-items: inherit;
+    padding-bottom: 0px;
+  }
+
+  #ContactForm {
+    padding: 0 20px;
+  }
+}
+

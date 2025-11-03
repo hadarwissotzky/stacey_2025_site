@@ -1,0 +1,191 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_EF3FNE": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_CrC4FV": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Returns</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_NFF7zx": {
+          "type": "text",
+          "settings": {
+            "text": "How I handle returns and cancellations.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CrC4FV",
+        "text_NFF7zx"
+      ],
+      "custom_css": [
+        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Lighter_TRULY_Final_Returns_Section_Main_Top_Image.jpg",
+        "video_background": false,
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_LUXNFQ": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_zyyRgr": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_7nnPHH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What’s your return policy?",
+            "icon": "none",
+            "row_content": "<h5>All <strong>custom jewelry</strong> is <strong>final sale</strong> and cannot be returned. This includes:</h5><ul><li><h5><strong>Bespoke jewelry</strong>, meaning any design customized to your preferences.</h5></li><li><h5><strong>All gold jewelry</strong>, as it is made to order unless listed in my Ready-to-Ship inventory.</h5></li><li><h5><strong>Personalized or engraved pieces</strong>.</h5></li></ul><h5>Throughout the design and fabrication process, I provide updates, videos, and images to ensure you’re fully involved and thrilled with the final piece.</h5><h5>For <strong>non-custom pieces</strong>, you may return the jewelry within <strong>14 days of delivery</strong>. To initiate a return, please contact me for instructions. Items must be returned in their original condition to my San Francisco studio.</h5><ul><li><h5>A <strong>10% restocking fee</strong> (up to $200) applies to returns.</h5></li></ul><h5>The restocking fee is <strong>waived if you exchange the item</strong> for another piece.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_F8Ap4e": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I want to cancel my order?",
+            "icon": "none",
+            "row_content": "<h5>Please cancel your order within 24 hours of placing it. For ready-to-buy jewelry already being prepared for shipment or in transit, a 10% restocking fee (up to $200) applies. Custom orders and personalized jewelry cannot be canceled or refunded once the customization process begins. To request a cancellation, please <a href=\"/pages/contact\" title=\"Contact\"><span style=\"text-decoration:underline\">contact me</span></a> directly.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8PNrag": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Which jewelry is considered final sale?",
+            "icon": "none",
+            "row_content": "<h5>All <strong>bespoke and custom jewelry</strong>, including <strong>personalized or engraved pieces, sale items, and gift certificates</strong>, are <strong>final sale</strong> and not eligible for a refund.</h5><h5>Additionally, all <strong>gold jewelry</strong> (unless listed in my Ready-to-Ship inventory) is made-to-order and considered <strong>custom</strong>, and therefore <strong>final sale</strong>.</h5><h5>The same applies to <strong>custom sterling silver pieces</strong>, whether bespoke, personalized, or engraved.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6RdXax": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I send my return or exchange back to Lorinczi Jewelry?",
+            "icon": "none",
+            "row_content": "<h5>After confirming your return via email, send your clean, unworn jewelry back in its original packaging using a traceable and insured parcel service. Insure your package for its full value, as I am not responsible for lost or stolen items. Note that all shipping costs are the client's responsibility, and the cost of outgoing shipping (from San Francisco to you) is not refundable.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6AfdkB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When can I expect to receive my refund?",
+            "icon": "none",
+            "row_content": "<h5>Once I receive your return, please allow 1-3 business days for processing. The cost of outgoing shipping (from San Francisco to you) will not be refunded. After processing, the credit should appear on your account within 3-10 business days. For Venmo purchases, please allow up to 5 business days for the refund.</h5>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YCdDYB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you charge a Restocking Fee?",
+            "icon": "none",
+            "row_content": "<h5>Yes, I do charge a 10% restocking fee for returns, up to $200. However, if you choose to exchange an item instead, I’m happy to waive this fee.</h5>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_7nnPHH",
+        "collapsible_row_F8Ap4e",
+        "collapsible_row_8PNrag",
+        "collapsible_row_6RdXax",
+        "collapsible_row_6AfdkB",
+        "collapsible_row_YCdDYB"
+      ],
+      "custom_css": [
+        "li {line-height: 0.6em; margin-bottom: 1.4rem;}",
+        "ol li > h5,ul li > h5 {display: inline;}",
+        "ol li {font-size: 13px; font-family: \"A Gothic\" !important;}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Understanding my returns and cancellations policy.",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_RJcz8U": {
+      "type": "rich-text",
+      "blocks": {
+        "button_wj8h6h": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW MORE FAQS",
+            "button_link": "shopify://pages/faq",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_wj8h6h"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner_EF3FNE",
+    "main",
+    "custom_liquid_LUXNFQ",
+    "collapsible_content_zyyRgr",
+    "rich_text_RJcz8U"
+  ]
+}

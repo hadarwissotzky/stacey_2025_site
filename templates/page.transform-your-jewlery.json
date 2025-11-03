@@ -1,0 +1,324 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_FiNPq6": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_7G6x64": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Transform Your Old Jewelry</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_C9CghG": {
+          "type": "text",
+          "settings": {
+            "text": "I turn your unworn pieces into jewelry you’ll treasure.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7G6x64",
+        "text_C9CghG"
+      ],
+      "custom_css": [
+        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/NEW_TRULY_Final__Transform_Your_Jewelry_Section_Main_Top_Image_241dff8a-37c4-4c8f-80c7-8abee19e0d4f.jpg",
+        "video_background": false,
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text_Qmja8T": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 24
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_U4fpLV": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_qBVeG9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6dEETn": {
+          "type": "heading",
+          "settings": {
+            "heading": "GIVE YOUR OLD JEWELRY A NEW STORY",
+            "heading_size": "h2"
+          }
+        },
+        "text_gKXwt4": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>I reimagine unused and unloved jewelry... </h3><p>Into modern designs you’ll love to wear. Begin your transformation with a complimentary <a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\">virtual consultation.</a></p>",
+            "text_style": "body"
+          }
+        },
+        "button_FDcmDF": {
+          "type": "button",
+          "settings": {
+            "button_label": "MY DESIGN PROCESS",
+            "button_link": "/pages/custom-design-journey#shopify-section-template--21823938887963__custom_process_jeCjEQ",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_6dEETn",
+        "text_gKXwt4",
+        "button_FDcmDF"
+      ],
+      "custom_css": [
+        ".rich-text__buttons .base-button {background-color: #fff;}",
+        "p a,p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important;}",
+        "h3 {font: 400 31px / 35px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px;}",
+        ".image-with-text .image-with-text__heading {font-size: 1.3rem !important;}",
+        "@media (min-width: 750px) {.image-with-text__text-item {width: 40%; } .image-with-text__media-item {width: 60%; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/TRULY_Final_Transform_Your_Jewelry_Section_Top_Page_Photos_11d15615-0f90-45eb-9545-e462618b9f21.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_gk8ehP": {
+      "type": "rich-text",
+      "blocks": {
+        "text_YwbcbH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking for inspiration? I can personalize a design or craft something entirely new.</p><p>Explore the Custom Gallery for ideas.</p>"
+          }
+        },
+        "button_pCYGLT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Custom Gallery",
+            "button_link": "shopify://collections/custom-gallery",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_YwbcbH",
+        "button_pCYGLT"
+      ],
+      "custom_css": [
+        "p {margin-top: 0px; margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 20
+      }
+    },
+    "featured_collection_RFjQVn": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".product-card-wrapper .card {--border-width: none; --image-padding: 0rem;}",
+        ".card:not(.ratio) > .card__content {display: none;}",
+        ".card--media .card__inner .card__content {padding: 0; width: 100%;}",
+        ".price {display: none;}",
+        ".card-wrapper {border-bottom: 1px solid #dee0e3;}",
+        ".grid {margin-bottom: 0px;}",
+        ".slider__slide {padding: 0 !important; margin: 0 !important;}",
+        ".slider:after {display: none !important;}",
+        ".slider-buttons {display: flex !important;}",
+        ".slider-counter {display: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "custom-gallery",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_RCUYFm": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_wFry9U": {
+          "type": "heading",
+          "settings": {
+            "heading": "RE-USE YOUR OWN GEMS & JEWELRY",
+            "heading_size": "h1"
+          }
+        },
+        "text_nwxNfG": {
+          "type": "text",
+          "settings": {
+            "text": "Custom jewelry is my specialty, whether you want to refresh an heirloom or create a new one. <a href=\"/pages/use-your-own-gems-metal\" title=\"Use Your Own Gems & Metal\">LEARN MORE</a>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wFry9U",
+        "text_nwxNfG"
+      ],
+      "custom_css": [
+        ".banner__content{max-width:59rem;}",
+        ".banner__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: 26px; font-weight: 300; line-height: 26px; color: rgb(var(--color-foreground)); text-shadow: none;}",
+        ".banner__text p {font-family: \"GoudyOldStyle\", sans-serif !important; color: rgb(var(--color-foreground)); font-size: calc(var(--font-heading-scale) * 1.8rem);}",
+        ".banner__text p a {color: rgba(var(--color-link), var(--alpha-link)); font-family: \"A Gothic\" !important;"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "video_background": false,
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "lorinczi_contact_form_Qc4PUF": {
+      "type": "lorinczi-contact-form",
+      "settings": {
+        "heading": "Got questions? <em>Let's chat!</em>",
+        "image": "shopify://shop_images/TRULY_Final_Transform_Your_Jewelry_Contact_Form_Image_f33c4902-1c09-45c6-a2f8-9ac18acfd847.jpg",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "left_background_color": "#484d1c",
+        "field_background_color": "#ffffff",
+        "field_border_color": "#000000",
+        "drop_area_background_color": "#e6e5e2",
+        "drop_area_border_color": "#000000",
+        "button_background_color": "#f3e5d6",
+        "button_border_color": "#000000",
+        "button_text_color": "#000000",
+        "header_text_color": "#ffffff",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_content_alignment": "left"
+      }
+    },
+    "newsletter_gRyxgy": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_T4MVzW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "DISCOVER MORE",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph_mD9HwY": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Follow to see more of my work and in-depth explorations of my custom commissions.</p>"
+          }
+        },
+        "email_form_9RdzCV": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_T4MVzW",
+        "paragraph_mD9HwY",
+        "email_form_9RdzCV"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "image_banner_FiNPq6",
+    "rich_text_Qmja8T",
+    "main",
+    "custom_liquid_U4fpLV",
+    "image_with_text_qBVeG9",
+    "rich_text_gk8ehP",
+    "featured_collection_RFjQVn",
+    "image_banner_RCUYFm",
+    "lorinczi_contact_form_Qc4PUF",
+    "newsletter_gRyxgy"
+  ]
+}

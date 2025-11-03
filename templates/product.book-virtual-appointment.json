@@ -1,0 +1,152 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_RmpNcA": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_FLyJ96": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Book a Virtual Appointment</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_WfrQ9R": {
+          "type": "text",
+          "settings": {
+            "text": "Your custom jewelry journey starts here.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FLyJ96",
+        "text_WfrQ9R"
+      ],
+      "custom_css": [
+        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/TRULY_Final_Book_a_Virtual_Appointment_Section_Main_Top_Image_3da87b13-5533-46d5-859a-76fa9583bb43.jpg",
+        "video_background": false,
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "custom_liquid_p4pAQX": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_TT3YYn": {
+          "type": "text",
+          "settings": {
+            "text": "I offer complimentary virtual consultations to explore your style, design preferences, budget, and timeline. Whether you’re customizing a piece, creating something new, or reviving an heirloom, I’ll guide you every step of the way.",
+            "text_style": "body"
+          }
+        },
+        "text_gfiLDN": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Appointments only—let’s chat!</strong>",
+            "text_style": "body"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_TT3YYn",
+        "text_gfiLDN",
+        "description",
+        "buy_buttons"
+      ],
+      "custom_css": [
+        ".product-form__submit:hover {background-color: color-mix(in srgb, #402242 50%, white 50%) !important;border: 1px solid #000; }",
+        "h1 {font-size: calc(var(--font-heading-scale) * 2.8rem); font-family: \"Nexa\" !important; font-weight: 300; text-transform: uppercase;}",
+        ".product__media-wrapper {display: none;}",
+        ".product--no-media {max-width: 85rem;}",
+        ".product__info-container {max-width: 85rem;}",
+        ".product-form__submit {background: #402242; border-radius: 0px; color: #fff;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "background-1",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 32,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "image_banner_RmpNcA",
+    "custom_liquid_p4pAQX",
+    "main",
+    "related-products"
+  ]
+}
