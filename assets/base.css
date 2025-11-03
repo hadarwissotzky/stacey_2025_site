@@ -3712,7 +3712,7 @@ shopify-accelerated-checkout-cart {
 
 @media screen and (max-width: 749px) {
   #MainContent h1 {
-    font-size: calc(var(--font-heading-scale) * 2.1rem);
+    font-size: calc(var(--font-heading-scale) * 1.3rem);
   }
 
   #MainContent p {

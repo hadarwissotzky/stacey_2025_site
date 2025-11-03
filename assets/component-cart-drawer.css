@@ -203,7 +203,7 @@ cart-drawer-items {
 .cart-drawer .cart-item {
   display: grid;
   grid-template: repeat(2, auto) / repeat(4, 1fr);
-  gap: 1.5rem;
+  gap: 0rem;
   margin-bottom: 0;
 }
 
@@ -245,6 +245,7 @@ cart-drawer-items {
 
 .cart-drawer .cart-item:last-child {
   margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .cart-drawer .cart-item .loading__spinner {
@@ -471,8 +472,100 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
   .cart-drawer .cart-items td {
     padding-top: 0rem !important;
   }
+}
 
-  .cart-drawer .cart-item__quantity-in-details label {
-    display: none !important;
+/* Apply cart-item__quantity-in-details styling to cart drawer quantity */
+.cart-drawer .cart-item__quantity {
+  margin-top: 0;
+  display: block !important;
+}
+
+.cart-drawer .cart-item__quantity label {
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+  clip: auto !important;
+  clip-path: none !important;
+  overflow: visible !important;
+  white-space: normal !important;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.5rem;
+  display: block !important;
+}
+
+.cart-drawer .cart-item__quantity-wrapper {
+  display: flex !important;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: nowrap;
+  border: none !important;
+}
+
+.cart-drawer .quantity-popover-container {
+  display: flex !important;
+  align-items: center;
+  gap: 0;
+  border: none !important;
+  width: auto !important;
+}
+
+.cart-drawer .quantity {
+  display: flex !important;
+  align-items: center;
+  border: none !important;
+  flex-wrap: nowrap;
+  gap: 0.2rem;
+}
+
+.cart-drawer .quantity::before,
+.cart-drawer .quantity::after {
+  content: none !important;
+  display: none !important;
+}
+
+.cart-drawer .quantity__button {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  min-width: 1.5rem !important;
+  min-height: 1.5rem !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background: transparent !important;
+  border: 1px solid rgba(var(--color-foreground), 0.3) !important;
+  border-radius: 50% !important;
+  cursor: pointer;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.cart-drawer .quantity__button:hover {
+  background: rgba(var(--color-foreground), 0.05) !important;
+}
+
+.cart-drawer .quantity__input {
+  width: 2.5rem !important;
+  height: 3rem !important;
+  text-align: center;
+  border: none !important;
+  padding: 0 !important;
+  font-size: 1.3rem;
+}
+
+.cart-drawer cart-remove-button {
+  display: flex !important;
+  margin-left: 0 !important;
+}
+
+.cart-drawer .cart-item__error {
+  margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 990px) {
+  .cart-drawer .quantity-popover-container {
+    /* width: auto; */
+    max-width: 7rem;
   }
 }

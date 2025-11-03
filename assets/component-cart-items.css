@@ -382,14 +382,14 @@ cart-remove-button .icon-remove {
 
 .product-option dt {
   text-transform: uppercase;
-  font-size: 1.1rem;
+  font-size: 1rem;
   letter-spacing: 0.1rem;
   margin-right: 0.5rem;
   font-weight: 400;
 }
 
 .product-option dd {
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 
@@ -446,7 +446,7 @@ cart-items:not(.drawer__cart-items-wrapper cart-items) .cart-item {
 @media screen and (max-width: 749px) {
   cart-items:not(.drawer__cart-items-wrapper cart-items) .cart-item {
     padding-left: 0rem !important;
-    padding-right: 2rem !important;
+    padding-right: 0rem !important;
     padding-bottom: 2rem;
   }
 
@@ -457,9 +457,11 @@ cart-items:not(.drawer__cart-items-wrapper cart-items) .cart-item {
 
   cart-items .title-wrapper-with-link {
     margin-top: 0;
-    padding-top: 2rem;
+    padding-top: 0rem;
     padding-left: 2rem;
-    padding-right: 4rem;
+    margin-bottom: 1rem;
+    padding-right: 3rem;
+    font-size: 1rem;
   }
 }
 
