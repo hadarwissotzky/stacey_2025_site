@@ -70,7 +70,7 @@
         ".banner__media {width: 100% !important;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Truly_Final_Darker_Final_Custom_Section_Main_Top_Image_466a900c-0272-4d35-9eea-121db7185237.jpg",
+        "image": "shopify://shop_images/TRULY_FINAL_Darker_Final_Custom_Section_Main_Top_Image_274551af-c43a-402c-8909-0d9216341c9b.jpg",
         "video_background": false,
         "image_overlay_opacity": 0,
         "image_height": "small",
@@ -123,7 +123,7 @@
         "h2 {text-transform: uppercase;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/New_FINAL_Index_Info_Logo_Stacey_Homepage_Portrait_75775b1c-593f-40bb-9f4e-5e91e81bda2b.png",
+        "image": "shopify://shop_images/TRULY_New_FINAL_Index_Info_Logo_Stacey_Homepage_Portrait_bd8685bc-a4dc-4d62-832e-e0106a941d07.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

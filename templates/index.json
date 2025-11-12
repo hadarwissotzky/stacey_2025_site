@@ -118,7 +118,7 @@
         "template--21717722104091__f41a3fd7-37b6-4c9f-88f4-f137330d43e8-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Truly_Final_Index_Portal_Center_e574cb19-e274-489a-a3db-3ddd0cf3d546.jpg",
+            "image": "shopify://shop_images/TRULY_Truly_Final_Index_Portal_Center.jpg",
             "title": "SHOP",
             "text": "",
             "link_label": "",
@@ -233,7 +233,7 @@
         "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-button-1"
       ],
       "custom_css": [
-        ".rich-text__buttons .outter-button .button:hover{background: #000 !important;}",
+        ".rich-text__buttons .outter-button .button:hover {background: #000 !important;}",
         ".rich-text__buttons .base-button {background-color: #fff;}",
         ".image-with-text__heading {font-size: 11px; letter-spacing: 1.3px !important;}",
         ".image-with-text__text h1 {font: 400 31px/35px Nexa, sans-serif; text-align: left; margin-bottom: 10px;}",
@@ -319,7 +319,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "custom-gallery",
-        "products_to_show": 8,
+        "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": true,
         "show_view_all": false,

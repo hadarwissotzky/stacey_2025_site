@@ -199,7 +199,7 @@
           "settings": {
             "heading": "What if I can't get a ring sizer or visit a local jewelry store to size myself?",
             "icon": "none",
-            "row_content": "<h5><strong>ESTIMATE YOUR RING SIZE WITH A RING SIZER APP OR ONLINE TOO</strong>L:</h5><h5>Digital tools like the Ring Sizer app by Jason Withers or websites such as ringsizeronline.com are convenient but might not be as precise as a metal ring sizer. If you don't have a metal ring sizer, cross-check your results using different methods. Consistent measurements across various methods usually indicate an accurate size.</h5><h5>If you find discrepancies, consider investing in an inexpensive metal ring sizer for the most reliable measurement. If you have any doubts about your measurements, feel free to reach out for assistance. I'm here to help!</h5>",
+            "row_content": "<h5><em><strong>Estimate your ring size with a ring sizer app or online tool:</strong></em></h5><h5>Digital tools like the Ring Sizer app by Jason Withers or websites such as ringsizeronline.com are convenient but might not be as precise as a metal ring sizer. If you don't have a metal ring sizer, cross-check your results using different methods. Consistent measurements across various methods usually indicate an accurate size.</h5><h5>If you find discrepancies, consider investing in an inexpensive metal ring sizer for the most reliable measurement. If you have any doubts about your measurements, feel free to reach out for assistance. I'm here to help!</h5>",
             "page": ""
           }
         },
@@ -251,7 +251,7 @@
           "settings": {
             "heading": "What if I want to cancel my order?",
             "icon": "none",
-            "row_content": "<h5>Please cancel your order within 24 hours of placing it. For ready-to-buy jewelry already being prepared for shipment or in transit, a 10% restocking fee (up to $200) applies. Custom orders and personalized jewelry cannot be canceled or refunded once the customization process begins. To request a cancellation, please <a href=\"/pages/contact\" title=\"Contact\"><span style=\"text-decoration:underline\">contact me</span></a> directly.</h5>",
+            "row_content": "<h5>Please cancel your order within 24 hours of placing it. For ready-to-buy jewelry already being prepared for shipment or in transit, a 10% restocking fee (up to $200) applies. Custom orders and personalized jewelry cannot be canceled or refunded once the customization process begins. To request a cancellation, please <a href=\"/pages/contact\" title=\"Contact\"><span style=\"text-decoration:underline\"><strong>contact me</strong></span></a> directly.</h5>",
             "page": ""
           }
         },

@@ -75,7 +75,7 @@
           "settings": {
             "heading": "What’s your return policy?",
             "icon": "none",
-            "row_content": "<h5>All <strong>custom jewelry</strong> is <strong>final sale</strong> and cannot be returned. This includes:</h5><ul><li><h5><strong>Bespoke jewelry</strong>, meaning any design customized to your preferences.</h5></li><li><h5><strong>All gold jewelry</strong>, as it is made to order unless listed in my Ready-to-Ship inventory.</h5></li><li><h5><strong>Personalized or engraved pieces</strong>.</h5></li></ul><h5>Throughout the design and fabrication process, I provide updates, videos, and images to ensure you’re fully involved and thrilled with the final piece.</h5><h5>For <strong>non-custom pieces</strong>, you may return the jewelry within <strong>14 days of delivery</strong>. To initiate a return, please contact me for instructions. Items must be returned in their original condition to my San Francisco studio.</h5><ul><li><h5>A <strong>10% restocking fee</strong> (up to $200) applies to returns.</h5></li></ul><h5>The restocking fee is <strong>waived if you exchange the item</strong> for another piece.</h5>",
+            "row_content": "<h5>All <strong>custom jewelry</strong> is <strong>final sale</strong> and cannot be returned. This includes:</h5><h5><strong>Bespoke jewelry</strong>, meaning any design customized to your preferences.</h5><h5><strong>All gold jewelry</strong>, as it is made to order unless listed in my Ready-to-Ship inventory.</h5><h5><strong>Personalized or engraved pieces</strong>.</h5><h5>Throughout the design and fabrication process, I provide updates, videos, and images to ensure you’re fully involved and thrilled with the final piece.</h5><h5>For <strong>non-custom pieces</strong>, you may return the jewelry within <strong>14 days of delivery</strong>. To initiate a return, please contact me for instructions. Items must be returned in their original condition to my San Francisco studio.</h5><h5>A <strong>10% restocking fee</strong> (up to $200) applies to returns.</h5><h5>The restocking fee is <strong>waived if you exchange the item</strong> for another piece.</h5>",
             "page": ""
           }
         },
@@ -84,7 +84,7 @@
           "settings": {
             "heading": "What if I want to cancel my order?",
             "icon": "none",
-            "row_content": "<h5>Please cancel your order within 24 hours of placing it. For ready-to-buy jewelry already being prepared for shipment or in transit, a 10% restocking fee (up to $200) applies. Custom orders and personalized jewelry cannot be canceled or refunded once the customization process begins. To request a cancellation, please <a href=\"/pages/contact\" title=\"Contact\"><span style=\"text-decoration:underline\">contact me</span></a> directly.</h5>",
+            "row_content": "<h5>Please cancel your order within 24 hours of placing it. For ready-to-buy jewelry already being prepared for shipment or in transit, a 10% restocking fee (up to $200) applies. Custom orders and personalized jewelry cannot be canceled or refunded once the customization process begins. To request a cancellation, please <a href=\"/pages/contact\" title=\"Contact\"><span style=\"text-decoration:underline\"><strong>contact me</strong></span></a><strong> </strong>directly.</h5>",
             "page": ""
           }
         },

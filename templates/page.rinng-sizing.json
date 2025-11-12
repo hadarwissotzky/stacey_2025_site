@@ -75,7 +75,7 @@
           "settings": {
             "heading": "How do I size myself if we’re meeting remotely?",
             "icon": "none",
-            "row_content": "<h5>For accurate measurements if I can’t size you in person, use a metal ring sizer (not a flexible plastic strip). These can be easily purchased online; for international orders, check the sizing standard used.</h5><h5><strong>To measure your finger:</strong></h5><ul><li><h5>Measure at the end of the day when your body temperature is normalized.</h5></li><li><h5>Avoid measuring when your fingers are very cold or warm.</h5></li><li><h5>Measure several times at different times of the day to find an accurate average.</h5></li></ul>",
+            "row_content": "<h5>For accurate measurements if I can’t size you in person, use a metal ring sizer (not a flexible plastic strip). These can be easily purchased online; for international orders, check the sizing standard used.</h5><h5><strong>To measure your finger:</strong></h5><h5>1. Measure at the end of the day when your body temperature is normalized.</h5><h5>2. Avoid measuring when your fingers are very cold or warm.</h5><h5>3. Measure several times at different times of the day to find an accurate average.</h5>",
             "page": ""
           }
         },
@@ -84,7 +84,7 @@
           "settings": {
             "heading": "How do I measure someone’s finger size without them knowing?",
             "icon": "none",
-            "row_content": "<ul><li><h5>Use one of their frequently worn rings and measure it using a tapered candlestick.</h5></li><li><h5>Slide the ring onto the candlestick until snug, mark the upper and lower edges with a thin permanent marker, then cut that segment and send it to me.</h5></li><li><h5>Alternatively, take their ring to a jewelry store for a quick sizing.</h5></li><li><h5>Ensure the borrowed ring is for the same finger as the intended new ring.</h5></li></ul>",
+            "row_content": "<h5>Use one of their frequently worn rings and measure it using a tapered candlestick.</h5><h5>Slide the ring onto the candlestick until snug, mark the upper and lower edges with a thin permanent marker, then cut that segment and send it to me.</h5><h5>Alternatively, take their ring to a jewelry store for a quick sizing.</h5><h5>Ensure the borrowed ring is for the same finger as the intended new ring.</h5>",
             "page": ""
           }
         },
@@ -93,7 +93,7 @@
           "settings": {
             "heading": "What if I can't get a ring sizer or visit a local jewelry store to size myself?",
             "icon": "none",
-            "row_content": "<h5><strong>ESTIMATE YOUR RING SIZE WITH A RING SIZER APP OR ONLINE TOO</strong>L.</h5><h5>Digital tools like the Ring Sizer app by Jason Withers or websites such as ringsizeronline.com are convenient but might not be as precise as a metal ring sizer. If you don't have a metal ring sizer, cross-check your results using different methods. Consistent measurements across various methods usually indicate an accurate size.</h5><h5>If you find discrepancies, consider investing in an inexpensive metal ring sizer for the most reliable measurement. If you have any doubts about your measurements, feel free to <a href=\"/pages/contact\" title=\"Contact\">reach out</a> for assistance. I'm here to help!</h5>",
+            "row_content": "<h5><em><strong>Estimate your ring size with a ring sizer app or online tool:</strong></em></h5><h5>Digital tools like the Ring Sizer app by Jason Withers or websites such as ringsizeronline.com are convenient but might not be as precise as a metal ring sizer. If you don't have a metal ring sizer, cross-check your results using different methods. Consistent measurements across various methods usually indicate an accurate size.</h5><h5>If you find discrepancies, consider investing in an inexpensive metal ring sizer for the most reliable measurement. If you have any doubts about your measurements, feel free to reach out for assistance. I'm here to help!</h5>",
             "page": ""
           }
         },
