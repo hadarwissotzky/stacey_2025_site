@@ -425,7 +425,7 @@
   "platform_customizations": {
     "custom_css": [
       ".image-with-text__heading {font-size: 1.2rem !important;}",
-      "@media only screen and (max-width: 480px) {.banner__heading {font-size: 23px !important; } header-drawer {margin-left: -0.2rem; } .section-template--21717722104091__20029078-d2df-4c46-b126-e7d5ff72f316-padding .rich-text__heading {font-size: 28px !important; } #Slide-template--21717722104091__f41a3fd7-37b6-4c9f-88f4-f137330d43e8-3 h3 {left: 51% !important; width: 74%; top: 15% !important; font-size: 2.8rem !important; } .newsletter__wrapper {padding: 96px 20px 118px !important; }}",
+      "@media only screen and (max-width: 480px) {.banner__heading {font-size: 23px !important; } header-drawer {margin-left: -0.2rem; } .section-template--21717722104091__20029078-d2df-4c46-b126-e7d5ff72f316-padding .rich-text__heading {font-size: 28px !important; } #Slide-template--21717722104091__f41a3fd7-37b6-4c9f-88f4-f137330d43e8-3 h3 {left: 51% !important; width: 74%; top: 15% !important; font-size: 2.8rem !important; } .newsletter__wrapper {padding: 96px 20px 94px !important; }}",
       "html {scroll-behavior: smooth;}",
       "section {scroll-margin-top: 75px;}"
     ]

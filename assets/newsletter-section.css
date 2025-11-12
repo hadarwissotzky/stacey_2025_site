@@ -138,9 +138,12 @@
 }
 @media screen and (max-width: 749px) { 
   .newsletter__wrapper {
-   padding: 60px 30px 50px!important;  
+   padding: 96px 20px 94px !important;  
+   background-size: 70% auto !important;
   }
   .newsletter__wrapper p {
     padding: 0;
+    font-size: calc(var(--font-heading-scale) * 1.3rem) !important;
+    padding-top: 2em;
   }
 }
