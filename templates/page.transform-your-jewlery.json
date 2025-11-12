@@ -32,7 +32,8 @@
         "text_C9CghG"
       ],
       "custom_css": [
-        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}"
+        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}",
+        "@media screen and (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.7rem) !important; line-height: 1.2em; margin-top: 0.8em; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/NEW_TRULY_Final__Transform_Your_Jewelry_Section_Main_Top_Image_241dff8a-37c4-4c8f-80c7-8abee19e0d4f.jpg",

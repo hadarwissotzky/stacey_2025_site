@@ -32,7 +32,8 @@
         "text_WfrQ9R"
       ],
       "custom_css": [
-        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}"
+        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}",
+        "@media screen and (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.7rem) !important; line-height: 1.2em; margin-top: 0.8em; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/TRULY_Final_Book_a_Virtual_Appointment_Section_Main_Top_Image_3da87b13-5533-46d5-859a-76fa9583bb43.jpg",
@@ -100,7 +101,7 @@
         "buy_buttons"
       ],
       "custom_css": [
-        ".product-form__submit:hover {background-color: color-mix(in srgb, #402242 50%, white 50%) !important;border: 1px solid #000; }",
+        ".product-form__submit:hover {background-color: color-mix(in srgb, #402242 50%, white 50%) !important; border: 1px solid #000;}",
         "h1 {font-size: calc(var(--font-heading-scale) * 2.8rem); font-family: \"Nexa\" !important; font-weight: 300; text-transform: uppercase;}",
         ".product__media-wrapper {display: none;}",
         ".product--no-media {max-width: 85rem;}",

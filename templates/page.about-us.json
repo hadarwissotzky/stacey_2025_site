@@ -41,7 +41,8 @@
         "text_jphF8C"
       ],
       "custom_css": [
-        "p {font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}"
+        "p {font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}",
+        "@media screen and (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.7rem) !important; line-height: 1.2em; margin-top: 0.8em; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/V1_About_Me_Banner_Image.jpg",

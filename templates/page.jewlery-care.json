@@ -32,7 +32,8 @@
         "text_acUhh3"
       ],
       "custom_css": [
-        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}"
+        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}",
+        "@media screen and (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.7rem) !important; line-height: 1.2em; margin-top: 0.8em; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/TRULY_Final_Jewelry_Care_Section_Main_Top_Image_4ef1e5d3-21ae-4cda-b606-3a42b22dba83.jpg",

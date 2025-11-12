@@ -32,7 +32,8 @@
         "text_47jiMr"
       ],
       "custom_css": [
-        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}"
+        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}",
+        "@media screen and (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.7rem) !important; line-height: 1.2em; margin-top: 0.8em; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/Truly_Final_Ring_Sizing_Section_Main_Top_Image_26d9511a-8f4c-4920-bf02-f2aa1a8f543f.jpg",

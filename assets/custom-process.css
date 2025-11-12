@@ -490,10 +490,11 @@ width: 99.5% !important;
   #MainContent li, #MainContent p {
       font-size: calc(var(--font-heading-scale) * 1.9rem);
   }
-  #MainContent #Banner-template--25996792725787__image_banner_7RCNFH p {
+  #MainContent #Banner-template--25996792725787__image_banner_7RCNFH p
+   {
     font-size: calc(var(--font-heading-scale) * 1.7rem) !important;
     line-height: 1.2em;
-    margin-top: 1em;
+    margin-top: 0.8em;
   }
   .components .component-2 {
     margin-left: 4%;
