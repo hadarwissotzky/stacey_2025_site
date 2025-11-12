@@ -3718,6 +3718,7 @@ shopify-accelerated-checkout-cart {
   #MainContent p {
     font-size: calc(var(--font-heading-scale) * 1.7rem);
   }
+  
 }
 
 .card__information .card__heading{
