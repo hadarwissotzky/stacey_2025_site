@@ -796,7 +796,7 @@ width: 99.5% !important;
         align-items: flex-start;
         min-height: 400px;
         position: relative !important;
-        top: auto !important;
+        top: -20% !important;
     }
 
     #shopify-section-template--21823938887963__custom_process_jeCjEQ .slider-counter__link:last-child {
@@ -883,7 +883,7 @@ width: 99.5% !important;
     .banner--mobile-bottom:not(.banner--stacked) .banner__content {
         order: 2;
         position: absolute;
-        top: 34%;
+        top: 27%;
         border: none;
     }
 
