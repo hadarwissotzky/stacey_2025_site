@@ -162,6 +162,11 @@ width: 99.5% !important;
 [id*="slideshow_wERMQy"] .banner__box {
   .banner__box: normal !important;
 }
+.custom-text-box-wrapper{
+   background: rgb(0, 0, 0, 0.4);
+   min-height: 27rem;
+  padding: 1.6em;
+}
 /* Desktop slideshow button position */
 @media screen and (min-width: 750px) {
   [id*="slideshow_wERMQy"] .slider-button--next {
@@ -426,7 +431,7 @@ width: 99.5% !important;
 }
 
 [id*="slideshow_wERMQy"] .slideshow__text p {
-    font-family: 'A Gothic' !important;
+    font-family: 'A Gothic' !important;s
     color: #fff;
     font-weight: 500;
     font-size: 2.2rem;
@@ -447,6 +452,13 @@ width: 99.5% !important;
   [id*="custom_process_jeCjEQ"] .slideshow__text-wrapper.banner__content ,
   [id*="slideshow_wERMQy"] .slideshow__text-wrapper.banner__content {
     padding: 0 !important;
+   
+  }
+
+    [id*="custom_process_jeCjEQ"] .slideshow__text-wrapper.banner__content .custom-text-box-wrapper p,
+  [id*="slideshow_wERMQy"] .slideshow__text-wrapper.banner__content .custom-text-box-wrapper p {
+    margin-top: 1rem !important;
+       font-size: calc(var(--font-heading-scale) * 2.1rem) !important;
   }
 }
 @media screen and (max-width: 749px) {
@@ -495,6 +507,22 @@ width: 99.5% !important;
     font-size: calc(var(--font-heading-scale) * 1.7rem) !important;
     line-height: 1.2em;
     margin-top: 0.8em;
+  }
+    [id*="custom_process_jeCjEQ"] .slideshow__text-wrapper.banner__content .custom-text-box-wrapper p,
+  [id*="slideshow_wERMQy"] .slideshow__text-wrapper.banner__content .custom-text-box-wrapper p {
+    margin-top: 1rem !important;
+       font-size: calc(var(--font-heading-scale) * 2.1rem) !important;
+  }
+  
+      [id*="custom_process_jeCjEQ"] .slideshow__text-wrapper.banner__content .custom-text-box-wrapper h2,
+  [id*="slideshow_wERMQy"] .slideshow__text-wrapper.banner__content .custom-text-box-wrapper h2 {
+  {
+    font-weight: normal;
+    font-size: 37px;
+    text-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+    line-height: normal;
+    margin-bottom: 22px;
+    color: #fff;
   }
   .components .component-2 {
     margin-left: 4%;
