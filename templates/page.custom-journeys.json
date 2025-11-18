@@ -48,7 +48,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Get Started",
-            "button_link_1": "#shopify-section-template--21823938887963__custom_process_jeCjEQ",
+            "button_link_1": "#shopify-section-template--25996792725787__custom_process_jeCjEQ",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -530,7 +530,7 @@
       "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.banner__heading {\n  text-transform: none;\n}\n</style>",
+        "custom_liquid": "<style>\n.banner__heading {\n  text-transform: none;\n}\n.slideshow__text-wrapper p {\n    font-size: calc(var(--font-heading-scale) * 2rem) !important;\n  }\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -735,7 +735,7 @@
       "custom_css": [
         ".banner__heading {font-size: 1.6rem !important;}",
         " {margin-bottom: 25px;}",
-        "@media screen and (max-width: 749px) {.slideshow__text {padding-left: 0 !important; padding-right: 0 !important; margin: 0px; } .slideshow__text-wrapper {top: 0px !important; } .slideshow__text-wrapper h2, .slideshow__text-wrapper p {color: rgba(var(--color-foreground), 0.75) !important; padding-right: 0rem !important; } .banner__content .slider-button--next {top: 46% !important; right: -5rem !important; } , .slider-button--prev {top: 50% !important; left: -3rem !important; }}"
+        "@media screen and (max-width: 749px) {.slideshow__text {padding-left: 0 !important; padding-right: 0 !important; margin: 0px; } .slideshow__text-wrapper {top: 0px !important; } .slideshow__text-wrapper h2, .slideshow__text-wrapper p {color: rgba(var(--color-foreground), 0.75) !important; padding-right: 0rem !important; } .banner__content .slider-button--next {top: 46% !important; } , .slider-button--prev {top: 50% !important; max-width: 85%; }}"
       ],
       "settings": {
         "layout": "grid",
