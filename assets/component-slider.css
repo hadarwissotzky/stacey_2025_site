@@ -331,8 +331,13 @@ slider-component.slider-component-full-width {
   align-items: center;
   justify-content: center;
   display: none;
+  height: 16px;
 }
-
+.slider-button--next, .slider-button--prev {
+  position: relative;
+      left: auto;
+      right: auto;
+}
 
 .slider-button {
   color: rgba(var(--color-foreground), 0.75);
