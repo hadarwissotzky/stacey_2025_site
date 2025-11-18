@@ -175,13 +175,13 @@
 /* Desktop slideshow button position */
 @media screen and (min-width: 750px) {
   [id*="slideshow_wERMQy"] .slider-button--next {
-    right: 32px;
+  
   }
 }
 /* Desktop slideshow button position */
 @media screen and (min-width: 750px) {
   [id*="slideshow_wERMQy"] .slider-button--prev {
-    left: 32px;
+   
   }
 }
 
@@ -285,11 +285,11 @@
 }
 [id*="slideshow_wERMQy"] .slider-button--next,
 [id*="slideshow_wERMQy"] .slider-button--next{
-      top: 50% !important;
+
 } 
 [id*="slideshow_wERMQy"] .slider-button--prev,
 [id*="slideshow_wERMQy"] .slider-button--prev {
-      top: 50% !important;
+
 }
 @media screen and (max-width: 749px) { 
   [id*="slideshow_wERMQy"],
@@ -420,6 +420,7 @@
 [id*="slideshow_wERMQy"] .page-width {
     max-width: 100% !important;
     width: 100% !important;
+    margin-bottom: 1%;
 }
 
 [id*="slideshow_wERMQy"] .slideshow__text.banner__box {
@@ -507,6 +508,7 @@
   }
   #MainContent li, #MainContent p {
       font-size: calc(var(--font-heading-scale) * 1.9rem);
+      padding-top: 0px !important;
   }
   #MainContent #Banner-template--25996792725787__image_banner_7RCNFH p
    {
@@ -569,12 +571,12 @@
   /* Mobile slideshow button positions */
   #shopify-section-template--21823938887963__slideshow_wERMQy .slider-button--prev,
   [id*="slideshow_wERMQy"] .slider-button--prev {
-    left: -3rem !important;
+ 
   }
 
   #shopify-section-template--21823938887963__slideshow_wERMQy .slider-button--next,
   [id*="slideshow_wERMQy"] .slider-button--next {
-    right: -5rem !important;
+
   }
   .banner--mobile-bottom .slideshow__text-wrapper {
     border-left: solid 0.1rem #ccc;
@@ -919,6 +921,10 @@
     #shopify-section-template--24145717788955__custom_process_nDkDtm .banner__heading {
         color: #fff;
         font-family: 'A Gothic' !important;
+    }
+
+    #shopify-section-template--25996792594715__custom_process_nDkDtm .slideshow__controls--border-radius-mobile{
+        height: 30px !important;
     }
 
     #shopify-section-template--24145717788955__custom_process_nDkDtm .slideshow__controls.slider-buttons.no-js-hidden.slideshow__controls--border-radius-mobile button:last-child {

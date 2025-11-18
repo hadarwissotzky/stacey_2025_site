@@ -118,6 +118,7 @@ slideshow-component .slideshow.banner {
   .slideshow__controls--border-radius-mobile {
     border-bottom-right-radius: var(--text-boxes-radius);
     border-bottom-left-radius: var(--text-boxes-radius);
+    height: 0px;
   }
 }
 
