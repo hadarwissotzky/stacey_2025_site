@@ -339,9 +339,9 @@
 /* Mobile margins for contact form section */
 @media screen and (max-width: 749px) {
   [id*="lorinczi_contact_form_QdTKnW"] .contact.page-width {
-    margin-left: 10px !important;
-    margin-right: 10px !important;
-    width: calc(100% - 20px) !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: 100% !important;
   }
 
   .lorinczi-contact-form-1 .contact {

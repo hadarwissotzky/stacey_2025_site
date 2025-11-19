@@ -21,7 +21,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n#shopify-section-template--25996792725787__image_banner_dYNYRy .banner__content {\nposition: relative !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n.outter-button {\n  border: 1px solid #fff;\n  border-radius: 13px;\n  padding: 4px;\n  display: inline-block;\n  transition: all 0.3s;\n}\n.outter-button:hover {\n  border-color: #000;\n}\n.button {\n  background: #fff;\n  color: #000;\n  border: 1px solid #fff;\n  font-size: 11px;\n  text-align: center;\n  border-radius: 9px;\n  padding: 12px 30px;\n  min-width: 120px;\n  transition: all 0.3s;\n}\n.outter-button:hover .button {\n  background: #000;\n  color: #fff;\n  border-color: #000;\n}\n.button:active {\n  opacity: 0.5;\n}\n.banner__text p {\n  font-size: calc(var(--font-heading-scale) * 2.5rem) !important;\n},\n#shopify-section-template--25996792725787__slideshow_wERMQy{\nmargin-bottom: 5% !important;\n}\n@media screen and (max-width: 749px) {\n#shopify-section-template--25996792725787__slideshow_wERMQy .slideshow__text-wrapper p .slideshow__text-wrapper h2{\nfont-size: 1.2rem !important;\n    color: rgba(var(--color-foreground), 0.75) !important;\n    padding-right: 2rem !important;\n        padding-top: 1rem;\n}\n\n.banner__text p {\n  font-size: calc(var(--font-heading-scale) * 1.8rem) !important;\n}\n.banner__text p a {\n}\n}\n</style>",
+        "custom_liquid": "<style>\n#shopify-section-template--25996792725787__image_banner_dYNYRy .banner__content {\nposition: relative !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n.outter-button {\n  border: 1px solid #fff;\n  border-radius: 13px;\n  padding: 4px;\n  display: inline-block;\n  transition: all 0.3s;\n}\n.outter-button:hover {\n  border-color: #000;\n}\n.button {\n  background: #fff;\n  color: #000;\n  border: 1px solid #fff;\n  font-size: 11px;\n  text-align: center;\n  border-radius: 9px;\n  padding: 12px 30px;\n  min-width: 120px;\n  transition: all 0.3s;\n}\n.outter-button:hover .button {\n  background: #000;\n  color: #fff;\n  border-color: #000;\n}\n.button:active {\n  opacity: 0.5;\n}\n.banner__text p {\n  font-size: calc(var(--font-heading-scale) * 1.8rem) !important;\n},\n#shopify-section-template--25996792725787__slideshow_wERMQy{\nmargin-bottom: 5% !important;\n}\n@media screen and (max-width: 749px) {\n#shopify-section-template--25996792725787__slideshow_wERMQy .slideshow__text-wrapper p .slideshow__text-wrapper h2{\nfont-size: 1.2rem !important;\n    color: rgba(var(--color-foreground), 0.75) !important;\n    padding-right: 2rem !important;\n        padding-top: 1rem;\n}\n\n.banner__text p {\n  font-size: calc(var(--font-heading-scale) * 1.8rem) !important;\n}\n.banner__text p a {\n}\n}\n</style>",
         "color_scheme": "inverse",
         "padding_top": 0,
         "padding_bottom": 0
@@ -97,7 +97,7 @@
         "text_CFNgzC": {
           "type": "text",
           "settings": {
-            "text": "<h3>Creating custom jewelry is at the heart of what I do.</h3><p>I’ve spent decades listening to clients’ stories and turning them into timeless, handcrafted pieces. My goal isn’t to impose my aesthetic, but to uncover the personal meaning that makes your piece truly yours. Let me craft something that reflects your style, tells your story, and becomes an heirloom to cherish.</p><p>Begin with a complimentary consultation. </p>",
+            "text": "<h3>Creating custom jewelry is at the heart of what I do.</h3><p>I’ve spent decades listening to clients’ stories and turning them into timeless, handcrafted pieces. My goal isn’t to impose my aesthetic, but to uncover the personal meaning that makes your piece truly yours. Let me craft something that reflects your style, tells your story, and becomes an heirloom to cherish.</p><p><strong>Begin with a complimentary consultation. </strong></p>",
             "text_style": "body"
           }
         },
@@ -119,8 +119,8 @@
         ".image-with-text__heading,.image-with-text .image-with-text__heading {font-size: 1.3rem !important;}",
         "h3 {font: 400 31px / 35px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px;}",
         "p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important;}",
-        "@media (min-width: 750px) {.image-with-text__text-item {width: 40%; } .image-with-text__media-item {width: 60%; }}",
-        "h2 {text-transform: uppercase;}"
+        "h2 {text-transform: uppercase;}",
+        "@media screen and (max-width: 749px) {p, h3 {text-align: center; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/TRULY_New_FINAL_Index_Info_Logo_Stacey_Homepage_Portrait_bd8685bc-a4dc-4d62-832e-e0106a941d07.png",
@@ -523,7 +523,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 32
       }
     },
     "custom_liquid_mFNeqU": {
@@ -544,7 +544,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Breanne_Logan_Testimonial_Slide.jpg",
-            "heading": "-Breanne",
+            "heading": "–Breanne",
             "heading_size": "h2",
             "subheading": "“My husband and I are a quirky couple. For our last anniversary he created a handmade Tardis from <em>Doctor Who</em> — see what I mean? Quirky. After he proposed, I began the search for a wedding band that would reflect who we were as a couple; not only the journey we had taken, but where we hoped our path would lead. Finding Stacey was like finding that perfect wedding gown, the one you <em>know</em> you’re going to walk down the aisle in.”",
             "button_label": "",
@@ -562,7 +562,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Brett_and_Cindy_Testimonial_Slide_eb116b6b-5af2-457e-8cd0-5a8a82c8c220.jpg",
-            "heading": "-B.",
+            "heading": "–B.",
             "heading_size": "h2",
             "subheading": "“After dating only six months, C. and I knew we’d be spending our lives together. However, a formal proposal loomed.. . My grandmother had given me her earring, which led me to the Jewelry Mart to see about repurposing the gems. After they pronounced the rubies cracked and the diamonds too small, and suggested a gaudier token of my affections, I knew I had to find a jewelry designer who could appreciate my grandmother’s contribution.”",
             "button_label": "",
@@ -580,7 +580,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Sarah_Zaner_Necklace_Custom_Testimonial.jpg",
-            "heading": "-Sarah",
+            "heading": "–Sarah",
             "heading_size": "h2",
             "subheading": "Sarah asked me to make something special with a family heirloom: a gorgeous, big blue topaz. The substantial briolette became the focal point of a romantic Edwardian-influenced necklace. The perfect complement to her wedding gown, it hung precisely in the “V” of her halter-neck: “I described it all to Stacey in words that you would never imagine could successfully translate into a single piece of jewelry and Stacey made it come to life.\"",
             "button_label": "",
@@ -598,7 +598,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Noelle_Jeremy_Testimonial_Slide.jpg",
-            "heading": "-Noelle",
+            "heading": "–Noelle",
             "heading_size": "h2",
             "subheading": "“I looked into a custom ring because I wanted more control over the outcome and cost. Stacey and I pored over pictures as I tried to explain my vision; at first, there were so many looks that appealed to me that I had difficulty expressing what I wanted. That initial creative process was most beneficial, because she saw what I liked and created a ring that truly spoke to my style.”",
             "button_label": "",
@@ -670,7 +670,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Mike_Kasey_Commitment_Testimonial.jpg",
-            "heading": "-Mike",
+            "heading": "–Mike",
             "heading_size": "h2",
             "subheading": "\"We wanted a custom ring because to us that feels special and unique. We really liked that you met with us, did a little interview to learn about us and then worked on crafting the ring...that feels more 'right' to me than some mass-produced ring. In the end, I got a beautiful, masculine ring that was made just for me. I won't ever see another like it, and it will stay in my family for ever.<em>\"</em>",
             "button_label": "",
@@ -688,7 +688,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Erik_Elizabeth_Commitment_Testimonial.jpg",
-            "heading": "Image slide",
+            "heading": "–J.",
             "heading_size": "h1",
             "subheading": "\"When Elizabeth approached me to create her rings, she captivated me with her plans to sail the Pacific on an extended honeymoon. It seemed like the perfect way to launch a lifetime of adventure. I get a vicarious thrill every time I see the beautiful photos of her on her voyage across the blue velvet ocean. <em>Have ring — will travel.\"</em>",
             "button_label": "",

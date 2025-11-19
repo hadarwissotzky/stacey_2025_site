@@ -23,7 +23,7 @@
       "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n.banner__text p {\n  font-size: calc(var(--font-heading-scale) * 2.5rem) !important;\n}\n@media screen and (max-width: 749px) {\n  #Banner-template--25996792594715__image_banner_7RCNFH p {\n    font-size: calc(var(--font-heading-scale) * 1.7rem) !important;\n    line-height: 1.2em;\n    margin-top: 0.8em;\n  }\n .slideshow__text-wrapper p {\n    font-size: calc(var(--font-heading-scale) * 1.5rem) !important;\n  }\n#shopify-section-template--25996792594715__slideshow_wERMQy .slideshow__text-wrapper h2{\nfont-size: 1.2rem !important;\n    color: rgba(var(--color-foreground), 0.75) !important;\n    padding-right: 2rem !important;\n        padding-top: 1rem;\n}\n#shopify-section-template--25996792594715__slideshow_wERMQy{\nmargin-bottom: 5% !important;\n}\n}\n</style>",
+        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n.banner__text p {\n  font-size: calc(var(--font-heading-scale) * 1.8rem) !important;\n}\n@media screen and (max-width: 749px) {\n  #Banner-template--25996792594715__image_banner_7RCNFH p {\n    font-size: calc(var(--font-heading-scale) * 1.7rem) !important;\n    line-height: 1.2em;\n    margin-top: 0.8em;\n  }\n .slideshow__text-wrapper p {\n    font-size: calc(var(--font-heading-scale) * 1.5rem) !important;\n  }\n#shopify-section-template--25996792594715__slideshow_wERMQy .slideshow__text-wrapper h2{\nfont-size: 1.2rem !important;\n    color: rgba(var(--color-foreground), 0.75) !important;\n    padding-right: 2rem !important;\n        padding-top: 1rem;\n}\n#shopify-section-template--25996792594715__slideshow_wERMQy{\nmargin-bottom: 5% !important;\n}\n}\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -98,7 +98,7 @@
         "text_AqJLGn": {
           "type": "text",
           "settings": {
-            "text": "<h3>Let’s Create Something Unforgettable.</h3><p></p><p>Commitment jewelry is deeply personal and one of the most meaningful pieces you’ll ever wear. I’m honored to hear your story and craft a design that reflects you. No matter your style or budget, I’ll create a timeless piece for you to cherish. </p><p>Begin with a complimentary consultation. </p><p></p>",
+            "text": "<h3>Let’s Create Something Unforgettable.</h3><p></p><p>Commitment jewelry is deeply personal and one of the most meaningful pieces you’ll ever wear. I’m honored to hear your story and craft a design that reflects you. No matter your style or budget, I’ll create a timeless piece for you to cherish. </p><p><strong>Begin with a complimentary consultation. </strong></p><p></p>",
             "text_style": "body"
           }
         },
@@ -120,8 +120,8 @@
         ".image-with-text__heading,.image-with-text .image-with-text__heading {font-size: 1.3rem !important;}",
         "h3 {font: 400 31px / 35px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px;}",
         "p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important;}",
-        "@media (min-width: 750px) {.image-with-text__text-item {width: 40%; } .image-with-text__media-item {width: 60%; }}",
-        ".button {background: #fff;}"
+        ".button {background: #fff;}",
+        "@media screen and (max-width: 749px) {p, h3 {text-align: center; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/FINAL_New_Brighter_FINAL_Index_Info_Stacey_Commitment.png",
@@ -376,7 +376,7 @@
         "text_rmjprM": {
           "type": "text",
           "settings": {
-            "text": "<p>All my commitment jewelry is made-to-order, so I don’t offer ready-to-buy rings. Explore my portfolio for designs to customize or inspire your own.</p>"
+            "text": "<p>All my commitment jewelry is made-to-order, so I don’t offer ready-to-buy rings. Explore my portfolio for designs to customize or inspire your own.</p><p></p>"
           }
         },
         "button_Bf6twh": {
