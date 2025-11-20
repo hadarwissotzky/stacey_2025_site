@@ -89,7 +89,7 @@
         "caption_KxkcWh": {
           "type": "caption",
           "settings": {
-            "caption": "—Stacey Lorinczi",
+            "caption": "–Stacey Lorinczi",
             "text_style": "subtitle",
             "text_size": "small"
           }
@@ -103,7 +103,8 @@
       "custom_css": [
         ".image-with-text .grid {flex-direction: row-reverse;}",
         ".image-with-text__heading {font-size: 1.8rem !important;}",
-        "p.subtitle {width: 100%; text-align: right;}"
+        "p.subtitle {width: 100%; text-align: right;}",
+        "@media screen and (max-width: 749px) {p.subtitle {font-family: Nexa, sans-serif !important; font-size: 1.3rem !important; } .image-with-text__content {padding-bottom: 2rem; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/Cropped_Less_Red_Final_About_Me_Image_1.jpg",
@@ -116,21 +117,9 @@
         "section_color_scheme": "background-1",
         "color_scheme": "accent-1",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "c972cc5d-f3cb-4c34-b858-3419619e659c": {
-      "type": "rich-text",
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "featured_collection_tC9NRc": {
@@ -210,7 +199,6 @@
     "image_banner_kiKBxy",
     "custom_liquid_FcNgyA",
     "image_with_text_d7LQym",
-    "c972cc5d-f3cb-4c34-b858-3419619e659c",
     "featured_collection_tC9NRc",
     "newsletter_eP63Yj"
   ]
