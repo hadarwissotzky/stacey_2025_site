@@ -226,3 +226,35 @@
 .article-template__back:last-child {
   margin-bottom: 3.2rem;
 }
+
+  .article-template__social-sharing {
+        position: absolute;
+    top: 13%;
+    right: 4%;
+    }
+    .article-template__social-sharing .share-button__button {
+        color: rgba(145, 145, 145, var(--tw-text-opacity, 1));
+  }
+
+@media screen and (max-width: 749px) {
+  .article-template__back-link {
+        margin-left: 20px;
+  }
+  .article-template header{
+    margin-top: 2.4rem !important;
+  }
+  .article-template__title{
+    font-size: calc(var(--font-heading-scale) * 1.8rem) !important;
+  }
+  .article-template__content p{
+ font-size: calc(var(--font-heading-scale) * 1.6rem) !important;
+  }
+  .article-template__social-sharing {
+        position: absolute;
+    top: 8%;
+    right: 4%;
+    }
+    .article-template__social-sharing .share-button__button {
+        color: rgba(145, 145, 145, var(--tw-text-opacity, 1));
+  }
+}
