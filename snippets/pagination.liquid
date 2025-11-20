@@ -29,32 +29,93 @@
           </li>
         {%- endif -%}
 
-        {%- for part in paginate.parts -%}
-          <li>
-            {%- if part.is_link -%}
-              <a
-                href="{{ part.url }}{{ anchor }}"
-                class="pagination__item link"
-                aria-label="{{ 'general.pagination.page' | t: number: part.title }}"
-              >
-                {{- part.title -}}
-              </a>
+        {%- comment -%}
+          Custom pagination logic to show max 5 page options
+          Pattern: 1 2 3 ... [last] or 1 ... 3 4 5 ... [last] etc.
+        {%- endcomment -%}
+
+        {%- liquid
+          assign total_pages = paginate.pages
+          assign current_page = paginate.current_page
+          assign max_links = 5
+          assign show_pages = ''
+          assign near_end_threshold = total_pages | minus: 2
+        -%}
+
+        {%- if total_pages <= max_links -%}
+          {%- comment -%} Show all pages if total is 5 or less {%- endcomment -%}
+          {%- for i in (1..total_pages) -%}
+            {%- assign show_pages = show_pages | append: i | append: ',' -%}
+          {%- endfor -%}
+        {%- else -%}
+          {%- comment -%} Custom logic for more than 5 pages - Max 5 items, only ONE ellipsis {%- endcomment -%}
+          {%- if current_page <= 3 -%}
+            {%- comment -%} Near the beginning: 1 2 3 ... [last] {%- endcomment -%}
+            {%- assign show_pages = '1,2,3,...,' | append: total_pages | append: ',' -%}
+          {%- elsif current_page >= near_end_threshold -%}
+            {%- comment -%} Near the end: 1 ... [last-2] [last-1] [last] {%- endcomment -%}
+            {%- assign last_minus_2 = total_pages | minus: 2 -%}
+            {%- assign last_minus_1 = total_pages | minus: 1 -%}
+            {%- assign show_pages = '1,...,' | append: last_minus_2 | append: ',' | append: last_minus_1 | append: ',' | append: total_pages | append: ',' -%}
+          {%- else -%}
+            {%- comment -%} True middle: Decide whether to show ellipsis before or after current {%- endcomment -%}
+            {%- assign distance_from_start = current_page | minus: 1 -%}
+            {%- assign distance_from_end = total_pages | minus: current_page -%}
+            {%- if distance_from_start <= distance_from_end -%}
+              {%- comment -%} Closer to start: 1 2 [current] ... [last] {%- endcomment -%}
+              {%- assign prev_page = current_page | minus: 1 -%}
+              {%- assign show_pages = '1,' | append: prev_page | append: ',' | append: current_page | append: ',...,' | append: total_pages | append: ',' -%}
             {%- else -%}
-              {%- if part.title == paginate.current_page -%}
+              {%- comment -%} Closer to end: 1 ... [current] [next] [last] {%- endcomment -%}
+              {%- assign next_page = current_page | plus: 1 -%}
+              {%- assign show_pages = '1,...,' | append: current_page | append: ',' | append: next_page | append: ',' | append: total_pages | append: ',' -%}
+            {%- endif -%}
+          {%- endif -%}
+        {%- endif -%}
+
+        {%- assign pages_array = show_pages | split: ',' -%}
+        {%- for page_num in pages_array -%}
+          {%- if page_num != blank -%}
+            {%- assign page_num_int = page_num | plus: 0 -%}
+            <li>
+              {%- if page_num == '...' -%}
+                <span class="pagination__item">{{ page_num }}</span>
+              {%- elsif page_num_int == current_page -%}
                 <a
                   role="link"
                   aria-disabled="true"
                   class="pagination__item pagination__item--current light"
                   aria-current="page"
-                  aria-label="{{ 'general.pagination.page' | t: number: part.title }}"
+                  aria-label="{{ 'general.pagination.page' | t: number: page_num }}"
                 >
-                  {{- part.title -}}
+                  {{- page_num -}}
                 </a>
               {%- else -%}
-                <span class="pagination__item">{{ part.title }}</span>
+                {%- assign page_num_int = page_num | plus: 0 -%}
+                {%- assign page_url = paginate.parts[page_num_int].url | default: '' -%}
+                {%- if page_url == blank -%}
+                  {%- comment -%} Calculate URL manually if not in parts {%- endcomment -%}
+                  {%- if page_num_int == 1 -%}
+                    {%- assign page_url = paginate.parts.first.url | split: '?page=' | first -%}
+                  {%- else -%}
+                    {%- assign base_url = paginate.parts.first.url | split: '?page=' | first -%}
+                    {%- if base_url contains '?' -%}
+                      {%- assign page_url = base_url | append: '&page=' | append: page_num_int -%}
+                    {%- else -%}
+                      {%- assign page_url = base_url | append: '?page=' | append: page_num_int -%}
+                    {%- endif -%}
+                  {%- endif -%}
+                {%- endif -%}
+                <a
+                  href="{{ page_url }}{{ anchor }}"
+                  class="pagination__item link"
+                  aria-label="{{ 'general.pagination.page' | t: number: page_num }}"
+                >
+                  {{- page_num -}}
+                </a>
               {%- endif -%}
-            {%- endif -%}
-          </li>
+            </li>
+          {%- endif -%}
         {%- endfor -%}
 
         {%- if paginate.next -%}
