@@ -539,9 +539,14 @@ a.product__text {
     overflow-x: hidden;
   }
 
+  .product__title{
+        justify-self: center;
+
+  }
   .product__info-wrapper {
     padding-left: 20px;
     padding-right: 20px;
+    text-align: center;
   }
 
   .product__media-list {

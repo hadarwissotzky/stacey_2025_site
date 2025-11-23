@@ -462,6 +462,9 @@ table:not([class]) th {
   padding: 1em;
   border: 0.1rem solid rgba(var(--color-foreground), 0.2);
 }
+.justify-between{
+  justify-content: space-between;
+}
 
 @media screen and (max-width: 749px) {
   .small-hide {
@@ -3717,13 +3720,14 @@ shopify-accelerated-checkout-cart {
 
   #MainContent p {
     font-size: calc(var(--font-heading-scale) * 1.7rem);
+    padding: 0px 3rem;
   }
   
 }
 
 .card__information .card__heading{
    font-family: "GoudyOldStyle", sans-serif !important;
-      font-style: italic;
+      font-style: normal;
     line-height: 1.31;
     font-weight: 300 !important;
       font-size: 16px;
@@ -4062,6 +4066,10 @@ shopify-accelerated-checkout-cart {
 
 @media screen and (max-width: 749px) {
   .card__information .card__heading a {
-    line-height: 2.6rem;
+    line-height: 1.6rem;
+  }
+  .price--on-sale .price-item--regular,
+  .card__information .card-information .price {
+        font-size: 1.1rem !important;
   }
 }

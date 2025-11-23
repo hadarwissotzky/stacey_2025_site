@@ -113,8 +113,8 @@
       ],
       "custom_css": [
         ".rich-text__buttons .base-button {background-color: #fff;}",
-        "p a,p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important;}",
-        "h3 {font: 400 31px / 35px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px;}",
+        "p a,p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important;text-align: center;padding: 0; }",
+        "h3 {font: 400 31px / 35px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px; text-align: center;}",
         ".image-with-text .image-with-text__heading {font-size: 1.3rem !important;}",
         "@media (min-width: 750px) {.image-with-text__text-item {width: 40%; } .image-with-text__media-item {width: 60%; }}"
       ],
@@ -211,47 +211,48 @@
         "padding_bottom": 0
       }
     },
-    "image_banner_RCUYFm": {
-      "type": "image-banner",
+    "rich_text_LxWRyM": {
+      "type": "rich-text",
       "blocks": {
-        "heading_wFry9U": {
+        "heading_4MnCtR": {
           "type": "heading",
           "settings": {
-            "heading": "RE-USE YOUR OWN GEMS & JEWELRY",
+            "heading": "RE-USE YOUR OWN GEMS & JEWELRY",
             "heading_size": "h1"
           }
         },
-        "text_nwxNfG": {
+        "text_ajJr8r": {
           "type": "text",
           "settings": {
-            "text": "Custom jewelry is my specialty, whether you want to refresh an heirloom or create a new one. <a href=\"/pages/use-your-own-gems-metal\" title=\"Use Your Own Gems & Metal\">LEARN MORE</a>",
-            "text_style": "body"
+            "text": "<h3>Custom jewelry is my specialty, whether you want to refresh an heirloom or create a new one.</h3>"
+          }
+        },
+        "text_jjBFeR": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><a href=\"/pages/use-your-own-gems-metal\" title=\"Use your own gems & metal\">LEARN MORE</a></h5>"
           }
         }
       },
       "block_order": [
-        "heading_wFry9U",
-        "text_nwxNfG"
+        "heading_4MnCtR",
+        "text_ajJr8r",
+        "text_jjBFeR"
       ],
       "custom_css": [
-        ".banner__content{max-width:59rem;}",
-        ".banner__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: 26px; font-weight: 300; line-height: 26px; color: rgb(var(--color-foreground)); text-shadow: none;}",
-        ".banner__text p {font-family: \"GoudyOldStyle\", sans-serif !important; color: rgb(var(--color-foreground)); font-size: calc(var(--font-heading-scale) * 1.8rem);}",
-        ".banner__text p a {color: rgba(var(--color-link), var(--alpha-link)); font-family: \"A Gothic\" !important;"
+        ".rich-text__blocks {max-width: 59rem;}",
+        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: 26px; font-weight: 300; line-height: 26px;}",
+        ".rich-text h3 {font-family: \"GoudyOldStyle\", sans-serif !important;}",
+        ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}",
+        ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}"
       ],
-      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "video_background": false,
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "lorinczi_contact_form_Qc4PUF": {
@@ -318,7 +319,7 @@
     "image_with_text_qBVeG9",
     "rich_text_gk8ehP",
     "featured_collection_RFjQVn",
-    "image_banner_RCUYFm",
+    "rich_text_LxWRyM",
     "lorinczi_contact_form_Qc4PUF",
     "newsletter_gRyxgy"
   ]
