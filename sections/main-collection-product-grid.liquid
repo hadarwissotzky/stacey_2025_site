@@ -46,7 +46,7 @@
                   aria-describedby="a11y-refresh-page-message"
                 >
                   {%- for option in collection.sort_options -%}
-                    {%- unless option.value contains 'price' or option.value contains 'created' or option.value contains 'best-selling' -%}
+                    {%- unless option.value contains 'created' or option.value contains 'best-selling' -%}
                       <option
                         value="{{ option.value | escape }}"
                         {% if option.value == sort_by %}
