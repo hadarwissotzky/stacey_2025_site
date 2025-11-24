@@ -415,6 +415,7 @@
   }
   .article-card__image img{
         min-height: 560px;
+            object-fit: inherit !important;
   }
   .blog__posts.slider, .slider.slider--tablet.grid.blog__posts {
         gap: 20px !important;

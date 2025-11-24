@@ -17,10 +17,13 @@
     margin-top: calc(5rem + var(--page-width-margin));
   }
 }
+#MainContent p {
+        padding: 0 !important;
+}
 
 .article-template__hero-container {
   max-width: 80rem;
-  margin: 0 auto;
+  margin: 1rem auto;
   padding: 0 2rem;
 }
 
@@ -66,7 +69,7 @@
 
 .article-template header {
   margin-top: 4.4rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.2rem;
   line-height: calc(0.8 / var(--font-body-scale));
   text-align: center;
 }
