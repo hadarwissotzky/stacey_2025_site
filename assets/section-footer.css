@@ -62,6 +62,9 @@
     padding-right: 0;
     row-gap: 1.5rem;
   }
+  .accordion .accordion__title {
+        margin-left: 40px !important;
+  }
 
   .footer__content-bottom-wrapper {
     flex-wrap: wrap;

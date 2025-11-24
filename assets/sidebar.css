@@ -42,7 +42,7 @@
 .collapsible-content__wrapper {
       border-top: 0.5px solid #ccc;
 }
-.accordion{
+.grid__item .accordion{
       border-top: none !important;
       border-bottom: none !important;
 }
@@ -58,7 +58,7 @@
   .medium-up--one-eighth {
     padding: 0 0 0 80px;
   }
-  .accordion .icon-caret {
+  .grid__item .accordion .icon-caret {
     right: 0;
     left: 0;
     margin-right: 20px;

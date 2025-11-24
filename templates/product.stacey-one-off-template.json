@@ -23,7 +23,7 @@
         "custom_liquid_gydenQ": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.contact__button .button:hover {\n    filter: brightness(1.03) !important;\n    border: .5px solid #000 !important;\n}\n.one-off-note {\n  font-size: 12px;\n  font-weight: 700 !important;\n    font-family: 'GoudyOldStyle', sans-serif !important;\n}\n.one-off-note-2 {\n  font-size: 12px;\n    font-family: 'GoudyOldStyle', sans-serif !important;\n}\n</style>\n<h2 class=\"one-off-note\">This one-of-a-kind piece was made for a client, but I'd love to create a version just for you, tailored to your budget. Fill out the form, and I'll be in touch within a couple days.<h2>"
+            "custom_liquid": "<style>\n.rte a {\n  font-size: 11px;\n}\n.contact__button .button:hover {\n    filter: brightness(1.03) !important;\n    border: .5px solid #000 !important;\n}\n.one-off-note {\n  font-size: 12px;\n  font-weight: 700 !important;\n    font-family: 'GoudyOldStyle', sans-serif !important;\n}\n.one-off-note-2 {\n  font-size: 12px;\n    font-family: 'GoudyOldStyle', sans-serif !important;\n}\n</style>\n<h2 class=\"one-off-note\">This one-of-a-kind piece was made for a client, but I'd love to create a version just for you, tailored to your budget. Fill out the form, and I'll be in touch within a couple days.<h2>"
           }
         },
         "contact_form_Fw3GL7": {
