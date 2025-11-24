@@ -33,3 +33,9 @@
 .list-menu--disclosure {
   border-top: 1px solid !important;
 }
+
+/* Remove italic from dropdown menu items */
+.header__submenu .caption-large,
+.header__menu .caption-large {
+  font-style: normal;
+}
