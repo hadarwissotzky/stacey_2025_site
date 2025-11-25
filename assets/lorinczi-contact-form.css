@@ -350,7 +350,15 @@
   }
 
   #ContactForm {
-    padding: 0 20px;
+    padding: 0 15px 0 15px;
+  }
+
+  .lorinczi-contact-form-1 .contact{
+    padding: 30px 0;
+  }
+
+  .title{
+    margin-top: 0rem;
   }
 
   /* Ensure image column is visible and displayed properly */

@@ -24,7 +24,7 @@
 .article-template__hero-container {
   max-width: 80rem;
   margin: 1rem auto;
-  padding: 0 2rem;
+  padding: 0;
 }
 
 .article-template__hero-small {
