@@ -340,7 +340,7 @@
 
 .footer-block__details-content .list-menu__item--link,
 .copyright__content a {
-  color: rgba(var(--color-foreground), 0.75);
+  color: #919191;
 }
 
 .footer-block__details-content .list-menu__item--active {
@@ -620,6 +620,10 @@
     padding: 1rem 0;
   }
 
+  .accordion summary {
+        padding: 1rem 0 !important;
+  }
+
   .footer-block-mobile summary::-webkit-details-marker {
     display: none;
   }
@@ -633,7 +637,7 @@
     line-height: normal;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #919191;
+    color: rgba(var(--color-foreground), 0.75);
   }
 
   .footer-block-mobile .icon-caret {
@@ -647,6 +651,7 @@
 
   .footer-block-mobile .accordion__content {
     padding: 0;
+    padding-left: 20px;
   }
 
   .footer-block-mobile .list-menu__item--link {

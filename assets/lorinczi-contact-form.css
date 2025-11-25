@@ -79,6 +79,7 @@
 .lorinczi-contact-form-1 .field__input {
       height: 2.7rem;
       padding: 1rem 1.5rem 0.8rem 1.5rem;
+      font-style: italic;
 }
 .lorinczi-contact-form-1  .field__label{
       font-size: 1.1rem;
@@ -150,6 +151,7 @@
   font-size: 1.5rem;
   font-weight: 500;
   font-family: var(--font-heading-family) !important;
+  font-style: italic;
 }
 .drop-area {
   padding: 0px;
@@ -165,6 +167,10 @@
   font-size: 1.5rem !important;
   font-weight: 500;
   font-family: var(--font-heading-family) !important;
+  font-style: italic;
+}
+.link{
+  font-style: italic;
 }
 .drop-area.dragover {
   background-color: #f9f9f9;
