@@ -430,7 +430,11 @@ class MenuDrawer extends HTMLElement {
     removeTrapFocus(elementToFocus);
     this.closeAnimation(this.mainDetailsToggle);
 
-    if (event instanceof KeyboardEvent) elementToFocus?.setAttribute('aria-expanded', false);
+    // Set aria-expanded to false on the summary element (hamburger icon)
+    const summaryElement = this.mainDetailsToggle.querySelector('summary');
+    if (summaryElement) {
+      summaryElement.setAttribute('aria-expanded', false);
+    }
   }
 
   onFocusOut() {
