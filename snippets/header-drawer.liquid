@@ -40,10 +40,10 @@
                       >
                         <div class="menu-drawer__inner-submenu">
                           <div class="menu-drawer__submenu-header">
-                            <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
+                            <button class="menu-drawer__back-button link link--text focus-inset" aria-label="Back" aria-expanded="true">
                               {% render 'icon-arrow-right', class: 'rotate-180' %}
-                              {{ link.title | escape }}
                             </button>
+                            <span class="menu-drawer__submenu-title">{{ link.title | escape }}</span>
                             <button class="menu-drawer__close-all-button link link--text focus-inset" aria-label="Close menu">
                               {% render 'icon-close' %}
                             </button>
@@ -76,13 +76,15 @@
                                       id="childlink-{{ childlink.handle | escape }}"
                                       class="menu-drawer__submenu has-submenu gradient motion-reduce"
                                     >
-                                      <button
-                                        class="menu-drawer__close-button link link--text focus-inset"
-                                        aria-expanded="true"
-                                      >
-                                        {% render 'icon-arrow' %}
-                                        {{ childlink.title | escape }}
-                                      </button>
+                                      <div class="menu-drawer__submenu-header">
+                                        <button class="menu-drawer__back-button link link--text focus-inset" aria-label="Back" aria-expanded="true">
+                                          {% render 'icon-arrow-right', class: 'rotate-180' %}
+                                        </button>
+                                        <span class="menu-drawer__submenu-title">{{ childlink.title | escape }}</span>
+                                        <button class="menu-drawer__close-all-button link link--text focus-inset" aria-label="Close menu">
+                                          {% render 'icon-close' %}
+                                        </button>
+                                      </div>
                                       <ul
                                         class="menu-drawer__menu list-menu"
                                         role="list"

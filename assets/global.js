@@ -441,7 +441,16 @@ class MenuDrawer extends HTMLElement {
   }
 
   onCloseButtonClick(event) {
-    const detailsElement = event.currentTarget.closest('details');
+    const button = event.currentTarget;
+
+    // Check if this is the close-all button
+    if (button.classList.contains('menu-drawer__close-all-button')) {
+      this.closeMenuDrawer(event, this.mainDetailsToggle.querySelector('summary'));
+      return;
+    }
+
+    // Otherwise, handle normal back button
+    const detailsElement = button.closest('details');
     this.closeSubmenu(detailsElement);
   }
 

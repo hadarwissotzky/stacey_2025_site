@@ -270,7 +270,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   padding: 1.1rem 1.1rem;
 }
 
-/* Submenu header with back button and close button */
+/* Submenu header with back button, title, and close button */
 .menu-drawer__submenu-header {
   display: flex;
   justify-content: space-between;
@@ -279,30 +279,43 @@ details[open].menu-opening > .menu-drawer__submenu {
   border-bottom: solid 1px rgba(var(--color-foreground), 0.2);
 }
 
-.menu-drawer__close-button {
-  flex: 1;
+.menu-drawer__back-button {
+  padding: 1.2rem 2rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  background-color: transparent;
+  flex-shrink: 0;
+}
+
+.menu-drawer__back-button:hover,
+.menu-drawer__back-button:focus {
+  background-color: transparent;
+}
+
+.menu-drawer__back-button .icon-arrow-right {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.menu-drawer__submenu-title {
+  flex: 1;
   text-align: center;
-  position: relative;
-  background-color: transparent;
-}
-
-.menu-drawer__close-button:hover,
-.menu-drawer__close-button:focus {
-  background-color: transparent;
-}
-
-.menu-drawer__close-button .icon-arrow-right {
-  position: absolute;
-  left: 2rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  padding: 1.2rem 1rem;
 }
 
 .menu-drawer__close-all-button {
   padding: 1.2rem 2rem;
   display: flex;
   align-items: center;
+  background-color: transparent;
+  flex-shrink: 0;
+}
+
+.menu-drawer__close-all-button:hover,
+.menu-drawer__close-all-button:focus {
+  background-color: transparent;
 }
 
 .menu-drawer__close-all-button .icon-close {
