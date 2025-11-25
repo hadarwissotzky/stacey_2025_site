@@ -39,10 +39,15 @@
                         tabindex="-1"
                       >
                         <div class="menu-drawer__inner-submenu">
-                          <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
-                            {% render 'icon-arrow-right', class: 'rotate-180' %}
-                            {{ link.title | escape }}
-                          </button>
+                          <div class="menu-drawer__submenu-header">
+                            <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
+                              {% render 'icon-arrow-right', class: 'rotate-180' %}
+                              {{ link.title | escape }}
+                            </button>
+                            <button class="menu-drawer__close-all-button link link--text focus-inset" aria-label="Close menu">
+                              {% render 'icon-close' %}
+                            </button>
+                          </div>
                           <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                             {%- for childlink in link.links -%}
                               <li>

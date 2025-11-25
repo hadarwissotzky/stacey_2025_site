@@ -169,7 +169,7 @@
   font-family: var(--font-heading-family) !important;
   font-style: italic;
 }
-.link{
+.drop-area .link{
   font-style: italic;
 }
 .drop-area.dragover {

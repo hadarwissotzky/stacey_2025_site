@@ -187,7 +187,7 @@ details[open].menu-opening > .menu-drawer__submenu {
     transform: rotate(180deg);
 }
 .menu-drawer__close-button {
-  margin-top: 1.5rem;
+  margin-top: 0rem;
   padding: 1.2rem 2.6rem 1.2rem 3rem;
   text-decoration: none;
   display: flex;
@@ -266,4 +266,44 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 .menu-drawer .list-social__link {
   padding: 1.1rem 1.1rem;
+}
+
+/* Submenu header with back button and close button */
+.menu-drawer__submenu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  border-bottom: solid 1px rgba(var(--color-foreground), 0.2);
+}
+
+.menu-drawer__close-button {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  background-color: transparent;
+}
+
+.menu-drawer__close-button:hover,
+.menu-drawer__close-button:focus {
+  background-color: transparent;
+}
+
+.menu-drawer__close-button .icon-arrow-right {
+  position: absolute;
+  left: 2rem;
+}
+
+.menu-drawer__close-all-button {
+  padding: 1.2rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.menu-drawer__close-all-button .icon-close {
+  width: 1.8rem;
+  height: 1.8rem;
 }
