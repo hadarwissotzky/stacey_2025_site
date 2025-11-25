@@ -63,7 +63,7 @@
     row-gap: 1.5rem;
   }
   .accordion .accordion__title {
-        margin-left: 40px !important;
+        margin-left: 20px !important;
   }
 
   .footer__content-bottom-wrapper {
@@ -605,8 +605,8 @@
     margin: 0;
     border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
     border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
