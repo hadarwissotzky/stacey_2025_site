@@ -10,6 +10,7 @@
 
 .active-facets-mobile {
   margin-bottom: 0.5rem;
+  display: none;
 }
 
 .mobile-facets__list {
@@ -954,7 +955,7 @@ input.mobile-facets__checkbox {
 
 .mobile-facets__label .icon-checkmark {
   position: absolute;
-  top: 1.9rem;
+  top: auto;
   left: 2.8rem;
   visibility: hidden;
 }
