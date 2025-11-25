@@ -195,9 +195,11 @@ details[open].menu-opening > .menu-drawer__submenu {
   font-size: 1.4rem;
   width: 100%;
   background-color: transparent;
-  font-family: var(--font-body-family);
+  font-family: 'A Gothic';
+  text-transform: uppercase;
   font-style: var(--font-body-style);
   justify-content: center;
+
 }
 
 .no-js .menu-drawer__close-button {
