@@ -78,7 +78,7 @@
  }
 .lorinczi-contact-form-1 .field__input {
       height: 2.7rem;
-      padding: 1rem 1.5rem 0.8rem 2rem;
+      padding: 1rem 1.5rem 0.8rem 1.5rem;
 }
 .lorinczi-contact-form-1  .field__label{
       font-size: 1.1rem;
@@ -351,6 +351,23 @@
 
   #ContactForm {
     padding: 0 20px;
+  }
+
+  /* Ensure image column is visible and displayed properly */
+  [id*="lorinczi_contact_form"] .image-with-text__media-item {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    min-height: 300px;
+  }
+
+  /* Make image appear first, form second */
+  [id*="lorinczi_contact_form"] .lorinczi-contact-form-1 {
+    order: 2;
+  }
+
+  [id*="lorinczi_contact_form"] .image-with-text__media-item {
+    order: 1;
   }
 }
 
