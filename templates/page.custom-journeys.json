@@ -120,7 +120,7 @@
         "h3 {font: 400 31px / 35px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px;}",
         "p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important;}",
         "h2 {text-transform: uppercase;}",
-        "@media screen and (max-width: 749px) {p, h3 {text-align: center; }}"
+        "@media screen and (max-width: 749px) {p, h3 {text-align: center; padding: 0rem 3rem !important; } }"
       ],
       "settings": {
         "image": "shopify://shop_images/TRULY_New_FINAL_Index_Info_Logo_Stacey_Homepage_Portrait_bd8685bc-a4dc-4d62-832e-e0106a941d07.png",

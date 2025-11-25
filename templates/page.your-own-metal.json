@@ -83,10 +83,9 @@
       ],
       "custom_css": [
         ".rich-text__buttons .base-button {background-color: #fff;}",
-        "p a,p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important;}",
+        "p a,p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important; padding: 0;}",
         "h3 {font: 400 31px / 35px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px;}",
         ".image-with-text .image-with-text__heading {font-size: 1.3rem !important;}",
-        ".rich-text__buttons {justify-content: left;}",
         "@media (min-width: 750px) {.image-with-text__text-item {width: 40%; } .image-with-text__media-item {width: 60%; }}"
       ],
       "settings": {
@@ -145,7 +144,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n</style>",
+        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n  #ImageWithText--template--25996792299803__image_with_text_JwrRFC .image-with-text__text {\n        padding-right: 3rem;\n        text-align: center;\n        padding-left: 3rem;\n}\n.rich-text__text p{\n    padding: 0px 1rem !important;\n}\n}\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

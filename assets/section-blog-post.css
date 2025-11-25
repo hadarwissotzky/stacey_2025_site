@@ -18,7 +18,8 @@
   }
 }
 #MainContent p {
-        padding: 0 !important;
+           padding: 0rem !important;
+    text-align: center;
 }
 
 .article-template__hero-container {

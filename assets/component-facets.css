@@ -735,7 +735,6 @@ a.active-facets__button.focused .active-facets__button-inner,
   font-size: 1.3rem;
   margin: 0;
   flex-grow: 1;
-  font-family: 'A Gothic' !important;
 }
 
 #MainContent p.mobile-facets__count {
@@ -882,7 +881,7 @@ details.menu-opening .mobile-facets__close svg {
 }
 
 .mobile-facets__summary {
-  padding: 0.5rem 2.5rem;
+  padding: 0rem 2.5rem;
 }
 
 .mobile-facets__summary svg {
