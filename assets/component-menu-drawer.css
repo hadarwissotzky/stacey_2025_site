@@ -322,3 +322,9 @@ details[open].menu-opening > .menu-drawer__submenu {
   width: 1.8rem;
   height: 1.8rem;
 }
+
+/* Position menu drawer at top when submenu is open */
+.menu-drawer:has(details[open].menu-opening) {
+  position: absolute;
+  top: 0;
+}
