@@ -10,7 +10,6 @@
 
 .active-facets-mobile {
   margin-bottom: 0.5rem;
-  display: none;
 }
 
 .mobile-facets__list {
@@ -714,6 +713,12 @@ a.active-facets__button.focused .active-facets__button-inner,
 .mobile-facets__header-inner {
   flex-grow: 1;
   position: relative;
+  text-transform: uppercase;
+}
+
+.mobile-facets__header-inner .mobile-facets__count{
+  font-family: 'A Gothic' !important;
+  font-size: 1.4rem !important;
 }
 
 .mobile-facets__info {
@@ -730,6 +735,12 @@ a.active-facets__button.focused .active-facets__button-inner,
   font-size: 1.3rem;
   margin: 0;
   flex-grow: 1;
+  font-family: 'A Gothic' !important;
+}
+
+#MainContent p.mobile-facets__count {
+  font-family: 'A Gothic' !important;
+  font-size: 1.3rem !important;
 }
 
 .mobile-facets__open-wrapper {
