@@ -524,9 +524,16 @@ span.active-facets__button-inner:after {
   }
 }
 
+@media screen and (max-width: 749px){
+  .active-facets {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 989px) {
   .active-facets {
     margin: 0 -1.2rem -1.2rem;
+    display: none;
   }
 
   .active-facets__button,

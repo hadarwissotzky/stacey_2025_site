@@ -648,6 +648,9 @@
             {%- elsif enable_sorting -%}
               {{ 'products.facets.sort_button' | t }}
             {%- endif -%}
+            {%- if total_active_values > 0 -%}
+              <span class="mobile-facets__count">({{ total_active_values }})</span>
+            {%- endif -%}
           </span>
           <span class="mobile-facets__open-label button-label small-hide">
             {%- if enable_filtering -%}
