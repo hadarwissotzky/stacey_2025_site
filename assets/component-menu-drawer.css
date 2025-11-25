@@ -183,6 +183,9 @@ details[open].menu-opening > .menu-drawer__submenu {
   overflow-y: auto;
 }
 
+.rotate-180 {
+    transform: rotate(180deg);
+}
 .menu-drawer__close-button {
   margin-top: 1.5rem;
   padding: 1.2rem 2.6rem 1.2rem 3rem;
@@ -194,7 +197,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   background-color: transparent;
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
-  text-align: left;
+  justify-content: center;
 }
 
 .no-js .menu-drawer__close-button {
