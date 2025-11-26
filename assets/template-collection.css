@@ -40,7 +40,7 @@
 
   .collection .collection__title.title-wrapper.page-width p,
   .collection__title.title-wrapper.page-width p {
-    font-size: calc(var(--font-heading-scale) * 2rem) !important;
+    font-size: calc(var(--font-heading-scale) * 1.7rem) !important;
   }
 
   .collection__view-all {
@@ -162,7 +162,7 @@
     border: 2px solid;
     border-color:var(--color-button-text);
     border-radius: 8px;
-    padding: 8px 60px;
+    padding: 8px 30px;
     font-family: A gothic, sans-serif;
     font-size: 13px;
     font-weight: 400;

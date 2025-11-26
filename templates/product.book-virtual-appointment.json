@@ -102,7 +102,7 @@
       ],
       "custom_css": [
         ".product-form__submit:hover {background-color: color-mix(in srgb, #402242 50%, white 50%) !important; border: 1px solid #000;}",
-        "h1 {font-size: calc(var(--font-heading-scale) * 2.8rem); font-family: \"Nexa\" !important; font-weight: 300; text-transform: uppercase;}",
+        "h1 {font-size: calc(var(--font-heading-scale) * 2.3rem); font-family: \"Nexa\" !important; font-weight: 300; text-transform: uppercase;}",
         ".product__media-wrapper {display: none;}",
         ".product--no-media {max-width: 85rem; width: calc(100% - 4rem / var(--font-body-scale));}",
         ".product__info-container {max-width: 85rem;}",

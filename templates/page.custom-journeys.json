@@ -117,10 +117,10 @@
       ],
       "custom_css": [
         ".image-with-text__heading,.image-with-text .image-with-text__heading {font-size: 1.3rem !important;}",
-        "h3 {font: 400 31px / 35px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px;}",
+        "h3 {font: 400 28px / 30px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px;}",
         "p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important;}",
         "h2 {text-transform: uppercase;}",
-        "@media screen and (max-width: 749px) {p, h3 {text-align: center; padding: 0rem 3rem !important; } }"
+        "@media screen and (max-width: 749px) {p, h3 {text-align: center; padding: 0rem 3rem !important; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/TRULY_New_FINAL_Index_Info_Logo_Stacey_Homepage_Portrait_bd8685bc-a4dc-4d62-832e-e0106a941d07.png",
@@ -168,7 +168,7 @@
       ],
       "custom_css": [
         ".rich-text__blocks {max-width: 59rem;}",
-        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: 26px; font-weight: 300; line-height: 26px;}",
+        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 2.3rem); font-weight: 300; line-height: 26px;}",
         ".rich-text h3 {font-family: \"GoudyOldStyle\", sans-serif !important;}",
         ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}",
         ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}"
@@ -755,7 +755,7 @@
         "{background: #f5f4f2;}"
       ],
       "settings": {
-        "heading": "Got questions? <em>Let's chat!</em>",
+        "heading": "Got questions? Let's chat!",
         "image": "shopify://shop_images/FINAL_Custom_Image_Contact_Form.jpg",
         "heading_size": "h2",
         "color_scheme": "background-1",

@@ -89,7 +89,7 @@
       ],
       "custom_css": [
         ".rich-text__blocks {max-width: 59rem;}",
-        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: 26px; font-weight: 300; line-height: 26px;}",
+        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 2.3rem); font-weight: 300; line-height: 26px;}",
         ".rich-text h3 {font-family: \"GoudyOldStyle\", sans-serif !important;}",
         ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}"
       ],
@@ -236,7 +236,7 @@
         ".rich-text__buttons .outter-button .button:hover {background: #000 !important;}",
         ".rich-text__buttons .base-button {background-color: #fff;}",
         ".image-with-text__heading {font-size: 11px; letter-spacing: 1.3px !important;}",
-        ".image-with-text__text h1 {font: 400 31px/35px Nexa, sans-serif; text-align: left; margin-bottom: 10px;}",
+        ".image-with-text__text h1 {font: 400 28px/30px Nexa, sans-serif; text-align: left; margin-bottom: 10px; padding: 0rem 1rem;}",
         ".image-with-text__text p {font: 400 1.6rem/25px Nexa, sans-serif;}",
         "@media (min-width: 750px) {.image-with-text__text-item {width: 40%; } .image-with-text__media-item {width: 60%; }}"
       ],
@@ -260,7 +260,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n@media screen and (max-width: 749px) {\n.image-with-text__text h1 {\n  font: 400 31px/35px Nexa, sans-serif;\n  text-align: center !important;\n}\n.image-with-text__text p {\n  font: 400 1.6rem/25px Nexa, sans-serif;\n  text-align: center;\n}\n.section-template--25996792332571__custom_liquid_w4DmR8-padding{\n  padding-top: 0px;\n}\n.collection__title {\n  border-top: 1px solid #dee0e3;\n  padding: 40px 0 0px !important;\n}\n}\n</style>",
+        "custom_liquid": "<style>\n@media screen and (max-width: 749px) {\n#shopify-section-template--25996792332571__image_banner .banner__heading {\n  line-height: 4rem !important;\n}\n.image-with-text__text h1 {\n  font: 400 28px/30px Nexa, sans-serif;\n  text-align: center !important;\n}\n.image-with-text__text p {\n  font: 400 1.6rem/25px Nexa, sans-serif;\n  text-align: center;\n}\n.section-template--25996792332571__custom_liquid_w4DmR8-padding{\n  padding-top: 0px;\n}\n.collection__title {\n  border-top: 1px solid #dee0e3;\n  padding: 40px 0 0px !important;\n}\n}\n</style>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -296,7 +296,7 @@
       ],
       "custom_css": [
         ".rich-text__blocks {max-width: 59rem;}",
-        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: 26px; font-weight: 300; line-height: 26px;}",
+        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 2.3rem); font-weight: 300; line-height: 26px;}",
         ".rich-text h3 {font-family: \"GoudyOldStyle\", sans-serif !important;}",
         ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}"
       ],
@@ -358,6 +358,9 @@
       },
       "block_order": [
         "9e867019-e479-4e53-95e7-6d11ee139cb5"
+      ],
+      "custom_css": [
+        ".instastory-title {font: 400 2.1rem/40px Nexa, sans-serif !important;}"
       ],
       "settings": {
         "include_margins": true

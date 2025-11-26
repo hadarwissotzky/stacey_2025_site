@@ -380,7 +380,7 @@
   ul[id^="Slider-"].blog__posts {
     grid-template-columns: repeat(1, 1fr) !important;
     gap: 0px !important;
-    padding: 0 10px 80px !important;
+    padding: 0 10px 20px !important;
   }
 
   .article-card__info {
