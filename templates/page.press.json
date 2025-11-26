@@ -263,10 +263,22 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n@media screen and (max-width: 749px) {\n    .banner--small:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {\n        min-height: 20rem;\n    }\n.section-template--25996791775515__custom_liquid_7zw6Pf-padding {\n  padding-bottom: 0rem;\npadding-top: 1rem;\n}\n#shopify-section-template--25996791775515__ed33ad9e-aacf-46be-9c8e-c3daf578c203{\n  margin-top: 0px;\n}\n}\n</style>",
+        "custom_liquid": "<style>\n@media screen and (max-width: 749px) {\n    .banner--small:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {\n        min-height: 20rem;\n    }\n.section-template--25996791775515__custom_liquid_7zw6Pf-padding {\n  padding-bottom: 0rem;\npadding-top: 1rem;\n}\n#shopify-section-template--25996791775515__ed33ad9e-aacf-46be-9c8e-c3daf578c203{\n  margin-top: 0px;\n}\n.slideshow__controls {\n  border: 0px;\n  padding-bottom: 2rem;\n  padding-top: 1.5rem;\n}\n}\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "rich_text_J4b3Qz": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -274,6 +286,7 @@
     "main",
     "rich_text_L37NXb",
     "ed33ad9e-aacf-46be-9c8e-c3daf578c203",
-    "custom_liquid_7zw6Pf"
+    "custom_liquid_7zw6Pf",
+    "rich_text_J4b3Qz"
   ]
 }

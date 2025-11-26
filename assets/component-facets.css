@@ -737,11 +737,6 @@ a.active-facets__button.focused .active-facets__button-inner,
   flex-grow: 1;
 }
 
-#MainContent p.mobile-facets__count {
-  font-family: 'A Gothic' !important;
-  font-size: 1.3rem !important;
-}
-
 .mobile-facets__open-wrapper {
   display: inline-block;
 }
