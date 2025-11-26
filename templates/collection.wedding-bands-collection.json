@@ -74,6 +74,7 @@
     },
     "featured_collection_dBBXFj": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".color-background-1.isolate.gradient {border-top: 1px solid #dee0e3;}",
         ".slider-mobile-gutter {border-top: 1px solid #dee0e3;}",
