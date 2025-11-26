@@ -22,7 +22,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.section-template--23010096775451__collapsible_content_miigHj-padding {\nborder-top: 0px;\n}\n</style>",
+        "custom_liquid": "<style>\n.section-template--23010096775451__collapsible_content_miigHj-padding {\nborder-top: 0px;\n}\n.section-template--25996792791323__collapsible_content_miigHj-padding {\n  border: 0;\n}\n@media screen and (max-width: 749px){\n.collapsible-content__heading{\n text-align: center;\n}\n.section-template--25996792791323__collapsible_content_miigHj-padding {\n  padding-top: 30px !important;\n}\n}\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

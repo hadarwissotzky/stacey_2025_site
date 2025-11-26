@@ -77,12 +77,12 @@
   }
 @media screen and (min-width: 750px) {
     .grid__item.medium-up--one-eighth {
-      padding-top: 80px;
+      padding-top: 25px;
       width: calc(25% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
       max-width: calc(25% - var(--grid-desktop-horizontal-spacing) / 2);
     }
   .grid__item.medium-up--two-thirds {
-      padding-top: 80px;
+      padding-top: 36px;
       border-left: 0.5px solid #ccc;
       margin-left: 0px;
     max-width: calc(75% - var(--grid-desktop-horizontal-spacing) / 2);
