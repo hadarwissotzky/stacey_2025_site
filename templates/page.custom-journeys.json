@@ -231,6 +231,7 @@
       "blocks": {
         "slide_wwJEFF": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "heading": "DESIGNING CUSTOM JEWELRY",
             "heading_size": "h1",

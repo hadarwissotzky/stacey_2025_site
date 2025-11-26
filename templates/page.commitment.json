@@ -187,6 +187,7 @@
       "blocks": {
         "slide_xQUtLD": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "heading": "DESIGNING CUSTOM COMMITMENT JEWELRY",
             "heading_size": "h1",

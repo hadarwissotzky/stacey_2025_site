@@ -768,7 +768,7 @@
     }
 
     /* Mobile first slide styles for template--25996792725787__custom_process_jeCjEQ to match desktop .component-1 */
-    #shopify-section-template--25996792725787__custom_process_jeCjEQ .slideshow > .slideshow__slide:first-of-type .custom-text-box-wrapper {
+    /*#shopify-section-template--25996792725787__custom_process_jeCjEQ .slideshow > .slideshow__slide:first-of-type .custom-text-box-wrapper {
         background-color: #f5f4f2 !important;
         text-align: left;
         width: 100%;
@@ -799,7 +799,7 @@
     }
 
     #shopify-section-template--25996792725787__custom_process_jeCjEQ .slideshow>.slideshow__slide:first-of-type .slideshow__text-wrapper {
-        background-color: #f5f4f2 !important;
+       background-color: #f5f4f2 !important;
         padding-top: 0 !important;
         padding-left: 5%;
         padding-right: 5%;
@@ -809,11 +809,11 @@
         align-items: flex-start;
         min-height: 400px;
         position: relative !important;
-        top: -20% !important;
+        top: -20% !important; 
     }
-
+*/
     /* Mobile first slide styles for template--25996792594715__custom_process_nDkDtm to match desktop .component-1 */
-    #shopify-section-template--25996792594715__custom_process_nDkDtm .slideshow > .slideshow__slide:first-of-type .custom-text-box-wrapper {
+ /*   #shopify-section-template--25996792594715__custom_process_nDkDtm .slideshow > .slideshow__slide:first-of-type .custom-text-box-wrapper {
         background-color: #f5f4f2 !important;
         text-align: left;
         width: 100%;
@@ -855,7 +855,7 @@
         position: relative !important;
         top: -20% !important;
     }
-
+*/
     #shopify-section-template--21823938887963__custom_process_jeCjEQ .slider-counter__link:last-child {
         display: flex !important;
     }
@@ -896,7 +896,7 @@
     }
 
     .component-1 {
-        display: none !important;
+       /* display: none !important; */
     }
 
     #Banner-template--21823938887963__image_banner_dYNYRy .banner--mobile-bottom:not(.banner--stacked) .banner__content {
