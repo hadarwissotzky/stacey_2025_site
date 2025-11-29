@@ -28,6 +28,34 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_V6eHXj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kbJqGw": {
+          "type": "heading",
+          "settings": {
+            "heading": "FAQ",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kbJqGw"
+      ],
+      "custom_css": [
+        "h2 {display: none;}",
+        "@media screen and (max-width: 749px) {h2 {display: block; padding-top: 20px; }}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "collapsible_content_miigHj": {
       "type": "collapsible-content",
       "blocks": {
@@ -836,6 +864,7 @@
   "order": [
     "main",
     "custom_liquid_MtmwAX",
+    "rich_text_V6eHXj",
     "collapsible_content_miigHj",
     "collapsible_content_igzE3b",
     "collapsible_content_ByzWCx",

@@ -350,6 +350,9 @@
     width: 100% !important;
   }
 
+  .contact__button {
+        margin-top: 1rem;
+  }
   .lorinczi-contact-form-1 .contact {
     align-items: inherit;
     padding-bottom: 0px;
@@ -360,7 +363,7 @@
   }
 
   .lorinczi-contact-form-1 .contact{
-    padding: 30px 0;
+    padding: 30px 0 0px 0;
   }
 
   .title{

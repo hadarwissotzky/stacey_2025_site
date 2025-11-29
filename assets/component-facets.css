@@ -716,9 +716,10 @@ a.active-facets__button.focused .active-facets__button-inner,
   text-transform: uppercase;
 }
 
-.mobile-facets__header-inner .mobile-facets__count{
+#MainContent .mobile-facets__header-inner .mobile-facets__count{
   font-family: 'A Gothic' !important;
-  font-size: 1.4rem !important;
+    font-size: 1.3rem !important;
+    text-transform: capitalize;
 }
 
 .mobile-facets__info {
