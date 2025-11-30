@@ -100,7 +100,9 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        "@media screen and (max-width: 749px) {.card__media {min-height: 194px !important; }}"
+        "@media screen and (max-width: 749px) {.card__media {min-height: 194px !important; }}",
+        "option[value='price-ascending'] { display: none !important; }",
+        "option[value='price-descending'] { display: none !important; }"
       ],
       "settings": {
         "products_per_page": 16,
