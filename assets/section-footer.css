@@ -569,10 +569,6 @@
   }
 }
 
-.scroll-trigger.animate--slide-in {
-  opacity: 1;
-  place-self: center;
-}
 /* Mobile Collapsible Footer Styles */
 .footer__blocks-wrapper--mobile {
   display: none;
