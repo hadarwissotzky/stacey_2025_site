@@ -13,7 +13,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.product__description a,\n.accordion__content.rte p,\n.accordion__content.rte .metafield-rich_text_field p,\n.product__tax.caption,\n.product__tax.caption a,\np span {\n  font-size: 14px !important;\n    font-family: 'GoudyOldStyle', sans-serif !important;\n    line-height: 1.35 !important;\n    font-weight: 300 !important;\n}\n.product-form__submit.button:not([disabled]):hover {\n    filter: brightness(1.03) !important;\n    border: .5px solid #000 !important;\n}\n</style>",
+        "custom_liquid": "<style>\n.product__description a,\n.product__tax.caption,\n.product__tax.caption a {\n  font-size: 14px !important;\n    font-family: 'GoudyOldStyle', sans-serif !important;\n    line-height: 1.35 !important;\n    font-weight: 300 !important;\n}\n.product__accordion .accordion__content {\n      padding: 0 !important;\n}\n.accordion__content.rte p {\n  text-align: left;\n  font-family: 'A Gothic' !important;\n  font-size: 12px !important;\n  line-height: 1.35 !important;\n  font-weight: 300 !important;\ncolor: #919191;\n}\n@media screen and (max-width: 749px){\n.accordion__content.rte p {\n   padding-left: 0 !important;\n  margin-left: 1rem;\n  font-size: 12px !important;\n  padding: 0px 1rem !important;\n}\n}\n.product-form__submit.button:not([disabled]):hover {\n    filter: brightness(1.03) !important;\n    border: .5px solid #000 !important;\n}\n\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -116,7 +116,7 @@
       ],
       "custom_css": [
         ".product__title h1 {margin-bottom: 0px; margin-top: 3%; width: 100%; font-size: 26px; line-height: 1.35; font-weight: 300; text-align: left;}",
-        ".product__description p {font-size: 14px; line-height: 1.35; font-weight: 300;}",
+        ".product__description p {font-size: 14px; line-height: 1.35; font-weight: 300; padding: 0;}",
         ".price {font-size: 16px; line-height: 1.35; font-weight: 300;}",
         ".product-form__buttons {border-radius: 0;}",
         ".product-form__buttons .button {font-size: 1.2rem; min-height: calc(4.1rem + var(--buttons-border-width) * 2); background-color: #f3e5d6; color: #000; border-radius: 0;}"

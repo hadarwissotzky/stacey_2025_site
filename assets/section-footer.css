@@ -565,10 +565,14 @@
 
 @media screen and (max-width: 749px) {
   .policies.list-unstyled {
-    display: block;
+    display: none;
   }
 }
 
+.scroll-trigger.animate--slide-in {
+  opacity: 1;
+  place-self: center;
+}
 /* Mobile Collapsible Footer Styles */
 .footer__blocks-wrapper--mobile {
   display: none;
@@ -582,7 +586,7 @@
   }
 
   #shopify-section-sections--21717722562843__footer .footer {
-    padding: 0 !important;
+    padding: 0 0 2rem 0 !important;
   }
 
   .footer__content-top.page-width {

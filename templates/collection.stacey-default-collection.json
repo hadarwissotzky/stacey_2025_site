@@ -107,7 +107,7 @@
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": true,
-        "show_view_all": false,
+        "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "color_scheme": "",
@@ -120,7 +120,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 20,
-        "padding_bottom": 0
+        "padding_bottom": 28
       }
     }
   },
