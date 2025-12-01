@@ -91,7 +91,7 @@
     "5e006db6-d9f4-4086-ac0d-664ff6cd44b2": {
       "type": "featured-collection-conditional",
       "custom_css": [
-        ".slider-buttons {display: flex; margin-bottom: 0.5rem; margin-top: 0.5rem;}",
+        ".slider-buttons {display: flex; margin-bottom: 0.5rem; padding-top: 2rem; border-top: 1px solid #dee0e3;}",
         ".slider-counter {display: none;}",
         ".collection__title {padding-bottom: 20px !important;}",
         ".collection__title h2 {margin-bottom: 0rem; font-size: calc(var(--font-heading-scale) * 2.3rem) !important;}",
