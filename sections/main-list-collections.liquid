@@ -25,6 +25,44 @@
         assign collections = collections | sort: 'all_products_count'
       when 'date', 'date_reversed'
         assign collections = collections | sort: 'published_at'
+      when 'manual'
+        assign sorted_collections = ''
+        assign unsorted_collections = ''
+        assign max_position = 50
+
+        for i in (1..max_position)
+          for collection in collections
+            assign pos = collection.metafields.custom.list_position.value | plus: 0
+            if pos == i
+              if sorted_collections == ''
+                assign sorted_collections = collection.handle
+              else
+                assign sorted_collections = sorted_collections | append: ',' | append: collection.handle
+              endif
+            endif
+          endfor
+        endfor
+
+        for collection in collections
+          assign pos = collection.metafields.custom.list_position.value | plus: 0
+          if pos == 0 or pos == blank or pos == nil
+            if unsorted_collections == ''
+              assign unsorted_collections = collection.handle
+            else
+              assign unsorted_collections = unsorted_collections | append: ',' | append: collection.handle
+            endif
+          endif
+        endfor
+
+        if unsorted_collections != ''
+          if sorted_collections != ''
+            assign sorted_collections = sorted_collections | append: ',' | append: unsorted_collections
+          else
+            assign sorted_collections = unsorted_collections
+          endif
+        endif
+
+        assign collection_handles = sorted_collections | split: ','
     endcase
 
     if section.settings.sort == 'products_high' or section.settings.sort == 'date_reversed' or section.settings.sort == 'alphabetical_reversed'
@@ -37,29 +75,55 @@
       assign paginate_by = 28
     endif
   -%}
-  {%- paginate collections by paginate_by -%}
+  {%- if section.settings.sort == 'manual' -%}
     <ul
       class="collection-list grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
       role="list"
     >
-      {%- for collection in collections -%}
-        <li
-          class="collection-list__item grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          {% if settings.animations_reveal_on_scroll %}
-            data-cascade
-            style="--animation-order: {{ forloop.index }};"
-          {% endif %}
-        >
-          {% render 'card-collection',
-            card_collection: collection,
-            media_aspect_ratio: section.settings.image_ratio,
-            columns: 3
-          %}
-        </li>
+      {%- for handle in collection_handles -%}
+        {%- assign collection = collections[handle] -%}
+        {%- if collection != blank -%}
+          <li
+            class="collection-list__item grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+              style="--animation-order: {{ forloop.index }};"
+            {% endif %}
+          >
+            {% render 'card-collection',
+              card_collection: collection,
+              media_aspect_ratio: section.settings.image_ratio,
+              columns: 3
+            %}
+          </li>
+        {%- endif -%}
       {%- endfor -%}
     </ul>
-    {% render 'pagination', paginate: paginate %}
-  {%- endpaginate -%}
+  {%- else -%}
+    {%- paginate collections by paginate_by -%}
+      <ul
+        class="collection-list grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
+        role="list"
+      >
+        {%- for collection in collections -%}
+          <li
+            class="collection-list__item grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+              style="--animation-order: {{ forloop.index }};"
+            {% endif %}
+          >
+            {% render 'card-collection',
+              card_collection: collection,
+              media_aspect_ratio: section.settings.image_ratio,
+              columns: 3
+            %}
+          </li>
+        {%- endfor -%}
+      </ul>
+      {% render 'pagination', paginate: paginate %}
+    {%- endpaginate -%}
+  {%- endif -%}
 </div>
 {% schema %}
 {
@@ -76,6 +140,10 @@
       "type": "select",
       "id": "sort",
       "options": [
+        {
+          "value": "manual",
+          "label": "Manual (by sort order)"
+        },
         {
           "value": "alphabetical",
           "label": "t:sections.main-list-collections.settings.sort.options__1.label"

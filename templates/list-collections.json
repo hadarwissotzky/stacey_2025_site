@@ -13,7 +13,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.title{\n      margin-top: 2rem !important;\n    border-bottom: 1px solid #dee0e3;\n    padding-bottom: 2rem;\n}\n\n.card__information .card__heading {\n  font-family: \"GoudyOldStyle\", sans-serif !important;\n    font-style: normal;\n    line-height: 1.31;\n    font-weight: 300 !important;\n    font-size: 16px;\n    line-height: 1.33;\n    padding: 0 24px;\n}\n.grid{\ngap: 0 !important;\n    margin: 0 !important;\n    padding: 0 !important;\n    width: 100% !important;\n    max-width: 100% !important;\n}\n.collection-list .collection-list__item{\n    border-right: 1px solid #dee0e3;\n    border-top: none !important;\n    border-bottom: 1px solid #dee0e3\n\n}\n@media screen and (max-width: 749px) {\n.collection-list .collection-list__item{\n    width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;\n    max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;\n    flex-basis: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;\n  }\n}\n</style>",
+        "custom_liquid": "<style>\n.collection-list-title{\n      margin-top: 2rem !important;\n    border-bottom: 1px solid #dee0e3;\n    padding-bottom: 2rem;\n}\n.title-wrapper-with-link{\n  margin:0;\n}\n\n.card__information .card__heading {\n  font-family: \"GoudyOldStyle\", sans-serif !important;\n    font-style: normal;\n    line-height: 1.31;\n    font-weight: 300 !important;\n    font-size: 16px;\n    line-height: 1.33;\n    padding: 0 24px;\n}\n.grid{\ngap: 0 !important;\n    margin: 0 !important;\n    padding: 0 !important;\n    width: 100% !important;\n    max-width: 100% !important;\n}\n.collection-list .collection-list__item{\n    border-right: 1px solid #dee0e3;\n    border-top: none !important;\n    border-bottom: 1px solid #dee0e3\n\n}\n@media screen and (max-width: 749px) {\n.collection-list .collection-list__item{\n    width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;\n    max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;\n    flex-basis: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;\n  }\n}\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -21,23 +21,179 @@
     },
     "main": {
       "type": "main-list-collections",
+      "disabled": true,
       "custom_css": [
         ".icon-wrap {display: none;}",
         ".title {margin-top: 1.3rem !important; font-size: calc(var(--font-heading-scale) * 2.4rem) !important; font-style: var(--font-heading-style) !important; font-weight: 300 !important; letter-spacing: calc(var(--font-heading-scale) * 0.06rem); color: rgb(var(--color-foreground)) !important; line-height: calc(1 + 0.3 / max(1, var(--font-heading-scale))) !important; word-break: break-word; font-family: \"A Gothic\" !important; text-transform: uppercase;}"
       ],
       "settings": {
         "title": "<strong>Shop by Category</strong>",
-        "sort": "alphabetical",
+        "sort": "manual",
         "image_ratio": "square",
         "columns_desktop": 4,
         "columns_mobile": "2",
         "padding_top": 0,
         "padding_bottom": 36
       }
+    },
+    "collection_list_hFciaN": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_E3LXnz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rings"
+          }
+        },
+        "featured_collection_9WambK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "necklaces"
+          }
+        },
+        "featured_collection_9grG7Y": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "earrings"
+          }
+        },
+        "featured_collection_LkQAM8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelets"
+          }
+        },
+        "featured_collection_f6hF3i": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mens-jewelry"
+          }
+        },
+        "featured_collection_hEgi3f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ready-to-ship"
+          }
+        },
+        "featured_collection_YF6ePJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all-sale"
+          }
+        },
+        "featured_collection_JPbaLf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all-jewelry-1"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_E3LXnz",
+        "featured_collection_9WambK",
+        "featured_collection_9grG7Y",
+        "featured_collection_LkQAM8",
+        "featured_collection_f6hF3i",
+        "featured_collection_hEgi3f",
+        "featured_collection_YF6ePJ",
+        "featured_collection_JPbaLf"
+      ],
+      "custom_css": [
+        ".icon-wrap {display: none;}",
+        ".collection-list-title {margin-top: 1.3rem !important; font-size: calc(var(--font-heading-scale) * 2.4rem) !important; font-style: var(--font-heading-style) !important; font-weight: 300 !important; letter-spacing: calc(var(--font-heading-scale) * 0.06rem); color: rgb(var(--color-foreground)) !important; line-height: calc(1 + 0.3 / max(1, var(--font-heading-scale))) !important; word-break: break-word; font-family: \"A Gothic\" !important; text-transform: uppercase; text-align: center; margin: 0 auto; width: 100%;}"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "<strong>Shop by Category</strong>",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_GqKKeX": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_3hR8Nk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "engagement-rings"
+          }
+        },
+        "featured_collection_MYUiCz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wedding-rings"
+          }
+        },
+        "featured_collection_cmcLBz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mens-gender-neutral-rings"
+          }
+        },
+        "featured_collection_3TbJjY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "custom-mens-jewelry"
+          }
+        },
+        "featured_collection_QP8YL4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "custom-necklaces"
+          }
+        },
+        "featured_collection_wTKmU7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "custom-earrings"
+          }
+        },
+        "featured_collection_jFrjKn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "custom-bracelets"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_3hR8Nk",
+        "featured_collection_MYUiCz",
+        "featured_collection_cmcLBz",
+        "featured_collection_3TbJjY",
+        "featured_collection_QP8YL4",
+        "featured_collection_wTKmU7",
+        "featured_collection_jFrjKn"
+      ],
+      "custom_css": [
+        ".icon-wrap {display: none;}",
+        ".collection-list-title {margin-top: 1.3rem !important; font-size: calc(var(--font-heading-scale) * 2.4rem) !important; font-style: var(--font-heading-style) !important; font-weight: 300 !important; letter-spacing: calc(var(--font-heading-scale) * 0.06rem); color: rgb(var(--color-foreground)) !important; line-height: calc(1 + 0.3 / max(1, var(--font-heading-scale))) !important; word-break: break-word; font-family: \"A Gothic\" !important; text-transform: uppercase; text-align: center; margin: 0 auto; width: 100%;}"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "<strong>Custom Jewelry</strong>",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "custom_liquid_HnewLf",
-    "main"
+    "main",
+    "collection_list_hFciaN",
+    "collection_list_GqKKeX"
   ]
 }
