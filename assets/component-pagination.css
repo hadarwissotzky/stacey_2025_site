@@ -16,7 +16,9 @@
 
 @media screen and (min-width: 990px) {
   .pagination-wrapper {
-    margin-top: 3rem;
+    margin-top: 0rem;
+    padding: 2rem 0rem;
+    border-top: 1px solid #dee0e3;
   }
 }
 
@@ -32,7 +34,7 @@
 }
 
 .pagination__list > li:not(:last-child) {
-  margin-right: 1rem;
+  margin-right: 0.3rem;
 }
 
 #MainContent .pagination__list > li {
