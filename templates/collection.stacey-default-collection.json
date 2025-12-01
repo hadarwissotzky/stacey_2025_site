@@ -103,7 +103,7 @@
         "description": "<p>Let my past creations inspire a one-of-a-kind design made just for you.</p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "custom-mens-jewelry",
+        "collection": "all-custom-jewelry",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": true,
