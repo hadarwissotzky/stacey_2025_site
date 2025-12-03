@@ -48,7 +48,7 @@ slider-component.slider-component-full-width {
     scroll-padding-left: 1.5rem;
     -webkit-overflow-scrolling: touch;
     margin-bottom: 0.5rem;
-    margin-top: 1rem;
+   
   }
 
   /* Fix to show some space at the end of our sliders in all browsers */
@@ -60,7 +60,7 @@ slider-component.slider-component-full-width {
 
   .slider.slider--mobile .slider__slide {
     margin-bottom: 0;
-    padding-top: max(var(--focus-outline-padding), var(--shadow-padding-top));
+    /*padding-top: max(var(--focus-outline-padding), var(--shadow-padding-top));*/
     padding-bottom: max(var(--focus-outline-padding), var(--shadow-padding-bottom));
   }
 
