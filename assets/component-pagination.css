@@ -10,7 +10,9 @@
 
   .pagination-wrapper ul {
     border-bottom: 0px !important;
-    margin-top: 2rem;
+    margin-top: 0rem;
+    border-top: 1px solid #dee0e3;
+    padding-top: 2rem;
   }
 }
 

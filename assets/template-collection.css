@@ -19,6 +19,10 @@
     border-bottom: 1px solid #dee0e3
   }
 
+  #product-grid .grid__item:nth-last-child(-n+2) {
+    border-bottom: none !important;
+  }
+
   .product-grid.slider > .grid__item {
     border-bottom: none !important;
   }
