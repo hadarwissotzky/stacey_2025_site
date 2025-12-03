@@ -3775,8 +3775,8 @@ shopify-accelerated-checkout-cart {
 
 }
 #product-grid .grid__item{
-  border-top: 1px solid #dee0e3;
-  /*  border-bottom: 1px solid #dee0e3;*/
+  /*border-top: 1px solid #dee0e3;*/
+  border-bottom: 1px solid #dee0e3;
 }
 #product-grid .grid__item:nth-child(-n+4) {
   border-top: none;
