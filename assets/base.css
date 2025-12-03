@@ -3945,6 +3945,7 @@ shopify-accelerated-checkout-cart {
 @media (min-width: 1024px) {
 	 .product--thumbnail_slider {
 		 position: relative;
+    border-bottom: 1px solid #dee0e3;
 	}
 	 .product--thumbnail_slider media-gallery {
 		 display: flex;
@@ -4065,6 +4066,11 @@ shopify-accelerated-checkout-cart {
 }
 
 @media screen and (max-width: 749px) {
+  .related-products__heading{
+    border-bottom: 0px;
+    border-top: 1px solid #dee0e3;
+    padding-top: 3rem;
+  }
   .card__information .card__heading a {
     line-height: 1.8rem;
   }
