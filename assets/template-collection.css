@@ -11,9 +11,9 @@
 
   .collection .grid--2-col-tablet-down .grid__item,
   #product-grid .grid__item{
-    width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;
-    max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;
-    flex-basis: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;
+    width: 50% !important;
+    max-width: 50% !important;
+    flex-basis: 50% !important;
     border-right: 1px solid #dee0e3;
     border-top: none !important;
     border-bottom: 1px solid #dee0e3
