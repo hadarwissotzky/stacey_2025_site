@@ -28,8 +28,7 @@
   #product-grid .grid__item:nth-child(2n),
   #product-grid .grid__item:nth-child(2n) .card-wrapper,
   #product-grid .grid__item:nth-child(2n) .card {
-    border-right: 0px !important;
-  }
+   /* border-right: 0px !important; */  }
 
   .collection ul {
     /*border-bottom: 1px solid #dee0e3;*/
