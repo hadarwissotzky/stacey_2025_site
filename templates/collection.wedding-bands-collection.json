@@ -54,6 +54,10 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        "option[value='price-ascending'] {display: none !important;}",
+        "option[value='price-descending'] {display: none !important;}"
+      ],
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
