@@ -1326,6 +1326,11 @@ a.product__text {
   }
 }
 
+/* Hide video play badge on product thumbnails */
+.thumbnail__badge:has(.icon-play) {
+  display: none;
+}
+
 .thumbnail-list__item {
   position: relative;
 }
