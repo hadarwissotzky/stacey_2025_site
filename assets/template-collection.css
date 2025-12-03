@@ -1,6 +1,7 @@
 .product-grid .grid,
 .collection .grid {
       column-gap: 0;
+      margin: 3px -11px -1px -1px !important;
   }
 
 @media screen and (max-width: 749px) {
@@ -11,16 +12,12 @@
 
   .collection .grid--2-col-tablet-down .grid__item,
   #product-grid .grid__item{
-    width: 50% !important;
-    max-width: 50% !important;
-    flex-basis: 50% !important;
+    width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;
+    max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;
+    flex-basis: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;
     border-right: 1px solid #dee0e3;
     border-top: none !important;
     border-bottom: 1px solid #dee0e3
-  }
-
-  #product-grid .grid__item:nth-last-child(-n+2) {
-    border-bottom: none !important;
   }
 
   .product-grid.slider > .grid__item {
