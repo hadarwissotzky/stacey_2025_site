@@ -4059,10 +4059,7 @@ shopify-accelerated-checkout-cart {
     border-right: 1px solid #dee0e3;
     border-top: 1px solid #dee0e3;
   }
-  .product-grid.grid--2-col-tablet-down .grid__item:nth-child(2n),
-  .collection .grid--2-col-tablet-down .grid__item:nth-child(2n) {
-    border-right: 0px;
-  }
+
 }
 
 @media screen and (max-width: 749px) {

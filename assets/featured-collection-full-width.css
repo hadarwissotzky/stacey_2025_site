@@ -21,6 +21,7 @@
   margin-right: 0 !important;
 }
 
+/*
 h2 {
   text-align: center;
   margin-bottom: 0;
@@ -31,8 +32,7 @@ h2 {
   line-height: 1.5rem;
   padding-top: 1rem;
   font-size: calc(var(--font-heading-scale) * 2.4rem);
-
-}
+}*/
 
 .collection.collection--full-width .page-width {
   max-width: 100% !important;
