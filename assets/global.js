@@ -687,6 +687,14 @@ class SliderComponent extends HTMLElement {
 
     if (this.enableSliderLooping) return;
 
+    // On mobile, don't disable buttons - allow looping
+    const isMobile = window.innerWidth <= 749;
+    if (isMobile) {
+      this.prevButton.removeAttribute('disabled');
+      this.nextButton.removeAttribute('disabled');
+      return;
+    }
+
     if (this.isSlideVisible(this.sliderItemsToShow[0]) && this.slider.scrollLeft === 0) {
       this.prevButton.setAttribute('disabled', 'disabled');
     } else {
@@ -708,10 +716,24 @@ class SliderComponent extends HTMLElement {
   onButtonClick(event) {
     event.preventDefault();
     const step = event.currentTarget.dataset.step || 1;
-    this.slideScrollPosition =
-      event.currentTarget.name === 'next'
-        ? this.slider.scrollLeft + step * this.sliderItemOffset
-        : this.slider.scrollLeft - step * this.sliderItemOffset;
+    const isMobile = window.innerWidth <= 749;
+    const maxScroll = this.slider.scrollWidth - this.slider.clientWidth;
+
+    if (event.currentTarget.name === 'next') {
+      // Check if at the end and on mobile - loop to beginning
+      if (isMobile && this.slider.scrollLeft >= maxScroll - 5) {
+        this.slideScrollPosition = 0;
+      } else {
+        this.slideScrollPosition = this.slider.scrollLeft + step * this.sliderItemOffset;
+      }
+    } else {
+      // Check if at the beginning and on mobile - loop to end
+      if (isMobile && this.slider.scrollLeft <= 5) {
+        this.slideScrollPosition = maxScroll;
+      } else {
+        this.slideScrollPosition = this.slider.scrollLeft - step * this.sliderItemOffset;
+      }
+    }
     this.setSlidePosition(this.slideScrollPosition);
   }
 

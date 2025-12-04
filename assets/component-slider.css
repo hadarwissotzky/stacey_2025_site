@@ -380,3 +380,21 @@ slider-component.slider-component-full-width {
 .slider-button--prev:not([disabled]):hover .icon {
   transform: rotate(90deg) scale(1.1);
 }
+
+/* Mobile: Keep slider buttons visually enabled */
+@media screen and (max-width: 749px) {
+  .slider-button[disabled] {
+    opacity: 1 !important;
+    cursor: pointer !important;
+    pointer-events: auto !important;
+  }
+  .slider-button[disabled] .icon {
+    color: rgba(var(--color-foreground), 0.75) !important;
+    cursor: pointer !important;
+  }
+
+  /* Force show product gallery slider buttons on mobile */
+  .product__media-wrapper .slider-buttons.small-hide {
+    display: none !important;
+  }
+}

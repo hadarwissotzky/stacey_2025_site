@@ -646,7 +646,7 @@ a.product__text {
   height: 3rem;
   width: 3rem;
   position: absolute;
-  left: 2.2rem;
+  left: 4.2rem;
   top: 1.2rem;
   z-index: 1;
   transition: color var(--duration-short) ease, opacity var(--duration-short) ease;
