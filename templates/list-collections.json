@@ -13,7 +13,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.collection-list-title{\n      margin-top: 2rem !important;\n    border-bottom: 1px solid #dee0e3;\n    padding-bottom: 2rem;\n}\n.title-wrapper-with-link{\n  margin:0;\n}\n\n.card__information .card__heading {\n  font-family: \"GoudyOldStyle\", sans-serif !important;\n    font-style: normal;\n    line-height: 1.31;\n    font-weight: 300 !important;\n    font-size: 16px;\n    line-height: 1.33;\n    padding: 0 24px;\n}\n.grid{\ngap: 0 !important;\n    margin: 0 !important;\n    padding: 0 !important;\n    width: 100% !important;\n    max-width: 100% !important;\n}\n.section-collection-list .slider-mobile-gutter {\n    margin-right: -2rem;\n}\n@media screen and (max-width: 749px) {\n    .section-collection-list .slider-mobile-gutter {\n        margin-right: -1.5rem;\n    }\n}\n.collection-list .collection-list__item{\n    border-right: 1px solid #dee0e3;\n    border-top: none !important;\n    border-bottom: 1px solid #dee0e3\n\n}\n@media screen and (max-width: 749px) {\n.collection-list .collection-list__item{\n    width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;\n    max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;\n    flex-basis: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;\n  }\n}\n</style>",
+        "custom_liquid": "<style>\n.collection-list-title{\n      margin-top: 3rem !important;\n    border-bottom: 1px solid #dee0e3;\n    padding-bottom: 1.3rem;\n}\n.title-wrapper-with-link{\n  margin:0;\n}\n\n.card__information .card__heading {\n  font-family: \"GoudyOldStyle\", sans-serif !important;\n    font-style: normal;\n    line-height: 1.31;\n    font-weight: 300 !important;\n    font-size: 16px;\n    line-height: 1.33;\n    padding: 0 24px;\n}\n.grid{\ngap: 0 !important;\n    margin: 0 !important;\n    padding: 0 !important;\n    width: 100% !important;\n    max-width: 100% !important;\n}\n.section-collection-list .slider-mobile-gutter {\n    margin-right: -2rem;\n}\n@media screen and (max-width: 749px) {\n    .section-collection-list .slider-mobile-gutter {\n        margin-right: -1.5rem;\n    }\n}\n.collection-list .collection-list__item{\n    border-right: 1px solid #dee0e3;\n    border-top: none !important;\n    border-bottom: 1px solid #dee0e3\n\n}\n@media screen and (max-width: 749px) {\n.collection-list .collection-list__item{\n    width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;\n    max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;\n    flex-basis: calc(50% - var(--grid-mobile-horizontal-spacing) / 2) !important;\n  }\n}\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -116,6 +116,42 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_tYz4NW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_geEUTM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Custom Jewelry",
+            "heading_size": "h1"
+          }
+        },
+        "text_qpfk7B": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Let my past creations inspire a one-of-a-kind design made just for you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_geEUTM",
+        "text_qpfk7B"
+      ],
+      "custom_css": [
+        "h2 {margin-bottom: 0rem; font-size: calc(var(--font-heading-scale) * 2.3rem) !important; font-family: \"A Gothic\" !important; text-transform: uppercase;}",
+        "p {font-size: calc(var(--font-heading-scale) * 2rem); line-height: 2rem; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.7rem) !important; padding: 0px 2rem;}",
+        ".rich-text__text {margin-top: 0.5rem;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "collection_list_GqKKeX": {
       "type": "collection-list",
       "blocks": {
@@ -184,7 +220,7 @@
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "title": "<strong>Custom Jewelry</strong>",
+        "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 4,
@@ -201,6 +237,7 @@
     "custom_liquid_HnewLf",
     "main",
     "collection_list_hFciaN",
+    "rich_text_tYz4NW",
     "collection_list_GqKKeX"
   ]
 }
