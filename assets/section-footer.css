@@ -530,6 +530,7 @@
 
 .footer__content-bottom .footer__copyright {
   padding-left: 10px;
+  margin-top: 0px;
 }
 
 .footer__content-bottom-wrapper--center {
@@ -538,6 +539,7 @@
 
 .footer__content-bottom {
       padding-top: 0.5rem;
+      display: none !important;
   
 }
 .footer-block__brand-info p {
@@ -578,11 +580,11 @@
   /* Footer section padding */
   .section-sections--21717722562843__footer-padding {
     padding-top: 0px !important;
-    padding-bottom: 20px !important;
+    padding-bottom: 0px !important;
   }
 
   #shopify-section-sections--21717722562843__footer .footer {
-    padding: 0 0 2rem 0 !important;
+    padding: 0 !important;
   }
 
   .footer__content-top.page-width {
@@ -679,7 +681,7 @@
 
   /* Brand block at bottom on mobile */
   .footer-block-mobile--brand {
-    margin-top: 3rem;
+    margin-top: 0rem;
     text-align: center;
   }
 

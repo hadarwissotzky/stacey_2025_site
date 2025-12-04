@@ -43,6 +43,7 @@
   .collection__title.title-wrapper.page-width h2 {
     font-size: calc(var(--font-heading-scale) * 2.2rem);
     margin-bottom: 0.1rem;
+    text-align: center;
   }
 
   .collection .collection__title.title-wrapper.page-width p,
