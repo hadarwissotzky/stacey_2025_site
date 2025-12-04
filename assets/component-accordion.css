@@ -60,3 +60,7 @@
 .accordion__content img {
   max-width: 100%;
 }
+
+.product__info-container .accordion:last-of-type {
+  border-bottom: none;
+}
