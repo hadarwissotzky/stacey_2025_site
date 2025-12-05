@@ -604,7 +604,7 @@
   /* Show mobile accordion footer */
   .footer__blocks-wrapper--mobile {
     display: block;
-    padding: 0px;
+    padding: 0px 0px 20px 0px;
   }
 
   /* Mobile accordion styling */
@@ -680,7 +680,7 @@
   .footer__list-social.list-social,
   .list-unstyled.list-social.footer__list-social {
     justify-content: center;
-    margin-top: 6%;
+    margin-top: 1%;
     margin-bottom: 1%;
   }
 
@@ -691,7 +691,7 @@
   }
 
   .footer-block-mobile--brand .footer-block__image-wrapper {
-    margin: 0 auto 0rem;
+    margin: 0 auto 2rem;
   }
 
   .footer-block-mobile--brand .footer__list-social {
