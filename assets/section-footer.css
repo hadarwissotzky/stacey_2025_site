@@ -528,10 +528,19 @@
 .footer__content-top.page-width
 {
     line-height: 1.5;
-    max-width: 1300px;
+    max-width: var(--page-width);
     margin: 0 auto 0px;
     overflow: hidden;  
 }
+.footer__blocks-wrapper.grid {
+      justify-content: space-evenly;
+  }
+
+  .footer__blocks-wrapper .grid__item {
+      flex-grow: 0;
+      width: auto;
+  }
+
 
 .footer__content-bottom .footer__copyright {
   padding-left: 10px;
@@ -555,6 +564,7 @@
       font-size: 0.9rem;
       text-transform: uppercase;
 }
+
 .footer-block__heading {
       font-size: calc(var(--font-heading-scale) * 1rem);
   font-family: 'A-Gothic', sans-serif;
