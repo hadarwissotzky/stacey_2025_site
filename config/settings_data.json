@@ -9,14 +9,14 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/lorinczi_-_simple_logo.png",
+    "logo": "shopify://shop_images/logo_black_copy_2.png",
     "logo_width": 220,
     "favicon": "shopify://shop_images/48_x_48_Favicon.png",
     "type_header_font": "crimson_text_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
-    "page_width": 1200,
+    "page_width": 1300,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 4,
     "spacing_grid_vertical": 8,
@@ -109,7 +109,7 @@
     "sold_out_badge_color_scheme": "inverse",
     "brand_headline": "",
     "brand_description": "<p>METAL INTO MEANING</p>",
-    "brand_image": "shopify://shop_images/logo_black_copy_2.png",
+    "brand_image": "shopify://shop_images/slim-image.png",
     "brand_image_width": 150,
     "social_facebook_link": "https://www.facebook.com/lorinczijewelry/",
     "social_instagram_link": "https://www.instagram.com/lorinczijewelry",

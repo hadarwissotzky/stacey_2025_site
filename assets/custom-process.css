@@ -300,9 +300,19 @@
   [id*="slideshow_wERMQy"] .page-width {
     width: 90%;
   }
+#MainContent .custom-process-body-text {
+    text-align: center;
+}
+.custom-process-title{
+    text-align: center;
+}
+[id*="custom_process_nDkDtm"] .component-1, [id*="custom_process_jeCjEQ"] .component-1 {
+        padding-top: 1% !important;
+        align-items: center !important;
+}
 }
 
-[id*="custom_process_jeCjEQ"] .component-1,
+[id*="custom_process_nDkDtm"] .component-1,
 [id*="custom_process_jeCjEQ"] .component-1{
       padding-top: 18%;
     padding-left: 3%;
@@ -317,9 +327,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    min-height: 300px;
+    min-height: 180px;
 }
-
+[id*="custom_process_nDkDtm"] .components,
 [id*="custom_process_jeCjEQ"] .components {
     display: flex;
     align-items: center;
@@ -327,25 +337,24 @@
 
 /* Custom styling for where-to-start page - matching custom-design-journey */
 [id*="custom_process_nDkDtm"] .component-1 {
-    padding-left: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    min-height: 300px;
-    background-color: #f5f4f2;
+    min-height: 180px;
+    background-color: #faf5f1;
 }
 
 [id*="custom_process_nDkDtm"] .components {
     display: flex;
     align-items: center;
-    background-color: #f5f4f2;
+    background-color: #faf5f1;
 }
 
 /* Also add background to the other section for consistency */
 [id*="custom_process_jeCjEQ"] .component-1,
 [id*="custom_process_jeCjEQ"] .components {
-    background-color: #f5f4f2;
+    background-color: #faf5f1;
 }
 
 /* Custom design journey banner content */

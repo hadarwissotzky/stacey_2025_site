@@ -402,11 +402,15 @@
   .footer-block-image.right {
     justify-content: center;
   }
+  .footer-block__image-wrapper img  {
+    padding-bottom: 1rem;
+  }
 }
 
 .footer-block__image-wrapper {
   margin-bottom: 2rem;
   overflow: hidden !important;
+  margin-left: 3%;
 }
 
 .footer-block__image-wrapper img {
@@ -439,8 +443,9 @@
 
 .footer-block__brand-info .footer__list-social.list-social {
   justify-content: flex-start;
-  margin-left: -1.3rem;
+  margin-left: -0.3rem;
   margin-right: -1.3rem;
+
 }
 
 @media screen and (max-width: 749px) {
@@ -524,7 +529,7 @@
 {
     line-height: 1.5;
     max-width: 1300px;
-    margin: 0 auto 71px;
+    margin: 0 auto 0px;
     overflow: hidden;  
 }
 
@@ -681,7 +686,7 @@
 
   /* Brand block at bottom on mobile */
   .footer-block-mobile--brand {
-    margin-top: 0rem;
+    margin-top: 3rem;
     text-align: center;
   }
 

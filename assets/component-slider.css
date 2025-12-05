@@ -333,6 +333,8 @@ slider-component.slider-component-full-width {
   justify-content: center;
   display: none;
   height: 16px;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
 }
 .slider-button--next, .slider-button--prev {
   position: relative;
