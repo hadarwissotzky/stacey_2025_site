@@ -285,7 +285,7 @@ fieldset.product-form__input .form__label {
   }
 
   .product-form__input .select__select {
-    color: rgba(var(--color-foreground),1);
+    color: rgba(var(--color-foreground),0.55);
     width: calc(100% - calc(var(--inputs-border-width) * 2)) !important;
     margin: var(--inputs-border-width) !important;
     box-sizing: border-box !important;
@@ -541,13 +541,13 @@ a.product__text {
   }
 
   .product__title{
-        justify-self: center;
+    /*justify-self: center;*/
 
   }
   .product__info-wrapper {
     padding-left: 20px;
     padding-right: 20px;
-    text-align: center;
+    text-align: left;
   }
 
   .product__media-list {

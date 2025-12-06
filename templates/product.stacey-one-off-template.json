@@ -56,7 +56,7 @@
       "custom_css": [
         ".lorinczi-contact-form-1 {max-width: 100% !important;}",
         ".lorinczi-contact-form-1 .contact {background-color: #fff !important;}",
-        ".product__title h1 {margin-bottom: 0px; margin-top: 3%; width: 100%; font-size: 26px; line-height: 1.35; font-weight: 300; text-align: center; font-family: 'GoudyOldStyle', sans-serif !important;}",
+        ".product__title h1 {margin-bottom: 0px; margin-top: 3%; width: 100%; font-size: 26px; line-height: 1.35; font-weight: 300; text-align: left; font-family: \"GoudyOldStyle\", sans-serif !important;}",
         ".one-off-note,.product__description p {font-size: 14px; line-height: 1.35; font-weight: 300;}",
         "@media screen and (max-width: 749px) {.product__description p {padding: 0; }}"
       ],
