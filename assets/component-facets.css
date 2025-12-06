@@ -53,10 +53,11 @@
 
 .facet-filters__label {
   display: block;
-  color: rgba(var(--color-foreground), 0.85);
+  color: rgba(var(--color-foreground), 1);
   font-size: 1.1rem;
   margin: 0 2rem 0 0;
   padding-top: 0rem;
+  font-style: normal;
 }
 
 .facet-filters__summary {
@@ -69,7 +70,7 @@
   padding: 0 1.5rem;
   min-width: 25rem;
   margin-top: 2.4rem;
-  border: 0.1rem solid rgba(var(--color-foreground), 0.55);
+  border: 0.1rem solid rgba(var(--color-foreground), 1);
 }
 
 .facet-filters__summary::after {
@@ -100,9 +101,6 @@
   min-width: auto;
   min-height: auto;
   transition: none;
-  font-family: 'A Gothic' !important;
-  text-transform: uppercase;
-  text-align: end;
 }
 
 .facet-filters button {
@@ -136,6 +134,8 @@
   box-shadow: none;
   filter: none;
   transition: none;
+      color: rgba(var(--color-foreground), 1);
+    font-size: 1.2rem;
 }
 
 .mobile-facets__sort .select__select:focus-visible {
@@ -193,9 +193,10 @@
 
 .facets__heading {
   display: block;
-  color: rgba(var(--color-foreground), 0.85);
+  color: rgba(var(--color-foreground), 1);
   font-size: 1.1rem;
   margin: -1.5rem 2rem 0 0;
+  font-style: normal;
   
 }
 
@@ -208,7 +209,7 @@
 }
 
 .facets__summary {
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgba(var(--color-foreground), 1);
   font-size: 1.1rem;
   padding: 0 1.75rem 0 0;
   /*margin-bottom: 1.5rem;*/
@@ -232,6 +233,7 @@
 
 .facets__summary span {
   transition: text-decoration var(--duration-short) ease;
+    font-style: normal;
 }
 
 .facets__summary:hover .facets__summary-label {
@@ -698,6 +700,7 @@ a.active-facets__button.focused .active-facets__button-inner,
     var(--drawer-shadow-horizontal-offset) var(--drawer-shadow-vertical-offset) var(--drawer-shadow-blur-radius)
       rgba(var(--color-shadow), var(--drawer-shadow-opacity))
   );
+  font-size: 1.4rem;
 }
 
 .menu-opening .mobile-facets__inner {
@@ -890,12 +893,14 @@ details.menu-opening .mobile-facets__close svg {
 
 .mobile-facets__summary svg {
   margin-left: auto;
+  width: 7px;
 }
 
 .mobile-facets__summary > div {
   display: flex;
   align-items: center;
   text-transform: uppercase;
+      color: rgba(var(--color-foreground), 1);
 }
 
 .js .mobile-facets__submenu {
@@ -1040,6 +1045,7 @@ input.mobile-facets__checkbox {
   margin-right: 0.5rem;
   padding-left: 0.5rem;
   padding-right: 1.5rem;
+  color: rgba(var(--color-foreground), 1);
 }
 
 .product-count {
