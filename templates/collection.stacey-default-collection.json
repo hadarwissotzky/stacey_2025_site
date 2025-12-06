@@ -69,7 +69,7 @@
       "type": "main-collection-product-grid",
       "custom_css": [
         "@media screen and (max-width: 749px) {.card__media {min-height: 194px !important; }}",
-        "@media screen and (max-width: 749px) {#product-grid .grid__item { width: 50% !important; max-width: 50% !important; flex-basis: 50% !important; }}"
+        "@media screen and (max-width: 749px) {#product-grid .grid__item {width: 50% !important; max-width: 50% !important; flex-basis: 50% !important; }}"
       ],
       "settings": {
         "products_per_page": 16,
@@ -95,7 +95,7 @@
         ".slider-buttons {display: flex; margin-bottom: 0.5rem; padding-top: 2rem; border-top: 1px solid #dee0e3;}",
         ".slider-counter {display: none;}",
         ".collection__title {padding-bottom: 20px !important;}",
-        ".collection__title h2 {margin-bottom: 0rem; font-size: calc(var(--font-heading-scale) * 2.3rem) !important;}",
+        ".collection__title h2 {margin-bottom: 0rem; font-size: calc(var(--font-heading-scale) * 2.3rem) !important; text-align: center;}",
         "p {font-size: calc(var(--font-heading-scale) * 2rem);}"
       ],
       "settings": {

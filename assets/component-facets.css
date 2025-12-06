@@ -97,6 +97,9 @@
   min-width: auto;
   min-height: auto;
   transition: none;
+  font-family: 'A Gothic' !important;
+  text-transform: uppercase;
+  text-align: end;
 }
 
 .facet-filters button {
@@ -734,7 +737,7 @@ a.active-facets__button.focused .active-facets__button-inner,
 }
 
 .mobile-facets__count {
-  color: rgba(var(--color-foreground), 0.7);
+  color: rgba(var(--color-foreground), 1);
   font-size: 1.3rem;
   margin: 0;
   flex-grow: 1;
@@ -1013,6 +1016,7 @@ input.mobile-facets__checkbox {
 
 .mobile-facets__sort .select {
   width: auto;
+  align-items: center;
 }
 
 .no-js .mobile-facets__sort .select {

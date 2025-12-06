@@ -21,7 +21,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n#shopify-section-template--25996792725787__image_banner_dYNYRy .banner__content {\nposition: relative !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n.outter-button {\n  border: 1px solid #fff;\n  border-radius: 13px;\n  padding: 4px;\n  display: inline-block;\n  transition: all 0.3s;\n}\n.outter-button:hover {\n  border-color: #000;\n}\n.button {\n  background: #fff;\n  color: #000;\n  border: 1px solid #fff;\n  font-size: 11px;\n  text-align: center;\n  border-radius: 9px;\n  padding: 12px 30px;\n  min-width: 120px;\n  transition: all 0.3s;\n}\n.outter-button:hover .button {\n  background: #000;\n  color: #fff;\n  border-color: #000;\n}\n.button:active {\n  opacity: 0.5;\n}\n.banner__text p {\n  font-size: calc(var(--font-heading-scale) * 1.8rem) !important;\n},\n#shopify-section-template--25996792725787__slideshow_wERMQy{\nmargin-bottom: 5% !important;\n}\n@media screen and (max-width: 749px) {\n#shopify-section-template--25996792725787__slideshow_wERMQy .slideshow__text-wrapper p .slideshow__text-wrapper h2{\nfont-size: 1.2rem !important;\n    color: rgba(var(--color-foreground), 0.75) !important;\n    padding-right: 2rem !important;\n        padding-top: 1rem;\n}\n\n.banner__text p {\n  font-size: calc(var(--font-heading-scale) * 1.8rem) !important;\n}\n.banner__text p a {\n}\n}\n</style>",
+        "custom_liquid": "<style>\n.section-template--25996792725787__rich_text_xmMmdB-padding{\n  background-color: #faf5f1;\n}\n#shopify-section-template--25996792725787__image_banner_dYNYRy .banner__content {\nposition: relative !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n.outter-button {\n  border: 1px solid #fff;\n  border-radius: 13px;\n  padding: 4px;\n  display: inline-block;\n  transition: all 0.3s;\n}\n.outter-button:hover {\n  border-color: #000;\n}\n.button {\n  background: #fff;\n  color: #000;\n  border: 1px solid #fff;\n  font-size: 11px;\n  text-align: center;\n  border-radius: 9px;\n  padding: 12px 30px;\n  min-width: 120px;\n  transition: all 0.3s;\n}\n.outter-button:hover .button {\n  background: #000;\n  color: #fff;\n  border-color: #000;\n}\n.button:active {\n  opacity: 0.5;\n}\n.banner__text p {\n  font-size: calc(var(--font-heading-scale) * 1.8rem) !important;\n},\n#shopify-section-template--25996792725787__slideshow_wERMQy{\nmargin-bottom: 5% !important;\n}\n@media screen and (max-width: 749px) {\n#shopify-section-template--25996792725787__slideshow_wERMQy .slideshow__text-wrapper p .slideshow__text-wrapper h2{\nfont-size: 1.2rem !important;\n    color: rgba(var(--color-foreground), 0.75) !important;\n    padding-right: 2rem !important;\n        padding-top: 1rem;\n}\n\n.banner__text p {\n  font-size: calc(var(--font-heading-scale) * 1.8rem) !important;\n}\n.banner__text p a {\n}\n.rich-text h3 {\n  font-family: \"GoudyOldStyle\", sans-serif !important;\n      padding-left: 1.5rem;\n    padding-right: 1.5rem;\n}\n\n}\n</style>",
         "color_scheme": "inverse",
         "padding_top": 0,
         "padding_bottom": 0
@@ -136,50 +136,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "rich_text_xmMmdB": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_xybcac": {
-          "type": "heading",
-          "settings": {
-            "heading": "RE-USE YOUR OWN GEMS & JEWELRY",
-            "heading_size": "h1"
-          }
-        },
-        "text_LfqHqW": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>Custom jewelry is my specialty, whether you want to refresh an heirloom or create a new one.</h3>"
-          }
-        },
-        "text_DHT4Y9": {
-          "type": "text",
-          "settings": {
-            "text": "<h5><a href=\"/pages/use-your-own-gems-metal\" title=\"Use your own gems & metal\">LEARN MORE</a></h5>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_xybcac",
-        "text_LfqHqW",
-        "text_DHT4Y9"
-      ],
-      "custom_css": [
-        ".rich-text__blocks {max-width: 59rem;}",
-        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 2.3rem); font-weight: 300; line-height: 26px;}",
-        ".rich-text h3 {font-family: \"GoudyOldStyle\", sans-serif !important;}",
-        ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}",
-        ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "image_banner_dYNYRy": {
@@ -407,7 +363,7 @@
         ".slideshow__text {display: flex !important; align-items: center !important; justify-content: center !important; height: 100% !important;}",
         ".banner__box {display: flex !important; flex-direction: column !important; align-items: center !important; justify-content: center !important;}",
         ".banner__text {}",
-        "@media screen and (max-width: 749px) {.slideshow__text.banner__box {justify-content: center; } .banner__box .banner__heading + * {flex: 0.2; }}",
+        "@media screen and (max-width: 749px) {}",
         " {background: #f5f4f2;}"
       ],
       "settings": {
@@ -421,13 +377,63 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "rich_text_xmMmdB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xybcac": {
+          "type": "heading",
+          "settings": {
+            "heading": "RE-USE YOUR OWN GEMS & METAL",
+            "heading_size": "h1"
+          }
+        },
+        "text_LfqHqW": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>I can refresh an heirloom, repurpose your own jewelry, or create something entirely new.</h3>"
+          }
+        },
+        "text_DHT4Y9": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><a href=\"/pages/use-your-own-gems-metal\" title=\"Use your own gems & metal\">LEARN MORE</a></h5>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xybcac",
+        "text_LfqHqW",
+        "text_DHT4Y9"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 59rem;}",
+        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 2.3rem); font-weight: 300; line-height: 26px;}",
+        ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}",
+        ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_i7hExD": {
       "type": "rich-text",
       "blocks": {
+        "heading_bYHxTa": {
+          "type": "heading",
+          "settings": {
+            "heading": "custom jewelry",
+            "heading_size": "h1"
+          }
+        },
         "text_QUcqmP": {
           "type": "text",
           "settings": {
-            "text": "<p>Looking for something unique? I can personalize an existing design, repurpose your gems and metals, or craft something entirely new.</p><p>Explore the Custom Gallery for inspiration.</p>"
+            "text": "<p>Let my past creations inspire a one-of-a-kind design made just for you.</p>"
           }
         },
         "button_j6k9yN": {
@@ -443,16 +449,22 @@
         }
       },
       "block_order": [
+        "heading_bYHxTa",
         "text_QUcqmP",
         "button_j6k9yN"
+      ],
+      "custom_css": [
+        "h2 {margin-bottom: 0rem; font-size: calc(var(--font-heading-scale) * 2.3rem) !important; text-transform: uppercase;}",
+        ".rich-text__text {margin-top: 0.2rem;}",
+        "@media screen and (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.7rem) !important; padding: 0.6rem 1rem !important; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 20,
+        "padding_bottom": 32
       }
     },
     "featured_collection_eT4ph9": {
@@ -921,9 +933,9 @@
     "custom_liquid_GT6bmM",
     "image_banner_7RCNFH",
     "image_with_text_VnYm3w",
-    "rich_text_xmMmdB",
     "image_banner_dYNYRy",
     "custom_process_jeCjEQ",
+    "rich_text_xmMmdB",
     "rich_text_i7hExD",
     "featured_collection_eT4ph9",
     "rich_text_6gJhKP",

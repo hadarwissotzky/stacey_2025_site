@@ -303,6 +303,14 @@
 #MainContent .custom-process-body-text {
     text-align: center;
 }
+
+#MainContent .custom-process-body-text {
+    font-family: 'GoudyOldStyle', sans-serif !important;
+    font-size: 2rem !important;
+    line-height: 2rem !important;
+    padding-bottom: 0.6rem;
+    padding-top: 0.6rem;
+}
 .custom-process-title{
     text-align: center;
 }
@@ -322,7 +330,8 @@
 /* Custom styling for custom-design-journey page */
 [id*="custom_process_jeCjEQ"] .component-1 {
     padding-top: 0% !important;
-    padding-left: 3%;
+    padding-left: 4rem;
+    padding-right: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -342,19 +351,19 @@
     justify-content: center;
     align-items: flex-start;
     min-height: 180px;
-    background-color: #faf5f1;
+    background-color: #fff;
 }
 
 [id*="custom_process_nDkDtm"] .components {
     display: flex;
     align-items: center;
-    background-color: #faf5f1;
+    background-color: #fff;
 }
 
 /* Also add background to the other section for consistency */
 [id*="custom_process_jeCjEQ"] .component-1,
 [id*="custom_process_jeCjEQ"] .components {
-    background-color: #faf5f1;
+    background-color: #fff;
 }
 
 /* Custom design journey banner content */
