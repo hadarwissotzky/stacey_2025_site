@@ -27,7 +27,7 @@
 }
 
 .h4{
-  font-size: calc(var(--font-heading-scale) * 1.3rem);
+  font-size: calc(var(--font-heading-scale) * 1.2rem);
   color: #919191;
 }
 .accordion__title {
