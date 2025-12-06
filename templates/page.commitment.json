@@ -23,7 +23,7 @@
       "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n.banner__text p {\n  font-size: calc(var(--font-heading-scale) * 1.8rem) !important;\n}\n@media screen and (max-width: 749px) {\n  #Banner-template--25996792594715__image_banner_7RCNFH p {\n    font-size: calc(var(--font-heading-scale) * 1.7rem) !important;\n    line-height: 1.2em;\n    margin-top: 0.8em;\n  }\n .slideshow__text-wrapper p {\n    font-size: calc(var(--font-heading-scale) * 1.5rem) !important;\n  }\n#shopify-section-template--25996792594715__slideshow_wERMQy .slideshow__text-wrapper h2{\nfont-size: 1.2rem !important;\n    color: rgba(var(--color-foreground), 0.75) !important;\n    padding-right: 2rem !important;\n        padding-top: 1rem;\n}\n#shopify-section-template--25996792594715__slideshow_wERMQy{\nmargin-bottom: 5% !important;\n}\n}\n</style>",
+        "custom_liquid": "<style>\n.section-template--25996792594715__rich_text_CeFEGf-padding{\n  background-color: #faf5f1;\n}\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n.banner__text p {\n  font-size: calc(var(--font-heading-scale) * 1.8rem) !important;\n}\n@media screen and (max-width: 749px) {\n  #Banner-template--25996792594715__image_banner_7RCNFH p {\n    font-size: calc(var(--font-heading-scale) * 1.7rem) !important;\n    line-height: 1.2em;\n    margin-top: 0.8em;\n  }\n .slideshow__text-wrapper p {\n    font-size: calc(var(--font-heading-scale) * 1.5rem) !important;\n  }\n#shopify-section-template--25996792594715__slideshow_wERMQy .slideshow__text-wrapper h2{\nfont-size: 1.2rem !important;\n    color: rgba(var(--color-foreground), 0.75) !important;\n    padding-right: 2rem !important;\n        padding-top: 1rem;\n}\n#shopify-section-template--25996792594715__slideshow_wERMQy{\nmargin-bottom: 5% !important;\n}\n}\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -137,49 +137,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "rich_text_CeFEGf": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_JmKVk6": {
-          "type": "heading",
-          "settings": {
-            "heading": "RE-USE YOUR OWN GEMS & JEWELRY",
-            "heading_size": "h1"
-          }
-        },
-        "text_nKqtXR": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>Custom commitment jewelry is my specialty, whether you want to refresh an heirloom or create a new one.</h3>"
-          }
-        },
-        "text_rVMmRP": {
-          "type": "text",
-          "settings": {
-            "text": "<h5><a href=\"/pages/use-your-own-gems-metal\" title=\"Use your own gems & metal\">LEARN MORE</a></h5>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_JmKVk6",
-        "text_nKqtXR",
-        "text_rVMmRP"
-      ],
-      "custom_css": [
-        ".rich-text__blocks {max-width: 59rem;}",
-        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 2.3rem); font-weight: 300; font-weight: 300; line-height: 26px;}",
-        ".rich-text h3 {font-family: \"GoudyOldStyle\", sans-serif !important;}",
-        ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "custom_process_nDkDtm": {
@@ -371,9 +328,59 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "rich_text_CeFEGf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JmKVk6": {
+          "type": "heading",
+          "settings": {
+            "heading": "RE-USE YOUR OWN GEMS & METAL",
+            "heading_size": "h1"
+          }
+        },
+        "text_nKqtXR": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Custom commitment jewelry is my specialty, whether you want to refresh an heirloom or create a new one.</h3>"
+          }
+        },
+        "text_rVMmRP": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><a href=\"/pages/use-your-own-gems-metal\" title=\"Use your own gems & metal\">LEARN MORE</a></h5>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JmKVk6",
+        "text_nKqtXR",
+        "text_rVMmRP"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 59rem;}",
+        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 2.3rem); font-weight: 300; font-weight: 300; line-height: 26px;}",
+        ".rich-text h3 {font-family: \"A Gothic\", sans-serif !important;}",
+        ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_7zKXXk": {
       "type": "rich-text",
       "blocks": {
+        "heading_TKPJ4j": {
+          "type": "heading",
+          "settings": {
+            "heading": "CUSTOM JEWELRY",
+            "heading_size": "h1"
+          }
+        },
         "text_rmjprM": {
           "type": "text",
           "settings": {
@@ -393,17 +400,21 @@
         }
       },
       "block_order": [
+        "heading_TKPJ4j",
         "text_rmjprM",
         "button_Bf6twh"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "h2 {margin-bottom: 0rem; font-size: calc(var(--font-heading-scale) * 2.3rem) !important; text-transform: uppercase;}",
+        "p{margin-bottom: 0rem;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 24,
+        "padding_bottom": 32
       }
     },
     "featured_collection_eT4ph9": {
@@ -876,8 +887,8 @@
     "custom_liquid_F9JYJK",
     "image_banner_7RCNFH",
     "image_with_text_hEgPig",
-    "rich_text_CeFEGf",
     "custom_process_nDkDtm",
+    "rich_text_CeFEGf",
     "rich_text_7zKXXk",
     "featured_collection_eT4ph9",
     "rich_text_dXMhfT",

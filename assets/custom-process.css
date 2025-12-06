@@ -10,6 +10,9 @@
   display: none !important;
 } */
 
+.components .slider-counter {
+    display: none !important;
+}
 .slider-button--next {
   right: calc(32px);
 
@@ -89,11 +92,20 @@
     line-height: 3rem !important;
 }
 
-.component-2{
+/*.component-2{
         flex: 0 1 66.67%;
         -webkit-box-flex: 0;
         max-width: 66.67%;
         width: 66.67%;
+        white-space: normal;
+        box-shadow: unset;
+}*/
+
+.component-2{
+        flex: 0 1 100%;
+        -webkit-box-flex: 0;
+        max-width: 100%;
+        width: 100%;
         white-space: normal;
         box-shadow: unset;
 }
@@ -329,6 +341,7 @@
 
 /* Custom styling for custom-design-journey page */
 [id*="custom_process_jeCjEQ"] .component-1 {
+    display: none !important;
     padding-top: 0% !important;
     padding-left: 4rem;
     padding-right: 5rem;
@@ -346,7 +359,7 @@
 
 /* Custom styling for where-to-start page - matching custom-design-journey */
 [id*="custom_process_nDkDtm"] .component-1 {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -1054,10 +1067,10 @@
         box-shadow: unset;
   }
     .component-2 {
-        flex: 0 1 71.67%;
+        flex: 0 1 100%;
         -webkit-box-flex: 0;
-        max-width: 71.67%;
-        width: 71.67%;
+        max-width: 100%;
+        width: 100%;
         white-space: normal;
         box-shadow: unset;
   }
