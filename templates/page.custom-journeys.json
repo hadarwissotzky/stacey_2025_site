@@ -390,7 +390,7 @@
         "text_LfqHqW": {
           "type": "text",
           "settings": {
-            "text": "<h3>I can refresh an heirloom, repurpose your own jewelry, or create something entirely new.</h3>"
+            "text": "<p>I can refresh an heirloom, repurpose your own jewelry, or create something entirely new.</p>"
           }
         },
         "text_DHT4Y9": {
@@ -408,7 +408,6 @@
       "custom_css": [
         ".rich-text__blocks {max-width: 59rem;}",
         ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 2.3rem); font-weight: 300; line-height: 26px;}",
-        ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}",
         ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}"
       ],
       "settings": {

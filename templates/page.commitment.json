@@ -341,7 +341,7 @@
         "text_nKqtXR": {
           "type": "text",
           "settings": {
-            "text": "<h3>Custom commitment jewelry is my specialty, whether you want to refresh an heirloom or create a new one.</h3>"
+            "text": "<p>Custom commitment jewelry is my specialty, whether you want to refresh an heirloom or create a new one.</p>"
           }
         },
         "text_rVMmRP": {
@@ -359,7 +359,6 @@
       "custom_css": [
         ".rich-text__blocks {max-width: 59rem;}",
         ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 2.3rem); font-weight: 300; font-weight: 300; line-height: 26px;}",
-        ".rich-text h3 {font-family: \"A Gothic\", sans-serif !important;}",
         ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}"
       ],
       "settings": {
@@ -406,7 +405,7 @@
       ],
       "custom_css": [
         "h2 {margin-bottom: 0rem; font-size: calc(var(--font-heading-scale) * 2.3rem) !important; text-transform: uppercase;}",
-        "p{margin-bottom: 0rem;}"
+        "p {margin-bottom: 0rem;}"
       ],
       "settings": {
         "desktop_content_position": "center",
