@@ -331,7 +331,6 @@ slider-component.slider-component-full-width {
   display: flex;
   align-items: center;
   justify-content: center;
-  display: none;
   height: 16px;
       padding-top: 2rem;
       padding-bottom: 2rem;

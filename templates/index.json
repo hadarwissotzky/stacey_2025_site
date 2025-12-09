@@ -169,15 +169,16 @@
       "type": "featured-collection",
       "custom_css": [
         ".title-wrapper {margin-bottom: 0px;}",
-        ".collection__title {border-top: 1px solid #dee0e3; padding: 40px 0px 20px 0px !important;}",
-        ".collection__title .title {text-align: center; margin-bottom: 1.4rem; letter-spacing: 2px; color: #676977; font: 400 2.1rem/40px Nexa, sans-serif !important;}",
+        ".collection__title {border-top: 1px solid #dee0e3; padding: 40px 0px 0px 0px !important;}",
+        ".collection__title .title {text-align: center;}",
+        ".collection__title .title a {margin-bottom: 1.4rem; letter-spacing: 2px; font: 400 2.1rem/40px Nexa, sans-serif !important; text-decoration: none;}",
         ".product-grid {margin-bottom: 0;}",
         ".card__badge {display: none;}",
         ".slider__slide:last-child .card {border-right: none !important;}",
         ".slider-counter {display: none;}"
       ],
       "settings": {
-        "title": "SHOP READY-TO-SHIP",
+        "title": "<a href=\"/collections/ready-to-ship\" title=\"Ready To Ship\">SHOP READY-TO-SHIP</a>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -261,7 +262,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n@media screen and (min-width: 750px) {\n  .collection slider-component:not(.page-width-desktop) {\n    padding-bottom: 0px !important;\n  }\n    .slider.slider--desktop.contains-card--standard .slider__slide:not(.collection-list__item--no-media) {\n        padding-top: 0;\n    }\n#shopify-section-template--25996792332571__bedcfa7e-20a7-4a07-a886-5d92ed4dfb2a .product-grid {\n  border: 1px solid #dee0e3;\n }\n}\n@media screen and (max-width: 749px) {\n#shopify-section-template--25996792332571__image_banner .banner__heading {\n  line-height: 4rem !important;\n}\n.image-with-text__text h1 {\n  font: 400 28px/30px Nexa, sans-serif;\n  text-align: center !important;\n}\n.image-with-text__text p {\n  font: 400 1.6rem/25px Nexa, sans-serif;\n  text-align: center;\n}\n.section-template--25996792332571__custom_liquid_w4DmR8-padding{\n  padding-top: 0px;\n}\n.collection__title {\n  border-top: 1px solid #dee0e3;\n  padding: 40px 0 0px !important;\n}\n}\n</style>",
+        "custom_liquid": "<style>\n@media screen and (min-width: 750px) {\n  .collection slider-component:not(.page-width-desktop) {\n    padding-bottom: 0px !important;\n  }\n    .slider.slider--desktop.contains-card--standard .slider__slide:not(.collection-list__item--no-media) {\n        padding-top: 0;\n    }\n#shopify-section-template--25996792332571__bedcfa7e-20a7-4a07-a886-5d92ed4dfb2a .product-grid {\n  border: 1px solid #dee0e3;\n }\n}\n.image-with-text__text h1{\n color: #000;\n\n}\n.image-with-text__text p {\n color: rgba(#000,0.75);\n}\n\n@media screen and (max-width: 749px) {\n#shopify-section-template--25996792332571__image_banner .banner__heading {\n  line-height: 4rem !important;\n}\n.image-with-text__text h1 {\n  font: 400 28px/30px Nexa, sans-serif;\n  text-align: center !important;\n}\n.image-with-text__text p {\n  font: 400 1.6rem/25px Nexa, sans-serif;\n  text-align: center;\n}\n.section-template--25996792332571__custom_liquid_w4DmR8-padding{\n  padding-top: 0px;\n}\n.collection__title {\n  border-top: 1px solid #dee0e3;\n  padding: 40px 0 0px !important;\n}\n}\n</style>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

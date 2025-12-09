@@ -10,6 +10,7 @@
 
 .article-template > *:first-child:not(.article-template__hero-container) {
   margin-top: 5rem;
+  float: left;
 }
 
 @media screen and (min-width: 750px) {
@@ -149,13 +150,11 @@
   text-decoration: underline;
 }
 
-.article-template__social-sharing {
-  margin-top: 3rem;
-}
 
 .article-template__social-sharing + header,
 .article-template__social-sharing + .article-template__content {
   margin-top: 1.5rem;
+  clear: both;
 }
 
 .article-template__comment-wrapper {
@@ -232,12 +231,12 @@
 }
 
   .article-template__social-sharing {
-        position: absolute;
-    top: 13%;
-    right: 4%;
-    }
-    .article-template__social-sharing .share-button__button {
-        color: rgba(145, 145, 145, var(--tw-text-opacity, 1));
+      float:right;
+      margin-right: 50px;
+  }
+  .article-template__social-sharing .share-button__button {
+      color: rgba(145, 145, 145, var(--tw-text-opacity, 1));
+      min-height: 2.4rem;
   }
 
 @media screen and (max-width: 749px) {
@@ -254,10 +253,9 @@
  font-size: calc(var(--font-heading-scale) * 1.6rem) !important;
   }
   .article-template__social-sharing {
-        position: absolute;
-    top: 8%;
-    right: 4%;
-    }
+
+  }
+
     .article-template__social-sharing .share-button__button {
         color: rgba(145, 145, 145, var(--tw-text-opacity, 1));
   }

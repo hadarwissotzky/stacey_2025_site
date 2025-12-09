@@ -28,7 +28,7 @@
 
 .h4{
   font-size: calc(var(--font-heading-scale) * 1.2rem);
-  color: #919191;
+  color: #000;
 }
 .accordion__title {
   display: inline-block;

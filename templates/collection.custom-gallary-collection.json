@@ -87,6 +87,9 @@
         "heading_8VEQ88",
         "text_M3xyeG"
       ],
+      "custom_css": [
+        "p {font-size: calc(var(--font-heading-scale) * 1.7rem);}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -101,8 +104,8 @@
       "type": "main-collection-product-grid",
       "custom_css": [
         "@media screen and (max-width: 749px) {.card__media {min-height: 194px !important; }}",
-        "option[value='price-ascending'] { display: none !important; }",
-        "option[value='price-descending'] { display: none !important; }"
+        "option[value=\"price-ascending\"] {display: none !important;}",
+        "option[value=\"price-descending\"] {display: none !important;}"
       ],
       "settings": {
         "products_per_page": 16,
