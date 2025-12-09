@@ -93,7 +93,7 @@
         "text_gKXwt4": {
           "type": "text",
           "settings": {
-            "text": "<h3>I reimagine unused and unloved jewelry... </h3><p>Into modern designs you’ll love to wear. Begin your transformation with a complimentary <a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\">virtual consultation</a>.</p>",
+            "text": "<h3>I reimagine unused and unloved jewelry... </h3><p>Into modern designs you’ll love to wear. Begin your transformation with a complimentary </p><p><a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\">virtual consultation</a>.</p>",
             "text_style": "body"
           }
         },
@@ -113,8 +113,8 @@
       ],
       "custom_css": [
         ".rich-text__buttons .base-button {background-color: #fff;}",
-        "p a,p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important; text-align: center; padding: 0;}",
-        "h3 {font: 400 28px / 30px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px; text-align: center;}",
+        "p a,p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important; text-align: left; padding: 0;}",
+        "h3 {font: 400 28px / 30px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px; text-align: left;}",
         ".image-with-text .image-with-text__heading {font-size: 1.3rem !important;}",
         "@media (min-width: 750px) {.image-with-text__text-item {width: 40%; } .image-with-text__media-item {width: 60%; }}"
       ],

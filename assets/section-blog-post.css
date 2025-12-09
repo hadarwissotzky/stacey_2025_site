@@ -232,7 +232,7 @@
 
   .article-template__social-sharing {
       float:right;
-      margin-right: 50px;
+      margin-right: 2%;
   }
   .article-template__social-sharing .share-button__button {
       color: rgba(145, 145, 145, var(--tw-text-opacity, 1));

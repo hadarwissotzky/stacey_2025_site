@@ -63,7 +63,7 @@ button[name="add"],
 button[type="submit"][name="add"] {
   background-color: #f3e5d6 !important;
   color: #000 !important;
-  font-size: 1.2rem !important;
+  font-size: 1.1rem !important;
   min-height: calc(4.1rem + var(--buttons-border-width) * 2) !important;
   border: none !important;
   border-radius: 0 !important;
@@ -82,6 +82,7 @@ button[type="submit"][name="add"] {
   z-index: 99999 !important;
   padding: 1.5rem 3rem !important;
   cursor: pointer !important;
+  text-transform: uppercase;
 }
 
 .price__regular {

@@ -65,11 +65,12 @@
         "9f5086ea-7d6c-494d-a76b-032dd0a0d171"
       ],
       "custom_css": [
-        ".share-button__button {font-family: \"A Gothic\" !important; font-size: 1.3rem;}",
+        ".share-button__button {font-family: \"A Gothic\" !important; font-size: 1.3rem; color: rgba(var(--color-link), 0.55) !important;}",
         ".customer span {font-family: \"A Gothic\" !important; font-size: 1.3rem; padding-top: 3px;}",
         ".product__tax {display: none;}",
-        ".product__description p span {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: 1.8rem; font-weight: 300; line-height: 1.4em;}",
-        ".select__select {font-size: 1.6rem;}"
+        ".product__description p span {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: 1.4rem; font-weight: 300; line-height: 1.4em;}",
+        ".select__select {font-size: 1.6rem;}",
+        "h1 {font-family: \"GoudyOldStyle\", sans-serif !important;}"
       ],
       "settings": {
         "enable_sticky_info": true,
