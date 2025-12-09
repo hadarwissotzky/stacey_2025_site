@@ -93,7 +93,7 @@
         "text_gKXwt4": {
           "type": "text",
           "settings": {
-            "text": "<h3>I reimagine unused and unloved jewelry... </h3><p>Into modern designs you’ll love to wear. Begin your transformation with a complimentary <a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\">virtual consultation.</a></p>",
+            "text": "<h3>I reimagine unused and unloved jewelry... </h3><p>Into modern designs you’ll love to wear. Begin your transformation with a complimentary <a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\">virtual consultation</a>.</p>",
             "text_style": "body"
           }
         },
@@ -224,7 +224,7 @@
         "text_ajJr8r": {
           "type": "text",
           "settings": {
-            "text": "<h3>Custom jewelry is my specialty, whether you want to refresh an heirloom or create a new one.</h3>"
+            "text": "<h3>Whether you want to refresh an heirloom or create a new one.</h3>"
           }
         },
         "text_jjBFeR": {

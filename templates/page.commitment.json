@@ -328,6 +328,60 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "image_with_text_FDdbiD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9HfcTP": {
+          "type": "heading",
+          "settings": {
+            "heading": "USE YOUR OWN GEMS & METAL",
+            "heading_size": "h1"
+          }
+        },
+        "text_nzW9nN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Custom commitment jewelry is my specialty, whether you want to refresh an heirloom or create a new one.</p><p></p><p><a href=\"/pages/use-your-own-gems-metal\" title=\"Use Your Own Gems & Metal\">LEARN MORE</a></p>",
+            "text_style": "body"
+          }
+        },
+        "button_bi8qFr": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "shopify://pages/use-your-own-gems-metal",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9HfcTP",
+        "text_nzW9nN",
+        "button_bi8qFr"
+      ],
+      "custom_css": [
+        ".h1 {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 2.3rem) !important; font-weight: 300; line-height: 26px;}",
+        "a {font-size: calc(var(--font-heading-scale) * 1.3rem);}",
+        "@media screen and (max-width: 749px) {.image-with-text__grid {flex-direction: column-reverse; } .image-with-text__text-item {text-align: -webkit-center; } p {justify-content: center; width: calc(100% - 4rem / var(--font-body-scale)); }}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/HiRes_Use_Your_Own_Gems_Metal_Banner_Photo.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-2",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_CeFEGf": {
       "type": "rich-text",
       "blocks": {
@@ -356,6 +410,7 @@
         "text_nKqtXR",
         "text_rVMmRP"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text__blocks {max-width: 59rem;}",
         ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 2.3rem); font-weight: 300; font-weight: 300; line-height: 26px;}",
@@ -412,7 +467,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 24,
+        "padding_top": 40,
         "padding_bottom": 32
       }
     },
@@ -887,6 +942,7 @@
     "image_banner_7RCNFH",
     "image_with_text_hEgPig",
     "custom_process_nDkDtm",
+    "image_with_text_FDdbiD",
     "rich_text_CeFEGf",
     "rich_text_7zKXXk",
     "featured_collection_eT4ph9",
