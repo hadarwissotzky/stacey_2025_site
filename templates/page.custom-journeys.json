@@ -120,7 +120,7 @@
         "h3 {font: 400 28px / 30px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px;}",
         "p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important;}",
         "h2 {text-transform: uppercase;}",
-        "@media screen and (max-width: 749px) {p, h3 {text-align: center; padding: 0rem 3rem !important; }}"
+        "@media screen and (max-width: 749px) {p, h3 {text-align: center; padding: 0rem 2.2rem !important; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/TRULY_New_FINAL_Index_Info_Logo_Stacey_Homepage_Portrait_bd8685bc-a4dc-4d62-832e-e0106a941d07.png",
@@ -136,6 +136,49 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "rich_text_pqnyd7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4rh4T4": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGNING CUSTOM JEWELRY",
+            "heading_size": "h1"
+          }
+        },
+        "text_qzqXNc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The custom design process is a personalized, collaborative journey.<br/></p>"
+          }
+        },
+        "text_ryQN7Y": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Here’s how it works.</strong></em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4rh4T4",
+        "text_qzqXNc",
+        "text_ryQN7Y"
+      ],
+      "custom_css": [
+        ".rich-text {}",
+        ".h1 {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"A Gothic\", sans-serif !important; font-size: 2.3rem; line-height: 1.2em; color: rgba(var(--color-foreground), 0.75);}",
+        "p {text-align: center; font-family: GoudyOldStyle, sans-serif !important; font-size: 2rem !important; line-height: 3rem !important; color: rgba(var(--color-foreground), 0.75);}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 28
       }
     },
     "image_banner_dYNYRy": {
@@ -175,7 +218,7 @@
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -944,6 +987,7 @@
     "custom_liquid_GT6bmM",
     "image_banner_7RCNFH",
     "image_with_text_VnYm3w",
+    "rich_text_pqnyd7",
     "image_banner_dYNYRy",
     "custom_process_jeCjEQ",
     "image_with_text_XGiDTU",

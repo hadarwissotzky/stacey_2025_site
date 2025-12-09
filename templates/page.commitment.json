@@ -121,7 +121,7 @@
         "h3 {font: 400 28px / 30px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px;}",
         "p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important;}",
         ".button {background: #fff;}",
-        "@media screen and (max-width: 749px) {p, h3 {text-align: center; }}"
+        "@media screen and (max-width: 749px) {p, h3 {text-align: center; } p {padding: 0px 3rem 0px 3rem !important; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/FINAL_New_Brighter_FINAL_Index_Info_Stacey_Commitment.png",
@@ -137,6 +137,49 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "rich_text_cbdC7Q": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dhRURn": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGNING CUSTOM JEWELRY",
+            "heading_size": "h1"
+          }
+        },
+        "text_XgyLtQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The custom design process is a personalized, collaborative journey.<br/></p>"
+          }
+        },
+        "text_ghRnGr": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Here’s how it works.</strong></em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dhRURn",
+        "text_XgyLtQ",
+        "text_ghRnGr"
+      ],
+      "custom_css": [
+        ".rich-text {}",
+        ".h1 {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"A Gothic\", sans-serif !important; font-size: 2.3rem; line-height: 1.2em; color: rgba(var(--color-foreground), 0.75);}",
+        "p {text-align: center; font-family: GoudyOldStyle, sans-serif !important; font-size: 2rem !important; line-height: 3rem !important; color: rgba(var(--color-foreground), 0.75);}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 28
       }
     },
     "custom_process_nDkDtm": {
@@ -941,6 +984,7 @@
     "custom_liquid_F9JYJK",
     "image_banner_7RCNFH",
     "image_with_text_hEgPig",
+    "rich_text_cbdC7Q",
     "custom_process_nDkDtm",
     "image_with_text_FDdbiD",
     "rich_text_CeFEGf",
