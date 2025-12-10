@@ -541,6 +541,7 @@
       font-size: calc(var(--font-heading-scale) * 1.9rem);
       padding-top: 0px !important;
       padding: 0px;
+      line-height: 2.1rem !important;
   }
   #MainContent #Banner-template--25996792725787__image_banner_7RCNFH p
    {

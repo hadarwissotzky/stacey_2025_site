@@ -56,8 +56,8 @@
       "type": "main-collection-product-grid",
       "custom_css": [
         "@media screen and (max-width: 749px) {.card__media {min-height: 194px !important; }}",
-        "option[value='price-ascending'] {display: none !important;}",
-        "option[value='price-descending'] {display: none !important;}"
+        "option[value=\"price-ascending\"] {display: none !important;}",
+        "option[value=\"price-descending\"] {display: none !important;}"
       ],
       "settings": {
         "products_per_page": 16,
@@ -73,7 +73,7 @@
         "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "2",
-        "padding_top": 16,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },

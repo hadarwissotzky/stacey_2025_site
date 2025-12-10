@@ -238,7 +238,7 @@
         ".rich-text__buttons .outter-button .button:hover {background: #000 !important;}",
         ".rich-text__buttons .base-button {background-color: #fff;}",
         ".image-with-text__heading {font-size: 11px; letter-spacing: 1.3px !important;}",
-        ".image-with-text__text h1 {font: 400 28px/30px Nexa, sans-serif; text-align: left; margin-bottom: 10px; padding: 0rem 1rem; padding-left: 0rem;}",
+        ".image-with-text__text h1 {font: 400 28px/30px Nexa, sans-serif; text-align: left; margin-bottom: 10px; padding: 0rem 0rem; padding-left: 0rem;}",
         ".image-with-text__text p {font: 400 1.6rem/25px Nexa, sans-serif;}",
         "@media (min-width: 750px) {.image-with-text__text-item {width: 40%; } .image-with-text__media-item {width: 60%; }}"
       ],

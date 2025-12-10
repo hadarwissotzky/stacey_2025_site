@@ -50,7 +50,7 @@
         "9f5086ea-7d6c-494d-a76b-032dd0a0d171": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{{ 'gift-card-custom.css' | asset_url | stylesheet_tag }}\n\n<div class=\"pdp__help__links\">\n\n<style>\n.pdp__help__links {\n    font-size: 11px;\n    letter-spacing: 0.5px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    order: 4;\n    padding: 0px;\n    margin-top: auto;\n      line-height: inherit;\n    color: #919191;\n      font-family: 'A-Gothic', sans-serif;\n}\n.pdp__help__links__left {\n    display: flex;\n    border-top: none;\n}\n.pdp__help__links__left .pdp__help__links__item {\n    border-bottom: none;\n}\n.pdp__help__links__item {\n    margin-right: 29px;\n}\n.pdp__help__links__right a,\n.pdp__help__links__item a {\n    color: #919191;\n}\n@media screen and (max-width: 749px) {\n  .product__description p {\n        padding: 0px 1rem !important;\n  }\n}\n</style>"
+            "custom_liquid": "{{ 'gift-card-custom.css' | asset_url | stylesheet_tag }}\n\n<div class=\"pdp__help__links\">\n\n<style>\n.pdp__help__links {\n    font-size: 11px;\n    letter-spacing: 0.5px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    order: 4;\n    padding: 0px;\n    margin-top: auto;\n      line-height: inherit;\n    color: #919191;\n      font-family: 'A-Gothic', sans-serif;\n}\n.pdp__help__links__left {\n    display: flex;\n    border-top: none;\n}\n.pdp__help__links__left .pdp__help__links__item {\n    border-bottom: none;\n}\n.pdp__help__links__item {\n    margin-right: 29px;\n}\n.pdp__help__links__right a,\n.pdp__help__links__item a {\n    color: #919191;\n}\n@media screen and (max-width: 749px) {\n  .product__description p {\n        padding: 0px 1rem !important;\npadding-left: 0px !important;\nline-height: 1.35rem !important;\n  }\n}\n</style>"
           }
         }
       },
@@ -68,7 +68,7 @@
         ".share-button__button {font-family: \"A Gothic\" !important; font-size: 1.3rem; color: rgba(var(--color-link), 0.55) !important;}",
         ".customer span {font-family: \"A Gothic\" !important; font-size: 1.3rem; padding-top: 3px;}",
         ".product__tax {display: none;}",
-        ".product__description p span {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: 1.4rem; font-weight: 300; line-height: 1.4em;}",
+        ".product__description p span {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: 1.35rem; font-weight: 300; line-height: 1.35em;}",
         ".select__select {font-size: 1.6rem;}",
         "h1 {font-family: \"GoudyOldStyle\", sans-serif !important;}"
       ],

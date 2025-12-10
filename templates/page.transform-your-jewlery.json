@@ -74,7 +74,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n\n}\n</style>",
+        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text p,\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text h3 {\ntext-align: center;\n}\n}\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -93,7 +93,7 @@
         "text_gKXwt4": {
           "type": "text",
           "settings": {
-            "text": "<h3>I reimagine unused and unloved jewelry... </h3><p>Into modern designs you’ll love to wear. Begin your transformation with a complimentary </p><p><a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\">virtual consultation</a>.</p>",
+            "text": "<h3>I reimagine unused and unloved jewelry... </h3><p>Into modern designs you’ll love to wear. Begin your transformation with a complimentary <a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\">virtual consultation</a>.</p>",
             "text_style": "body"
           }
         },
@@ -140,7 +140,13 @@
         "text_YwbcbH": {
           "type": "text",
           "settings": {
-            "text": "<p>Looking for inspiration? I can personalize a design or craft something entirely new.</p><p>Explore the Custom Gallery for ideas.</p>"
+            "text": "<p>Looking for inspiration? I can personalize a design or </p><p>craft something entirely new.</p>"
+          }
+        },
+        "text_XT6rhb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore the Custom Gallery for ideas.</p>"
           }
         },
         "button_pCYGLT": {
@@ -157,6 +163,7 @@
       },
       "block_order": [
         "text_YwbcbH",
+        "text_XT6rhb",
         "button_pCYGLT"
       ],
       "custom_css": [

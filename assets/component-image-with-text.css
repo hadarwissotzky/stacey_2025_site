@@ -376,6 +376,7 @@
 .image-with-text__text p {
   margin-top: 0;
   margin-bottom: 1rem;
+  line-height: 2.1rem !important;
 }
 
 @media screen and (max-width: 749px) {
