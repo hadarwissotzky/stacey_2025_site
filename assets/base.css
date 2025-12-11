@@ -3705,7 +3705,7 @@ shopify-accelerated-checkout-cart {
   max-width: 65ch !important;
 }
 #MainContent h1 {
-  font-family: 'Masqualero', serif !important;
+
   font-size: calc(var(--font-heading-scale) * 2.4rem);
     text-align: center;
   margin: 0 auto;

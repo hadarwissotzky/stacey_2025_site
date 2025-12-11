@@ -239,12 +239,15 @@ cart-items .title-wrapper-with-link {
   justify-content: flex-start !important;
   align-items: flex-start !important;
   display: flex !important;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 cart-items .title-wrapper-with-link .title {
   text-align: left !important;
   margin-left: 0 !important;
   margin-right: auto !important;
+  font-family: GoudyOldStyle, sans-serif !important;
+  font-size: calc(var(--font-heading-scale) * 1.9rem) !important;
 }
 
 .cart__items .title-wrapper-with-link {
@@ -275,10 +278,7 @@ cart-items .title-wrapper-with-link .title {
   position: sticky;
   top: 2rem;
   border-left: 1px solid rgba(var(--color-foreground), 0.08);
-  padding-left: 4rem;
-  padding-right: 4rem;
-  padding-top: 8rem;
-  padding-bottom: 3rem;
+  padding: 11rem 6rem 11rem;
 }
 
 @media screen and (max-width: 989px) {
@@ -308,6 +308,7 @@ cart-items .title-wrapper-with-link .title {
   justify-content: space-between;
   align-items: center;
   font-size: 1.4rem;
+  color: rgba(var(--color-foreground), 1);
 }
 
 .totals-line__label {
@@ -348,7 +349,7 @@ cart-items .title-wrapper-with-link .title {
 #MainContent .cart__policy-box p,
 .cart__policy-box p {
   margin: 0 !important;
-  font-size: 1.1rem !important;
+  font-size: 0.9rem !important;
   line-height: 1.6 !important;
   letter-spacing: 0.05rem !important;
   font-family: 'A Gothic', sans-serif !important;
