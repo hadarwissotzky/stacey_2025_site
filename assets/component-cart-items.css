@@ -2,7 +2,7 @@ cart-items .title-wrapper-with-link {
      margin-top: 0;
     padding-top: 2.7rem;
     padding-left: 6rem;
-    padding-right: 6rem;
+    padding-right: 3rem;
     margin-bottom: 0rem;
     padding-bottom: 3rem;
 }
@@ -388,7 +388,7 @@ cart-remove-button .icon-remove {
 }
 
 .cart-item__details .h4{
-    font-size: 2rem !important;
+    font-size: 1.4rem !important;
 } 
 .cart-item__details {
   font-size: 1.4rem !important;
@@ -455,8 +455,10 @@ cart-remove-button .icon-remove {
   }
   .title-wrapper-with-link a {
         text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: rgba(var(--color-link), 0.75);
+    text-transform: uppercase;
+    padding-top: 1rem;
   }
 }
 

@@ -44,7 +44,7 @@
         ".header--has-menu {display: flex; justify-content: space-between; max-width: 100%; padding-top: 11px; padding-bottom: 11px;}",
         ".header__inline-menu .list-menu__item {padding-right: 1.2rem;}",
         ".header__icon .icon-search {height: 1.8rem;}",
-        ".header__icon,.header__icon--cart .icon {height: 3.4rem;}",
+        ".header__icon,.header__icon--cart .icon {height: 3.4rem; padding-top: 0.3rem;}",
         ".header__icon .icon-search {height: 1.8rem;}"
       ],
       "settings": {

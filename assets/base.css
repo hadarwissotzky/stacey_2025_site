@@ -2710,7 +2710,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 .header__icon .icon {
-  height: 2rem;
+  height: 1.75rem;
   width: 2rem;
   fill: none;
   vertical-align: middle;
