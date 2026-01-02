@@ -103,13 +103,13 @@
       "custom_css": [
         ".image-with-text .grid {flex-direction: row-reverse;}",
         ".image-with-text__heading {font-size: 1.8rem !important;}",
-        ".image-with-text__content {padding: 13rem 11rem 7rem !important;}",
+        ".image-with-text__content {padding: 13rem 13rem 7rem !important;}",
         "p {line-height: 2.5rem !important; font-size: 1.65rem;}",
         "p.subtitle {width: 100%; text-align: right;}",
         "@media screen and (max-width: 749px) {p.subtitle {font-family: Nexa, sans-serif !important; font-size: 1.3rem !important; } .image-with-text__content {padding: 6rem 1rem 3rem !important; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Cropped_Less_Red_Final_About_Me_Image_1.jpg",
+        "image": "shopify://shop_images/TRULY_FINAL_Cropped_Less_Red_About_Me_Image_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

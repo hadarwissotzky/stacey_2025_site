@@ -135,7 +135,7 @@
   filter: none;
   transition: none;
       color: rgba(var(--color-foreground), 1);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .mobile-facets__sort .select__select:focus-visible {
@@ -357,9 +357,10 @@
   padding: 1rem 2rem 1rem 0;
   flex-grow: 1;
   position: relative;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   display: flex;
   word-break: break-word;
+  text-transform: uppercase;
 }
 
 /* Hover, active, and focus states */

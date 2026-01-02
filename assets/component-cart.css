@@ -247,7 +247,7 @@ cart-items .title-wrapper-with-link .title {
   margin-left: 0 !important;
   margin-right: auto !important;
   font-family: GoudyOldStyle, sans-serif !important;
-  font-size: calc(var(--font-heading-scale) * 1.9rem) !important;
+  font-size: calc(var(--font-heading-scale) * 1.6rem) !important;
 }
 
 .cart__items .title-wrapper-with-link {
@@ -353,7 +353,7 @@ cart-items .title-wrapper-with-link .title {
   line-height: 1.6 !important;
   letter-spacing: 0.05rem !important;
   font-family: 'A Gothic', sans-serif !important;
-  color: #99948f !important;
+  color: #000 !important;
 }
 
 .cart__policy-link {

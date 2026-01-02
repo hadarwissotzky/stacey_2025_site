@@ -58,6 +58,16 @@ if (!customElements.get('media-gallery')) {
         if (!this.elements.thumbnails) return;
         const activeThumbnail = this.elements.thumbnails.querySelector(`[data-target="${mediaId}"]`);
         this.setActiveThumbnail(activeThumbnail);
+
+        // Update slider counter to reflect the selected thumbnail position
+        const mediaPosition = activeThumbnail?.dataset.mediaPosition;
+        if (mediaPosition) {
+          const counterElement = this.elements.viewer.querySelector('.slider-counter--current');
+          if (counterElement) {
+            counterElement.textContent = mediaPosition;
+          }
+        }
+
         this.announceLiveRegion(activeMedia, activeThumbnail.dataset.mediaPosition);
       }
 
