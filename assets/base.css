@@ -4080,3 +4080,9 @@ shopify-accelerated-checkout-cart {
         font-size: 1.1rem !important;
   }
 }
+
+/* Gray out unavailable variant options */
+select option:disabled,
+.option--unavailable {
+  color: rgba(var(--color-foreground), 0.4);
+}

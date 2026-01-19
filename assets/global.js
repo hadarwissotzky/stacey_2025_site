@@ -1075,10 +1075,19 @@ class VariantSelects extends HTMLElement {
 
   setInputAvailability(listOfOptions, listOfAvailableOptions) {
     listOfOptions.forEach((input) => {
-      if (listOfAvailableOptions.includes(input.getAttribute('value'))) {
-        input.innerText = input.getAttribute('value');
+      const value = input.getAttribute('value');
+      if (!value) return; // Skip placeholder options
+
+      // Always show clean option text (no "- Unavailable" suffix)
+      input.innerText = value;
+
+      // Gray out AND disable unavailable options (not selectable)
+      if (listOfAvailableOptions.includes(value)) {
+        input.removeAttribute('disabled');
+        input.classList.remove('option--unavailable');
       } else {
-        input.innerText = window.variantStrings.unavailable_with_option.replace('[value]', input.getAttribute('value'));
+        input.setAttribute('disabled', 'disabled');
+        input.classList.add('option--unavailable');
       }
     });
   }
