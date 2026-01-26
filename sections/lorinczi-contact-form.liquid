@@ -299,43 +299,56 @@
         
           form.addEventListener('submit', async e => {
             e.preventDefault();
-          
-            // 1) Read & Base64-encode images as before…
-            const base64s = await Promise.all(
-              allFiles.map(f => new Promise((res, rej) => {
-                const reader = new FileReader();
-                reader.onload  = () => res(reader.result);
-                reader.onerror = rej;
-                reader.readAsDataURL(f);
-              }))
-            );
-          
-            // 2) Build dynamic form_id as you already do…
+
+            const hiddenField = document.getElementById('ContactForm-image_links');
+
+            // Build dynamic form_id
             const email     = document.getElementById('ContactForm-email').value.trim();
             const timestamp = new Date().toISOString();
             const formId    = `${email}-${timestamp}`;
             document.getElementById('ContactForm-form_id').value = formId;
-          
-            // 3) POST images → Xano
-            const resp = await fetch(
-              'https://app.ezquotepro.com/api:1KsPryE0/uploadImages',
-              {
-                method:  'POST',
-                headers: {'Content-Type':'application/json'},
-                body:    JSON.stringify({ form_id: formId, images: base64s })
+
+            // Only upload images if files were selected
+            if (allFiles.length > 0) {
+              try {
+                // Read & Base64-encode images
+                const base64s = await Promise.all(
+                  allFiles.map(f => new Promise((res, rej) => {
+                    const reader = new FileReader();
+                    reader.onload  = () => res(reader.result);
+                    reader.onerror = rej;
+                    reader.readAsDataURL(f);
+                  }))
+                );
+
+                // POST images → Xano
+                const resp = await fetch(
+                  'https://app.ezquotepro.com/api:1KsPryE0/uploadImages',
+                  {
+                    method:  'POST',
+                    headers: {'Content-Type':'application/json'},
+                    body:    JSON.stringify({ form_id: formId, images: base64s })
+                  }
+                );
+
+                if (!resp.ok) {
+                  // Continue without images if upload fails
+                  form.submit();
+                  return;
+                }
+
+                // Parse Xano's response
+                const returned = await resp.json();
+
+                // Extract URLs if response is valid
+                if (Array.isArray(returned)) {
+                  const urls = returned.map(item => item.image?.url).filter(Boolean);
+                  hiddenField.value = urls.join('\n');
+                }
+              } catch (err) {
+                // Continue with form submission even if image upload fails
               }
-            );
-          
-            // 4) Parse Xano’s response (array of { image: { url: … } })
-            const returned = await resp.json();
-            // e.g. [ { image: { url: '…' } }, { image: { url: '…' } } ]
-        
-            // 5) Extract just the URLs
-            const urls = returned.map(item => item.image.url);
-          
-            // 6) Inject into your hidden field (comma- or newline-separated)
-          const hiddenField = document.getElementById('ContactForm-image_links');
-          hiddenField.value = 'sdfsdfsdfsdfdsfsdfsf';//urls.join('\n');
+            }
 
             form.submit();
           });
