@@ -69,12 +69,12 @@
       {% if option.selected_value == value %}
         selected="selected"
       {% endif %}
+      {% if option_disabled %}
+        disabled
+        class="option--unavailable"
+      {% endif %}
     >
-      {% if option_disabled -%}
-        {{- 'products.product.value_unavailable' | t: option_value: value -}}
-      {%- else -%}
-        {{- value -}}
-      {%- endif %}
+      {{- value -}}
     </option>
   {%- endif -%}
 {%- endfor -%}
