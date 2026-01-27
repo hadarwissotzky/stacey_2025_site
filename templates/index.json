@@ -87,6 +87,7 @@
         "template--21717722104091__20029078-d2df-4c46-b126-e7d5ff72f316-text-1",
         "d09b86e9-970d-4b0f-b002-3f75515d6f6d"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text__blocks {max-width: 59rem;}",
         ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 2.3rem); font-weight: 300; line-height: 26px;}",
@@ -100,6 +101,61 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "a756bebb-30dd-41eb-ac82-eae61074a709": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "ROSES FADE. THORNS ENDURE.",
+            "heading_size": "h2"
+          }
+        },
+        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>A gift that lasts, for someone you love or for yourself.</h1><p>An enduring alternative to roses, this Valentine’s Day and beyond.</p>",
+            "text_style": "body"
+          }
+        },
+        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "EXPLORE COLLECTION",
+            "button_link": "shopify://collections/rose-thorn-collection",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-heading-1",
+        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-text-1",
+        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-button-1"
+      ],
+      "custom_css": [
+        ".rich-text__buttons .outter-button .button:hover {background: #000 !important;}",
+        ".rich-text__buttons .base-button {background-color: #fff;}",
+        ".image-with-text__heading {font-size: 11px; letter-spacing: 1.3px !important;}",
+        ".image-with-text__text h1 {font-size: 28px; text-align: left; margin-bottom: 10px; padding: 0rem 0rem; padding-left: 0rem;}",
+        ".image-with-text__text p {font: 400 1.6rem/25px Nexa, sans-serif;}",
+        "@media (min-width: 750px) {.image-with-text__text-item {width: 40%; } .image-with-text__media-item {width: 60%; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Valentine_s_Promotion_Banner.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "scheme-d23da204-75f2-431b-91aa-47efeff00978",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "f41a3fd7-37b6-4c9f-88f4-f137330d43e8": {
@@ -203,24 +259,24 @@
         "padding_bottom": 0
       }
     },
-    "a756bebb-30dd-41eb-ac82-eae61074a709": {
+    "image_with_text_a8YbiL": {
       "type": "image-with-text",
       "blocks": {
-        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-heading-1": {
+        "heading_GBtmNF": {
           "type": "heading",
           "settings": {
             "heading": "MEET THE JEWELER",
             "heading_size": "h2"
           }
         },
-        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-text-1": {
+        "text_zMTPYD": {
           "type": "text",
           "settings": {
             "text": "<h1>Let me tell your story in metal.</h1><p>Handcrafted jewelry combines beauty and meaning to honor milestones, celebrate love, and reflect your unique journey. Whether a simple silver pendant or the reinvention of a family treasure, I craft each piece to be a cherished future heirloom.</p>",
             "text_style": "body"
           }
         },
-        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-button-1": {
+        "button_pmjYxc": {
           "type": "button",
           "settings": {
             "button_label": "MY DESIGN PROCESS",
@@ -230,9 +286,9 @@
         }
       },
       "block_order": [
-        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-heading-1",
-        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-text-1",
-        "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-button-1"
+        "heading_GBtmNF",
+        "text_zMTPYD",
+        "button_pmjYxc"
       ],
       "custom_css": [
         ".rich-text__buttons .outter-button .button:hover {background: #000 !important;}",
@@ -354,7 +410,7 @@
       "type": "apps",
       "blocks": {
         "9e867019-e479-4e53-95e7-6d11ee139cb5": {
-          "type": "shopify://apps/instafeed-story/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+          "type": "shopify://apps/instafeed/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
           "settings": {}
         }
       },
@@ -372,7 +428,7 @@
       "type": "apps",
       "blocks": {
         "35ed1899-64f5-4e5f-a742-0785f9c7c87f": {
-          "type": "shopify://apps/instafeed-story/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+          "type": "shopify://apps/instafeed/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
           "settings": {}
         }
       },
@@ -424,9 +480,10 @@
   "order": [
     "image_banner",
     "20029078-d2df-4c46-b126-e7d5ff72f316",
+    "a756bebb-30dd-41eb-ac82-eae61074a709",
     "f41a3fd7-37b6-4c9f-88f4-f137330d43e8",
     "bedcfa7e-20a7-4a07-a886-5d92ed4dfb2a",
-    "a756bebb-30dd-41eb-ac82-eae61074a709",
+    "image_with_text_a8YbiL",
     "custom_liquid_w4DmR8",
     "rich_text_xgVpRH",
     "e4e33329-ee5b-49bd-a1eb-718e509a397d",

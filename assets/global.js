@@ -986,15 +986,31 @@ class VariantSelects extends HTMLElement {
     this.addEventListener('change', this.onVariantChange);
   }
 
+  connectedCallback() {
+    // Check initial state - disable button if not all options selected
+    this.updateOptions();
+    if (!this.validateAllOptionsSelected()) {
+      this.toggleAddButton(true, '', true);
+    }
+  }
+
   onVariantChange() {
     this.updateOptions();
     this.updateMasterId();
+
+    // Check if all options are selected
+    const allOptionsSelected = this.validateAllOptionsSelected();
+
     this.toggleAddButton(true, '', false);
     this.updatePickupAvailability();
     this.removeErrorMessage();
     this.updateVariantStatuses();
 
-    if (!this.currentVariant) {
+    if (!allOptionsSelected) {
+      // Not all options selected - disable button but keep "Add to Cart" text
+      this.toggleAddButton(true, '', true);
+    } else if (!this.currentVariant) {
+      // All options selected but variant doesn't exist - show "Unavailable"
       this.toggleAddButton(true, '', true);
       this.setUnavailable();
     } else {
@@ -1008,6 +1024,12 @@ class VariantSelects extends HTMLElement {
 
   updateOptions() {
     this.options = Array.from(this.querySelectorAll('select'), (select) => select.value);
+  }
+
+  validateAllOptionsSelected() {
+    const selects = Array.from(this.querySelectorAll('select'));
+    // Return true only if ALL selects have a non-empty value
+    return selects.length > 0 && selects.every(select => select.value !== '' && select.value !== null);
   }
 
   updateMasterId() {
@@ -1249,6 +1271,15 @@ class VariantRadios extends VariantSelects {
     super();
   }
 
+  validateAllOptionsSelected() {
+    const fieldsets = Array.from(this.querySelectorAll('fieldset'));
+    // Check that every fieldset has a checked radio
+    return fieldsets.length > 0 && fieldsets.every(fieldset => {
+      const radios = Array.from(fieldset.querySelectorAll('input[type="radio"]'));
+      return radios.some(radio => radio.checked);
+    });
+  }
+
   setInputAvailability(listOfOptions, listOfAvailableOptions) {
     listOfOptions.forEach((input) => {
       if (listOfAvailableOptions.includes(input.getAttribute('value'))) {
@@ -1262,7 +1293,8 @@ class VariantRadios extends VariantSelects {
   updateOptions() {
     const fieldsets = Array.from(this.querySelectorAll('fieldset'));
     this.options = fieldsets.map((fieldset) => {
-      return Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value;
+      const checkedRadio = Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked);
+      return checkedRadio ? checkedRadio.value : '';
     });
   }
 }

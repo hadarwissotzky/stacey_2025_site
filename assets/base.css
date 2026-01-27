@@ -2420,6 +2420,12 @@ product-info .loading__spinner:not(.hidden) ~ *,
   min-height: 3.8rem;
 }
 
+.announcement-bar__message.h5 span{
+  font-family: GoudyOldStyle, serif !important;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
 .announcement-bar-slider--fade-in-next .announcement-bar__message,
 .announcement-bar-slider--fade-in-previous .announcement-bar__message,
 .announcement-bar-slider--fade-out-next .announcement-bar__message,
@@ -3914,6 +3920,18 @@ shopify-accelerated-checkout-cart {
 }
 
 /*custom image section */
+.section-template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-padding .image-with-text__grid {
+  max-height: 350px;
+}
+.section-template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-padding .image-with-text__media {
+  max-height: 350px;
+  padding-bottom: 0 !important;
+}
+.section-template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-padding .image-with-text__media img {
+  max-height: 350px;
+  width: auto;
+  object-fit: cover;
+}
 .section-template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-padding .page-width {
   max-width: 100%;
 }
