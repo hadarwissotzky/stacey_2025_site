@@ -17,8 +17,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Roses wilt in 3 days. Get this instead.",
-            "link": "shopify://products/rose-thorn-necklace-sterling-silver"
+            "text": "Complimentary 2 Day Shipping on all Domestic Orders Over $500",
+            "link": "shopify://collections/rose-thorn-collection"
           }
         }
       },

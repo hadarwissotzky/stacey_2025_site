@@ -189,9 +189,13 @@
     width: 100%;
   }
 
-  /* Hide right image on mobile, show only left image */
-  .banner__media-half + .banner__media-half {
+  /* Hide left image on mobile, show only right image */
+  .banner__media-half:first-child {
     display: none;
+  }
+
+  .banner__media-half + .banner__media-half {
+    display: block;
   }
 
   .banner--stacked .animate--fixed:first-child > img,

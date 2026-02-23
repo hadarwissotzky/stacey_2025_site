@@ -1,0 +1,112 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [
+        "h1 {margin-top: 1.3rem !important; font-size: calc(var(--font-heading-scale) * 2.3rem) !important; font-style: var(--font-heading-style) !important; font-weight: var(--font-heading-weight) !important; letter-spacing: calc(var(--font-heading-scale) * 0.06rem); color: rgb(var(--color-foreground)) !important; line-height: calc(1 + 0.3 / max(1, var(--font-heading-scale))) !important; word-break: break-word; font-family: \"A Gothic\" !important; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "rich_text_RfTdNA": {
+      "type": "rich-text",
+      "blocks": {
+        "text_nF88kn": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.description }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_nF88kn"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.card__media {min-height: 194px !important; }}",
+        "@media screen and (max-width: 749px) {#product-grid .grid__item {width: 50% !important; max-width: 50% !important; flex-basis: 50% !important; }}"
+      ],
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
+    "5e006db6-d9f4-4086-ac0d-664ff6cd44b2": {
+      "type": "featured-collection-conditional",
+      "custom_css": [
+        ".slider-buttons {display: flex; margin-bottom: 0.5rem; padding-top: 2rem; border-top: 1px solid #dee0e3;}",
+        ".slider-counter {display: none;}",
+        ".collection__title {padding-bottom: 20px !important;}",
+        ".collection__title h2 {margin-bottom: 0rem; font-size: calc(var(--font-heading-scale) * 2.3rem) !important; text-align: center;}",
+        "p {font-size: calc(var(--font-heading-scale) * 2rem);}"
+      ],
+      "settings": {
+        "title": "CUSTOM",
+        "heading_size": "h1",
+        "description": "<p>Let my past creations inspire a one-of-a-kind design made just for you.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-custom-jewelry",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_RfTdNA",
+    "product-grid",
+    "5e006db6-d9f4-4086-ac0d-664ff6cd44b2"
+  ]
+}
