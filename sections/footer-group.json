@@ -38,7 +38,7 @@
           "type": "text",
           "settings": {
             "heading": "CONTACT",
-            "subtext": "<h6>(510) 221.6212</h6><h5><a href=\"/pages/contact\" title=\"Contact\">support@lorinczi.com</a></h5>"
+            "subtext": "<h6>(510) 221.6212</h6><h6><a href=\"mailto:support@lorinczi.com\"><strong>support@lorinczi.com</strong></a></h6>"
           }
         }
       },

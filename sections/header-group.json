@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Complimentary 2 Day Shipping on all Domestic Orders Over $500",
+            "text": "Complimentary Shipping on all Domestic Orders",
             "link": "shopify://collections/rose-thorn-collection"
           }
         }

@@ -1,16 +1,16 @@
-.contact img {
+[id*="lorinczi_contact_form"] .contact img {
   max-width: 100%;
 }
 
-.contact .form__message {
+[id*="lorinczi_contact_form"] .contact .form__message {
   align-items: flex-start;
 }
 
-.contact .icon-success {
+[id*="lorinczi_contact_form"] .contact .icon-success {
   margin-top: 0.2rem;
 }
 
-.contact .field {
+[id*="lorinczi_contact_form"] .contact .field {
   margin-bottom: 1.5rem;
 }
 [id*="lorinczi_contact_form"] .image-with-text__grid {
@@ -87,16 +87,15 @@
       color: #aaa;
   left: calc(var(--inputs-border-width) + 1rem);
 }
-.title {
-          align-items: baseline;
-        margin-top: 3rem;
+[id*="lorinczi_contact_form"] .title {
+  align-items: baseline;
+  margin-top: 3rem;
 }
-.contact__button {
-      text-align: left;
-    margin-top: 0;
-
+[id*="lorinczi_contact_form"] .contact__button {
+  text-align: left;
+  margin-top: 0;
 }
-.contact__button .button {
+[id*="lorinczi_contact_form"] .contact__button .button {
       background-color: transparent;
     color: #000;
   background-color: #f3e5d6;
@@ -214,7 +213,7 @@
         width: 100%;
         white-space: normal;
         min-height: inherit;
-        height: 100%;
+        height: auto;
         padding-top: 0px;
         padding-bottom: 0px;
         padding-right: 0px;
@@ -227,7 +226,7 @@
   [id*="lorinczi_contact_form"] .column {
         flex-basis: 55%;
         flex-grow: 0;
-        flex-shrink: 1;
+        flex-shrink: 0;
         max-width: 55%;
         width: 55%;
         white-space: normal;
@@ -237,18 +236,22 @@
     }
  .lorinczi-contact-form-1 {
    max-width: 45% !important;
- } 
+   background-color: #f5f4f2;
+ }
+ .lorinczi-contact-form-1 .gradient {
+   background-color: #f5f4f2;
+   height: 100%;
+ }
  .lorinczi-contact-form-1 .contact {
-    max-width: 100%;
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
-        margin: unset;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 0px;
-       background-color: #f5f4f2;
+    max-width: 100% !important;
+    width: 100%;
+    height: auto;
+    margin: 0 !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px !important;
+    background-color: #f5f4f2;
  }
 }
 
@@ -344,7 +347,7 @@
 
 /* Mobile margins for contact form section */
 @media screen and (max-width: 749px) {
-  [id*="lorinczi_contact_form_QdTKnW"] .contact.page-width {
+  [id*="lorinczi_contact_form"] .contact.page-width {
     margin-left: 0px !important;
     margin-right: 0px !important;
     width: 100% !important;
