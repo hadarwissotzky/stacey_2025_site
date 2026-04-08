@@ -106,11 +106,13 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 .announcement-bar-section {
   overflow: hidden;
   height: auto !important;
+  max-height: 60px;
   line-height: 1;
 }
 
 .announcement-bar-section .utility-bar {
   height: auto !important;
+  max-height: 60px;
 }
 
 .page-width.drawer-menu {
@@ -2527,6 +2529,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 .shopify-section-group-header-group {
   z-index: 4;
   height: auto !important;
+  max-height: fit-content;
 }
 
 .section-header ~ .shopify-section-group-header-group {

@@ -1,16 +1,16 @@
-[id*="lorinczi_contact_form"] .contact img {
+.contact img {
   max-width: 100%;
 }
 
-[id*="lorinczi_contact_form"] .contact .form__message {
+.contact .form__message {
   align-items: flex-start;
 }
 
-[id*="lorinczi_contact_form"] .contact .icon-success {
+.contact .icon-success {
   margin-top: 0.2rem;
 }
 
-[id*="lorinczi_contact_form"] .contact .field {
+.contact .field {
   margin-bottom: 1.5rem;
 }
 [id*="lorinczi_contact_form"] .image-with-text__grid {
@@ -87,15 +87,16 @@
       color: #aaa;
   left: calc(var(--inputs-border-width) + 1rem);
 }
-[id*="lorinczi_contact_form"] .title {
-  align-items: baseline;
-  margin-top: 3rem;
+.title {
+          align-items: baseline;
+        margin-top: 3rem;
 }
-[id*="lorinczi_contact_form"] .contact__button {
-  text-align: left;
-  margin-top: 0;
+.contact__button {
+      text-align: left;
+    margin-top: 0;
+
 }
-[id*="lorinczi_contact_form"] .contact__button .button {
+.contact__button .button {
       background-color: transparent;
     color: #000;
   background-color: #f3e5d6;
