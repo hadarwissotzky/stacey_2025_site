@@ -1,0 +1,46 @@
+{%- comment -%}
+  Renders Organization schema for the site (knowledge graph identity).
+  Only render once per page-load (homepage) to avoid duplication.
+{%- endcomment -%}
+
+{%- if request.page_type == 'index' -%}
+  {%- liquid
+    assign social_links = ''
+    if settings.social_facebook_link != blank
+      assign social_links = social_links | append: '"' | append: settings.social_facebook_link | append: '",'
+    endif
+    if settings.social_instagram_link != blank
+      assign social_links = social_links | append: '"' | append: settings.social_instagram_link | append: '",'
+    endif
+    if settings.social_youtube_link != blank
+      assign social_links = social_links | append: '"' | append: settings.social_youtube_link | append: '",'
+    endif
+    if settings.social_tiktok_link != blank
+      assign social_links = social_links | append: '"' | append: settings.social_tiktok_link | append: '",'
+    endif
+    if settings.social_twitter_link != blank
+      assign social_links = social_links | append: '"' | append: settings.social_twitter_link | append: '",'
+    endif
+    if settings.social_pinterest_link != blank
+      assign social_links = social_links | append: '"' | append: settings.social_pinterest_link | append: '",'
+    endif
+    assign social_links = social_links | split: ',' | join: ','
+  -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": {{ shop.name | json }},
+      "url": {{ shop.url | json }}
+      {%- if settings.logo -%}
+        ,"logo": "https:{{ settings.logo | image_url: width: 500 }}"
+      {%- endif -%}
+      {%- if shop.description != blank -%}
+        ,"description": {{ shop.description | json }}
+      {%- endif -%}
+      {%- if social_links != '' -%}
+        ,"sameAs": [{{ social_links }}]
+      {%- endif -%}
+    }
+  </script>
+{%- endif -%}
