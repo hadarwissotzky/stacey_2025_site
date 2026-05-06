@@ -23,11 +23,22 @@
       {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
     </title>
 
-    {% if page_description %}
-      <meta name="description" content="{{ page_description | escape }}">
-    {% endif %}
+    {%- liquid
+      assign meta_description = page_description
+      if meta_description == blank
+        assign meta_description = shop.description
+      endif
+      if meta_description == blank
+        assign meta_description = shop.name
+      endif
+    -%}
+    {%- if meta_description and meta_description != '' -%}
+      <meta name="description" content="{{ meta_description | escape }}">
+    {%- endif -%}
 
     {% render 'meta-tags' %}
+    {% render 'structured-data-organization' %}
+    {% render 'structured-data-breadcrumbs' %}
 
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
