@@ -1,0 +1,55 @@
+{%- comment -%}
+  Person JSON-LD on the About Me page.
+  Linked back to the Organization for entity unification across AI search engines.
+  All facts mirror the existing About Me page copy.
+{%- endcomment -%}
+
+{%- if request.page_type == 'page' and page.handle == 'about-me' -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Stacey Lorinczi",
+      "jobTitle": "Jewelry Designer & Metalsmith",
+      "description": "Independent jewelry designer specializing in custom engagement rings, wedding rings, one-of-a-kind pieces, and heirloom redesign using clients' own gems and metals. Founder of Lorinczi Jewelry in San Francisco.",
+      "url": "{{ shop.url }}{{ page.url }}",
+      "worksFor": {
+        "@type": "Organization",
+        "name": {{ shop.name | json }},
+        "url": {{ shop.url | json }}
+      },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Bachelor's degree",
+          "recognizedBy": {"@type": "EducationalOrganization", "name": "Brown University"}
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Jewelry training",
+          "recognizedBy": {"@type": "EducationalOrganization", "name": "Florence (Italy)"}
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Jewelry & Design",
+          "recognizedBy": {"@type": "EducationalOrganization", "name": "Central Saint Martins, London"}
+        }
+      ],
+      "knowsAbout": [
+        "Custom engagement rings",
+        "Heirloom jewelry redesign",
+        "Hand metalsmithing",
+        "Lost-wax casting",
+        "Ethical gemstone sourcing",
+        "Sculptural and nature-inspired jewelry design"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "San Francisco",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      },
+      "foundingDate": "2002"
+    }
+  </script>
+{%- endif -%}

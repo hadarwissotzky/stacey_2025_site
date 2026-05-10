@@ -1,0 +1,79 @@
+{%- comment -%}
+  HowTo JSON-LD for the custom-design-journey page.
+  Annotates the existing 7-step process with structured data.
+  Eligible for HowTo carousel + AI Overview step-by-step answers.
+
+  Mirrors the visible page copy verbatim — no rewrites.
+{%- endcomment -%}
+
+{%- if request.page_type == 'page' -%}
+  {%- if page.handle == 'custom-design-journey' or page.handle == 'where-to-start' -%}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How custom jewelry design works at Lorinczi Jewelry",
+        "description": "A personalized, collaborative seven-step journey from first consultation to a finished, hand-crafted piece.",
+        "totalTime": "P6W",
+        "estimatedCost": {
+          "@type": "MonetaryAmount",
+          "currency": "USD",
+          "value": "Varies by design"
+        },
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "First Steps",
+            "text": "We start with a virtual consultation and create a jewelry mood board that reflects your vision."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Estimate & Timeline",
+            "text": "I tailor each piece to your budget and can repurpose your gems and metals. The final design determines cost and timeline."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Design",
+            "text": "With your feedback, I sketch and refine renderings to match your vision."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Choosing Gemstones",
+            "text": "I can repurpose your gemstones or offer beautiful, ethically sourced natural and lab-created stones."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 5,
+            "name": "Fabrication",
+            "text": "Once you select your gems and finalize the design, a 50% deposit starts fabrication. I share updates with photos and videos to ensure it matches your vision."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 6,
+            "name": "Wax to Metal",
+            "text": "For cast pieces, I craft a wax model and cast it in your chosen metal. I can recycle your old jewelry and apply its value toward your costs."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 7,
+            "name": "Stonesetting & Finishing",
+            "text": "After casting, I set your stones, finish, and polish the piece by hand before delivery."
+          }
+        ],
+        "supply": [
+          {"@type": "HowToSupply", "name": "Sterling silver, 14k or 18k gold, platinum"},
+          {"@type": "HowToSupply", "name": "Ethically sourced natural or lab-created gemstones"},
+          {"@type": "HowToSupply", "name": "Optionally, your own heirloom gems and metals"}
+        ],
+        "tool": [
+          {"@type": "HowToTool", "name": "CAD design and rendering"},
+          {"@type": "HowToTool", "name": "Hand metalsmithing and lost-wax casting"}
+        ]
+      }
+    </script>
+  {%- endif -%}
+{%- endif -%}

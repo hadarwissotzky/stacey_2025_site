@@ -1,0 +1,61 @@
+{%- comment -%}
+  FAQPage JSON-LD per collection.
+  Currently scoped to the Rose Thorn collection wedge.
+  Add more `when` blocks (or migrate to a metafield) to expand to other collections.
+
+  Eligible for FAQ rich result + AI Overview / Bing Copilot direct answers.
+{%- endcomment -%}
+
+{%- if request.page_type == 'collection' -%}
+  {%- case collection.handle -%}
+    {%- when 'rose-thorn-collection' -%}
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What does thorn jewelry symbolize?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In my work, the thorn represents protection and quiet strength — beauty that defends itself. Each Rose Thorn piece is sculpted by hand to be worn as a personal talisman."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What metals do you use for the Rose Thorn Collection?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Every Rose Thorn piece is available in sterling silver, with select pieces also offered in 14k rose gold and 14k yellow gold. Custom metals are available on request."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are these pieces in stock and ready to ship?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The Rose Thorn Collection ships from my San Francisco studio within 3 to 5 business days. Custom finishes or commissions take longer — please contact me for a timeline."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the price range for the Rose Thorn Collection?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sterling silver pieces start at $85 for thorn studs and go up to $365 for the Rose Thorn Ring. Gold versions are priced higher; please see each product page for current pricing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I commission a custom piece in the Rose Thorn style?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. I love adapting the thorn motif into one-of-a-kind engagement rings, wedding bands, and heirloom pieces. Begin with a complimentary virtual consultation through the Custom Design Journey page."
+              }
+            }
+          ]
+        }
+      </script>
+  {%- endcase -%}
+{%- endif -%}
