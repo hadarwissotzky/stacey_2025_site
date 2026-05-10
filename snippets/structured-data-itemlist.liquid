@@ -1,0 +1,51 @@
+{%- comment -%}
+  ItemList JSON-LD on collection pages.
+  Lists each product in the collection with position and URL so AI search engines
+  can answer "what's in the X collection?" with grounded facts.
+
+  Cap at 30 products to keep the schema payload reasonable on large collections.
+{%- endcomment -%}
+
+{%- liquid
+  assign render_itemlist = false
+  if request.page_type == 'collection' and collection
+    assign prod_count = collection.products.size
+    if prod_count > 0
+      assign render_itemlist = true
+    endif
+  endif
+-%}
+
+{%- if render_itemlist -%}
+  {%- assign max_items = 30 -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": {{ collection.title | append: ' — ' | append: shop.name | json }},
+      "url": "{{ shop.url }}{{ collection.url }}",
+      "numberOfItems": {{ prod_count }},
+      "itemListElement": [
+        {%- for product in collection.products limit: max_items -%}
+          {
+            "@type": "ListItem",
+            "position": {{ forloop.index }},
+            "url": "{{ shop.url }}{{ product.url }}",
+            "name": {{ product.title | json }}
+            {%- if product.featured_media -%}
+              ,"image": "https:{{ product.featured_media | image_url: width: 800 }}"
+            {%- endif -%}
+            {%- if product.price -%}
+              ,"offers": {
+                "@type": "Offer",
+                "price": "{{ product.price | money_without_currency | strip_html | replace: ',', '' }}",
+                "priceCurrency": "{{ cart.currency.iso_code }}",
+                "availability": "https://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}"
+              }
+            {%- endif -%}
+          }{%- unless forloop.last %},{% endunless -%}
+        {%- endfor -%}
+      ]
+    }
+  </script>
+{%- endif -%}

@@ -728,7 +728,7 @@
 
     <script type="application/ld+json">
       {
-        "@context": "http://schema.org/",
+        "@context": "https://schema.org/",
         "@type": "Product",
         "name": {{ product.title | json }},
         "url": {{ request.origin | append: product.url | json }},
@@ -741,9 +741,23 @@
         {% if product.selected_or_first_available_variant.sku != blank -%}
           "sku": {{ product.selected_or_first_available_variant.sku | json }},
         {%- endif %}
+        {% if product.type != blank -%}
+          "category": {{ product.type | json }},
+        {%- endif %}
+        "itemCondition": "https://schema.org/NewCondition",
+        "countryOfOrigin": {
+          "@type": "Country",
+          "name": "United States"
+        },
         "brand": {
           "@type": "Brand",
-          "name": {{ product.vendor | json }}
+          "name": {{ product.vendor | default: shop.name | json }},
+          "url": {{ shop.url | json }}
+        },
+        "manufacturer": {
+          "@type": "Organization",
+          "name": {{ shop.name | json }},
+          "url": {{ shop.url | json }}
         },
         "offers": [
           {%- for variant in product.variants -%}
@@ -761,10 +775,16 @@
               {%- if variant.barcode.size == 14 -%}
                 "gtin14": {{ variant.barcode }},
               {%- endif -%}
-              "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
+              "availability" : "https://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
+              "itemCondition": "https://schema.org/NewCondition",
               "price" : {{ variant.price | divided_by: 100.00 | json }},
               "priceCurrency" : {{ cart.currency.iso_code | json }},
-              "url" : {{ request.origin | append: variant.url | json }}
+              "priceValidUntil": "{{ 'now' | date: '%Y' | plus: 1 }}-12-31",
+              "url" : {{ request.origin | append: variant.url | json }},
+              "seller": {
+                "@type": "Organization",
+                "name": {{ shop.name | json }}
+              }
             }{% unless forloop.last %},{% endunless %}
           {%- endfor -%}
         ]

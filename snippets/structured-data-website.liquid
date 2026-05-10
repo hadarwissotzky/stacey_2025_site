@@ -1,0 +1,36 @@
+{%- comment -%}
+  WebSite JSON-LD with SearchAction.
+  Renders on the homepage only to declare site identity to AI search engines
+  (Google AI Overview, Bing Copilot, Perplexity, ChatGPT) and unlock the
+  sitelinks search box in classical SERPs.
+{%- endcomment -%}
+
+{%- if request.page_type == 'index' -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": {{ shop.name | json }},
+      "alternateName": ["Lorinczi", "Lorinczi Jewelry SF"],
+      "url": {{ shop.url | json }},
+      "description": {{ shop.description | default: 'Handmade jewelry to celebrate commitments, milestones, and every day in between.' | json }},
+      "publisher": {
+        "@type": "Organization",
+        "name": {{ shop.name | json }},
+        "url": {{ shop.url | json }}
+        {%- if settings.logo -%}
+          ,"logo": "https:{{ settings.logo | image_url: width: 500 }}"
+        {%- endif -%}
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "{{ shop.url }}/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "inLanguage": "{{ request.locale.iso_code | default: 'en' }}"
+    }
+  </script>
+{%- endif -%}
