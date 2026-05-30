@@ -21,14 +21,27 @@ This file can be re-written at any time.
     {%- endunless -%}
 
     <title>
-      {{ page_title }}
-      {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
-      {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-      {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+      {%- if template.name == 'index' -%}
+        {{ shop.name }} &ndash; Handcrafted &amp; Custom Fine Jewelry
+      {%- else -%}
+        {{- page_title | strip_newlines -}}
+        {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
+        {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
+        {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+      {%- endif -%}
     </title>
 
     {%- liquid
       assign meta_description = page_description
+      if meta_description == blank and template.name == 'collection' and collection.description != blank
+        assign meta_description = collection.description | strip_html | truncatewords: 35
+      endif
+      if meta_description == blank and template.name == 'page' and page.content != blank
+        assign meta_description = page.content | strip_html | truncatewords: 35
+      endif
+      if meta_description == blank and template.name == 'product' and product.description != blank
+        assign meta_description = product.description | strip_html | truncatewords: 35
+      endif
       if meta_description == blank
         assign meta_description = shop.description
       endif
