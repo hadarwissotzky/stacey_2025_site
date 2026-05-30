@@ -204,6 +204,7 @@
               aria-controls="GalleryViewer-{{ section.id }}{{ id_append }}"
               aria-describedby="{{ thumbnail_id }}"
             >
+              {%- assign thumb_alt = media.alt | default: product.title -%}
               {{
                 media.preview_image
                 | image_url: width: 416
@@ -212,7 +213,7 @@
                   sizes: sizes,
                   widths: '54, 74, 104, 162, 208, 324, 416',
                   id: thumbnail_id,
-                  alt: media.alt
+                  alt: thumb_alt
                 | escape
               }}
             </button>
