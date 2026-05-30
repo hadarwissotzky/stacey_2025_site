@@ -116,7 +116,7 @@
         "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h1>A symbol of strength, protection, and resilience.</h1><p>Wear it yourself—or give it to someone you love.</p>",
+            "text": "<h2>A symbol of strength, protection, and resilience.</h2><p>Wear it yourself—or give it to someone you love.</p>",
             "text_style": "body"
           }
         },
@@ -272,7 +272,7 @@
         "text_zMTPYD": {
           "type": "text",
           "settings": {
-            "text": "<h1>Let me tell your story in metal.</h1><p>Handcrafted jewelry combines beauty and meaning to honor milestones, celebrate love, and reflect your unique journey. Whether a simple silver pendant or the reinvention of a family treasure, I craft each piece to be a cherished future heirloom.</p>",
+            "text": "<h2>Let me tell your story in metal.</h2><p>Handcrafted jewelry combines beauty and meaning to honor milestones, celebrate love, and reflect your unique journey. Whether a simple silver pendant or the reinvention of a family treasure, I craft each piece to be a cherished future heirloom.</p>",
             "text_style": "body"
           }
         },

@@ -460,3 +460,18 @@
     padding: 13rem 9rem 7rem;
   }
 }
+
+/* Homepage banner headings demoted h1 -> h2 for single-H1 hygiene;
+   hold them at h1 size so the visual is unchanged. Scoped to the two
+   sections via stable section-key suffixes (not the volatile template id). */
+[id$="__a756bebb-30dd-41eb-ac82-eae61074a709"] .image-with-text__text.rte h2,
+[id$="__image_with_text_a8YbiL"] .image-with-text__text.rte h2 {
+  font-size: calc(var(--font-heading-scale) * 3rem);
+}
+
+@media only screen and (min-width: 750px) {
+  [id$="__a756bebb-30dd-41eb-ac82-eae61074a709"] .image-with-text__text.rte h2,
+  [id$="__image_with_text_a8YbiL"] .image-with-text__text.rte h2 {
+    font-size: calc(var(--font-heading-scale) * 4rem);
+  }
+}
