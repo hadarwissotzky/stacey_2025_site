@@ -38,6 +38,12 @@
       if meta_description == blank and template.name == 'product' and product.description != blank
         assign meta_description = product.description | strip_html | truncatewords: 35
       endif
+      if meta_description == blank and template.name == 'index'
+        assign meta_description = 'Lorinczi Jewelry — handcrafted, bespoke fine jewelry and custom jewelry redesign. Reimagine heirlooms, reset diamonds, or commission a one-of-a-kind piece.'
+      endif
+      if meta_description == blank and page_title != blank
+        assign meta_description = page_title | append: ' — ' | append: shop.name | append: '. Handcrafted, bespoke jewelry & custom jewelry redesign.'
+      endif
       if meta_description == blank
         assign meta_description = shop.description
       endif
