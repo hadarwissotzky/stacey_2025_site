@@ -42,6 +42,9 @@ This file can be re-written at any time.
       if meta_description == blank and template.name == 'product' and product.description != blank
         assign meta_description = product.description | strip_html | truncatewords: 35
       endif
+      if meta_description == blank and template.name == 'list-collections'
+        assign meta_description = 'Browse every Lorinczi collection — handcrafted rings, necklaces, bracelets, earrings, and custom jewelry redesign.'
+      endif
       if meta_description == blank and template.name == 'index'
         assign meta_description = 'Lorinczi Jewelry — handcrafted, bespoke fine jewelry and custom jewelry redesign. Reimagine heirlooms, reset diamonds, or commission a one-of-a-kind piece.'
       endif
