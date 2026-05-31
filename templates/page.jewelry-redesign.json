@@ -184,7 +184,7 @@
         ".slider-counter {display: none;}"
       ],
       "settings": {
-        "title": "",
+        "title": "Recent Redesigns",
         "heading_size": "h2",
         "description": "",
         "show_description": true,
@@ -315,6 +315,17 @@
         "color_scheme": "",
         "padding_top": 24,
         "padding_bottom": 12
+      },
+      "name": "Redesign intro"
+    },
+    "redesign_faq": {
+      "type": "custom-liquid",
+      "name": "Redesign FAQ",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--narrow\" style=\"padding:2rem 0 3rem;\"><h2 class=\"h1\" style=\"text-align:center;margin-bottom:1.5rem;\">Jewelry Redesign FAQ</h2><div class=\"rte\"><details style=\"border-bottom:1px solid rgba(0,0,0,.12);padding:1rem 0;\"><summary style=\"cursor:pointer;font-weight:600;font-size:1.15rem;\">How much does jewelry redesign cost?</summary><p style=\"margin-top:.75rem;\">Every redesign is custom, so the cost depends on the design, materials, and labor involved. Because you supply your own gems and gold, you often save significantly compared to buying new. After your free virtual consultation you'll receive a transparent quote before any work begins.</p></details><details style=\"border-bottom:1px solid rgba(0,0,0,.12);padding:1rem 0;\"><summary style=\"cursor:pointer;font-weight:600;font-size:1.15rem;\">How does the jewelry redesign process work?</summary><p style=\"margin-top:.75rem;\">Five simple steps: a free virtual consultation, you send photos of your pieces, I create a custom design, I refine your gold and reset your stones, and you receive your finished heirloom. Everything can be done remotely.</p></details><details style=\"border-bottom:1px solid rgba(0,0,0,.12);padding:1rem 0;\"><summary style=\"cursor:pointer;font-weight:600;font-size:1.15rem;\">Is it safe to send my jewelry to you?</summary><p style=\"margin-top:.75rem;\">Yes. Every piece is shipped insured and tracked, and your jewelry is documented at each step. Your security and peace of mind come first when handling sentimental and valuable items.</p></details><details style=\"border-bottom:1px solid rgba(0,0,0,.12);padding:1rem 0;\"><summary style=\"cursor:pointer;font-weight:600;font-size:1.15rem;\">Can you reset my diamond or gemstones into a new setting?</summary><p style=\"margin-top:.75rem;\">Absolutely. Resetting diamonds and gemstones is one of the most popular redesigns. I can move your stones from a dated or damaged setting into an entirely new design that suits you today.</p></details><details style=\"border-bottom:1px solid rgba(0,0,0,.12);padding:1rem 0;\"><summary style=\"cursor:pointer;font-weight:600;font-size:1.15rem;\">What can I redesign?</summary><p style=\"margin-top:.75rem;\">Engagement rings, wedding bands, inherited and heirloom jewelry, old or broken gold, and loose or set diamonds and gemstones. If it holds meaning, it can be reimagined.</p></details><details style=\"border-bottom:1px solid rgba(0,0,0,.12);padding:1rem 0;\"><summary style=\"cursor:pointer;font-weight:600;font-size:1.15rem;\">Can I use my own gold?</summary><p style=\"margin-top:.75rem;\">Yes. If you have gold or platinum you no longer wear, I responsibly refine it and apply its value toward your new piece, preserving sentiment, reducing cost, and being kinder to the environment.</p></details></div></div><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How much does jewelry redesign cost?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Every redesign is custom, so the cost depends on the design, materials, and labor involved. Because you supply your own gems and gold, you often save significantly compared to buying new. After your free virtual consultation you'll receive a transparent quote before any work begins.\"}}, {\"@type\": \"Question\", \"name\": \"How does the jewelry redesign process work?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Five simple steps: a free virtual consultation, you send photos of your pieces, I create a custom design, I refine your gold and reset your stones, and you receive your finished heirloom. Everything can be done remotely.\"}}, {\"@type\": \"Question\", \"name\": \"Is it safe to send my jewelry to you?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Every piece is shipped insured and tracked, and your jewelry is documented at each step. Your security and peace of mind come first when handling sentimental and valuable items.\"}}, {\"@type\": \"Question\", \"name\": \"Can you reset my diamond or gemstones into a new setting?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Absolutely. Resetting diamonds and gemstones is one of the most popular redesigns. I can move your stones from a dated or damaged setting into an entirely new design that suits you today.\"}}, {\"@type\": \"Question\", \"name\": \"What can I redesign?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Engagement rings, wedding bands, inherited and heirloom jewelry, old or broken gold, and loose or set diamonds and gemstones. If it holds meaning, it can be reimagined.\"}}, {\"@type\": \"Question\", \"name\": \"Can I use my own gold?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. If you have gold or platinum you no longer wear, I responsibly refine it and apply its value toward your new piece, preserving sentiment, reducing cost, and being kinder to the environment.\"}}]}</script>",
+        "color_scheme": "",
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     }
   },
@@ -328,6 +339,7 @@
     "rich_text_gk8ehP",
     "featured_collection_RFjQVn",
     "rich_text_LxWRyM",
+    "redesign_faq",
     "lorinczi_contact_form_Qc4PUF",
     "newsletter_gRyxgy"
   ]
