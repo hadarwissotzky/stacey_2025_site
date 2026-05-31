@@ -66,6 +66,9 @@
     },
     "main": {
       "type": "main-page",
+      "custom_css": [
+        "{background: #faf5f1;}"
+      ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -413,6 +416,16 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "redesign_service_schema": {
+      "type": "custom-liquid",
+      "name": "Redesign service schema",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"The Lorinczi Redesign Program\", \"serviceType\": \"Jewelry redesign, diamond resetting & heirloom restyling\", \"description\": \"Custom jewelry redesign using your own gems and gold — reset diamonds, repurpose old gold, and reimagine inherited pieces into modern heirlooms.\", \"provider\": {\"@type\": \"Organization\", \"name\": \"Lorinczi Jewelry\", \"url\": \"https://lorinczi.com\"}, \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"url\": \"https://lorinczi.com/pages/jewelry-redesign\", \"offers\": {\"@type\": \"Offer\", \"url\": \"https://lorinczi.com/products/free-consultation\", \"price\": \"0\", \"priceCurrency\": \"USD\", \"description\": \"Free virtual jewelry redesign consultation\"}}</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -427,6 +440,7 @@
     "rich_text_LxWRyM",
     "redesign_faq",
     "redesign_faq_schema",
+    "redesign_service_schema",
     "lorinczi_contact_form_Qc4PUF",
     "newsletter_gRyxgy"
   ]
