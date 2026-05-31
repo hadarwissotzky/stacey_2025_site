@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "service_style": {
+      "type": "custom-liquid",
+      "name": "Service style",
+      "settings": {
+        "custom_liquid": "<style>\n/* Service page: contained, padded, polished typography (matches redesign hub) */\n#MainContent [class*=\"__main-padding\"]{max-width:86rem;margin:0 auto;padding-top:5rem!important;padding-bottom:5rem!important;padding-left:9rem!important;padding-right:9rem!important;}\n@media screen and (max-width:749px){#MainContent [class*=\"__main-padding\"]{padding-left:2rem!important;padding-right:2rem!important;padding-top:3rem!important;padding-bottom:3rem!important;}}\n#MainContent .main-page-title{font:400 36px/40px \"GoudyOldStyle\",sans-serif!important;text-align:center!important;margin-bottom:2.5rem!important;}\n#MainContent .main-page-title ~ .rte p, #MainContent .main-page-title ~ .rte li, #MainContent .main-page-title ~ .rte a{font:400 1.6rem/25px \"GoudyOldStyle\",sans-serif!important;color:rgba(var(--color-foreground),0.75)!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte h2, #MainContent .main-page-title ~ .rte h3{font:400 28px/30px Nexa,sans-serif!important;font-family:\"GoudyOldStyle\",sans-serif!important;text-align:left!important;}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "service_style"
+  ]
+}
