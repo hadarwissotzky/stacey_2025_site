@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "image_banner": {
@@ -475,11 +466,59 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "redesign_promo": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bring Your Gems & Jewelry Back to Life",
+            "heading_size": "h2"
+          }
+        },
+        "text_rp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Have an heirloom or jewelry you no longer wear? I redesign your old pieces and reset your stones into something you’ll treasure — using your own gems and gold.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_rp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore Jewelry Redesign",
+            "button_link": "/pages/jewelry-redesign",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rp",
+        "text_rp",
+        "button_rp"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/NEW_TRULY_Final__Transform_Your_Jewelry_Section_Main_Top_Image_241dff8a-37c4-4c8f-80c7-8abee19e0d4f.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "20029078-d2df-4c46-b126-e7d5ff72f316",
+    "redesign_promo",
     "a756bebb-30dd-41eb-ac82-eae61074a709",
     "f41a3fd7-37b6-4c9f-88f4-f137330d43e8",
     "bedcfa7e-20a7-4a07-a886-5d92ed4dfb2a",
