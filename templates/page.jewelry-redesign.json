@@ -41,6 +41,17 @@
         "show_text_below": false
       }
     },
+    "redesign_intro": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Redesign intro",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--narrow custom-liquid-redesign\" style=\"padding:1rem 0 2rem;\">\n  <h1 class=\"h1\" style=\"margin:0 0 1.5rem;\">Jewelry Redesign &mdash; Bring Your Gems &amp; Jewelry Back to Life</h1>\n  <div class=\"rte\">\n    <p>Some pieces are too meaningful to leave forgotten in a drawer. <strong>Jewelry redesign</strong> gives your old, inherited, or unworn jewelry a second life &mdash; reimagined into something you&rsquo;ll actually wear and treasure. Using your own gems and gold, I redesign rings, necklaces, bracelets, and earrings into timeless, one-of-a-kind heirlooms that carry your story forward.</p>\n    <h2>How Jewelry Redesign Works</h2>\n    <ol>\n      <li><strong>Free virtual consultation.</strong> We talk through your pieces, your story, and what you&rsquo;d love to wear.</li>\n      <li><strong>Send photos of your jewelry or gems.</strong> Share what you have and the vision you have in mind.</li>\n      <li><strong>Custom design.</strong> I design a piece built around your materials and your style.</li>\n      <li><strong>Refining &amp; crafting.</strong> I responsibly refine your old gold and reset your stones into the new design.</li>\n      <li><strong>Your new heirloom.</strong> You receive a piece made to be worn, loved, and passed on.</li>\n    </ol>\n    <h2>What You Can Redesign</h2>\n    <ul>\n      <li><strong>Engagement rings &amp; wedding bands</strong> &mdash; modernize a dated setting or honor a marriage with a fresh design.</li>\n      <li><strong>Inherited &amp; heirloom jewelry</strong> &mdash; turn a grandmother&rsquo;s ring or a mother&rsquo;s necklace into something you&rsquo;ll wear every day.</li>\n      <li><strong>Old or broken gold</strong> &mdash; refine unworn gold and apply its value toward your new piece.</li>\n      <li><strong>Loose or set diamonds &amp; gemstones</strong> &mdash; reset your stones into a setting that suits you now.</li>\n    </ul>\n    <h2>Resetting Your Diamonds &amp; Stones</h2>\n    <p>Already love your stones but not the setting? I reset diamonds and gemstones into entirely new designs &mdash; from a classic solitaire into a sculptural band, or scattered stones gathered into a single statement piece. Your gems stay; the design becomes truly yours.</p>\n    <h2>Use Your Own Gold &amp; Gems</h2>\n    <p>Working with your own materials preserves the sentimental value of the originals, reduces cost, and is far kinder to the environment than buying new. If you have gold or platinum you no longer wear, I refine it and apply its value toward your redesign &mdash; with transparent pricing and work that fits your budget.</p>\n  <p style=\"margin-top:1.5rem;\"><strong>Explore specific services:</strong> <a href=\"/pages/reset-diamond-ring\">Reset a Diamond Ring</a> &middot; <a href=\"/pages/redesign-engagement-ring\">Redesign an Engagement Ring</a> &middot; <a href=\"/pages/heirloom-jewelry-redesign\">Heirloom Jewelry Redesign</a></p></div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 24,
+        "padding_bottom": 12
+      }
+    },
     "rich_text_Qmja8T": {
       "type": "rich-text",
       "disabled": true,
@@ -55,7 +66,6 @@
     },
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -65,7 +75,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text p,\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text h3 {\ntext-align: center;\n}\n}\n</style>",
+        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text p,\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text h3 {\ntext-align: center;\n}\n}\n\n/* Hide redundant page title (hero already shows it); keep h1 in DOM for SEO */\n.main-page-title{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -253,71 +263,6 @@
         "padding_bottom": 52
       }
     },
-    "lorinczi_contact_form_Qc4PUF": {
-      "type": "lorinczi-contact-form",
-      "settings": {
-        "heading": "Got questions? Let's chat!",
-        "image": "shopify://shop_images/TRULY_Final_Transform_Your_Jewelry_Contact_Form_Image_f33c4902-1c09-45c6-a2f8-9ac18acfd847.jpg",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "left_background_color": "#484d1c",
-        "field_background_color": "#ffffff",
-        "field_border_color": "#000000",
-        "drop_area_background_color": "#e6e5e2",
-        "drop_area_border_color": "#000000",
-        "button_background_color": "#f3e5d6",
-        "button_border_color": "#000000",
-        "button_text_color": "#000000",
-        "header_text_color": "#ffffff",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "mobile_content_alignment": "left"
-      }
-    },
-    "newsletter_gRyxgy": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_T4MVzW": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "DISCOVER MORE",
-            "heading_size": "h2"
-          }
-        },
-        "paragraph_mD9HwY": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Follow to see more of my work and in-depth explorations of my custom commissions.</p>"
-          }
-        },
-        "email_form_9RdzCV": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_T4MVzW",
-        "paragraph_mD9HwY",
-        "email_form_9RdzCV"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "full_width": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "redesign_intro": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"page-width page-width--narrow custom-liquid-redesign\" style=\"padding:1rem 0 2rem;\">\n  <h1 class=\"h1\" style=\"margin:0 0 1.5rem;\">Jewelry Redesign &mdash; Bring Your Gems &amp; Jewelry Back to Life</h1>\n  <div class=\"rte\">\n    <p>Some pieces are too meaningful to leave forgotten in a drawer. <strong>Jewelry redesign</strong> gives your old, inherited, or unworn jewelry a second life &mdash; reimagined into something you&rsquo;ll actually wear and treasure. Using your own gems and gold, I redesign rings, necklaces, bracelets, and earrings into timeless, one-of-a-kind heirlooms that carry your story forward.</p>\n    <h2>How Jewelry Redesign Works</h2>\n    <ol>\n      <li><strong>Free virtual consultation.</strong> We talk through your pieces, your story, and what you&rsquo;d love to wear.</li>\n      <li><strong>Send photos of your jewelry or gems.</strong> Share what you have and the vision you have in mind.</li>\n      <li><strong>Custom design.</strong> I design a piece built around your materials and your style.</li>\n      <li><strong>Refining &amp; crafting.</strong> I responsibly refine your old gold and reset your stones into the new design.</li>\n      <li><strong>Your new heirloom.</strong> You receive a piece made to be worn, loved, and passed on.</li>\n    </ol>\n    <h2>What You Can Redesign</h2>\n    <ul>\n      <li><strong>Engagement rings &amp; wedding bands</strong> &mdash; modernize a dated setting or honor a marriage with a fresh design.</li>\n      <li><strong>Inherited &amp; heirloom jewelry</strong> &mdash; turn a grandmother&rsquo;s ring or a mother&rsquo;s necklace into something you&rsquo;ll wear every day.</li>\n      <li><strong>Old or broken gold</strong> &mdash; refine unworn gold and apply its value toward your new piece.</li>\n      <li><strong>Loose or set diamonds &amp; gemstones</strong> &mdash; reset your stones into a setting that suits you now.</li>\n    </ul>\n    <h2>Resetting Your Diamonds &amp; Stones</h2>\n    <p>Already love your stones but not the setting? I reset diamonds and gemstones into entirely new designs &mdash; from a classic solitaire into a sculptural band, or scattered stones gathered into a single statement piece. Your gems stay; the design becomes truly yours.</p>\n    <h2>Use Your Own Gold &amp; Gems</h2>\n    <p>Working with your own materials preserves the sentimental value of the originals, reduces cost, and is far kinder to the environment than buying new. If you have gold or platinum you no longer wear, I refine it and apply its value toward your redesign &mdash; with transparent pricing and work that fits your budget.</p>\n  <p style=\"margin-top:1.5rem;\"><strong>Explore specific services:</strong> <a href=\"/pages/reset-diamond-ring\">Reset a Diamond Ring</a> &middot; <a href=\"/pages/redesign-engagement-ring\">Redesign an Engagement Ring</a> &middot; <a href=\"/pages/heirloom-jewelry-redesign\">Heirloom Jewelry Redesign</a></p></div>\n</div>",
-        "color_scheme": "",
-        "padding_top": 24,
-        "padding_bottom": 12
-      },
-      "name": "Redesign intro"
-    },
     "redesign_faq": {
       "type": "collapsible-content",
       "blocks": {
@@ -410,6 +355,61 @@
       "settings": {
         "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How much does jewelry redesign cost?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Every redesign is custom, so the cost depends on the design, materials, and labor involved. Because you supply your own gems and gold, you often save significantly compared to buying new. After your free virtual consultation you'll receive a transparent quote before any work begins.\"}}, {\"@type\": \"Question\", \"name\": \"How does the jewelry redesign process work?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Five simple steps: a free virtual consultation, you send photos of your pieces, I create a custom design, I refine your gold and reset your stones, and you receive your finished heirloom. Everything can be done remotely.\"}}, {\"@type\": \"Question\", \"name\": \"Is it safe to send my jewelry to you?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Every piece is shipped insured and tracked, and your jewelry is documented at each step. Your security and peace of mind come first when handling sentimental and valuable items.\"}}, {\"@type\": \"Question\", \"name\": \"Can you reset my diamond or gemstones into a new setting?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Absolutely. Resetting diamonds and gemstones is one of the most popular redesigns. I can move your stones from a dated or damaged setting into an entirely new design that suits you today.\"}}, {\"@type\": \"Question\", \"name\": \"What can I redesign?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Engagement rings, wedding bands, inherited and heirloom jewelry, old or broken gold, and loose or set diamonds and gemstones. If it holds meaning, it can be reimagined.\"}}, {\"@type\": \"Question\", \"name\": \"Can I use my own gold?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. If you have gold or platinum you no longer wear, I responsibly refine it and apply its value toward your new piece, preserving sentiment, reducing cost, and being kinder to the environment.\"}}]}</script>",
         "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "lorinczi_contact_form_Qc4PUF": {
+      "type": "lorinczi-contact-form",
+      "settings": {
+        "heading": "Got questions? Let's chat!",
+        "image": "shopify://shop_images/TRULY_Final_Transform_Your_Jewelry_Contact_Form_Image_f33c4902-1c09-45c6-a2f8-9ac18acfd847.jpg",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "left_background_color": "#484d1c",
+        "field_background_color": "#ffffff",
+        "field_border_color": "#000000",
+        "drop_area_background_color": "#e6e5e2",
+        "drop_area_border_color": "#000000",
+        "button_background_color": "#f3e5d6",
+        "button_border_color": "#000000",
+        "button_text_color": "#000000",
+        "header_text_color": "#ffffff",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_content_alignment": "left"
+      }
+    },
+    "newsletter_gRyxgy": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_T4MVzW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "DISCOVER MORE",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph_mD9HwY": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Follow to see more of my work and in-depth explorations of my custom commissions.</p>"
+          }
+        },
+        "email_form_9RdzCV": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_T4MVzW",
+        "paragraph_mD9HwY",
+        "email_form_9RdzCV"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": false,
         "padding_top": 0,
         "padding_bottom": 0
       }
