@@ -125,6 +125,67 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_seo_body": {
+      "type": "rich-text",
+      "blocks": {
+        "h_intro": {
+          "type": "heading",
+          "settings": {
+            "heading": "Custom Jewelry, Designed One Piece at a Time",
+            "heading_size": "h1"
+          }
+        },
+        "t_intro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I'm an independent custom jewelry designer, and everything in this gallery is a piece I designed and handcrafted for someone — no two alike, none of them off a shelf. It's the best way to see how I work: bespoke rings, necklaces, earrings, and bracelets, each one built around a single person's story, materials, and ideas. Browse it for inspiration, or as proof of what's possible when jewelry is made just for you.</p><p>Working with a custom jewelry designer is different from buying ready-made. We start with a conversation — what you picture, the metals and stones that matter to you, the feeling you're after — and I turn it into a one-of-a-kind piece you helped create. Everything is made by hand, from the first sketch to the finished design, and I keep you involved at every step so the final piece is exactly right.</p>"
+          }
+        },
+        "h_bespoke": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bespoke & One-of-a-Kind, Never Off the Shelf",
+            "heading_size": "h2"
+          }
+        },
+        "t_bespoke": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every piece I make is genuinely bespoke. Whether it's an engagement ring, a wedding band, a pendant, or a redesign of something you already own, it's custom made for you and only you. I work in yellow, white, and rose gold, in platinum, and with the gemstones and diamonds you love — and because each design is one-of-a-kind, you'll never see it on anyone else. This is handmade custom jewelry in the truest sense: slow, considered, and personal, the opposite of mass production.</p>"
+          }
+        },
+        "h_start": {
+          "type": "heading",
+          "settings": {
+            "heading": "Start Your Own Custom Piece",
+            "heading_size": "h2"
+          }
+        },
+        "t_start": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Love something you see in the gallery? Let it spark your own design — or bring me your own gems and heirloom jewelry to reimagine into something you'll actually want to wear every day. When you're ready to begin, <a href=\"/products/book-virtual-appointment\">book an appointment</a> or <a href=\"/pages/contact\">send me a message</a>, and we'll design a piece that's entirely yours.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "h_intro",
+        "t_intro",
+        "h_bespoke",
+        "t_bespoke",
+        "h_start",
+        "t_start"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 28,
+        "padding_bottom": 40
+      }
+    },
     "newsletter_tGxaW7": {
       "type": "newsletter",
       "blocks": {
@@ -160,6 +221,7 @@
     "banner",
     "rich_text_JwqXFW",
     "product-grid",
+    "rich_text_seo_body",
     "newsletter_tGxaW7"
   ]
 }
