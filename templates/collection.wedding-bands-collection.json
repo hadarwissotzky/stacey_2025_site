@@ -76,6 +76,82 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_seo_body": {
+      "type": "rich-text",
+      "blocks": {
+        "h_intro": {
+          "type": "heading",
+          "settings": {
+            "heading": "Custom Wedding Bands, Made One at a Time",
+            "heading_size": "h1"
+          }
+        },
+        "t_intro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I design and handcraft custom wedding bands and rings for couples who want something that actually feels like them. Every band I make is built one at a time, by hand — in yellow, white, or rose gold, in platinum, or set with the diamonds that mean the most to you. No two are alike, and none of them come off an assembly line. Whether you're after matching his and hers bands, a single statement ring, or a custom band ring no one else will ever wear, I'll make it with you from the first sketch to the ring on your finger.</p>"
+          }
+        },
+        "h_design": {
+          "type": "heading",
+          "settings": {
+            "heading": "Design a Wedding Band That's Truly Yours",
+            "heading_size": "h2"
+          }
+        },
+        "t_design": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Custom wedding band design starts with a conversation, not a catalog. Tell me what you picture — the metal, the width, the stones, the feeling — and I'll turn it into a ring you helped build. You can customize any band you see here to your own specifications, or we can start from a blank page. Want to build a wedding band online before we ever meet in person? Send me your ideas and I'll sketch options back to you. Custom-made wedding rings should fit your story as well as they fit your hand, and I keep you involved at every stage so the finished piece is exactly right.</p>"
+          }
+        },
+        "h_heirloom": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reset Diamonds & Redesign Heirloom Jewelry",
+            "heading_size": "h2"
+          }
+        },
+        "t_heirloom": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Some of the most meaningful rings I make begin with jewelry someone already loves. If you have a grandmother's diamond, an old engagement ring, or gold you never wear, I can reset those stones and redesign the metal into a wedding band you'll want to put on every day. It's the same heirloom, reimagined into something new — and it's the kind of custom, handmade work the big jewelry chains simply can't do for you.</p>"
+          }
+        },
+        "h_handmade": {
+          "type": "heading",
+          "settings": {
+            "heading": "Handmade Wedding Rings for Her and for Him",
+            "heading_size": "h2"
+          }
+        },
+        "t_handmade": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From delicate, romantic women's wedding bands to substantial men's rings, everything here is genuinely handmade. Looking for custom gold wedding bands, custom diamond wedding bands, or unique custom wedding rings for her? That's exactly what I do. As an independent jeweler and wedding band maker, I'm hands-on through every step, so the wedding rings you receive are custom-made to the design we created together — not a stock piece with your name on it. When you're ready to begin, <a href=\"/products/book-virtual-appointment\">book an appointment</a> or <a href=\"/pages/contact\">send me a message</a>, and let's design something you'll wear for the rest of your life.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "h_intro",
+        "t_intro",
+        "h_design",
+        "t_design",
+        "h_heirloom",
+        "t_heirloom",
+        "h_handmade",
+        "t_handmade"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 28,
+        "padding_bottom": 40
+      }
+    },
     "featured_collection_dBBXFj": {
       "type": "featured-collection",
       "disabled": true,
@@ -119,6 +195,7 @@
     "banner",
     "rich_text_VgVnRM",
     "product-grid",
+    "rich_text_seo_body",
     "featured_collection_dBBXFj"
   ]
 }
