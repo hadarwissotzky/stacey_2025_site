@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
+    {%- if request.path == '/blogs/before-after' -%}<meta name="robots" content="noindex, follow">{%- endif -%}
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
@@ -20,10 +21,14 @@
       {%- if template.name == 'index' -%}
         {{ shop.name }} &ndash; Handcrafted &amp; Custom Fine Jewelry
       {%- else -%}
-        {{- page_title | strip_newlines -}}
+        {%- assign clean_title = page_title | strip_newlines -%}
+        {%- unless template.name == 'product' -%}
+          {%- assign clean_title = clean_title | remove: ' | Lorinczi' -%}
+        {%- endunless -%}
+        {{- clean_title -}}
         {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
         {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-        {%- unless page_title contains shop.name or template.name == 'product' %} &ndash; {{ shop.name }}{% endunless -%}
+        {%- unless clean_title contains shop.name or template.name == 'product' %} &ndash; {{ shop.name }}{% endunless -%}
       {%- endif -%}
     </title>
 
