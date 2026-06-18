@@ -89,20 +89,7 @@
         "t_intro": {
           "type": "text",
           "settings": {
-            "text": "<p>I design and handcraft custom wedding bands and rings for couples who want something that actually feels like them. Every band I make is built one at a time, by hand — in yellow, white, or rose gold, in platinum, or set with the diamonds that mean the most to you. No two are alike, and none of them come off an assembly line. Whether you're after matching his and hers bands, a single statement ring, or a custom band ring no one else will ever wear, I'll make it with you from the first sketch to the ring on your finger.</p>"
-          }
-        },
-        "h_design": {
-          "type": "heading",
-          "settings": {
-            "heading": "Design a Wedding Band That's Truly Yours",
-            "heading_size": "h2"
-          }
-        },
-        "t_design": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Custom wedding band design starts with a conversation, not a catalog. Tell me what you picture — the metal, the width, the stones, the feeling — and I'll turn it into a ring you helped build. You can customize any band you see here to your own specifications, or we can start from a blank page. Want to build a wedding band online before we ever meet in person? Send me your ideas and I'll sketch options back to you. Custom-made wedding rings should fit your story as well as they fit your hand, and I keep you involved at every stage so the finished piece is exactly right.</p>"
+            "text": "<p>I design and handcraft custom wedding bands and rings for couples who want something that actually feels like them. Every band I make is built one at a time, by hand — in yellow, white, or rose gold, in platinum, or set with the diamonds that mean the most to you. No two are alike, and none of them come off an assembly line. Whether you're after matching his and hers bands, a single statement ring, or a custom band ring no one else will ever wear, I'll make it with you from the first sketch to the ring on your finger.</p><p>Custom wedding band design starts with a conversation, not a catalog. Tell me what you picture — the metal, the width, the stones, the feeling — and I'll turn it into a ring you helped build. You can customize any band you see here to your own specifications, or we can start from a blank page. Want to build a wedding band online before we ever meet in person? Send me your ideas and I'll sketch options back to you. Custom-made wedding rings should fit your story as well as they fit your hand.</p>"
           }
         },
         "h_heirloom": {
@@ -135,8 +122,6 @@
       "block_order": [
         "h_intro",
         "t_intro",
-        "h_design",
-        "t_design",
         "h_heirloom",
         "t_heirloom",
         "h_handmade",
