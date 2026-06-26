@@ -43,13 +43,27 @@
         "content"
       ],
       "custom_css": [
-        ".article-template__content {max-width: 80rem; margin: 0 auto; padding: 0 2rem; text-align: center;}",
-        ".article-template > *:first-child:not(.article-template__hero-container) {margin-top: 0;}"
+        "h4 {font: 400 1.8rem / 25px \"GoudyOldStyle\" !important; text-transform: none;}",
+        "h2 span,h2 {font: 400 23px / 30px Nexa, sans-serif !important; text-align: left !important; text-transform: uppercase;}",
+        ".article-template__content {max-width: 80rem; margin: 0 auto; padding: 0 2rem; text-align: left;}",
+        ".article-template > *:first-child:not(.article-template__hero-container) {margin-top: 0;}",
+        "p span,p,li,a {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important;}"
       ],
       "settings": {}
+    },
+    "custom_liquid_gWbwLV": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.article-template__title  {\n  font: 400 26px / 30px Nexa, sans-serif !important;\n\n  text-transform: uppercase;\n}\n#MainContent h5{\n  margin-bottom: 0px;\n}\n#MainContent h6 em,\n#MainContent h6{\n    font-family: 'Nexa', sans-serif !important;\n    font-size: calc(var(--font-heading-scale) * 1.3rem);\n    line-height: 1.3em;\n    text-transform: none;\nmargin-top: 0px;\n}\n</style>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_gWbwLV"
   ]
 }

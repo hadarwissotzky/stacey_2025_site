@@ -128,6 +128,7 @@
       "custom_css": [
         ".rich-text__blocks {max-width: 85rem;}",
         ".rich-text__heading {font-family: \"Nexa\" !important; font-size: calc(var(--font-heading-scale) * 2.3rem); font-weight: 300;}",
+        "p {font-size: calc(var(--font-heading-scale) * 1.8rem);}",
         ".rich-text h3 {font-family: \"GoudyOldStyle\" !important;}",
         ".rich-text__text h5 a {color: #919191; font-family: \"A-Gothic\" !important;}"
       ],
@@ -145,6 +146,20 @@
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n  #ImageWithText--template--25996792299803__image_with_text_JwrRFC .image-with-text__text {\n        padding-right: 3rem;\n        text-align: center;\n        padding-left: 3rem;\n}\n.rich-text__text p{\n    padding: 0px 1rem !important;\n}\n}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "related_links": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "{max-width: 100%; margin-left: auto; margin-right: auto; text-align: center;}",
+        "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 0.5em;}",
+        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Wondering about pricing?</strong> <a href=\"/pages/jewelry-redesign-cost\">How much does jewelry redesign cost? </a></p><p ><strong>Serving the Bay Area and beyond:</strong> <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot; <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -181,6 +196,24 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "gold_faq_schema": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Will you use the gold from my old jewelry to make a new piece?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. If you have gold or platinum you no longer wear, I responsibly refine it and apply its value toward your new piece \\u2014 preserving the sentiment, lowering the cost, and being kinder to the environment.\"}}, {\"@type\": \"Question\", \"name\": \"Can you melt down my old gold?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. I melt down and responsibly refine your old gold, then use it (or credit its value) toward your redesigned piece.\"}}, {\"@type\": \"Question\", \"name\": \"Does using my own gold make a redesign cheaper?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Because your refined gold and your own stones go toward the new design, you aren't paying for new materials \\u2014 so a redesign usually costs significantly less than buying new.\"}}, {\"@type\": \"Question\", \"name\": \"Can I use my own diamonds and gemstones in a new design?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Absolutely. Reusing your own diamonds and gemstones is one of the most popular redesigns \\u2014 I move your stones from a dated or damaged setting into an entirely new design made for you.\"}}, {\"@type\": \"Question\", \"name\": \"Is it safe to send you my gold and stones?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Every piece is shipped fully insured and tracked, and your jewelry is documented at each step. Your security and peace of mind come first.\"}}, {\"@type\": \"Question\", \"name\": \"What can I do with old or inherited gold I no longer wear?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"I can refine it and reimagine it into something you'll actually wear \\u2014 a new ring, a pendant, or a piece that combines several heirlooms into one. If it holds meaning, it can be reimagined.\"}}]}</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "gold_service_schema": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Use Your Own Gold & Stones \\u2014 Jewelry Redesign\", \"serviceType\": \"Refining and reusing your own gold and gemstones in a custom redesign\", \"provider\": {\"@type\": \"Organization\", \"name\": \"Lorinczi Jewelry\", \"url\": \"https://www.lorinczi.com\"}, \"areaServed\": {\"@type\": \"City\", \"name\": \"San Francisco\"}, \"description\": \"Reuse the gold and stones you already own. I responsibly refine your old gold and reset your diamonds and gemstones into a new, custom piece \\u2014 preserving sentiment and lowering cost.\"}</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -188,7 +221,10 @@
     "image_with_text_JwrRFC",
     "rich_text_section",
     "custom_liquid_MBxrat",
+    "related_links",
     "lorinczi_contact_form_zjPUn7",
-    "main"
+    "main",
+    "gold_faq_schema",
+    "gold_service_schema"
   ]
 }

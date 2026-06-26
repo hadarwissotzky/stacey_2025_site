@@ -1,0 +1,207 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_FiNPq6": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_7G6x64": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Redesign or Upgrade Your Wedding Ring</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_C9CghG": {
+          "type": "text",
+          "settings": {
+            "text": "I redesign, upgrade, and repurpose wedding rings — resetting your stones, adding new ones, and reusing your own gold or metals I supply.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7G6x64",
+        "text_C9CghG"
+      ],
+      "custom_css": [
+        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}",
+        "@media screen and (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.7rem) !important; line-height: 1.2em; margin-top: 0.8em; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Final_Reset_a_Diamond_Ring_Section_Main_Top_Image.jpg",
+        "video_background": false,
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "redesign_intro": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Redesign intro",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--narrow custom-liquid-redesign\" style=\"padding:1rem 0 2rem; text-align:left;\"><p style=\"font-size:1.6rem; line-height:1.7;\">A wedding band should feel like you — today. Whether yours is worn, dated, no longer fits, or you simply want something new while keeping its meaning, I can redesign, upgrade, or repurpose it — reusing your own gold and stones, or adding new ones I supply.</p><h2>Can you remake my wedding band?</h2><p>Yes. Remaking a wedding band is one of the most budget-friendly redesigns, because I refine and reuse your original gold and reset any stones into the new design.</p><h2>Why remake a wedding ring?</h2><p>Rings wear down, sizes change, and styles evolve. Remaking lets you keep the gold, the stones, and the meaning while creating a band you'll love wearing every day.</p><h2>Can you upgrade my wedding ring?</h2><p>Yes. I can upgrade your wedding ring by resetting it into a larger or higher-quality stone, adding diamonds, or moving to a more durable metal like platinum — using your own gold and stones, or new ones I supply. You keep the meaning and gain a ring that truly feels like an upgrade.</p><h2>Can you use my old gold to remake the band?</h2><p>Yes. I responsibly refine the gold you already have and apply its value toward the new band — preserving sentiment, lowering cost, and being kinder to the environment. <a href=\"/pages/use-your-own-gems-metal\">How using your own gold works →</a></p><h2>Can you repurpose my old wedding ring or gold?</h2><p>Absolutely. If you no longer wear a ring, I can repurpose its gold and stones into something new — another ring, a pendant, or a pair of earrings — so nothing meaningful sits unused in a drawer.</p><h2>Can two rings become one?</h2><p>Often, yes. I can combine an engagement ring and wedding band — or two inherited bands — into a single new piece. <a href=\"/pages/heirloom-jewelry-redesign\">Explore heirloom redesign →</a></p><h2>How much does it cost to remake a wedding band?</h2><p>It depends on the new design and metal weight, but reusing your own gold keeps it affordable. <a href=\"/pages/jewelry-redesign-cost\">See the pricing guide →</a></p><h2>How do I start?</h2><p>Book a free virtual consultation and send photos of your band. I'll design the new ring and give you a transparent quote before any work begins — entirely remotely if you prefer.</p><p style=\"margin-top:2.5rem;\"><a href=\"/pages/contact\" class=\"button\">Book your free consultation</a></p></div>",
+        "color_scheme": "",
+        "padding_top": 24,
+        "padding_bottom": 12
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "{width: 70%; margin-left: auto; margin-right: auto;}",
+        "h2 {font-family: \"Nexa\", sans-serif !important; margin-bottom: 0.4rem;}",
+        "p,ul {margin-top: 0px;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_U4fpLV": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text p,\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text h3 {\ntext-align: center;\n}\n}\n\n\n.main-page-title{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}\n\n\n#MainContent .main-page-title ~ .rte p, #MainContent .main-page-title ~ .rte li, #MainContent .main-page-title ~ .rte a{font:400 1.6rem/25px \"GoudyOldStyle\",sans-serif!important;color:rgba(var(--color-foreground),0.75)!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte h2, #MainContent .main-page-title ~ .rte h3{font:400 28px/30px Nexa,sans-serif!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte ul, #MainContent .main-page-title ~ .rte ol{text-align:left!important;}\n\n\n#MainContent [class*=\"__main-padding\"]{padding-top:5rem!important;padding-bottom:5rem!important;padding-left:9rem!important;padding-right:9rem!important;}\n@media screen and (max-width:749px){#MainContent [class*=\"__main-padding\"]{padding-top:3rem!important;padding-bottom:3rem!important;padding-left:2rem!important;padding-right:2rem!important;}}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_qBVeG9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6dEETn": {
+          "type": "heading",
+          "settings": {
+            "heading": "GIVE YOUR OLD JEWELRY A NEW STORY",
+            "heading_size": "h2"
+          }
+        },
+        "text_gKXwt4": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>I reimagine unused and unloved jewelry... </h3><p>Into modern designs you’ll love to wear. Begin your transformation with a complimentary <a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\">virtual consultation</a>.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_FDcmDF": {
+          "type": "button",
+          "settings": {
+            "button_label": "MY DESIGN PROCESS",
+            "button_link": "https://lorinczi.com/pages/custom-design-journey#shopify-section-template--25996792725787__rich_text_pqnyd7",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_6dEETn",
+        "text_gKXwt4",
+        "button_FDcmDF"
+      ],
+      "custom_css": [
+        ".rich-text__buttons .base-button {background-color: #fff;}",
+        "p a,p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important; text-align: left; padding: 0;}",
+        "h3 {font: 400 28px / 30px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px; text-align: left;}",
+        ".image-with-text .image-with-text__heading {font-size: 1.3rem !important;}",
+        "@media (min-width: 750px) {.image-with-text__text-item {width: 40%; } .image-with-text__media-item {width: 60%; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Redesign_Your_Engagement_Ring_Section_Top_Page_Photos_71f33334-d0b1-4929-b85c-c01fa3615554.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "scheme-d23da204-75f2-431b-91aa-47efeff00978",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "redesign_faq_schema": {
+      "type": "custom-liquid",
+      "name": "Redesign FAQ schema",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Can you remake my wedding band?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Remaking a wedding band is one of the most budget-friendly redesigns \\u2014 I refine and reuse your original gold and reset any stones into the new design.\"}}, {\"@type\": \"Question\", \"name\": \"Can you use my old gold to remake the band?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. I responsibly refine the gold you already have and apply its value toward the new band.\"}}, {\"@type\": \"Question\", \"name\": \"Can you combine my engagement ring and wedding band into one ring?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Often, yes \\u2014 I can combine an engagement ring and wedding band, or two inherited bands, into a single new piece.\"}}, {\"@type\": \"Question\", \"name\": \"How much does it cost to remake a wedding band?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"It depends on the new design and metal weight, but reusing your own gold keeps it affordable. You get a transparent quote after a free consultation.\"}}, {\"@type\": \"Question\", \"name\": \"Can this be done remotely?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes \\u2014 consultation, design, approval and delivery can all be done remotely with insured, tracked shipping.\"}}, {\"@type\": \"Question\", \"name\": \"Can you upgrade my wedding ring?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. I can reset your ring into a larger or higher-quality stone, add diamonds, or move to a more durable metal, using your own gold and stones or new ones I supply.\"}}, {\"@type\": \"Question\", \"name\": \"Can you repurpose my old wedding ring or gold?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. I repurpose the gold and stones from a ring you no longer wear into something new, such as another ring, a pendant, or a pair of earrings.\"}}]}</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "redesign_service_schema": {
+      "type": "custom-liquid",
+      "name": "Redesign service schema",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"The Lorinczi Redesign Program\", \"serviceType\": \"Jewelry redesign, diamond resetting & heirloom restyling\", \"description\": \"Custom jewelry redesign using your own gems and gold — reset diamonds, repurpose old gold, and reimagine inherited pieces into modern heirlooms.\", \"provider\": {\"@type\": \"Organization\", \"name\": \"Lorinczi Jewelry\", \"url\": \"https://lorinczi.com\"}, \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"url\": \"https://lorinczi.com/pages/jewelry-redesign\", \"offers\": {\"@type\": \"Offer\", \"url\": \"https://lorinczi.com/products/free-consultation\", \"price\": \"0\", \"priceCurrency\": \"USD\", \"description\": \"Free virtual jewelry redesign consultation\"}}</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "related_links": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "{max-width: 100%; margin-left: auto; margin-right: auto; text-align: center;}",
+        "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 0.5em;}",
+        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Wondering about pricing?</strong> <a href=\"/pages/jewelry-redesign-cost\">How much does jewelry redesign cost? </a></p><p ><strong>Serving the Bay Area:</strong> <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot; <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "lorinczi_contact_form_Qc4PUF": {
+      "type": "lorinczi-contact-form",
+      "settings": {
+        "heading": "Got questions? Let's chat!",
+        "image": "shopify://shop_images/Reset_a_Diamond_Ring_Section_Contact_Form_Image_93cb8766-f8b3-48ba-a93a-7ac164faf293.jpg",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "left_background_color": "#484d1c",
+        "field_background_color": "#ffffff",
+        "field_border_color": "#000000",
+        "drop_area_background_color": "#e6e5e2",
+        "drop_area_border_color": "#000000",
+        "button_background_color": "#f3e5d6",
+        "button_border_color": "#000000",
+        "button_text_color": "#000000",
+        "header_text_color": "#ffffff",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_content_alignment": "left"
+      }
+    }
+  },
+  "order": [
+    "image_banner_FiNPq6",
+    "redesign_intro",
+    "main",
+    "custom_liquid_U4fpLV",
+    "image_with_text_qBVeG9",
+    "redesign_faq_schema",
+    "redesign_service_schema",
+    "related_links",
+    "lorinczi_contact_form_Qc4PUF"
+  ]
+}

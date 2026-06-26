@@ -20,7 +20,7 @@
 }
 #MainContent p {
            padding: 0rem !important;
-    text-align: center;
+    text-align: left;
 }
 
 .article-template__hero-container {

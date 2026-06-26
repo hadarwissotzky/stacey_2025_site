@@ -1,0 +1,138 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_ba": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_ba": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Jewelry Redesign: Before & After</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_ba": {
+          "type": "text",
+          "settings": {
+            "text": "Before & after jewelry redesigns — heirlooms and unworn pieces I've reimagined into jewelry you'll treasure again.",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ba",
+        "text_ba"
+      ],
+      "custom_css": [
+        "p {font-weight: normal; text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}",
+        "@media screen and (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.7rem) !important; line-height: 1.2em; margin-top: 0.8em; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Final_Before__and_After_Section_Main_Top_Image_9135ac24-ec62-4c30-8fa0-8fefafea4454.jpg",
+        "video_background": false,
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_ba": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n</style><h1 class=\"visually-hidden\">Jewelry Redesign Before & After Transformations</h1><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"ItemList\", \"name\": \"Jewelry Redesign Before & After Transformations\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"url\": \"https://lorinczi.com/blogs/before-after/reset-a-diamond-ring-recreating-an-antique-setting-around-the-original-stone\", \"name\": \"Reset a Diamond Ring: Recreating an Antique Setting Around the Original Stone\", \"image\": \"https://lorinczi.com/cdn/shop/articles/Sarah_Diamond_Ring_Reset_Before_After_Split_d96c7d26-7328-44e0-bce8-8a865f899ad3.jpg\"}, {\"@type\": \"ListItem\", \"position\": 2, \"url\": \"https://lorinczi.com/blogs/before-after/heirloom-redesign-inherited-charms-custom-necklace\", \"name\": \"Heirloom Redesign: Inherited Charms Reimagined as a Custom Charm Necklace\", \"image\": \"https://lorinczi.com/cdn/shop/articles/Stephanie_Ansin_Charms_Transformation_Before_After_Split_6372b16c-f433-43c2-93a0-3a0c0e1c9d9f.jpg\"}, {\"@type\": \"ListItem\", \"position\": 3, \"url\": \"https://lorinczi.com/blogs/before-after/engagement-ring-redesign-bezel-set-stacking-rings\", \"name\": \"Engagement Ring Redesign: Two Diamonds Reimagined as Custom Bezel-Set Stacking Rings\", \"image\": \"https://lorinczi.com/cdn/shop/articles/Kristy_LoRusso_Ring_Before_After_Split_6d87eb61-1df8-43fd-8b89-e92c162e3472.jpg\"}, {\"@type\": \"ListItem\", \"position\": 4, \"url\": \"https://lorinczi.com/blogs/before-after/heirloom-redesign-mothers-diamonds-statement-ring\", \"name\": \"Heirloom Redesign: Her Mother's Diamonds Reimagined as a Modern Statement Ring\", \"image\": \"https://lorinczi.com/cdn/shop/articles/Isabella_Johannes_Ring_Before_After_Split_6cf8fa70-c863-4ed7-99c4-161324cb7e86.jpg\"}, {\"@type\": \"ListItem\", \"position\": 5, \"url\": \"https://lorinczi.com/blogs/before-after/engagement-ring-redesign-custom-stacking-rings\", \"name\": \"Engagement Ring Redesign: Transforming One Ring Into Three Custom Stacking Rings\", \"image\": \"https://lorinczi.com/cdn/shop/articles/Clare_Ring_Before_After_Split_3f5ffbfb-1e69-4ace-8eb8-4bcec7fa79a0.jpg\"}, {\"@type\": \"ListItem\", \"position\": 6, \"url\": \"https://lorinczi.com/blogs/before-after/heirloom-jewelry-redesign-art-deco-pendant\", \"name\": \"From Art Deco Pendant to Showstopper Heirloom: A Custom Diamond Necklace Redesign\", \"image\": \"https://lorinczi.com/cdn/shop/articles/Judi_Necklace_Before_After_Split_6991e282-ef12-47d7-91b4-e04b85681458.jpg\"}]}</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_blog_ba": {
+      "type": "featured-blog",
+      "custom_css": [
+        "{margin-top: 1rem; margin-left: 4rem; margin-right: 4rem;}",
+        "@media screen and (max-width: 749px) {.title-wrapper-with-link {padding: 2.7rem 1.6rem 3rem !important; margin-bottom: 0;}}",
+        ".title-wrapper-with-link {justify-content: center;}",
+        ".blog__title {text-align: center; font-family: \"Nexa\", sans-serif !important; font-size: 26px; font-weight: 300; line-height: 26px; text-transform: uppercase;}"
+      ],
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "heading": "Jewelry Redesign Stories",
+        "heading_size": "h2",
+        "blog": "before-after",
+        "post_limit": 0,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "redesign_ideas_rt": {
+      "type": "rich-text",
+      "custom_css": [
+        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: 26px; font-weight: 300; line-height: 26px;}",
+        ".rich-text__text p {font-size: calc(var(--font-heading-scale) * 1.7rem);}",
+        ".rich-text__text p a {color: #919191; font-family: \"A-Gothic\", sans-serif !important;}"
+      ],
+      "blocks": {
+        "heading_ri": {
+          "type": "heading",
+          "settings": {
+            "heading": "JEWELRY REDESIGN IDEAS",
+            "heading_size": "h2"
+          }
+        },
+        "text_ri": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Before-and-after</strong> jewelry redesigns — heirlooms, inherited pieces, and unworn rings I've reimagined using your own diamonds, stones, and gold. Browse these transformations for jewelry redesign ideas, from resetting a diamond to repurposing old jewelry into something you'll actually wear.</p><p><strong>Explore:</strong> <a href=\"/pages/reset-diamond-ring\">Reset a Diamond Ring</a> &middot; <a href=\"/pages/redesign-engagement-ring\">Redesign an Engagement Ring</a> &middot; <a href=\"/pages/heirloom-jewelry-redesign\">Heirloom Jewelry Redesign</a> &middot; <a href=\"/pages/remake-wedding-band\">Remake a Wedding Band</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ri",
+        "text_ri"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "image_banner_ba",
+    "main",
+    "featured_blog_ba",
+    "redesign_ideas_rt",
+    "custom_liquid_ba"
+  ]
+}

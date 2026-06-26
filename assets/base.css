@@ -3130,7 +3130,7 @@ details-disclosure > details {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.1rem;
+  font-size: 1.1rem !important;
   font-weight: 500;
   text-transform: uppercase;
   position: absolute;
@@ -3746,6 +3746,14 @@ shopify-accelerated-checkout-cart {
  line-height: 1.3em;
 }
 
+/* span match for MainContent p/li */
+#MainContent li, #MainContent p span, #MainContent p h5 span, #MainContent h5 span, #MainContent p em, #MainContent h5 em, #MainContent h6 em {
+    font-family: 'GoudyOldStyle', sans-serif !important;
+    font-size: calc(var(--font-heading-scale) * 2.0rem);
+    line-height: 1.3em;
+}
+
+
 @media screen and (max-width: 749px) {
   #MainContent h1 {
     font-size: calc(var(--font-heading-scale) * 1.3rem);
@@ -4127,3 +4135,17 @@ select option:disabled,
 .option--unavailable {
   color: rgba(var(--color-foreground), 0.4);
 }
+
+/* Recent Redesigns title — match READY-TO-SHIP */
+#shopify-section-template--28039531692315__featured_collection_RFjQVn .title-wrapper{margin-bottom:0}
+#shopify-section-template--28039531692315__featured_collection_RFjQVn .collection__title{border-top:1px solid #dee0e3;padding:40px 0 0 0!important}
+#shopify-section-template--28039531692315__featured_collection_RFjQVn .collection__title .title{text-align:center}
+#shopify-section-template--28039531692315__featured_collection_RFjQVn .collection__title .title{margin-bottom:1.4rem;letter-spacing:2px;font:400 2.1rem/40px Nexa,sans-serif!important;text-decoration:none}
+
+
+/* Homepage "story in metal" H2 — GoudyOldStyle */
+#shopify-section-template--25996792332571__image_with_text_a8YbiL .image-with-text__text h2{font-family:"GoudyOldStyle",serif!important}
+
+
+/* Homepage Rose Thorn H2 — GoudyOldStyle */
+#shopify-section-template--25996792332571__a756bebb-30dd-41eb-ac82-eae61074a709 .image-with-text__text h2{font-family:"GoudyOldStyle",serif!important}

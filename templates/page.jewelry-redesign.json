@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_FiNPq6": {
@@ -6,14 +15,14 @@
         "heading_7G6x64": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Jewelry Redesign</strong>",
+            "heading": "<strong>Jewelry Redesign Overview</strong>",
             "heading_size": "h1"
           }
         },
         "text_C9CghG": {
           "type": "text",
           "settings": {
-            "text": "Bring your gems &amp; jewelry back to life — I reimagine your pieces into timeless heirlooms.",
+            "text": "I redesign old, broken, or unworn jewelry into modern pieces you'll treasure — reusing your own diamonds, stones, and gold.",
             "text_style": "body"
           }
         }
@@ -27,7 +36,7 @@
         "@media screen and (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.7rem) !important; line-height: 1.2em; margin-top: 0.8em; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/NEW_TRULY_Final__Transform_Your_Jewelry_Section_Main_Top_Image_241dff8a-37c4-4c8f-80c7-8abee19e0d4f.jpg",
+        "image": "shopify://shop_images/Final_New_Jewelry_Redesign_Overview_Section_Main_Top_Image.jpg",
         "video_background": false,
         "image_overlay_opacity": 0,
         "image_height": "small",
@@ -55,6 +64,7 @@
     "rich_text_Qmja8T": {
       "type": "rich-text",
       "disabled": true,
+      "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -67,7 +77,9 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "{background: #faf5f1;}"
+        "{width: 80%; margin-left: auto; margin-right: auto;}",
+        "h2 {font-family: \"Nexa\", sans-serif !important; margin-bottom: 0.4rem;}",
+        "p {margin-top: 0px;}"
       ],
       "settings": {
         "padding_top": 28,
@@ -78,62 +90,8 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text p,\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text h3 {\ntext-align: center;\n}\n}\n\n\n.main-page-title{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}\n\n\n#MainContent .main-page-title ~ .rte p, #MainContent .main-page-title ~ .rte li, #MainContent .main-page-title ~ .rte a{font:400 1.6rem/25px \"GoudyOldStyle\",sans-serif!important;color:rgba(var(--color-foreground),0.75)!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte h2, #MainContent .main-page-title ~ .rte h3{font:400 28px/30px Nexa,sans-serif!important;font-family:\"GoudyOldStyle\",sans-serif!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte ul, #MainContent .main-page-title ~ .rte ol{text-align:left!important;}\n\n\n#MainContent [class*=\"__main-padding\"]{padding-top:5rem!important;padding-bottom:5rem!important;padding-left:9rem!important;padding-right:9rem!important;}\n@media screen and (max-width:749px){#MainContent [class*=\"__main-padding\"]{padding-top:3rem!important;padding-bottom:3rem!important;padding-left:2rem!important;padding-right:2rem!important;}}\n</style>",
+        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text p,\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text h3 {\ntext-align: center;\n}\n}\n\n\n.main-page-title{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}\n#MainContent .main-page-title ~ .rte p, #MainContent .main-page-title ~ .rte li, #MainContent .main-page-title ~ .rte a{font:400 1.6rem/25px \"GoudyOldStyle\",sans-serif!important;color:rgba(var(--color-foreground),0.75)!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte h2, #MainContent .main-page-title ~ .rte h3{font:400 23px/30px Nexa,sans-serif!important;text-align:left!important;\ntext-transform: uppercase;}\n#MainContent .main-page-title ~ .rte ul, #MainContent .main-page-title ~ .rte ol{text-align:left!important;}\n\n\n#MainContent [class*=\"__main-padding\"]{padding-top:5rem!important;padding-bottom:5rem!important;padding-left:9rem!important;padding-right:9rem!important;}\n@media screen and (max-width:749px){#MainContent [class*=\"__main-padding\"]{padding-top:3rem!important;padding-bottom:3rem!important;padding-left:2rem!important;padding-right:2rem!important;}}\n</style>",
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_with_text_qBVeG9": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_6dEETn": {
-          "type": "heading",
-          "settings": {
-            "heading": "GIVE YOUR OLD JEWELRY A NEW STORY",
-            "heading_size": "h2"
-          }
-        },
-        "text_gKXwt4": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>I reimagine unused and unloved jewelry... </h3><p>Into modern designs you’ll love to wear. Begin your transformation with a complimentary <a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\">virtual consultation</a>.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_FDcmDF": {
-          "type": "button",
-          "settings": {
-            "button_label": "MY DESIGN PROCESS",
-            "button_link": "/pages/custom-design-journey#shopify-section-template--21823938887963__custom_process_jeCjEQ",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_6dEETn",
-        "text_gKXwt4",
-        "button_FDcmDF"
-      ],
-      "custom_css": [
-        ".rich-text__buttons .base-button {background-color: #fff;}",
-        "p a,p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important; text-align: left; padding: 0;}",
-        "h3 {font: 400 28px / 30px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px; text-align: left;}",
-        ".image-with-text .image-with-text__heading {font-size: 1.3rem !important;}",
-        "@media (min-width: 750px) {.image-with-text__text-item {width: 40%; } .image-with-text__media-item {width: 60%; }}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/TRULY_Final_Transform_Your_Jewelry_Section_Top_Page_Photos_11d15615-0f90-45eb-9545-e462618b9f21.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "accent-1",
-        "color_scheme": "accent-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -141,16 +99,17 @@
     "rich_text_gk8ehP": {
       "type": "rich-text",
       "blocks": {
+        "heading_Rttgat": {
+          "type": "heading",
+          "settings": {
+            "heading": "Looking for inspiration?",
+            "heading_size": "h1"
+          }
+        },
         "text_YwbcbH": {
           "type": "text",
           "settings": {
-            "text": "<p>Looking for inspiration? I can personalize a design or </p><p>craft something entirely new.</p>"
-          }
-        },
-        "text_XT6rhb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Explore the Custom Gallery for ideas.</p>"
+            "text": "<p> I can personalize a design or craft something entirely new. <br/>Explore the Custom Gallery for ideas.</p>"
           }
         },
         "button_pCYGLT": {
@@ -166,17 +125,20 @@
         }
       },
       "block_order": [
+        "heading_Rttgat",
         "text_YwbcbH",
-        "text_XT6rhb",
         "button_pCYGLT"
       ],
       "custom_css": [
-        "p {margin-top: 0px; margin-bottom: 0px;}"
+        "{background: #faf5f1 !important;}",
+        "p {margin-top: 0px; margin-bottom: 0px; font-size: calc(var(--font-heading-scale) * 2rem); line-height: 1.2em;}",
+        ".rich-text__buttons .base-button {background-color: #fff;}",
+        "h2 {text-transform: uppercase; font-size: calc(1 * 2.3rem) !important;}"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 44,
         "padding_bottom": 20
@@ -185,19 +147,19 @@
     "featured_collection_RFjQVn": {
       "type": "featured-collection",
       "custom_css": [
-        ".product-card-wrapper .card {--border-width: none; --image-padding: 0rem;}",
-        ".card:not(.ratio) > .card__content {display: none;}",
-        ".card--media .card__inner .card__content {padding: 0; width: 100%;}",
-        ".price {display: none;}",
-        ".card-wrapper {border-bottom: 1px solid #dee0e3;}",
-        ".grid {margin-bottom: 0px;}",
-        ".slider__slide {padding: 0 !important; margin: 0 !important;}",
-        ".slider:after {display: none !important;}",
-        ".slider-buttons {display: flex !important; padding-top: 2rem; padding-bottom: 1.2rem;}",
-        ".slider-counter {display: none;}"
+        ".product-card-wrapper .card{--border-width:none;--image-padding:0rem;}",
+        ".card:not(.ratio) > .card__content{display:none;}",
+        ".card--media .card__inner .card__content{padding:0;width:100%;}",
+        ".price{display:none;}",
+        ".card-wrapper{border-bottom:1px solid #dee0e3;}",
+        ".grid{margin-bottom:0px;}",
+        ".slider__slide{padding:0!important;margin:0!important;}",
+        ".slider:after{display:none!important;}",
+        ".slider-buttons{display:flex!important;padding-top:2rem;padding-bottom:1.2rem;}",
+        ".slider-counter{display:none;}"
       ],
       "settings": {
-        "title": "Recent Redesigns",
+        "title": "RECENT REDESIGNS",
         "heading_size": "h2",
         "description": "",
         "show_description": true,
@@ -252,15 +214,14 @@
       ],
       "custom_css": [
         ".rich-text__blocks {max-width: 59rem;}",
-        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"Nexa\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 2.3rem); font-weight: 300; line-height: 26px;}",
+        ".rich-text__heading {max-width: 100%; text-align: center; margin-top: 0; margin-bottom: 0; font-family: \"A gothic\" !important; font-size: calc(var(--font-heading-scale) * 2.3rem); font-weight: 300; line-height: 26px;}",
         ".rich-text h3 {font-family: \"GoudyOldStyle\", sans-serif !important;}",
-        ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}",
         ".rich-text__text p a {color: #919191; margin-bottom: 15px; font-family: \"A-Gothic\", sans-serif !important;}"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -322,6 +283,15 @@
             "row_content": "<h5>Yes. If you have gold or platinum you no longer wear, I responsibly refine it and apply its value toward your new piece, preserving sentiment, reducing cost, and being kinder to the environment.</h5>",
             "page": ""
           }
+        },
+        "row_7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you repurpose my old or inherited jewelry?",
+            "icon": "none",
+            "row_content": "<h5>Yes — repurposing old jewelry is one of my favorite things to do. I can turn a ring into a necklace, a brooch into a pendant, or combine several inherited pieces into one you'll actually wear — reusing your own diamonds, gemstones, and gold.</h5>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -330,7 +300,8 @@
         "row_3",
         "row_4",
         "row_5",
-        "row_6"
+        "row_6",
+        "row_7"
       ],
       "custom_css": [
         "li {line-height: 0.6em; margin-bottom: 1.4rem;}",
@@ -356,7 +327,40 @@
       "type": "custom-liquid",
       "name": "Redesign FAQ schema",
       "settings": {
-        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How much does jewelry redesign cost?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Every redesign is custom, so the cost depends on the design, materials, and labor involved. Because you supply your own gems and gold, you often save significantly compared to buying new. After your free virtual consultation you'll receive a transparent quote before any work begins.\"}}, {\"@type\": \"Question\", \"name\": \"How does the jewelry redesign process work?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Five simple steps: a free virtual consultation, you send photos of your pieces, I create a custom design, I refine your gold and reset your stones, and you receive your finished heirloom. Everything can be done remotely.\"}}, {\"@type\": \"Question\", \"name\": \"Is it safe to send my jewelry to you?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Every piece is shipped insured and tracked, and your jewelry is documented at each step. Your security and peace of mind come first when handling sentimental and valuable items.\"}}, {\"@type\": \"Question\", \"name\": \"Can you reset my diamond or gemstones into a new setting?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Absolutely. Resetting diamonds and gemstones is one of the most popular redesigns. I can move your stones from a dated or damaged setting into an entirely new design that suits you today.\"}}, {\"@type\": \"Question\", \"name\": \"What can I redesign?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Engagement rings, wedding bands, inherited and heirloom jewelry, old or broken gold, and loose or set diamonds and gemstones. If it holds meaning, it can be reimagined.\"}}, {\"@type\": \"Question\", \"name\": \"Can I use my own gold?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. If you have gold or platinum you no longer wear, I responsibly refine it and apply its value toward your new piece, preserving sentiment, reducing cost, and being kinder to the environment.\"}}]}</script>",
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How much does jewelry redesign cost?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Every redesign is custom, so the cost depends on the design, materials, and labor involved. Because you supply your own gems and gold, you often save significantly compared to buying new. After your free virtual consultation you'll receive a transparent quote before any work begins.\"}}, {\"@type\": \"Question\", \"name\": \"How does the jewelry redesign process work?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Five simple steps: a free virtual consultation, you send photos of your pieces, I create a custom design, I refine your gold and reset your stones, and you receive your finished heirloom. Everything can be done remotely.\"}}, {\"@type\": \"Question\", \"name\": \"Is it safe to send my jewelry to you?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Every piece is shipped insured and tracked, and your jewelry is documented at each step. Your security and peace of mind come first when handling sentimental and valuable items.\"}}, {\"@type\": \"Question\", \"name\": \"Can you reset my diamond or gemstones into a new setting?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Absolutely. Resetting diamonds and gemstones is one of the most popular redesigns. I can move your stones from a dated or damaged setting into an entirely new design that suits you today.\"}}, {\"@type\": \"Question\", \"name\": \"What can I redesign?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Engagement rings, wedding bands, inherited and heirloom jewelry, old or broken gold, and loose or set diamonds and gemstones. If it holds meaning, it can be reimagined.\"}}, {\"@type\": \"Question\", \"name\": \"Can I use my own gold?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. If you have gold or platinum you no longer wear, I responsibly refine it and apply its value toward your new piece, preserving sentiment, reducing cost, and being kinder to the environment.\"}}, {\"@type\": \"Question\", \"name\": \"Can you repurpose my old or inherited jewelry?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. I repurpose old and inherited jewelry into something new — turning a ring into a necklace, a brooch into a pendant, or combining several pieces into one — reusing your own diamonds, gemstones, and gold.\"}}]}</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "redesign_service_schema": {
+      "type": "custom-liquid",
+      "name": "Redesign service schema",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"The Lorinczi Redesign Program\", \"serviceType\": \"Jewelry redesign, diamond resetting & heirloom restyling\", \"description\": \"Custom jewelry redesign using your own gems and gold — reset diamonds, repurpose old gold, and reimagine inherited pieces into modern heirlooms.\", \"provider\": {\"@type\": \"Organization\", \"name\": \"Lorinczi Jewelry\", \"url\": \"https://lorinczi.com\"}, \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"url\": \"https://lorinczi.com/pages/jewelry-redesign\", \"offers\": {\"@type\": \"Offer\", \"url\": \"https://lorinczi.com/products/free-consultation\", \"price\": \"0\", \"priceCurrency\": \"USD\", \"description\": \"Free virtual jewelry redesign consultation\"}}</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "redesign_index": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\" style=\"padding:2rem 0;\"><h2 style=\"text-align:center;margin:0 0 \n  1.5rem;\">What I Redesign</h2><div \n  style=\"display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;max-width:1000px;margin:1.5rem \n  auto 0;\"><div class=\"rich-text__buttons\" \n  style=\"display:block;max-width:none;width:auto;margin:0;\"><div class=\"outter-button\" \n  style=\"display:block;\"><a href=\"/pages/reset-diamond-ring\" class=\"base-button button \n  button--primary\" style=\"display:block;width:100%;text-align:center;\">Reset a Diamond\n  Ring</a></div></div><div class=\"rich-text__buttons\" \n  style=\"display:block;max-width:none;width:auto;margin:0;\"><div class=\"outter-button\" \n  style=\"display:block;\"><a href=\"/pages/redesign-engagement-ring\" class=\"base-button button \n  button--primary\" style=\"display:block;width:100%;text-align:center;\">Redesign an Engagement\n  Ring</a></div></div><div class=\"rich-text__buttons\" \n  style=\"display:block;max-width:none;width:auto;margin:0;\"><div class=\"outter-button\" \n  style=\"display:block;\"><a href=\"/pages/heirloom-jewelry-redesign\" class=\"base-button button \n  button--primary\" style=\"display:block;width:100%;text-align:center;\">Heirloom &amp; Inherited\n  Jewelry</a></div></div><div class=\"rich-text__buttons\" \n  style=\"display:block;max-width:none;width:auto;margin:0;\"><div class=\"outter-button\" \n  style=\"display:block;\"><a href=\"/pages/use-your-own-gems-metal\" class=\"base-button button \n  button--primary\" style=\"display:block;width:100%;text-align:center;\">Use Your Own Gold &amp;\n  Stones</a></div></div><div class=\"rich-text__buttons\" \n  style=\"display:block;max-width:none;width:auto;margin:0;\"><div class=\"outter-button\" \n  style=\"display:block;\"><a href=\"/pages/turn-ring-into-necklace\" class=\"base-button button \n  button--primary\" style=\"display:block;width:100%;text-align:center;\">Turn a Ring Into a\n  Necklace</a></div></div><div class=\"rich-text__buttons\" \n  style=\"display:block;max-width:none;width:auto;margin:0;\"><div class=\"outter-button\" \n  style=\"display:block;\"><a href=\"/pages/remake-wedding-band\" class=\"base-button button \n  button--primary\" style=\"display:block;width:100%;text-align:center;\">Redesign a Wedding\n  RING</a></div></div></div></div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "related_links": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "{max-width: 100%; margin-left: auto; margin-right: auto; text-align: center;}",
+        "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 0.5em;}",
+        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Wondering about pricing?</strong> <a href=\"/pages/jewelry-redesign-cost\">How much does jewelry redesign cost? </a></p><p ><strong>Serving the Bay Area:</strong> <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot; <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -366,10 +370,10 @@
       "type": "lorinczi-contact-form",
       "settings": {
         "heading": "Got questions? Let's chat!",
-        "image": "shopify://shop_images/TRULY_Final_Transform_Your_Jewelry_Contact_Form_Image_f33c4902-1c09-45c6-a2f8-9ac18acfd847.jpg",
+        "image": "shopify://shop_images/Final_Jewelry_Redesign_Overview_Section__Contact_Form_Image.jpg",
         "heading_size": "h2",
         "color_scheme": "",
-        "left_background_color": "#484d1c",
+        "left_background_color": "#402242",
         "field_background_color": "#ffffff",
         "field_border_color": "#000000",
         "drop_area_background_color": "#e6e5e2",
@@ -416,16 +420,6 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "redesign_service_schema": {
-      "type": "custom-liquid",
-      "name": "Redesign service schema",
-      "settings": {
-        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"The Lorinczi Redesign Program\", \"serviceType\": \"Jewelry redesign, diamond resetting & heirloom restyling\", \"description\": \"Custom jewelry redesign using your own gems and gold — reset diamonds, repurpose old gold, and reimagine inherited pieces into modern heirlooms.\", \"provider\": {\"@type\": \"Organization\", \"name\": \"Lorinczi Jewelry\", \"url\": \"https://lorinczi.com\"}, \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"url\": \"https://lorinczi.com/pages/jewelry-redesign\", \"offers\": {\"@type\": \"Offer\", \"url\": \"https://lorinczi.com/products/free-consultation\", \"price\": \"0\", \"priceCurrency\": \"USD\", \"description\": \"Free virtual jewelry redesign consultation\"}}</script>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
@@ -434,13 +428,14 @@
     "rich_text_Qmja8T",
     "main",
     "custom_liquid_U4fpLV",
-    "image_with_text_qBVeG9",
     "rich_text_gk8ehP",
     "featured_collection_RFjQVn",
     "rich_text_LxWRyM",
     "redesign_faq",
     "redesign_faq_schema",
     "redesign_service_schema",
+    "redesign_index",
+    "related_links",
     "lorinczi_contact_form_Qc4PUF",
     "newsletter_gRyxgy"
   ]

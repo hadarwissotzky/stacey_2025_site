@@ -38,7 +38,14 @@
           "type": "text",
           "settings": {
             "heading": "CONTACT",
-            "subtext": "<h6>(510) 221.6212</h6><h6><a href=\"mailto:support@lorinczi.com\"><strong>support@lorinczi.com</strong></a></h6>"
+            "subtext": "<ul><li><h6>(510) 221.6212</h6></li><li><h6><a href=\"mailto:support@lorinczi.com\">SUPPORT@LORINCZI.COM</a></h6></li></ul>"
+          }
+        },
+        "service_areas_block": {
+          "type": "link_list",
+          "settings": {
+            "heading": "SERVICE AREAS",
+            "menu": "service-areas"
           }
         }
       },
@@ -46,11 +53,12 @@
         "d03a880b-bd91-4214-ab70-0166e3855006",
         "06a23115-9065-4f55-9cab-419a267595a1",
         "e5b7ef4a-b916-429f-bbd3-64045dd8a4c9",
-        "d55eb1c7-cfd7-4b0b-9a12-00738691cdfb"
+        "d55eb1c7-cfd7-4b0b-9a12-00738691cdfb",
+        "service_areas_block"
       ],
       "custom_css": [
         ".footer {padding-left: 10px;}",
-        "h6 {margin-top: 30px !important; margin-bottom: 13px !important; font-size: 1.1rem; color: rgba(var(--color-foreground), 0.75);}",
+        "rte li a,rte li {margin-top: 28px !important; margin-bottom: 13px !important; font-size: 0.9rem; color: #919191;}",
         "h5 {margin-top: 0px !important; font-size: 1.1rem; color: rgba(var(--color-foreground), 0.75); margin-bottom: 0px;}",
         "@media screen and (max-width: 749px) {h6 {margin-top: 0px !important; margin-bottom: 3px !important; }}"
       ],

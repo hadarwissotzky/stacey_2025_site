@@ -1,0 +1,217 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_FiNPq6": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_7G6x64": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Jewelry Redesign in Marin County</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_C9CghG": {
+          "type": "text",
+          "settings": {
+            "text": "Heirloom redesign, diamond resetting & custom design for Marin — in person or remotely.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7G6x64",
+        "text_C9CghG"
+      ],
+      "custom_css": [
+        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}",
+        "@media screen and (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.7rem) !important; line-height: 1.2em; margin-top: 0.8em; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/V4_Jewelry_Redesign_in_Marin_Main_Top_Image.jpg",
+        "video_background": false,
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "redesign_intro": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Redesign intro",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--narrow\" style=\"padding:1rem 0 3rem; text-align:left;\">\n  <p style=\"font-size:1.6rem; line-height:1.7;\">Just across the Golden Gate, I help Marin clients reimagine the jewelry they already own — from Mill Valley to Tiburon to Sausalito. Reset a diamond, redesign an engagement ring, or transform an inherited piece, working with me directly and, if it's easier than crossing the bridge, entirely remotely.</p>\n  <h2>What I redesign for Marin clients</h2>\n  <ul>\n    <li><a href=\"/pages/reset-diamond-ring\">Diamond &amp; gemstone resetting</a> — move your stones into a setting made for you today.</li>\n    <li><a href=\"/pages/redesign-engagement-ring\">Engagement ring redesign</a> — reimagine your ring using your own diamond and gold.</li>\n    <li><a href=\"/pages/heirloom-jewelry-redesign\">Heirloom &amp; inherited jewelry redesign</a> — honor the piece, make it wearable again.</li>\n    <li><a href=\"/pages/use-your-own-gems-metal\">Use your own gold &amp; stones</a> — I refine your gold and reset your stones.</li>\n    <li>Custom design and turning rings into necklaces &amp; pendants.</li>\n  </ul>\n  <h2>Where can I get my diamond reset in Marin?</h2>\n  <p>Right here. I reset diamonds and gemstones for clients across Mill Valley, Sausalito, Tiburon, Ross, Larkspur, and San Rafael. You can meet with me in person or send your stones fully insured and tracked — your jewelry is documented at every step.</p>\n  <h2>Who does heirloom jewelry redesign in Marin?</h2>\n  <p>As a solo designer, I personally handle every Marin redesign from first sketch to finished piece — no factory, no outsourcing, and your heirloom never leaves one pair of hands.</p>\n  <h2>How much does jewelry redesign cost in Marin?</h2>\n  <p>Every redesign is custom, and because you supply your own gold and stones it usually costs less than buying new. You get a transparent quote after a free consultation. <a href=\"/pages/jewelry-redesign-cost\">See the full pricing guide →</a></p>\n  <h2>Can I redesign my jewelry remotely from Marin?</h2>\n  <p>Yes. The entire process — consultation, design, approval, and delivery — can be done remotely with insured, tracked shipping, so you never have to set foot in a store if you'd rather not.</p>\n  <p style=\"margin-top:2.5rem;\"><a href=\"/pages/contact\" class=\"button\">Book your free consultation</a></p>\n</div>",
+        "color_scheme": "",
+        "padding_top": 24,
+        "padding_bottom": 12
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "{width: 70%; margin-left: auto; margin-right: auto;}",
+        "h2 {font-family: \"Nexa\", sans-serif !important; margin-bottom: 0.4rem;}",
+        "p,ul {margin-top: 0px;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_U4fpLV": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text p,\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text h3 {\ntext-align: center;\n}\n}\n\n\n.main-page-title{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}\n\n\n#MainContent .main-page-title ~ .rte p, #MainContent .main-page-title ~ .rte li, #MainContent .main-page-title ~ .rte a{font:400 1.9rem/25px \"GoudyOldStyle\",sans-serif!important;color:rgba(var(--color-foreground),0.75)!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte h2, #MainContent .main-page-title ~ .rte h3{font:400 28px/30px Nexa,sans-serif!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte ul, #MainContent .main-page-title ~ .rte ol{text-align:left!important;}\n\n\n#MainContent [class*=\"__main-padding\"]{padding-top:5rem!important;padding-bottom:5rem!important;padding-left:9rem!important;padding-right:9rem!important;}\n@media screen and (max-width:749px){#MainContent [class*=\"__main-padding\"]{padding-top:3rem!important;padding-bottom:3rem!important;padding-left:2rem!important;padding-right:2rem!important;}}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_qBVeG9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6dEETn": {
+          "type": "heading",
+          "settings": {
+            "heading": "GIVE YOUR OLD JEWELRY A NEW STORY",
+            "heading_size": "h2"
+          }
+        },
+        "text_gKXwt4": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>I reimagine unused and unloved jewelry... </h3><p>Into modern designs you’ll love to wear. Begin your transformation with a complimentary <a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\">virtual consultation</a>.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_FDcmDF": {
+          "type": "button",
+          "settings": {
+            "button_label": "MY DESIGN PROCESS",
+            "button_link": "https://lorinczi.com/pages/custom-design-journey#shopify-section-template--25996792725787__rich_text_pqnyd7",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_6dEETn",
+        "text_gKXwt4",
+        "button_FDcmDF"
+      ],
+      "custom_css": [
+        ".rich-text__buttons .base-button {background-color: #fff;}",
+        "p a,p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important; text-align: left; padding: 0;}",
+        "h3 {font: 400 28px / 30px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px; text-align: left;}",
+        ".image-with-text .image-with-text__heading {font-size: 1.3rem !important;}",
+        "@media (min-width: 750px) {.image-with-text__text-item {width: 40%; } .image-with-text__media-item {width: 60%; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Redesign_Your_Engagement_Ring_Section_Top_Page_Photos_71f33334-d0b1-4929-b85c-c01fa3615554.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "scheme-d23da204-75f2-431b-91aa-47efeff00978",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "redesign_faq_schema": {
+      "type": "custom-liquid",
+      "name": "Redesign FAQ schema",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Where can I get my diamond reset in Marin?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"I reset diamonds and gemstones for clients across Marin, including Mill Valley, Sausalito, Tiburon, Ross, Larkspur, and San Rafael. You can meet in person or send your stones fully insured and tracked.\"}}, {\"@type\": \"Question\", \"name\": \"Who does heirloom jewelry redesign in Marin?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"I do \\u2014 as a solo designer I personally handle every Marin heirloom redesign from sketch to finished piece, with no factory or outsourcing.\"}}, {\"@type\": \"Question\", \"name\": \"How much does jewelry redesign cost in Marin?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Every redesign is custom; because you supply your own gold and stones, it usually costs less than buying new. You receive a transparent quote after a free consultation.\"}}, {\"@type\": \"Question\", \"name\": \"Can I redesign my jewelry remotely from Marin?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Consultation, design, approval, and delivery can all be done remotely with insured, tracked shipping.\"}}, {\"@type\": \"Question\", \"name\": \"Can you use my own gold and stones?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. I responsibly refine gold you no longer wear and reset your own diamonds and gemstones into your new piece.\"}}]}</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "redesign_service_schema": {
+      "type": "custom-liquid",
+      "name": "Redesign service schema",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"The Lorinczi Redesign Program\", \"serviceType\": \"Jewelry redesign, diamond resetting & heirloom restyling\", \"description\": \"Custom jewelry redesign using your own gems and gold — reset diamonds, repurpose old gold, and reimagine inherited pieces into modern heirlooms.\", \"provider\": {\"@type\": \"Organization\", \"name\": \"Lorinczi Jewelry\", \"url\": \"https://lorinczi.com\"}, \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"url\": \"https://lorinczi.com/pages/jewelry-redesign\", \"offers\": {\"@type\": \"Offer\", \"url\": \"https://lorinczi.com/products/free-consultation\", \"price\": \"0\", \"priceCurrency\": \"USD\", \"description\": \"Free virtual jewelry redesign consultation\"}}</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "local_business_schema": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"JewelryStore\", \"name\": \"Lorinczi Jewelry\", \"description\": \"Jewelry redesign, diamond resetting and heirloom restyling serving Marin and the San Francisco Bay Area.\", \"url\": \"https://www.lorinczi.com/pages/jewelry-redesign-marin\", \"telephone\": \"+1-510-221-6212\", \"address\": {\"@type\": \"PostalAddress\", \"addressLocality\": \"San Francisco\", \"addressRegion\": \"CA\", \"addressCountry\": \"US\"}, \"areaServed\": [{\"@type\": \"City\", \"name\": \"Mill Valley\"}, {\"@type\": \"City\", \"name\": \"Sausalito\"}, {\"@type\": \"City\", \"name\": \"Tiburon\"}, {\"@type\": \"City\", \"name\": \"San Rafael\"}, {\"@type\": \"City\", \"name\": \"Marin County\"}], \"sameAs\": [\"https://www.instagram.com/lorinczijewelry\", \"https://www.facebook.com/lorinczijewelry\", \"https://www.pinterest.com/lorinczijewelry\"]}</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "related_links": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "{max-width: 100%; margin-left: auto; margin-right: auto; text-align: center;}",
+        "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 0.5em;}",
+        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Wondering about pricing?</strong> <a href=\"/pages/jewelry-redesign-cost\">How much does jewelry redesign cost? </a></p><p ><strong>Serving the Bay Area:</strong> <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot; <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "lorinczi_contact_form_Qc4PUF": {
+      "type": "lorinczi-contact-form",
+      "settings": {
+        "heading": "Got questions? Let's chat!",
+        "image": "shopify://shop_images/Reset_a_Diamond_Ring_Section_Contact_Form_Image_93cb8766-f8b3-48ba-a93a-7ac164faf293.jpg",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "left_background_color": "#885C3B",
+        "field_background_color": "#ffffff",
+        "field_border_color": "#000000",
+        "drop_area_background_color": "#e6e5e2",
+        "drop_area_border_color": "#000000",
+        "button_background_color": "#f3e5d6",
+        "button_border_color": "#000000",
+        "button_text_color": "#000000",
+        "header_text_color": "#ffffff",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_content_alignment": "left"
+      }
+    }
+  },
+  "order": [
+    "image_banner_FiNPq6",
+    "redesign_intro",
+    "main",
+    "custom_liquid_U4fpLV",
+    "image_with_text_qBVeG9",
+    "redesign_faq_schema",
+    "redesign_service_schema",
+    "local_business_schema",
+    "related_links",
+    "lorinczi_contact_form_Qc4PUF"
+  ]
+}

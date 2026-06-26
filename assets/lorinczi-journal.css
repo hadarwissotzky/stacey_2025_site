@@ -495,3 +495,27 @@
   background: #1a1a1a;
   color: #fff;
 }
+
+/* FIX: responsive image box so title sticks to image (no gap) */
+.article-card .card__inner,
+.article-card .card__inner.ratio {
+  min-height: 0 !important;
+  height: auto !important;
+  aspect-ratio: 3 / 4 !important;
+  padding-bottom: 0 !important;
+  display: block !important;
+  overflow: hidden !important;
+}
+.article-card .article-card__image-wrapper,
+.article-card .article-card__image,
+.article-card .article-card__image.media {
+  height: 100% !important;
+  min-height: 0 !important;
+}
+.article-card .article-card__image img {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  object-fit: cover !important;
+  object-position: center !important;
+}

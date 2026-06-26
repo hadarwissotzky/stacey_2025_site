@@ -1,0 +1,208 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_FiNPq6": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_7G6x64": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reset a Diamond Ring",
+            "heading_size": "h1"
+          }
+        },
+        "text_C9CghG": {
+          "type": "text",
+          "settings": {
+            "text": "I reset your diamond into a fresh setting designed around you — keeping the stone and the meaning, in a ring you'll reach for every day.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7G6x64",
+        "text_C9CghG"
+      ],
+      "custom_css": [
+        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}",
+        "@media screen and (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.7rem) !important; line-height: 1.2em; margin-top: 0.8em; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Final_Reset_a_Diamond_Ring_Section_Main_Top_Image.jpg",
+        "video_background": false,
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "redesign_intro": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Redesign intro",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--narrow custom-liquid-redesign\" style=\"padding:1rem 0 2rem;\">\n  <h1 class=\"h1\" style=\"margin:0 0 1.5rem;\">Jewelry Redesign &mdash; Bring Your Gems &amp; Jewelry Back to Life</h1>\n  <div class=\"rte\">\n    <p>Some pieces are too meaningful to leave forgotten in a drawer. <strong>Jewelry redesign</strong> gives your old, inherited, or unworn jewelry a second life &mdash; reimagined into something you&rsquo;ll actually wear and treasure. Using your own gems and gold, I redesign rings, necklaces, bracelets, and earrings into timeless, one-of-a-kind heirlooms that carry your story forward.</p>\n    <h2>How Jewelry Redesign Works</h2>\n    <ol>\n      <li><strong>Free virtual consultation.</strong> We talk through your pieces, your story, and what you&rsquo;d love to wear.</li>\n      <li><strong>Send photos of your jewelry or gems.</strong> Share what you have and the vision you have in mind.</li>\n      <li><strong>Custom design.</strong> I design a piece built around your materials and your style.</li>\n      <li><strong>Refining &amp; crafting.</strong> I responsibly refine your old gold and reset your stones into the new design.</li>\n      <li><strong>Your new heirloom.</strong> You receive a piece made to be worn, loved, and passed on.</li>\n    </ol>\n    <h2>What You Can Redesign</h2>\n    <ul>\n      <li><strong>Engagement rings &amp; wedding bands</strong> &mdash; modernize a dated setting or honor a marriage with a fresh design.</li>\n      <li><strong>Inherited &amp; heirloom jewelry</strong> &mdash; turn a grandmother&rsquo;s ring or a mother&rsquo;s necklace into something you&rsquo;ll wear every day.</li>\n      <li><strong>Old or broken gold</strong> &mdash; refine unworn gold and apply its value toward your new piece.</li>\n      <li><strong>Loose or set diamonds &amp; gemstones</strong> &mdash; reset your stones into a setting that suits you now.</li>\n    </ul>\n    <h2>Resetting Your Diamonds &amp; Stones</h2>\n    <p>Already love your stones but not the setting? I reset diamonds and gemstones into entirely new designs &mdash; from a classic solitaire into a sculptural band, or scattered stones gathered into a single statement piece. Your gems stay; the design becomes truly yours.</p>\n    <h2>Use Your Own Gold &amp; Gems</h2>\n    <p>Working with your own materials preserves the sentimental value of the originals, reduces cost, and is far kinder to the environment than buying new. If you have gold or platinum you no longer wear, I refine it and apply its value toward your redesign &mdash; with transparent pricing and work that fits your budget.</p>\n  <p style=\"margin-top:1.5rem;\"><strong>Explore specific services:</strong> <a href=\"/pages/reset-diamond-ring\">Reset a Diamond Ring</a> &middot; <a href=\"/pages/redesign-engagement-ring\">Redesign an Engagement Ring</a> &middot; <a href=\"/pages/heirloom-jewelry-redesign\">Heirloom Jewelry Redesign</a></p></div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 24,
+        "padding_bottom": 12
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "{width: 70%; margin-left: auto; margin-right: auto;}",
+        "h2 {font-family: \"Nexa\", sans-serif !important; margin-bottom: 0.4rem;}",
+        "h4 {font: 400 1.7rem / 25px \"GoudyOldStyle\", sans-serif !important;}",
+        "p,ul {margin-top: 0px;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_U4fpLV": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text p,\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text h3 {\ntext-align: center;\n}\n}\n\n\n.main-page-title{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}\n\n#MainContent .main-page-title ~ .rte li{\nfont:400 1.6rem/25px \"GoudyOldStyle\",sans-serif!important;\n}\n#MainContent .main-page-title ~ .rte p, #MainContent .main-page-title ~ .rte li, #MainContent .main-page-title ~ .rte a{font:400 1.6rem/25px \"GoudyOldStyle\",sans-serif!important;color:rgba(var(--color-foreground),0.75)!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte h2, #MainContent .main-page-title ~ .rte h3{font:400 23px/30px Nexa,sans-serif!important;text-align:left!important;\ntext-transform: uppercase;}\n#MainContent .main-page-title ~ .rte ul, #MainContent .main-page-title ~ .rte ol{text-align:left!important;}\n\n\n#MainContent [class*=\"__main-padding\"]{padding-top:5rem!important;padding-bottom:5rem!important;padding-left:9rem!important;padding-right:9rem!important;}\n@media screen and (max-width:749px){#MainContent [class*=\"__main-padding\"]{padding-top:3rem!important;padding-bottom:3rem!important;padding-left:2rem!important;padding-right:2rem!important;}}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_qBVeG9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6dEETn": {
+          "type": "heading",
+          "settings": {
+            "heading": "GIVE YOUR OLD JEWELRY A NEW STORY",
+            "heading_size": "h2"
+          }
+        },
+        "text_gKXwt4": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>I reimagine unused and unloved jewelry... </h3><p>Into modern designs you’ll love to wear. Begin your transformation with a complimentary <a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\">virtual consultation</a>.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_FDcmDF": {
+          "type": "button",
+          "settings": {
+            "button_label": "MY DESIGN PROCESS",
+            "button_link": "https://lorinczi.com/pages/custom-design-journey#shopify-section-template--25996792725787__rich_text_pqnyd7",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_6dEETn",
+        "text_gKXwt4",
+        "button_FDcmDF"
+      ],
+      "custom_css": [
+        ".rich-text__buttons .base-button {background-color: #fff;}",
+        "p a,p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important; text-align: left; padding: 0;}",
+        "h3 {font: 400 28px / 30px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px; text-align: left;}",
+        ".image-with-text .image-with-text__heading {font-size: 1.3rem !important;}",
+        "@media (min-width: 750px) {.image-with-text__text-item {width: 40%; } .image-with-text__media-item {width: 60%; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Redesign_Your_Engagement_Ring_Section_Top_Page_Photos_71f33334-d0b1-4929-b85c-c01fa3615554.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "scheme-d23da204-75f2-431b-91aa-47efeff00978",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "redesign_faq_schema": {
+      "type": "custom-liquid",
+      "name": "Redesign FAQ schema",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How much does jewelry redesign cost?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Every redesign is custom, so the cost depends on the design, materials, and labor involved. Because you supply your own gems and gold, you often save significantly compared to buying new. After your free virtual consultation you'll receive a transparent quote before any work begins.\"}}, {\"@type\": \"Question\", \"name\": \"How does the jewelry redesign process work?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Five simple steps: a free virtual consultation, you send photos of your pieces, I create a custom design, I refine your gold and reset your stones, and you receive your finished heirloom. Everything can be done remotely.\"}}, {\"@type\": \"Question\", \"name\": \"Is it safe to send my jewelry to you?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Every piece is shipped insured and tracked, and your jewelry is documented at each step. Your security and peace of mind come first when handling sentimental and valuable items.\"}}, {\"@type\": \"Question\", \"name\": \"Can you reset my diamond or gemstones into a new setting?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Absolutely. Resetting diamonds and gemstones is one of the most popular redesigns. I can move your stones from a dated or damaged setting into an entirely new design that suits you today.\"}}, {\"@type\": \"Question\", \"name\": \"What can I redesign?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Engagement rings, wedding bands, inherited and heirloom jewelry, old or broken gold, and loose or set diamonds and gemstones. If it holds meaning, it can be reimagined.\"}}, {\"@type\": \"Question\", \"name\": \"Can I use my own gold?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. If you have gold or platinum you no longer wear, I responsibly refine it and apply its value toward your new piece, preserving sentiment, reducing cost, and being kinder to the environment.\"}}]}</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "redesign_service_schema": {
+      "type": "custom-liquid",
+      "name": "Redesign service schema",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"The Lorinczi Redesign Program\", \"serviceType\": \"Jewelry redesign, diamond resetting & heirloom restyling\", \"description\": \"Custom jewelry redesign using your own gems and gold — reset diamonds, repurpose old gold, and reimagine inherited pieces into modern heirlooms.\", \"provider\": {\"@type\": \"Organization\", \"name\": \"Lorinczi Jewelry\", \"url\": \"https://lorinczi.com\"}, \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"url\": \"https://lorinczi.com/pages/jewelry-redesign\", \"offers\": {\"@type\": \"Offer\", \"url\": \"https://lorinczi.com/products/free-consultation\", \"price\": \"0\", \"priceCurrency\": \"USD\", \"description\": \"Free virtual jewelry redesign consultation\"}}</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "related_links": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "{max-width: 100%; margin-left: auto; margin-right: auto; text-align: center;}",
+        "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 0.5em;}",
+        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Wondering about pricing?</strong> <a href=\"/pages/jewelry-redesign-cost\">How much does jewelry redesign cost? </a></p><p ><strong>Serving the Bay Area:</strong> <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot; <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "lorinczi_contact_form_Qc4PUF": {
+      "type": "lorinczi-contact-form",
+      "settings": {
+        "heading": "Got questions? Let's chat!",
+        "image": "shopify://shop_images/Reset_a_Diamond_Ring_Section_Contact_Form_Image_93cb8766-f8b3-48ba-a93a-7ac164faf293.jpg",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "left_background_color": "#484d1c",
+        "field_background_color": "#ffffff",
+        "field_border_color": "#000000",
+        "drop_area_background_color": "#e6e5e2",
+        "drop_area_border_color": "#000000",
+        "button_background_color": "#f3e5d6",
+        "button_border_color": "#000000",
+        "button_text_color": "#000000",
+        "header_text_color": "#ffffff",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_content_alignment": "left"
+      }
+    }
+  },
+  "order": [
+    "image_banner_FiNPq6",
+    "redesign_intro",
+    "main",
+    "custom_liquid_U4fpLV",
+    "image_with_text_qBVeG9",
+    "redesign_faq_schema",
+    "redesign_service_schema",
+    "related_links",
+    "lorinczi_contact_form_Qc4PUF"
+  ]
+}
