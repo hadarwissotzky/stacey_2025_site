@@ -28,7 +28,7 @@
         {{- clean_title -}}
         {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
         {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-        {%- unless clean_title contains shop.name or template.name == 'product' %} &ndash; {{ shop.name }}{% endunless -%}
+        {%- unless clean_title contains shop.name or template.name == 'product' or current_page != 1 %} &ndash; {{ shop.name }}{% endunless -%}
       {%- endif -%}
     </title>
 
