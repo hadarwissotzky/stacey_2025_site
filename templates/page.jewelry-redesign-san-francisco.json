@@ -32,7 +32,7 @@
         "text_C9CghG"
       ],
       "custom_css": [
-        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}",
+        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.2rem); line-height: 1.3em;}",
         "@media screen and (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.7rem) !important; line-height: 1.2em; margin-top: 0.8em; }}"
       ],
       "settings": {
@@ -64,9 +64,10 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "{width: 70%; margin-left: auto; margin-right: auto;}",
+        "{width: 80%; margin-left: auto; margin-right: auto;}",
         "h2 {font-family: \"Nexa\", sans-serif !important; margin-bottom: 0.4rem;}",
-        "p,ul {margin-top: 0px;}"
+        "p,ul {margin-top: 0px;}",
+        "h4 {font: 400 1.8rem / 25px \"GoudyOldStyle\" !important; text-transform: none;}"
       ],
       "settings": {
         "padding_top": 28,
@@ -171,10 +172,11 @@
       "custom_css": [
         "{max-width: 100%; margin-left: auto; margin-right: auto; text-align: center;}",
         "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 0.5em;}",
-        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}"
+        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}",
+        "p a:hover {color: #000 !important;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Wondering about pricing?</strong> <a href=\"/pages/jewelry-redesign-cost\">How much does jewelry redesign cost? </a></p><p ><strong>Serving the Bay Area:</strong> <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot; <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",
+        "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Wondering about pricing?</strong> <a href=\"/pages/jewelry-redesign-cost\">How much does jewelry redesign cost? </a></p><p ><strong>Serving the Bay Area and beyond:</strong> <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot; <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",
         "color_scheme": "",
         "padding_top": 32,
         "padding_bottom": 32

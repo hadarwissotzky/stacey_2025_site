@@ -32,11 +32,11 @@
         "text_C9CghG"
       ],
       "custom_css": [
-        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}",
+        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.2rem); line-height: 1.3em;}",
         "@media screen and (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.7rem) !important; line-height: 1.2em; margin-top: 0.8em; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Final_Reset_a_Diamond_Ring_Section_Main_Top_Image.jpg",
+        "image": "shopify://shop_images/Turn_Your_Ring_Into_a_Necklace_Section_Main_Top_Image.jpg",
         "video_background": false,
         "image_overlay_opacity": 0,
         "image_height": "small",
@@ -66,7 +66,8 @@
       "custom_css": [
         "{width: 70%; margin-left: auto; margin-right: auto;}",
         "h2 {font-family: \"Nexa\", sans-serif !important; margin-bottom: 0.4rem;}",
-        "p,ul {margin-top: 0px;}"
+        "p,ul {margin-top: 0px;}",
+        "h4 {font: 400 1.8rem / 25px \"GoudyOldStyle\" !important; text-transform: none;}"
       ],
       "settings": {
         "padding_top": 28,
@@ -122,7 +123,7 @@
         "@media (min-width: 750px) {.image-with-text__text-item {width: 40%; } .image-with-text__media-item {width: 60%; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Redesign_Your_Engagement_Ring_Section_Top_Page_Photos_71f33334-d0b1-4929-b85c-c01fa3615554.png",
+        "image": "shopify://shop_images/Turn_Your_Ring_Into_a_Necklace_Section_Top_Page_Photos_6c35233a-0ea3-4150-bdae-017edc9ceec8.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -162,25 +163,26 @@
       "custom_css": [
         "{max-width: 100%; margin-left: auto; margin-right: auto; text-align: center;}",
         "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 0.5em;}",
-        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}"
+        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}",
+        "p a:hover {color: #000 !important;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Wondering about pricing?</strong> <a href=\"/pages/jewelry-redesign-cost\">How much does jewelry redesign cost? </a></p><p ><strong>Serving the Bay Area:</strong> <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot; <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",
+        "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Wondering about pricing?</strong> <a href=\"/pages/jewelry-redesign-cost\">How much does jewelry redesign cost? </a></p><p ><strong>Serving the Bay Area and beyond:</strong> <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot; <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     },
     "lorinczi_contact_form_Qc4PUF": {
       "type": "lorinczi-contact-form",
       "settings": {
         "heading": "Got questions? Let's chat!",
-        "image": "shopify://shop_images/Reset_a_Diamond_Ring_Section_Contact_Form_Image_93cb8766-f8b3-48ba-a93a-7ac164faf293.jpg",
+        "image": "shopify://shop_images/Turn_Your_Ring_Into_a_Necklace_Section_Contact_Form_Image_2cf750a4-5639-4b8c-84c1-90e22b15c83f.jpg",
         "heading_size": "h2",
         "color_scheme": "",
         "left_background_color": "#484d1c",
         "field_background_color": "#ffffff",
-        "field_border_color": "#000000",
+        "field_border_color": "#402242",
         "drop_area_background_color": "#e6e5e2",
         "drop_area_border_color": "#000000",
         "button_background_color": "#f3e5d6",

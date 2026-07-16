@@ -260,7 +260,8 @@
       "custom_css": [
         "{max-width: 100%; margin-left: auto; margin-right: auto; text-align: center;}",
         "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 0.5em;}",
-        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}"
+        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}",
+        "p a:hover {color: #000 !important;}"
       ],
       "settings": {
         "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Have your own diamond or heirloom?</strong> <a href=\"/pages/heirloom-jewelry-redesign\">Heirloom &amp; diamond redesign</a></p><p><strong>Wondering about cost?</strong> <a href=\"/pages/jewelry-redesign-cost\">What custom work costs</a></p><p><strong>Serving the Bay Area:</strong> <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot; <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",

@@ -32,7 +32,7 @@
         "text_z73UYV"
       ],
       "custom_css": [
-        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}",
+        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.2rem); line-height: 1.3em;}",
         "@media screen and (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.7rem) !important; line-height: 1.2em; margin-top: 0.8em; }}"
       ],
       "settings": {
@@ -48,6 +48,43 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
+      }
+    },
+    "rich_text_section": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_main": {
+          "type": "heading",
+          "settings": {
+            "heading": "BRING YOUR GEMS AND JEWELRY BACK TO LIFE",
+            "heading_size": "h2"
+          }
+        },
+        "text_main": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I can use your own gems to adapt one of my designs or create something entirely new. Working with your materials preserves sentimental value, saves costs, and reduces environmental impact.</p><p>If you have gold or platinum you no longer wear, I can refine it and apply its value toward your new piece. I’m committed to transparent, eco-friendly refining, fair pricing, and working within your budget.</p><p>Ready to start? Send photos of your jewelry or gems and share your vision. Together, we’ll transform your materials into a piece you’ll truly treasure.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_main",
+        "text_main"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 85rem;}",
+        ".rich-text__heading {font-family: \"Nexa\" !important; font-size: calc(var(--font-heading-scale) * 2.3rem); font-weight: 300;}",
+        "p {font-size: calc(var(--font-heading-scale) * 1.8rem);}",
+        ".rich-text h3 {font-family: \"GoudyOldStyle\" !important;}",
+        ".rich-text__text h5 a {color: #919191; font-family: \"A-Gothic\" !important;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "image_with_text_JwrRFC": {
@@ -104,43 +141,6 @@
         "padding_bottom": 0
       }
     },
-    "rich_text_section": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_main": {
-          "type": "heading",
-          "settings": {
-            "heading": "BRING YOUR GEMS AND JEWELRY BACK TO LIFE",
-            "heading_size": "h2"
-          }
-        },
-        "text_main": {
-          "type": "text",
-          "settings": {
-            "text": "<p>I can use your own gems to adapt one of my designs or create something entirely new. Working with your materials preserves sentimental value, saves costs, and reduces environmental impact.</p><p>If you have gold or platinum you no longer wear, I can refine it and apply its value toward your new piece. I’m committed to transparent, eco-friendly refining, fair pricing, and working within your budget.</p><p>Ready to start? Send photos of your jewelry or gems and share your vision. Together, we’ll transform your materials into a piece you’ll truly treasure.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_main",
-        "text_main"
-      ],
-      "custom_css": [
-        ".rich-text__blocks {max-width: 85rem;}",
-        ".rich-text__heading {font-family: \"Nexa\" !important; font-size: calc(var(--font-heading-scale) * 2.3rem); font-weight: 300;}",
-        "p {font-size: calc(var(--font-heading-scale) * 1.8rem);}",
-        ".rich-text h3 {font-family: \"GoudyOldStyle\" !important;}",
-        ".rich-text__text h5 a {color: #919191; font-family: \"A-Gothic\" !important;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "custom_liquid_MBxrat": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -156,13 +156,14 @@
       "custom_css": [
         "{max-width: 100%; margin-left: auto; margin-right: auto; text-align: center;}",
         "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 0.5em;}",
-        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}"
+        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}",
+        "p a:hover {color: #000 !important;}"
       ],
       "settings": {
         "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Wondering about pricing?</strong> <a href=\"/pages/jewelry-redesign-cost\">How much does jewelry redesign cost? </a></p><p ><strong>Serving the Bay Area and beyond:</strong> <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot; <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     },
     "lorinczi_contact_form_zjPUn7": {
@@ -218,8 +219,8 @@
   },
   "order": [
     "image_banner_igYKz9",
-    "image_with_text_JwrRFC",
     "rich_text_section",
+    "image_with_text_JwrRFC",
     "custom_liquid_MBxrat",
     "related_links",
     "lorinczi_contact_form_zjPUn7",
