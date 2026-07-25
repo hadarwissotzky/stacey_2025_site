@@ -322,6 +322,8 @@
 /* CONTACT block (richtext list): match the menu blocks' link size/color/spacing */
 .footer-block__details-content.rte ul {
   margin: 0;
+  list-style: none;
+  padding-left: 0;
 }
 .footer-block__details-content.rte ul li {
   margin-bottom: 0.6rem;

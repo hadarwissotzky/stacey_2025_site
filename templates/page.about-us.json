@@ -41,7 +41,7 @@
         "text_jphF8C"
       ],
       "custom_css": [
-        "p {font-size: calc(var(--font-heading-scale) * 2.5rem); line-height: 1.3em;}",
+        "p {font-size: calc(var(--font-heading-scale) * 2.2rem); line-height: 1.3em; text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);}",
         "@media screen and (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.7rem) !important; line-height: 1.2em; margin-top: 0.8em; }}"
       ],
       "settings": {

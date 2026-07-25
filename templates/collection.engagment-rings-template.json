@@ -42,6 +42,9 @@
         "heading_yeADnt",
         "text_dyz7XT"
       ],
+      "custom_css": [
+        "p {font-size: calc(var(--font-heading-scale) * 1.7rem);}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",

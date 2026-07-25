@@ -23,7 +23,7 @@
       "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.section-template--25996792594715__rich_text_CeFEGf-padding{\n  background-color: #faf5f1;\n}\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n.banner__text p {\n  font-size: calc(var(--font-heading-scale) * 1.8rem) !important;\n}\n@media screen and (max-width: 749px) {\n  #Banner-template--25996792594715__image_banner_7RCNFH p {\n    font-size: calc(var(--font-heading-scale) * 1.7rem) !important;\n    line-height: 1.2em;\n    margin-top: 0.8em;\n  }\n .slideshow__text-wrapper p {\n    font-size: calc(var(--font-heading-scale) * 1.5rem) !important;\n  }\n#shopify-section-template--25996792594715__slideshow_wERMQy .slideshow__text-wrapper h2{\nfont-size: 1.2rem !important;\n    color: rgba(var(--color-foreground), 0.75) !important;\n    padding-right: 2rem !important;\n        padding-top: 1rem;\n}\n#shopify-section-template--25996792594715__slideshow_wERMQy{\nmargin-bottom: 5% !important;\n}\n}\n</style>",
+        "custom_liquid": "<style>\n.section-template--25996792594715__rich_text_CeFEGf-padding{\n  background-color: #faf5f1;\n}\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n.banner__text p {\n  font-size: calc(var(--font-heading-scale) * 2.2rem) !important;\n}\n@media screen and (max-width: 749px) {\n  #Banner-template--25996792594715__image_banner_7RCNFH p {\n    font-size: calc(var(--font-heading-scale) * 1.7rem) !important;\n    line-height: 1.2em;\n    margin-top: 0.8em;\n  }\n .slideshow__text-wrapper p {\n    font-size: calc(var(--font-heading-scale) * 1.5rem) !important;\n  }\n#shopify-section-template--25996792594715__slideshow_wERMQy .slideshow__text-wrapper h2{\nfont-size: 1.2rem !important;\n    color: rgba(var(--color-foreground), 0.75) !important;\n    padding-right: 2rem !important;\n        padding-top: 1rem;\n}\n#shopify-section-template--25996792594715__slideshow_wERMQy{\nmargin-bottom: 5% !important;\n}\n}\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -67,7 +67,7 @@
         ".outter-button {border: 1px solid #121212; border-radius: 13px; padding: 4px; display: inline-block; transition: all 0.3s;}",
         ".button {background: #fff; color: #000; border: 2px solid #121212; font-size: 11px; border-radius: 9px; padding: 12px 30px; min-width: 120px; transition: all 0.3s;}",
         ".outter-button:hover .button {background: #000; color: #fff; border-color: #000;}",
-        "p {text-shadow: 0 2px 7px rgba(0, 0, 0, 1);}",
+        "p {text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);}",
         ".banner__media {width: 100% !important;}"
       ],
       "settings": {

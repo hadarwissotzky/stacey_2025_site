@@ -155,7 +155,8 @@
   }
 
   .image-with-text__content {
-    padding: 4rem 0rem !important;
+    padding: 4rem 1rem !important;
+    align-items: center;
   }
   .image-with-text.collapse-borders:not(.image-with-text--overlap) .image-with-text__content {
     border-top: 0;
