@@ -67,7 +67,8 @@
         "{width: 80%; margin-left: auto; margin-right: auto;}",
         "h2 {font-family: \"Nexa\", sans-serif !important; margin-bottom: 0.4rem;}",
         "p,ul {margin-top: 0px;}",
-        "h4 {font: 400 1.8rem / 25px \"GoudyOldStyle\" !important; text-transform: none;}"
+        "h4 {font: 400 1.8rem / 25px \"GoudyOldStyle\" !important; text-transform: none;}",
+        "@media screen and (max-width: 749px) {{width: 90%; }}"
       ],
       "settings": {
         "padding_top": 28,
@@ -132,11 +133,12 @@
       "type": "custom-liquid",
       "custom_css": [
         "{max-width: 100%; margin-left: auto; margin-right: auto; text-align: center;}",
-        "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 0.5em;}",
-        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}"
+        "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 2.2rem;}",
+        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}",
+        "p a:hover {color: #000 !important;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Wondering about pricing?</strong> <a href=\"/pages/jewelry-redesign-cost\">How much does jewelry redesign cost? </a></p><p ><strong>Serving the Bay Area and beyond:</strong> <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot; <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",
+        "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Wondering about pricing?</strong> <a href=\"/pages/jewelry-redesign-cost\">How much does jewelry redesign cost? </a></p><p><strong>Give an heirloom a new life:</strong> <a href=\"/pages/turn-ring-into-necklace\">Turn a ring into a necklace</a> &middot; <a href=\"/pages/remake-wedding-band\">Remake a wedding band</a></p><p ><strong>Serving the Bay Area and beyond:</strong> <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot;<a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",
         "color_scheme": "",
         "padding_top": 28,
         "padding_bottom": 28
@@ -146,7 +148,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text p,\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text h3 {\ntext-align: center;\n}\n}\n\n\n.main-page-title{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}\n\n\n#MainContent .main-page-title ~ .rte p, #MainContent .main-page-title ~ .rte li, #MainContent .main-page-title ~ .rte a{font:400 1.6rem/25px \"GoudyOldStyle\",sans-serif!important;color:rgba(var(--color-foreground),0.75)!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte h2, #MainContent .main-page-title ~ .rte h3{font:400 23px/30px Nexa,sans-serif!important;text-align:left!important;\ntext-transform: uppercase;}\n#MainContent .main-page-title ~ .rte ul, #MainContent .main-page-title ~ .rte ol{text-align:left!important;}\n\n\n#MainContent [class*=\"__main-padding\"]{padding-top:5rem!important;padding-bottom:5rem!important;padding-left:9rem!important;padding-right:9rem!important;}\n@media screen and (max-width:749px){#MainContent [class*=\"__main-padding\"]{padding-top:3rem!important;padding-bottom:3rem!important;padding-left:2rem!important;padding-right:2rem!important;}}\n</style>",
+        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text p,\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text h3 {\ntext-align: center;\n}\n}\n\n\n.main-page-title{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}\n\n\n#MainContent .main-page-title ~ .rte p, #MainContent .main-page-title ~ .rte li, #MainContent .main-page-title ~ .rte a{font:400 1.6rem/25px \"GoudyOldStyle\",sans-serif!important;color:rgba(var(--color-foreground),0.75)!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte h2, #MainContent .main-page-title ~ .rte h3{font:400 23px/30px Nexa,sans-serif!important;text-align:left!important;\ntext-transform: uppercase;}\n#MainContent .main-page-title ~ .rte ul, #MainContent .main-page-title ~ .rte ol{text-align:left!important;}\n\n\n#MainContent [class*=\"__main-padding\"]{padding-top:5rem!important;padding-bottom:5rem!important;padding-left:9rem!important;padding-right:9rem!important;}\n@media screen and (max-width:749px){#MainContent [class*=\"__main-padding\"]{padding-top:3rem!important;padding-bottom:3rem!important;padding-left:0rem!important;padding-right:0rem!important;}}\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
