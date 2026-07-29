@@ -10,9 +10,10 @@ Everything below is built and researched; execution order when work resumes:
 
 | # | Task | Status / how to execute | Owner |
 |---|---|---|---|
-| Q1 | **Stacey reviews the 2 life-event pages + playbook** — [divorce draft](content-drafts/divorce-ring-guide.html), [widow draft](content-drafts/widow-rings-guide.html), [ICP-COMMUNICATION-PLAYBOOK.md](ICP-COMMUNICATION-PLAYBOOK.md). Widow page claims her lived experience — she must confirm the voice | Blocking gate for Q2 | Stacey |
-| Q2 | **Publish the 2 pages** — `cd seo-automation && DRY_RUN=1 SHOPIFY_CLIENT_SECRET=… node create-icp-pages.mjs`, then without DRY_RUN. Keyword targets locked in [content-drafts/icp-pages-keyword-map.md](content-drafts/icp-pages-keyword-map.md) (divorce ~1,010/mo cluster; widow ~450/mo + AI-search) | Script ready, idempotent | Hadar runs, Claude verifies |
-| Q3 | **Post-publish**: GSC request-indexing both URLs; Claude adds inbound links (redesign hub, reset page → divorce; heirloom, ring-to-necklace → widow; journey blog posts via add-…-links-style script) | Claude authors, Hadar runs/pushes | Both |
+| Q1 | ~~Stacey reviews pages + playbook~~ | ✅ Done 07-28/29 — voice rewrites applied (widow intro, divorce "you came through" framing) | — |
+| Q2 | ~~Publish the 2 pages~~ | ✅ Live 07-28. Divorce page indexed in Google 07-29 (title/meta rendering verbatim). Widow page: **confirm GSC request-indexing happened** | — |
+| Q3 | ~~Inbound links~~ | ✅ Done 07-29 — 4 blog posts + reset/heirloom/turn-ring templates all link to the guides (footer intentionally excluded). Widow-guide theme template in progress by Hadar (banner copy: "WHAT TO DO WITH THE RINGS" / relief-rule subtitle; divorce: "YOU CAME THROUGH") | — |
+| Q3b | **+30 days (~08-28): meta-description CTR check** in GSC per page; test the pre-approved first-person variants (in chat log / ask Claude) only if CTR <2–3% | Waiting on data | Claude + Hadar |
 | Q4 | **Google Business Profile** — complete listing copy ready in [content-drafts/google-business-profile.md](content-drafts/google-business-profile.md); create as service-area business, video-verify, start review engine (2–4 asks/wk) | Copy ready since 07-24 | Stacey |
 | Q5 | **GA4 + UTM + lead log** (Sprint 0 below — still never done; blocks all conversion measurement) | Needs access grant | Hadar |
 | Q6 | **New-angle experiments** — prioritized list in [ICP-GROWTH-ANGLES.md](ICP-GROWTH-ANGLES.md) | Ideas doc, pick 2–3 | Both |
