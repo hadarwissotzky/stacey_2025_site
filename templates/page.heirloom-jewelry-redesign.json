@@ -138,7 +138,7 @@
         "p a:hover {color: #000 !important;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Wondering about pricing?</strong> <a href=\"/pages/jewelry-redesign-cost\">How much does jewelry redesign cost? </a></p><p><strong>Give an heirloom a new life:</strong> <a href=\"/pages/turn-ring-into-necklace\">Turn a ring into a necklace</a> &middot; <a href=\"/pages/remake-wedding-band\">Remake a wedding band</a></p><p ><strong>Serving the Bay Area and beyond:</strong> <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot;<a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",
+        "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Wondering about pricing?</strong> <a href=\"/pages/jewelry-redesign-cost\">How much does jewelry redesign cost? </a></p><p><strong>Give an heirloom a new life:</strong> <a href=\"/pages/turn-ring-into-necklace\">Turn a ring into a necklace</a> &middot; <a href=\"/pages/remake-wedding-band\">Remake a wedding band</a></p><p><strong>Holding your partner's rings?</strong> <a href=\"/pages/what-to-do-with-wedding-rings-after-your-spouse-dies\">What to do with wedding rings after your spouse dies</a></p><p ><strong>Serving the Bay Area and beyond:</strong> <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot;<a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",
         "color_scheme": "",
         "padding_top": 28,
         "padding_bottom": 28
