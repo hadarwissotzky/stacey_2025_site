@@ -432,3 +432,4 @@ timestamp | url | field | before | after | status
 2026-07-24 | /blogs/journey-1/resetting-a-diamond | body_html | no ring-to-necklace link | appended contextual link paragraph | OK
 2026-08-01 | /collections/earrings | title_tag | Sterling Silver Earrings | Statement Studs (silver-only, undersold gold) | Handmade Earrings | Studs, Hoops & Drops | OK
 2026-08-01 | homepage theme images (7 files) | file alt text | none | descriptive alts written from actual image content (heroes, Stacey portrait, portals, banner) | OK
+2026-08-01 | /pages/jewelry-redesign | FAQ section + schema | 7 question rows | 15 rows: divorce-worth, send-own-diamond, set-customer-stones, inherited-gold, timeline, combine-rings, widow-rings, redesign-vs-sell; JSON-LD extended to match | OK
