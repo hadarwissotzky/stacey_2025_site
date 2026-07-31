@@ -28,6 +28,7 @@
           "type": "heading",
           "settings": {
             "heading": "BANDS",
+            "heading_tag_h1": false,
             "heading_size": "h2"
           }
         },
@@ -86,8 +87,8 @@
           "type": "heading",
           "settings": {
             "heading": "Custom Wedding Bands, Made One at a Time",
-            "heading_size": "h1",
-            "heading_tag_h1": true
+            "heading_tag_h1": true,
+            "heading_size": "h1"
           }
         },
         "t_intro": {
@@ -100,6 +101,7 @@
           "type": "heading",
           "settings": {
             "heading": "Reset Diamonds & Redesign Heirloom Jewelry",
+            "heading_tag_h1": false,
             "heading_size": "h2"
           }
         },
@@ -113,6 +115,7 @@
           "type": "heading",
           "settings": {
             "heading": "Handmade Wedding Rings for Her and for Him",
+            "heading_tag_h1": false,
             "heading_size": "h2"
           }
         },
@@ -121,11 +124,27 @@
           "settings": {
             "text": "<p>From delicate, romantic women's wedding bands to substantial men's rings, everything here is genuinely handmade. Looking for custom gold wedding bands, custom diamond wedding bands, or unique custom wedding rings for her? That's exactly what I do. As an independent jeweler and wedding band maker, I'm hands-on through every step, so the wedding rings you receive are custom-made to the design we created together — not a stock piece with your name on it. When you're ready to begin, <a href=\"/products/free-consultation\">book an appointment</a> or <a href=\"/pages/contact\">send me a message</a>, and let's design something you'll wear for the rest of your life.</p>"
           }
+        },
+        "h_carved": {
+          "type": "heading",
+          "settings": {
+            "heading": "How Each Band Is Carved",
+            "heading_size": "h2",
+            "heading_tag_h1": false
+          }
+        },
+        "t_carved": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Most bands here begin as a form I carve by hand — that's where the leaf motifs, the ribbons, the hammered and sculpted textures come from. No two carvings are ever quite alike, which is the point: the small irregularities of a hand-carved band are what make it read as crafted rather than manufactured. Once the carving is right, the band is cast in the metal you choose — yellow, white, or rose gold, platinum, or palladium — and I refine, texture, and set every stone at my own bench. If you have gold of your own, I can refine it and put its value toward your bands. And for something no one else can wear, I can carve your actual fingerprints into the inside or outside of each other's rings. From first sketch to final polish, one pair of hands makes your rings — mine.</p>"
+          }
         }
       },
       "block_order": [
         "h_intro",
         "t_intro",
+        "h_carved",
+        "t_carved",
         "h_heirloom",
         "t_heirloom",
         "h_handmade",
