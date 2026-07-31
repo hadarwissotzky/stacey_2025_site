@@ -132,7 +132,8 @@
           "type": "heading",
           "settings": {
             "heading": "Custom Jewelry, Designed One Piece at a Time",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "heading_tag_h1": true
           }
         },
         "t_intro": {
