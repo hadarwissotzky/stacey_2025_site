@@ -65,6 +65,17 @@ Three hard rules sit above everything:
 
 ---
 
+## Stacey's voice — the canonical exemplar (added 2026-07-31)
+
+Hadar declared Stacey's own client-email language the voice for everything going forward. The reference text is the cost-page body (`content-drafts/jewelry-redesign-cost-body.html`). Its traits, to match before inventing anything:
+
+- **Warmth stated plainly:** "one of my favorite kinds of projects," "I absolutely love working with clients' gemstones," "I'm excited to see what you have."
+- **The collaborative we:** "we'll work through style, stones, metals, shape, and scale until we arrive at something that feels exactly right." (Corporate "we" stays banned; Stacey+client "we" is signature.)
+- **Radical money transparency:** budget named early and worked *backward* from; "I don't take any percentage of the refining payout."
+- **Expertise in plain sentences:** she explains *why* (solder, porosity, casting overhead) without dumbing down.
+- **No-pressure closers:** "Feel free to send the pics whenever you're ready."
+- **Connectors:** "From there…", "That said…", "And depending on…" — flowing, medium-length sentences, never staccato marketing fragments.
+
 ## Authenticity principles (the "humble, graceful, respectful" operating rules)
 
 1. **Describe, don't perform.** Authenticity = specificity. "Widows have sat at my bench for twenty years" is credible; "we understand your pain" is performed empathy from nobody in particular. First-person singular is Lorinczi's structural advantage — a "we" can't be humble, a person can.
