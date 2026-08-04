@@ -563,14 +563,21 @@
     margin: 0 auto 0px;
     overflow: hidden;  
 }
-.footer__blocks-wrapper.grid {
-      justify-content: space-evenly;
+/* Content-width footer columns only once there's room for a single row.
+   Below 1000px this override used to strip Dawn's responsive column widths, so
+   blocks sized to their text, wrapped unpredictably, and space-evenly centred
+   the leftovers — giving a ragged 5+1 row on tablets. Scoping it to desktop lets
+   Dawn's grid--3-col-tablet take over between 750-999px: 6 blocks, 2 clean rows. */
+@media screen and (min-width: 1000px) {
+  .footer__blocks-wrapper.grid {
+    justify-content: space-evenly;
   }
 
   .footer__blocks-wrapper .grid__item {
-      flex-grow: 0;
-      width: auto;
+    flex-grow: 0;
+    width: auto;
   }
+}
 
 
 .footer__content-bottom .footer__copyright {
