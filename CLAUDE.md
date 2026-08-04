@@ -76,10 +76,15 @@ content. Auth is a **client-credentials grant** (not a static `shpat_` token): f
 `https://1fb93f.myshopify.com/admin/oauth/access_token` for a 24h token. SEO title/desc on a
 page = metafields `global.title_tag` / `global.description_tag`.
 
-**Sandbox constraint:** Claude's own classifier blocks reading tokens / POSTing to the
-production store. So **I author the script + payload; the USER runs it** in their shell (`!`
-prefix) with `SHOPIFY_CLIENT_ID` / `SHOPIFY_CLIENT_SECRET` env vars. Don't burn turns retrying
-via Bash — hand off the script.
+**Running these scripts (updated 2026-08-01):** Admin API scripts in `seo-automation/*.mjs`
+(page bodies, metafields, file alts, redirects, blog edits) now run **directly from Bash** with
+`SHOPIFY_CLIENT_ID` / `SHOPIFY_CLIENT_SECRET` in the environment — verified working 2026-08-01.
+The older "I author the script, the USER runs it" handoff no longer applies. If a fresh session
+doesn't have the secret, ask Hadar for it rather than assuming the sandbox is blocking.
+
+The sandbox classifier does still block some unrelated operations (e.g. reading browser
+cookie stores, global package installs). If a specific call is refused, say so and hand that
+one command off — don't generalize it into a blanket handoff rule.
 
 ## Visual changes — screenshot before reporting "done"
 

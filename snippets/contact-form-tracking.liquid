@@ -1,0 +1,22 @@
+{%- comment -%}
+  Attribution + engagement tracking for the contact form.
+  Render INSIDE the {% form 'contact' %} block, passing the posted flag:
+    {% render 'contact-form-tracking', posted: form.posted_successfully? %}
+
+  The two hidden fields land in the Shopify notification email, so the enquiry
+  says which page it came from and how that visitor first found the site.
+{%- endcomment -%}
+
+<input
+  type="hidden"
+  name="contact[Sent from]"
+  value="{{ page_title | strip_html | escape }} — {{ canonical_url }}"
+>
+<input type="hidden" id="ContactForm-source" name="contact[Source]" value="">
+
+{%- if posted -%}
+  <script>
+    window.lzContactPosted = true;
+  </script>
+{%- endif -%}
+<script src="{{ 'contact-form-tracking.js' | asset_url }}" defer="defer"></script>

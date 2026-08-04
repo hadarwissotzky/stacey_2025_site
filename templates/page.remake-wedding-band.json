@@ -78,10 +78,51 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text p,\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text h3 {\ntext-align: center;\n}\n}\n\n\n.main-page-title{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}\n\n\n#MainContent .main-page-title ~ .rte p, #MainContent .main-page-title ~ .rte li, #MainContent .main-page-title ~ .rte a{font:400 1.6rem/25px \"GoudyOldStyle\",sans-serif!important;color:rgba(var(--color-foreground),0.75)!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte h2, #MainContent .main-page-title ~ .rte h3{font:400 28px/30px Nexa,sans-serif!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte ul, #MainContent .main-page-title ~ .rte ol{text-align:left!important;}\n\n\n#MainContent [class*=\"__main-padding\"]{padding-top:5rem!important;padding-bottom:5rem!important;padding-left:9rem!important;padding-right:9rem!important;}\n@media screen and (max-width:749px){#MainContent [class*=\"__main-padding\"]{padding-top:3rem!important;padding-bottom:3rem!important;padding-left:2rem!important;padding-right:2rem!important;}}\n</style>",
+        "custom_liquid": "<style>\n.title-wrapper--no-top-margin{\n    margin-bottom: 1.4rem;\n    letter-spacing: 2px;\n    font: 400 2.1rem / 40px Nexa, sans-serif !important;\n    text-decoration: none;\n  text-align: center;\n}\n\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text p,\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text h3 {\ntext-align: center;\n}\n}\n\n\n.main-page-title{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}\n\n\n#MainContent .main-page-title ~ .rte p, #MainContent .main-page-title ~ .rte li, #MainContent .main-page-title ~ .rte a{font:400 1.6rem/25px \"GoudyOldStyle\",sans-serif!important;color:rgba(var(--color-foreground),0.75)!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte h2, #MainContent .main-page-title ~ .rte h3{font:400 28px/30px Nexa,sans-serif!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte ul, #MainContent .main-page-title ~ .rte ol{text-align:left!important;}\n\n\n#MainContent [class*=\"__main-padding\"]{padding-top:5rem!important;padding-bottom:5rem!important;padding-left:9rem!important;padding-right:9rem!important;}\n@media screen and (max-width:749px){#MainContent [class*=\"__main-padding\"]{padding-top:3rem!important;padding-bottom:3rem!important;padding-left:2rem!important;padding-right:2rem!important;}}\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "featured_collection_RCUbEF": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".product-card-wrapper .card {--border-width: none; --image-padding: 0rem;}",
+        ".card:not(.ratio) > .card__content {display: none;}",
+        ".card--media .card__inner .card__content {padding: 0; width: 100%;}",
+        ".price {display: none;}",
+        ".card-wrapper {border-bottom: 1px solid #dee0e3;}",
+        ".grid {margin-bottom: 0px;}",
+        ".slider__slide {padding: 0 !important; margin: 0 !important;}",
+        ".slider:after {display: none !important;}",
+        ".slider-buttons {display: flex !important; padding-top: 2rem; padding-bottom: 1.2rem;}",
+        ".slider-counter {display: none;}"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "RECENT WEDDING BANDS",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "wedding-rings",
+        "products_to_show": 15,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_qBVeG9": {
@@ -200,6 +241,7 @@
     "redesign_intro",
     "main",
     "custom_liquid_U4fpLV",
+    "featured_collection_RCUbEF",
     "image_with_text_qBVeG9",
     "redesign_faq_schema",
     "redesign_service_schema",

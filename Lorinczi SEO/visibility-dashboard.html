@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lorinczi — SEO Visibility Cockpit</title>
+<style>
+  :root{--ink:#1d1d1f;--muted:#6b6b70;--line:#e4e2dd;--bg:#faf8f5;--card:#fff;--accent:#3a5a40;--gold:#9a7b4f;--bad:#b23b3b;--ok:#3a7d44;--warn:#b9892f;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);padding:32px 18px 60px}
+  .wrap{max-width:1100px;margin:0 auto}
+  header{border-bottom:2px solid var(--ink);padding-bottom:14px;margin-bottom:6px}
+  h1{font-size:26px;letter-spacing:.5px}
+  .sub{color:var(--muted);font-size:13px;margin-top:4px}
+  h2{font-size:16px;text-transform:uppercase;letter-spacing:1px;margin:34px 0 12px;color:var(--accent)}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px;margin-top:18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+  .kpi{font-size:30px;font-weight:600}
+  .klabel{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-top:2px}
+  .knote{font-size:11px;color:var(--muted);margin-top:6px}
+  table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);font-size:14px}
+  th{background:#f3f1ec;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}
+  tr:last-child td{border-bottom:0}
+  .badge{display:inline-block;padding:2px 9px;border-radius:20px;font-size:11px;font-weight:600}
+  .b-wait{background:#f0ece3;color:var(--warn)}
+  .b-close{background:#fdeecf;color:var(--warn)}
+  .b-win{background:#e2f0e4;color:var(--ok)}
+  .b-far{background:#f7e6e6;color:var(--bad)}
+  .b-done{background:#e2f0e4;color:var(--ok)}
+  .num{font-variant-numeric:tabular-nums;text-align:right}
+  .pending{opacity:.55}
+  .pending .card{border-style:dashed}
+  ul.acts{list-style:none}
+  ul.acts li{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:8px;padding:12px 14px;margin-bottom:8px}
+  ul.acts li b{color:var(--accent)}
+  .foot{margin-top:40px;border-top:1px solid var(--line);padding-top:14px;color:var(--muted);font-size:12px}
+  .legend{font-size:12px;color:var(--muted);margin-top:6px}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>LORINCZI · SEO Visibility Cockpit</h1>
+    <div class="sub">Jewelry Redesign strategy · Baseline snapshot — <b>May 31, 2026</b> · data: DataForSEO (live SERP) + Shopify Admin API</div>
+  </header>
+  <div class="legend">⬤ This is the <b>starting line</b>. The redesign pages & posts shipped this week; Google typically re-crawls and starts ranking new content in 2–6 weeks. Re-run monthly to watch the cluster climb.</div>
+
+  <div class="cards">
+    <div class="card"><div class="kpi">~8/mo</div><div class="klabel">Est. organic traffic</div><div class="knote">DataForSEO modeled</div></div>
+    <div class="card"><div class="kpi">9</div><div class="klabel">Ranking keywords</div><div class="knote">total, top-100</div></div>
+    <div class="card"><div class="kpi">0</div><div class="klabel">Page-1 keywords</div><div class="knote">the gap to close</div></div>
+    <div class="card"><div class="kpi">0 / 10</div><div class="klabel">Redesign cluster ranking</div><div class="knote">baseline — pages new</div></div>
+    <div class="card"><div class="kpi">8</div><div class="klabel">New pages/posts shipped</div><div class="knote">hub+3 svc+4 blog</div></div>
+  </div>
+
+  <h2>① Redesign Keyword Cluster — the target</h2>
+  <table>
+    <tr><th>Keyword</th><th class="num">Volume/mo</th><th class="num">Position</th><th>Status</th><th>Targeted page</th></tr>
+    <tr><td>ring resetting</td><td class="num">590</td><td class="num">—</td><td><span class="badge b-wait">awaiting crawl</span></td><td>/reset-diamond-ring</td></tr>
+    <tr><td>jewelry redesign</td><td class="num">480</td><td class="num">—</td><td><span class="badge b-wait">awaiting crawl</span></td><td>/jewelry-redesign</td></tr>
+    <tr><td>jewelry redesign near me</td><td class="num">480</td><td class="num">—</td><td><span class="badge b-wait">awaiting crawl</span></td><td>hub + GBP</td></tr>
+    <tr><td>reset diamond ring</td><td class="num">390</td><td class="num">—</td><td><span class="badge b-wait">awaiting crawl</span></td><td>/reset-diamond-ring</td></tr>
+    <tr><td>repurpose old jewelry</td><td class="num">390</td><td class="num">—</td><td><span class="badge b-wait">awaiting crawl</span></td><td>blog: repurpose</td></tr>
+    <tr><td>redesign wedding ring</td><td class="num">390</td><td class="num">—</td><td><span class="badge b-wait">awaiting crawl</span></td><td>hub</td></tr>
+    <tr><td>what to do with old jewelry</td><td class="num">390</td><td class="num">—</td><td><span class="badge b-wait">awaiting crawl</span></td><td>blog: what-to-do</td></tr>
+    <tr><td>redesign engagement ring</td><td class="num">210</td><td class="num">—</td><td><span class="badge b-wait">awaiting crawl</span></td><td>/redesign-engagement-ring</td></tr>
+    <tr><td>heirloom jewelry redesign</td><td class="num">210</td><td class="num">—</td><td><span class="badge b-wait">awaiting crawl</span></td><td>/heirloom-jewelry-redesign</td></tr>
+  </table>
+  <div class="legend">Combined winnable demand ≈ 3,500/mo. Status will flip to 🟠 close (11–30) → 🟡 page-1 (4–10) → 🟢 winning (1–3) as Google indexes the new pages.</div>
+
+  <h2>② Existing Rankings — brand & product terms</h2>
+  <table>
+    <tr><th>Keyword</th><th class="num">Volume/mo</th><th class="num">Position</th><th>Status</th></tr>
+    <tr><td>scroll and vine jewelry bracelet</td><td class="num">320</td><td class="num">34</td><td><span class="badge b-close">close — push to pg1</span></td></tr>
+    <tr><td>scroll and vine bracelet</td><td class="num">720</td><td class="num">~81</td><td><span class="badge b-far">long-haul</span></td></tr>
+    <tr><td>custom women's wedding rings</td><td class="num">480</td><td class="num">91</td><td><span class="badge b-far">long-haul</span></td></tr>
+    <tr><td>transforming jewelry</td><td class="num">70</td><td class="num">~46</td><td><span class="badge b-far">long-haul</span></td></tr>
+  </table>
+
+  <h2>③ Content Shipped — the redesign cluster</h2>
+  <table>
+    <tr><th>Asset</th><th>Type</th><th>Status</th></tr>
+    <tr><td>/pages/jewelry-redesign</td><td>Hub page</td><td><span class="badge b-done">live</span></td></tr>
+    <tr><td>/pages/reset-diamond-ring</td><td>Service page</td><td><span class="badge b-done">live</span></td></tr>
+    <tr><td>/pages/redesign-engagement-ring</td><td>Service page</td><td><span class="badge b-done">live</span></td></tr>
+    <tr><td>/pages/heirloom-jewelry-redesign</td><td>Service page</td><td><span class="badge b-done">live</span></td></tr>
+    <tr><td>What to Do With Old/Inherited Jewelry</td><td>Blog</td><td><span class="badge b-done">live</span></td></tr>
+    <tr><td>How to Repurpose Old Jewelry</td><td>Blog</td><td><span class="badge b-done">live</span></td></tr>
+    <tr><td>Jewelry Redesign Before & After</td><td>Blog</td><td><span class="badge b-done">live</span></td></tr>
+    <tr><td>Resetting a Diamond: What to Know</td><td>Blog</td><td><span class="badge b-done">live</span></td></tr>
+  </table>
+
+  <h2>④ Competitors to Beat (niche — winnable)</h2>
+  <table>
+    <tr><th>Competitor</th><th>Why they matter</th></tr>
+    <tr><td>melaniecasey.com</td><td>ranks for reset/redesign — closest playbook to copy</td></tr>
+    <tr><td>eloralab.com</td><td>heirloom redesign positioning</td></tr>
+    <tr><td>reflectivejewelry.com</td><td>eco / recycled + redesign</td></tr>
+    <tr><td>jewelrybyjohan.com</td><td>independent on page-1 for custom wedding rings</td></tr>
+  </table>
+
+  <h2>⑤ Decisions — priorities this month</h2>
+  <ul class="acts">
+    <li><b>Set up Google Search Console + GA4</b> — starts capturing real traffic + the exact queries the new pages earn. Foundation for the live data panes below.</li>
+    <li><b>Stand up the Service-Area Google Business Profile</b> — to capture "jewelry redesign near me" (480/mo) for the Bay Area.</li>
+    <li><b>Build backlinks / digital PR</b> — near-zero authority is the ceiling; the cluster won't rank without links. Start with jeweler directories + "best jewelry redesign" roundups.</li>
+    <li><b>Push "scroll and vine jewelry bracelet" (#34) onto page 1</b> — closest win; strengthen that product/collection content + internal links.</li>
+    <li><b>Install a reviews app</b> → ⭐ stars in search + trust for mail-in redesign.</li>
+  </ul>
+
+  <div class="pending">
+    <h2>⑥ Traffic &amp; Conversions — connect GA4 to populate</h2>
+    <div class="cards">
+      <div class="card"><div class="kpi">—</div><div class="klabel">Sessions / mo</div><div class="knote">needs Google Analytics 4</div></div>
+      <div class="card"><div class="kpi">—</div><div class="klabel">Consultation requests</div><div class="knote">needs GA4 goal</div></div>
+      <div class="card"><div class="kpi">—</div><div class="klabel">Top landing pages</div><div class="knote">needs GA4 / GSC</div></div>
+    </div>
+    <h2>⑦ Social &amp; Web Mentions — connect a listening tool to populate</h2>
+    <div class="cards">
+      <div class="card"><div class="kpi">—</div><div class="klabel">Social mentions</div><div class="knote">needs Brand24 / Mention</div></div>
+      <div class="card"><div class="kpi">—</div><div class="klabel">Web / press mentions</div><div class="knote">needs Brand24 / Google Alerts</div></div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <b>How to refresh:</b> ask Claude to "refresh the visibility dashboard" — it re-pulls live rankings, traffic estimates, and content status and regenerates this file.<br>
+    <b>To unlock panes ⑥–⑦:</b> connect Google Search Console + GA4 (free) and a mention tool (Brand24). Then this cockpit graduates to a live Looker Studio board fed by the same sources.<br>
+    Generated by Claude · data sources: DataForSEO live SERP, Shopify Admin API · baseline 2026-05-31.
+  </div>
+
+</div>
+</body>
+</html>

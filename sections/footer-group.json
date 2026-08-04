@@ -27,6 +27,13 @@
             "menu": "footer"
           }
         },
+        "link_list_cKn7cf": {
+          "type": "link_list",
+          "settings": {
+            "heading": "REDESIGN",
+            "menu": "redesign"
+          }
+        },
         "e5b7ef4a-b916-429f-bbd3-64045dd8a4c9": {
           "type": "link_list",
           "settings": {
@@ -52,6 +59,7 @@
       "block_order": [
         "d03a880b-bd91-4214-ab70-0166e3855006",
         "06a23115-9065-4f55-9cab-419a267595a1",
+        "link_list_cKn7cf",
         "e5b7ef4a-b916-429f-bbd3-64045dd8a4c9",
         "d55eb1c7-cfd7-4b0b-9a12-00738691cdfb",
         "service_areas_block"

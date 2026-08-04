@@ -15,33 +15,42 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Handmade jewelry to celebrate commitments, milestones, and every day in between.",
+            "heading": "Your jewelry, reimagined, and made just for you.",
             "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "I redesign the pieces you already own: heirlooms, engagement rings, the gold sitting in the drawer.",
+            "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Best Sellers",
-            "button_link_1": "/collections/ready-to-ship",
-            "button_style_secondary_1": true,
-            "button_label_2": "Book a Virtual Appointment",
+            "button_label_1": "Send me your photos",
+            "button_link_1": "/pages/contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "Book a free consultation",
             "button_link_2": "/products/free-consultation",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
         "heading",
+        "text",
         "button"
       ],
       "custom_css": [
-        ".banner__heading {font: normal 37px GoudyOldStyle, serif !important; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px;}",
-        ".outter-button {border: 1px solid #121212; border-radius: 13px; padding: 4px; display: inline-block; transition: all 0.3s;}",
-        ".outter-button:hover {border-color: #000;}",
-        ".button {background: #fff; color: #000; border: 2px solid #121212; font-size: 11px; border-radius: 9px; padding: 12px 30px; min-width: 120px; transition: all 0.3s;}",
-        ".outter-button:hover .button {background: #000; color: #fff;}",
-        ".button:active {opacity: 0.5;}"
+        ".banner__heading{font:37px GoudyOldStyle,serif!important;margin-bottom:22px}",
+        ".banner__heading,.banner__text{text-shadow:0 2px 7px #000}",
+        ".outter-button{border:1px solid #121212;border-radius:13px;padding:4px;display:inline-block;transition:.3s}",
+        ".outter-button:hover{border-color:#000}",
+        ".button{background:#fff;color:#000;border:2px solid #121212;font-size:11px;border-radius:9px;padding:12px 30px;min-width:120px;transition:.3s}",
+        ".outter-button:hover .button{background:#000;color:#fff}",
+        ".button:active{opacity:.5}"
       ],
       "settings": {
         "image": "shopify://shop_images/Final_Index_Hero_Image_d6dac852-69d0-43e4-b2c3-4a3a5d6f7494.jpg",

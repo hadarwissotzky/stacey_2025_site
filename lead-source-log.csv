@@ -1,0 +1,2 @@
+date,name,source,page,stage,value,notes
+2026-08-03,EXAMPLE - delete this row,google / organic / redesign-cost (landed on /pages/jewelry-redesign-cost),Contact — https://lorinczi.com/pages/contact,lead,,"Copy 'source' and 'page' verbatim from the two hidden fields in the notification email. stage: lead -> consult_booked -> consult_held -> won | lost"

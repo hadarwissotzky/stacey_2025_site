@@ -124,6 +124,8 @@
           {{- 'templates.contact.form.comment' | t -}}
         </label>
       </div>
+      {% render 'contact-form-tracking', posted: form.posted_successfully? %}
+
       <div class="contact__button">
         <button type="submit" class="button">
           {{ 'templates.contact.form.send' | t }}

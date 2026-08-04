@@ -197,7 +197,9 @@
                 <div id="preview" class="file-preview"></div>
               </div>
             
-              <!-- 3) SEND BUTTON -->              
+              {% render 'contact-form-tracking', posted: form.posted_successfully? %}
+
+              <!-- 3) SEND BUTTON -->
               <div  class="contact__button">
                 <button style="border: 1px solid " type="submit" class="button">
                   {{ 'templates.contact.form.send' | t }}
