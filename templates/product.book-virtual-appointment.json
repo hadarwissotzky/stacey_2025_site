@@ -54,7 +54,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px){\n  .product__text{\n    padding: 0rem 1rem !important;\n  }\n}\n</style>",
+        "custom_liquid": "<style>\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px){\n  .product__text{\n    padding: 0rem 1rem !important;\n  }\n}\n\n/* Links inside the description inherit the paragraph face (Goudy), not the\n   global A-Gothic link face. */\n.product__description a {\n  font-family: GoudyOldStyle, serif !important;\n  font-size: inherit !important;\n}\n/* Match the Book now button to the Send Message button on /pages/contact:\n   11px, uppercase, 1px tracking, 10px/30px padding. */\n.cowlendar-btn {\n  font-size: 11px !important;\n  text-transform: uppercase !important;\n  letter-spacing: 1px !important;\n  padding: 10px 30px !important;\n  min-height: 40px !important;\n}\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
