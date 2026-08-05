@@ -162,10 +162,7 @@
     "related_links": {
       "type": "custom-liquid",
       "custom_css": [
-        "{max-width: 100%; margin-left: auto; margin-right: auto; text-align: center;}",
         "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 2.2rem;}",
-        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}",
-        "p a:hover {color: #000 !important;}",
         ".mobile-br {display: none; }",
         "@media screen and (max-width: 749px) {.mobile-br {display: inline; }}"
       ],

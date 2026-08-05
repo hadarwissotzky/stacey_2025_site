@@ -36,6 +36,34 @@
    the id-level selector, and two of those sections are already within ~35
    characters of Shopify's 500-char section CSS cap.
 --------------------------------------------------------------------------- */
+/* Shared base for the section, consolidated out of 14 page templates.
+   Kept in the templates on purpose: the per-page line-height (0.5em vs 2.2rem),
+   heirloom-jewelry-redesign's 50% width and A-Gothic links, reset-diamond-ring's
+   link line-height, and the .mobile-br rules. Section custom_css renders as
+   #shopify-section-... so it outranks these attribute selectors — page-level
+   exceptions keep winning automatically. */
+[id*="__related_links"] {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+[id*="__related_links"] p {
+  font-family: "GoudyOldStyle", sans-serif !important;
+  font-size: calc(var(--font-heading-scale) * 1.8rem);
+}
+
+[id*="__related_links"] p a {
+  color: #919191;
+  font-family: "GoudyOldStyle", sans-serif !important;
+  font-size: calc(var(--font-heading-scale) * 1.8rem);
+}
+
+[id*="__related_links"] p a:hover {
+  color: #000 !important;
+}
+
 @media screen and (max-width: 749px) {
   [id*="__related_links"] p {
     line-height: 1.1em !important;

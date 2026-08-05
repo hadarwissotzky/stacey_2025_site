@@ -180,8 +180,7 @@
       "custom_css": [
         "{max-width: 50%; margin-left: auto; margin-right: auto; text-align: center;}",
         "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}",
-        "p a {color: #919191; font-family: \"A-Gothic\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}",
-        "p a:hover {color: #000 !important;}"
+        "p a {color: #919191; font-family: \"A-Gothic\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem);}"
       ],
       "settings": {
         "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"JewelryStore\", \"name\": \"Lorinczi Jewelry\", \"description\": \"Jewelry redesign, diamond resetting and heirloom restyling serving San Francisco and the San Francisco Bay Area.\", \"url\": \"https://www.lorinczi.com/pages/jewelry-redesign-san-francisco\", \"telephone\": \"+1-510-221-6212\", \"address\": {\"@type\": \"PostalAddress\", \"addressLocality\": \"San Francisco\", \"addressRegion\": \"CA\", \"addressCountry\": \"US\"}, \"areaServed\": [{\"@type\": \"City\", \"name\": \"San Francisco\"}], \"sameAs\": [\"https://www.instagram.com/lorinczijewelry\", \"https://www.facebook.com/lorinczijewelry\", \"https://www.pinterest.com/lorinczijewelry\"]}</script>",
