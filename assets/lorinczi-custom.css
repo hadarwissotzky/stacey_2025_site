@@ -1,0 +1,42 @@
+/*
+  Cross-page overrides that don't belong to a single section.
+
+  Exists because section `custom_css` in the theme editor is capped at 500
+  characters and Dawn's own files get overwritten on theme updates. Rules here
+  are scoped by the body classes added in theme.liquid
+  (template-<type> and page-<handle>), so they never leak site-wide.
+*/
+
+/* ---------------------------------------------------------------------------
+   Jewelry-redesign family — centre section headings on mobile
+
+   These pages set body copy with a left indent (blockquote 30px, ordered list
+   20px) while the H2 sat flush at the container edge. The heading therefore
+   jutted out to the left of the text beneath it and wrapped with a ragged right
+   edge. Centring fixes both and reads as a proper section break.
+
+   The #MainContent in each selector is deliberate, not redundant: a style block
+   shared across ~10 page templates sets
+
+     #MainContent .main-page-title ~ .rte h2 { text-align: left !important }
+
+   which carries id-level specificity. Matching that and adding one more class
+   is what lets these rules win. Desktop is untouched.
+--------------------------------------------------------------------------- */
+@media screen and (max-width: 749px) {
+  .page-jewelry-redesign #MainContent .main-page-title ~ .rte h2,
+  .page-jewelry-redesign-san-francisco #MainContent .main-page-title ~ .rte h2,
+  .page-jewelry-redesign-marin #MainContent .main-page-title ~ .rte h2,
+  .page-jewelry-redesign-palo-alto #MainContent .main-page-title ~ .rte h2,
+  .page-remake-wedding-band #MainContent .main-page-title ~ .rte h2,
+  .page-turn-ring-into-necklace #MainContent .main-page-title ~ .rte h2,
+  .page-reset-diamond-ring #MainContent .main-page-title ~ .rte h2,
+  .page-redesign-engagement-ring #MainContent .main-page-title ~ .rte h2,
+  .page-heirloom-jewelry-redesign #MainContent .main-page-title ~ .rte h2,
+  .page-use-your-own-gems-metal #MainContent .main-page-title ~ .rte h2 {
+    text-align: center !important;
+    text-wrap: balance;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

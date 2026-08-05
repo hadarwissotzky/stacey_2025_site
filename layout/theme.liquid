@@ -98,6 +98,8 @@
       })();
     </script>
 
+    {{ 'lorinczi-custom.css' | asset_url | stylesheet_tag }}
+
     <script src="{{ 'engagement-tracking.js' | asset_url }}" defer="defer"></script>
 
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
@@ -395,7 +397,7 @@
     {% render 'shogun-head' %}
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+  <body class="gradient template-{{ request.page_type }}{% if page.handle %} page-{{ page.handle }}{% endif %}{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
