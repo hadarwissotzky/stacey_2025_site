@@ -67,6 +67,36 @@
     {% render 'structured-data-howto' %}
     {% render 'structured-data-person' %}
 
+    {%- comment -%}
+      First-touch source capture — records how this visit started so the contact form
+      can report it. Runs once per session, no network calls. Mirrors theme.liquid.
+    {%- endcomment -%}
+    <script>
+      (function () {
+        try {
+          if (sessionStorage.getItem('lz_src')) return;
+          var p = new URLSearchParams(location.search);
+          var utm = p.get('utm_source');
+          var src;
+          if (utm) {
+            src = utm;
+            if (p.get('utm_medium')) src += ' / ' + p.get('utm_medium');
+            if (p.get('utm_campaign')) src += ' / ' + p.get('utm_campaign');
+          } else if (document.referrer && document.referrer.indexOf(location.host) === -1) {
+            src = document.referrer;
+          } else {
+            src = 'direct';
+          }
+          sessionStorage.setItem('lz_src', src);
+          sessionStorage.setItem('lz_landing', location.pathname);
+        } catch (e) {}
+      })();
+    </script>
+
+    {{ 'lorinczi-custom.css' | asset_url | stylesheet_tag }}
+
+    <script src="{{ 'engagement-tracking.js' | asset_url }}" defer="defer"></script>
+
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
@@ -360,7 +390,7 @@
     {% render 'shogun-head' %}
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+  <body class="gradient template-{{ request.page_type }}{% if page.handle %} page-{{ page.handle }}{% endif %}{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>

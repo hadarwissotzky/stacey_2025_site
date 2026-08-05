@@ -24,6 +24,22 @@
    is what lets these rules win. Desktop is untouched.
 --------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------
+   Footer menu — no underline on the current page
+
+   Dawn marks the link matching the current page with .list-menu__item--active
+   and underlines it. Note the label and destination can differ: the footer's
+   "Recycle Your Jewelry" points at /pages/use-your-own-gems-metal, so the
+   underline appears on that page rather than one named for the link.
+
+   The colour change stays — the active link still darkens from #919191 to full
+   foreground, so "you are here" is still signalled, just without the rule.
+   Higher specificity than Dawn's .list-menu__item--active, so no !important.
+--------------------------------------------------------------------------- */
+.footer-block__details-content .list-menu__item--active {
+  text-decoration: none;
+}
+
+/* ---------------------------------------------------------------------------
    "Related links" footer block — readable line spacing on mobile
 
    Each of the 14 pages carrying this section sets, in its own section CSS:
