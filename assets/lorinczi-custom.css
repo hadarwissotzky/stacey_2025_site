@@ -23,6 +23,38 @@
    which carries id-level specificity. Matching that and adding one more class
    is what lets these rules win. Desktop is untouched.
 --------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------
+   "Related links" footer block — readable line spacing on mobile
+
+   Each of the 14 pages carrying this section sets, in its own section CSS:
+
+     p { font-family: GoudyOldStyle !important; font-size: ...; line-height: 0.5em }
+
+   0.5em is survivable on desktop where these two lines don't wrap, but on mobile
+   they wrap to two or three lines each and collide. One rule here fixes every
+   page: the section CSS has no !important on line-height, so this wins despite
+   the id-level selector, and two of those sections are already within ~35
+   characters of Shopify's 500-char section CSS cap.
+--------------------------------------------------------------------------- */
+@media screen and (max-width: 749px) {
+  [id*="__related_links"] p {
+    line-height: 1.1em !important;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Page body — full width on mobile
+
+   These templates centre their main section at 70-80% width, which is right on
+   desktop but wastes a fifth of an already narrow phone screen and forces the
+   copy into a tall, thin column. Full width below 750px; desktop untouched.
+--------------------------------------------------------------------------- */
+@media screen and (max-width: 749px) {
+  [id$="__main"] {
+    width: 100% !important;
+  }
+}
+
 @media screen and (max-width: 749px) {
   .page-jewelry-redesign #MainContent .main-page-title ~ .rte h2,
   .page-jewelry-redesign-san-francisco #MainContent .main-page-title ~ .rte h2,
