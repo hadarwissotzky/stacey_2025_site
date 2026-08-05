@@ -31,12 +31,13 @@
    "Recycle Your Jewelry" points at /pages/use-your-own-gems-metal, so the
    underline appears on that page rather than one named for the link.
 
-   The colour change stays — the active link still darkens from #919191 to full
-   foreground, so "you are here" is still signalled, just without the rule.
-   Higher specificity than Dawn's .list-menu__item--active, so no !important.
+   Dawn also darkens the active link from #919191 to full foreground. That's
+   dropped too, so the current page reads exactly like every other footer link —
+   no underline, no colour shift.
 --------------------------------------------------------------------------- */
 .footer-block__details-content .list-menu__item--active {
   text-decoration: none;
+  color: #919191 !important;
 }
 
 /* ---------------------------------------------------------------------------
