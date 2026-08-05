@@ -24,6 +24,47 @@
    is what lets these rules win. Desktop is untouched.
 --------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------
+   Link-button grids (.redesign-index-grid)
+
+   Shared behaviour for the "explore these services" button grids. The column
+   count stays inline on each grid so pages can differ — six buttons in three
+   columns on /pages/jewelry-redesign, four across on /pages/before-after —
+   while the equal heights, vertical centring and mobile layout are defined once.
+
+   !important on display:flex is load-bearing: each anchor carries an inline
+   display:block from the section markup, so align-items has nothing to act on
+   without it.
+--------------------------------------------------------------------------- */
+.redesign-index-grid > div,
+.redesign-index-grid .outter-button {
+  height: 100% !important;
+}
+
+.redesign-index-grid .button {
+  height: 100% !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 749px) {
+  .redesign-index-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: .7rem !important;
+    padding: 0 2.2rem !important;
+  }
+
+  .redesign-index-grid .button {
+    padding: 10px 12px !important;
+    font-size: 12px !important;
+    line-height: 1.35;
+    word-break: normal !important;
+    overflow-wrap: break-word;
+    hyphens: none;
+  }
+}
+
+/* ---------------------------------------------------------------------------
    Footer menu — no underline on the current page
 
    Dawn marks the link matching the current page with .list-menu__item--active
