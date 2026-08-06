@@ -34,7 +34,8 @@
 
    Extend the selector list when another landing page gets hero buttons.
 --------------------------------------------------------------------------- */
-.page-turn-ring-into-necklace .banner .outter-button {
+.page-turn-ring-into-necklace .banner .outter-button,
+.page-jewelry-redesign-cost .banner .outter-button {
   display: flex !important;
   flex: 0 0 auto !important;
   border: 1px solid #121212;
@@ -42,7 +43,8 @@
   padding: 4px;
 }
 
-.page-turn-ring-into-necklace .banner .button {
+.page-turn-ring-into-necklace .banner .button,
+.page-jewelry-redesign-cost .banner .button {
   background: #fff !important;
   color: #121212 !important;
   border: 2px solid #121212 !important;
@@ -50,6 +52,16 @@
   font-size: 11px;
   padding: 12px 20px;
   width: 100%;
+}
+
+/* Dawn caps .banner__buttons at 45rem (450px). "Send me your photos" (220px)
+   and "Book a free consultation" (245px) need 475px with the 10px gap, so the
+   pair wrapped to two rows on desktop. The text box around them is 900px wide,
+   so there is room to spare. Desktop only — below 750px they should stack. */
+@media screen and (min-width: 750px) {
+  .page-jewelry-redesign-cost .banner .banner__buttons {
+    max-width: 52rem;
+  }
 }
 
 /* ---------------------------------------------------------------------------
