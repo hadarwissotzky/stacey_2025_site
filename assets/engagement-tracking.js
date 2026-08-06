@@ -62,21 +62,42 @@
     return id.replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 40) || 'other';
   }
 
+  // ——— where a CTA points ———
+  // Query strings are dropped. The instant-estimate CTA on the cost page carries
+  // a few hundred characters of form-prefill text in ?estimate=, and every
+  // combination of selections would otherwise land as its own value — turning
+  // cta_destination into a dimension with unbounded cardinality. The hash is
+  // kept: it's short, and for on-page anchors it IS the destination.
+  function destinationOf(a) {
+    var href = a.getAttribute('href') || '';
+    try {
+      var u = new URL(href, location.origin);
+      if (u.protocol !== 'http:' && u.protocol !== 'https:') return href.slice(0, 100);
+      var base = u.origin === location.origin ? u.pathname : u.origin + u.pathname;
+      return (base + (u.hash || '')).slice(0, 100);
+    } catch (e) {
+      return href.slice(0, 100); // mailto:, tel:, anything else unparseable
+    }
+  }
+
   // ——— CTA clicks ———
-  // Only button-styled links. Add-to-cart is a <button>, so it's excluded here and
-  // stays covered by the store's own add_to_cart event.
+  // Button-styled links, plus .lz-cta — the instant-estimate widget's own button,
+  // which is deliberately not Dawn-styled (it carries the widget's palette) and so
+  // would otherwise go unrecorded despite being the highest-intent click on that
+  // page. Add-to-cart is a <button>, so it's excluded here and stays covered by
+  // the store's own add_to_cart event.
   document.addEventListener(
     'click',
     function (e) {
       var t = e.target;
       var a = t && t.closest ? t.closest('a') : null;
       if (!a) return;
-      if (!a.classList.contains('button') && !a.closest('.button')) return;
+      if (!a.classList.contains('button') && !a.closest('.button') && !a.classList.contains('lz-cta')) return;
 
       var label = (a.innerText || a.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 60);
       track('cta_click', {
         cta_label: label || '(no label)',
-        cta_destination: (a.getAttribute('href') || '').slice(0, 100),
+        cta_destination: destinationOf(a),
         cta_position: sectionOf(a)
       });
     },
