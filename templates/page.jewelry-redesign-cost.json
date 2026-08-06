@@ -80,6 +80,7 @@
         "h2 {font-family: \"Nexa\", sans-serif !important; margin-bottom: 0.4rem;}",
         "p,ul {margin-top: 0px;}",
         "h4 {font: 400 1.8rem / 25px \"GoudyOldStyle\" !important; text-transform: none;}",
+        "@media screen and (min-width:750px){.rich-text__blocks{max-width:none;padding-left:9rem;padding-right:9rem;}}",
         "@media screen and (max-width: 749px) {{width: 90%; }}"
       ],
       "name": "t:sections.rich-text.presets.name",
