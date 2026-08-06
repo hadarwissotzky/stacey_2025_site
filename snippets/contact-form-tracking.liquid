@@ -20,3 +20,8 @@
   </script>
 {%- endif -%}
 <script src="{{ 'contact-form-tracking.js' | asset_url }}" defer="defer"></script>
+{%- comment -%}
+  Fills the message box from ?estimate= when someone arrives from the
+  instant-estimate widget on the cost page. No-ops without that parameter.
+{%- endcomment -%}
+<script src="{{ 'contact-form-prefill.js' | asset_url }}" defer="defer"></script>
