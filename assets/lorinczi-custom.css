@@ -34,13 +34,22 @@
 
    Extend the selector list when another landing page gets hero buttons.
 --------------------------------------------------------------------------- */
+.page-turn-ring-into-necklace .banner .outter-button {
+  display: flex !important;
+  flex: 0 0 auto !important;
+  border: 1px solid #121212;
+  border-radius: 13px;
+  padding: 4px;
+}
+
 .page-turn-ring-into-necklace .banner .button {
   background: #fff !important;
   color: #121212 !important;
   border: 2px solid #121212 !important;
   border-radius: 9px;
   font-size: 11px;
-  padding: 12px 26px;
+  padding: 12px 20px;
+  width: 100%;
 }
 
 /* ---------------------------------------------------------------------------
