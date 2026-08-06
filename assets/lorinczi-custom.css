@@ -32,13 +32,19 @@
    this file instead. Same treatment as the homepage: white fill, dark ink,
    dark rule.
 
-   Extend the selector list when another landing page gets hero buttons.
+   Scoped to the SECTION, not the page handle. These templates are shared: one
+   template serves several pages, so /pages/jewelry-redesign-cost-in-san-
+   francisco renders the cost template and inherited its buttons while carrying
+   its own body class — under a page-handle selector its buttons came out white
+   on white. Matching the section key instead covers every page a template
+   serves, now and later, with nothing to extend by hand.
+
+   Safe to key on: of the 13 templates using image_banner_FiNPq6, only the five
+   with a buttons_cta block are affected — the rules need .outter-button to bite
+   — and the homepage banner is a different key (__image_banner), so it keeps
+   its own section CSS.
 --------------------------------------------------------------------------- */
-.page-turn-ring-into-necklace .banner .outter-button,
-.page-jewelry-redesign-cost .banner .outter-button,
-.page-jewelry-redesign .banner .outter-button,
-.page-heirloom-jewelry-redesign .banner .outter-button,
-.page-remake-wedding-band .banner .outter-button {
+[id$="__image_banner_FiNPq6"] .banner .outter-button {
   display: flex !important;
   flex: 0 0 auto !important;
   border: 1px solid #121212;
@@ -46,11 +52,7 @@
   padding: 4px;
 }
 
-.page-turn-ring-into-necklace .banner .button,
-.page-jewelry-redesign-cost .banner .button,
-.page-jewelry-redesign .banner .button,
-.page-heirloom-jewelry-redesign .banner .button,
-.page-remake-wedding-band .banner .button {
+[id$="__image_banner_FiNPq6"] .banner .button {
   background: #fff !important;
   color: #121212 !important;
   border: 2px solid #121212 !important;
@@ -64,12 +66,10 @@
    and "Book a free consultation" (245px) need 475px with the 10px gap, so the
    pair wrapped to two rows on desktop. The text box around them is 900px wide,
    so there is room to spare. Desktop only — below 750px they should stack.
-   Applies to both pages carrying that label pair. */
+   Harmless where the labels are shorter: the row is centred, so a wider cap
+   than the buttons need changes nothing. */
 @media screen and (min-width: 750px) {
-  .page-jewelry-redesign-cost .banner .banner__buttons,
-  .page-jewelry-redesign .banner .banner__buttons,
-  .page-heirloom-jewelry-redesign .banner .banner__buttons,
-  .page-remake-wedding-band .banner .banner__buttons {
+  [id$="__image_banner_FiNPq6"] .banner .banner__buttons {
     max-width: 52rem;
   }
 }
