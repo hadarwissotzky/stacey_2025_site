@@ -37,7 +37,8 @@
 .page-turn-ring-into-necklace .banner .outter-button,
 .page-jewelry-redesign-cost .banner .outter-button,
 .page-jewelry-redesign .banner .outter-button,
-.page-heirloom-jewelry-redesign .banner .outter-button {
+.page-heirloom-jewelry-redesign .banner .outter-button,
+.page-remake-wedding-band .banner .outter-button {
   display: flex !important;
   flex: 0 0 auto !important;
   border: 1px solid #121212;
@@ -48,7 +49,8 @@
 .page-turn-ring-into-necklace .banner .button,
 .page-jewelry-redesign-cost .banner .button,
 .page-jewelry-redesign .banner .button,
-.page-heirloom-jewelry-redesign .banner .button {
+.page-heirloom-jewelry-redesign .banner .button,
+.page-remake-wedding-band .banner .button {
   background: #fff !important;
   color: #121212 !important;
   border: 2px solid #121212 !important;
@@ -66,7 +68,8 @@
 @media screen and (min-width: 750px) {
   .page-jewelry-redesign-cost .banner .banner__buttons,
   .page-jewelry-redesign .banner .banner__buttons,
-  .page-heirloom-jewelry-redesign .banner .banner__buttons {
+  .page-heirloom-jewelry-redesign .banner .banner__buttons,
+  .page-remake-wedding-band .banner .banner__buttons {
     max-width: 52rem;
   }
 }
