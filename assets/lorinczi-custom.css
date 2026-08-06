@@ -24,6 +24,26 @@
    is what lets these rules win. Desktop is untouched.
 --------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------
+   Landing-page hero buttons
+
+   This banner runs an inverse colour scheme, so Dawn renders button text white
+   on a white fill — invisible. The homepage banner solves this in its own
+   section CSS; that section is at its 500-char cap here, so the rule lives in
+   this file instead. Same treatment as the homepage: white fill, dark ink,
+   dark rule.
+
+   Extend the selector list when another landing page gets hero buttons.
+--------------------------------------------------------------------------- */
+.page-turn-ring-into-necklace .banner .button {
+  background: #fff !important;
+  color: #121212 !important;
+  border: 2px solid #121212 !important;
+  border-radius: 9px;
+  font-size: 11px;
+  padding: 12px 26px;
+}
+
+/* ---------------------------------------------------------------------------
    Link-button grids (.redesign-index-grid)
 
    Shared behaviour for the "explore these services" button grids. The column
