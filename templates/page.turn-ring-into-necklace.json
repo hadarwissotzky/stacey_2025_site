@@ -222,11 +222,48 @@
         "padding_bottom": 36,
         "mobile_content_alignment": "left"
       }
+    },
+    "custom_necklaces": {
+      "type": "featured-collection-conditional",
+      "name": "Custom necklaces",
+      "custom_css": [
+        ".slider-buttons {display: flex; margin-bottom: 0.5rem; padding-top: 2rem; border-top: 1px solid #dee0e3;}",
+        ".slider-counter {display: none;}",
+        ".collection__title {padding-bottom: 12px !important;}",
+        ".collection__title h2 {margin-bottom: 0rem; font-family: Nexa, sans-serif !important; font-size: calc(var(--font-heading-scale) * 2.3rem) !important; text-align: center;}",
+        ".collection__description p {font-size: calc(var(--font-heading-scale) * 1.6rem); text-align: center;}"
+      ],
+      "settings": {
+        "title": "NECKLACES I'VE MADE",
+        "heading_size": "h1",
+        "description": "<p>Many of these started as a ring. Let them inspire yours.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "custom-necklaces",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
     }
   },
   "order": [
     "image_banner_FiNPq6",
     "redesign_intro",
+    "custom_necklaces",
     "main",
     "custom_liquid_U4fpLV",
     "featured_blog_4GwJqf",

@@ -53,6 +53,69 @@
 }
 
 /* ---------------------------------------------------------------------------
+   Custom-necklaces carousel — keep it to one swipeable row
+
+   sections/featured-blog.liquid emits its styles unscoped, so three of its
+   selectors leak to the whole page:
+
+     .blog__posts.slider, .slider.slider--tablet { display:grid !important;
+       grid-template-columns:repeat(N,1fr) !important; overflow:visible !important }
+     .slider__slide { width:100% !important; min-height:550px }
+
+   Any featured-collection slider on a page that also carries a featured-blog
+   section is therefore rebuilt as a wrapping N-column grid — this carousel
+   rendered as four stacked rows. `.slider.slider--tablet` is (0,2,0), which
+   outranks Dawn's own `.slider--desktop` (0,1,0), so the leak wins at every
+   width, not just tablet.
+
+   These rules restore Dawn's slider on this one section only. The widths have
+   to be restated because the leaked `width:100% !important` beats
+   `.slider--desktop.grid--4-col-desktop .grid__item`. Scoping the blog section
+   properly would fix the cause; that's a shared section on several live pages,
+   so it's left alone here.
+--------------------------------------------------------------------------- */
+.page-turn-ring-into-necklace [id$="__custom_necklaces"] .slider.slider--tablet,
+.page-turn-ring-into-necklace [id$="__custom_necklaces"] .slider.slider--desktop {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  overflow-x: auto !important;
+  scroll-snap-type: x mandatory !important;
+  gap: 1.5rem !important;
+}
+
+.page-turn-ring-into-necklace [id$="__custom_necklaces"] .slider__slide {
+  flex: 0 0 auto !important;
+  min-height: 0 !important;
+  scroll-snap-align: start !important;
+  width: 72% !important;
+}
+
+@media screen and (min-width: 750px) {
+  .page-turn-ring-into-necklace [id$="__custom_necklaces"] .slider__slide {
+    width: calc(40% - 1rem) !important;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .page-turn-ring-into-necklace [id$="__custom_necklaces"] .slider__slide {
+    width: calc(25% - 1.2rem) !important;
+  }
+}
+
+/* assets/lorinczi-journal.css sizes the journal's article cards with unscoped
+   rules — `.card__inner { min-height: 450px }` and `.card__inner.ratio
+   { min-height: 750px }` (560px below 750px). They hit every product card on
+   any page that loads it, which forced these 347px-wide square cards to 750px
+   tall and left a deep empty band above each photo. Clearing min-height lets
+   the square aspect ratio drive the height again. */
+.page-turn-ring-into-necklace [id$="__custom_necklaces"] .card__inner,
+.page-turn-ring-into-necklace [id$="__custom_necklaces"] .card__inner.ratio,
+.page-turn-ring-into-necklace [id$="__custom_necklaces"] .card-wrapper,
+.page-turn-ring-into-necklace [id$="__custom_necklaces"] .card__media {
+  min-height: 0 !important;
+}
+
+/* ---------------------------------------------------------------------------
    Link-button grids (.redesign-index-grid)
 
    Shared behaviour for the "explore these services" button grids. The column
