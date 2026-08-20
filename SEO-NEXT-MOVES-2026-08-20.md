@@ -122,3 +122,75 @@ one specific object, and honest options including "keep it as it is."
   won. Adding a page there would cost, not gain.
 - **Don't judge the new pages yet.** `/pages/ring-resizing-cost` has 152 impressions at 20.8 after
   eight days, which is ahead of schedule, not behind it.
+
+---
+
+## 4. Where the next organic traffic actually is (added after GSC theme analysis)
+
+90 days of Search Console, 847 queries, clustered by theme. The comparison that matters:
+
+| Theme | Impressions | Avg position | Clicks |
+|---|---|---|---|
+| ring → necklace *(has a strong page)* | 611 | **16.7** | 7 |
+| **heirloom / inherited** | **616** | **50.0** | 2 |
+| local / near me | 311 | 30.9 | 4 |
+| cost / price *(108 distinct queries)* | 276 | 20.8 | 1 |
+| resizing / repair | 200 | 47.8 | 0 |
+| divorce | 85 | 37.1 | 0 |
+
+**Heirloom has more impressions than the page that produces half the site's clicks, and ranks 33
+positions worse.** That is the largest single gap on the site, and it needs no new content — it is
+the cannibalisation described in section 1. The hub's title has been changed to stop competing.
+
+| Heirloom query | Impressions | Position |
+|---|---|---|
+| heirloom jewelry redesign | 184 | 56.0 |
+| heirloom ring redesign | 128 | 56.3 |
+| heirloom jewelry redesign near me | 88 | 29.3 |
+
+### The closest win on the site: the cost cluster
+
+108 distinct cost phrasings, and the important ones are already at the page-one boundary:
+
+| Query | Impressions | Position |
+|---|---|---|
+| how much does it cost to redesign a ring | 48 | **10.1** |
+| how much does it cost to turn a ring into a necklace | 10 | **9.6** |
+| how much to redesign a ring | 6 | **9.8** |
+| how much does it cost to repurpose jewelry | 10 | 10.9 |
+| ring redesign cost | 7 | 10.7 |
+| cost of redesigning a ring | 7 | 11.6 |
+
+Positions 9–12 is the most valuable band in search. CTR at position 10 is ~1.7%; at position 8 it
+is ~3.4% and at position 5 ~6%. **Moving this cluster three positions roughly triples its traffic.**
+It is the same shape as the winning page — one question asked in a hundred ways — and it is already
+most of the way there.
+
+### An overlooked signal: heirloom searches are geographic, and remote work answers them
+
+The heirloom queries include `maine heirloom jewelry redesign`, `heirloom jewelry redesign new
+jersey`, `redesigning inherited jewelry draper`, `redesign grandmother's ring new jersey`. People
+look for this service *locally* because they assume they must hand the piece over. Stacey works
+remotely with insured shipping — most of her clients are already out of state.
+
+`heirloom jewelry redesign near me` alone is 88 impressions at position 29.3. Nothing on the site
+directly answers "can you do this if I'm not near you" for the heirloom audience.
+
+### Order of work
+
+1. **Let the heirloom disambiguation settle** (title changed 20 Aug). Biggest gap, already actioned,
+   costs nothing more. Re-measure in three weeks.
+2. **Push the cost cluster from ~10 to ~7.** Strengthen internal links into
+   `/pages/jewelry-redesign-cost` with cost-phrased anchors, and make sure every transformation page
+   links to it using the words people search ("how much does it cost to…").
+3. **Build the two transformation pages** from section 2 — `what to do with old wedding rings`
+   (210/mo, index 14) and `what to do with old brooches` (140/mo, index 1).
+4. **Answer the remote question for heirloom searchers**, on the existing heirloom page rather than
+   a new one — the near-me variants are already at 29.3 and a new page would cannibalise.
+
+### What the evidence says to stop doing
+
+Earlier documents in this repo treat backlinks as the binding constraint and model them as worth
+roughly 2× the content programme. Clicks went 39 → 105 in a month with no link building at all.
+The constraints that actually showed up in the data were **ambiguity** (two pages per term) and
+**patience** (pages needing weeks to settle). Neither is solved by links.
