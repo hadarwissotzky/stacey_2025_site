@@ -1,0 +1,54 @@
+{%- comment -%}
+  Fires GA4 `generate_lead` on the thank-you page.
+
+  When the contact form is served by Bloom, the submission happens inside a
+  cross-origin iframe, so the theme can't observe it. Bloom instead redirects to
+  this page on submit — arriving here IS the conversion.
+
+  Same measurement ID and the same send_page_view:false bootstrap as
+  assets/contact-form-tracking.js. GA4 on this store is a sandboxed Shopify web
+  pixel, so gtag() is not reachable from theme scope and we load our own.
+  `generate_lead` is the identical event name the native form fires, so the two
+  paths report into one conversion either way.
+{%- endcomment -%}
+
+<script>
+  (function () {
+    if (window.lzLeadTracked) return;
+    window.lzLeadTracked = true;
+
+    var GA_ID = 'G-NL5P1911ZX';
+
+    function gtag() {
+      (window.dataLayer = window.dataLayer || []).push(arguments);
+    }
+
+    // The store already runs a main-frame gtag for this stream on most pages —
+    // reuse it rather than configuring the same measurement ID twice.
+    if (!(window.google_tag_manager && window.google_tag_manager[GA_ID])) {
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+      document.head.appendChild(s);
+      gtag('js', new Date());
+      gtag('config', GA_ID, { send_page_view: false });
+    }
+
+    var src = 'direct';
+    var landing = '';
+    try {
+      src = sessionStorage.getItem('lz_src') || 'direct';
+      landing = sessionStorage.getItem('lz_landing') || '';
+    } catch (e) {}
+
+    gtag('event', 'generate_lead', {
+      form_id: 'contact',
+      form_provider: 'bloom',
+      lead_source: src,
+      landing_page: landing,
+      page_location: location.href,
+      page_path: location.pathname,
+      page_title: document.title
+    });
+  })();
+</script>

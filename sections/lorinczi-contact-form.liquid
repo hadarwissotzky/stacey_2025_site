@@ -1,3 +1,4 @@
+{%- comment -%} rev 2026-08-11c — Bloom lead sent before photo upload {%- endcomment -%}
 {{ 'lorinczi-contact-form.css' | asset_url | stylesheet_tag }}
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
@@ -59,6 +60,9 @@
             {%- else -%}
               <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
             {%- endif -%}
+            {%- if section.settings.form_provider == 'bloom' -%}
+              {% render 'bloom-contact-form', section: section %}
+            {%- else -%}
             {%- liquid
               assign contact_form_class = 'isolate'
               if settings.animations_reveal_on_scroll
@@ -206,6 +210,7 @@
                 </button>
               </div>
             {%- endform -%}
+            {%- endif -%}
           </div>
         </div>
       </div>
@@ -240,7 +245,36 @@
           {%- endif -%}
         </div>
       </div>
-        <script>          
+        {%- unless section.settings.form_provider == 'bloom' -%}
+        {%- if section.settings.form_provider == 'bloom_api' -%}
+          {%- comment -%}
+            Sends a copy of each enquiry to Bloom on submit. The form above is
+            untouched — this adds nothing visible and never blocks the Shopify
+            submission, so the notification email arrives exactly as before.
+          {%- endcomment -%}
+          <script>
+            window.lzBloomConfig = {
+              questionnaireId: {{ section.settings.bloom_questionnaire_id | default: 'kj49qxnw1dl12' | json }}
+            };
+          </script>
+          <script src="{{ 'bloom-api-submit.js' | asset_url }}" defer></script>
+        {%- endif -%}
+        <script>
+        /*
+          Photo upload — runs when files are CHOSEN, not when the form is sent.
+
+          This ordering is the whole point. The form used to intercept submit,
+          upload, then call form.submit(). But form.submit() fires no submit
+          listeners, and Shopify's invisible hCaptcha works by listening for that
+          event to attach a token — so every enquiry arrived without one and
+          Shopify challenged the visitor with "let us know you're not a robot".
+          Uploading at selection time means there is nothing left to do on submit,
+          so the form posts natively and the captcha does its job silently.
+
+          By the time Send is pressed the hidden image_links field is already
+          filled. If an upload is still running, the submit button waits for it
+          rather than intercepting the submit event.
+        */
         document.addEventListener('DOMContentLoaded', () => {
           const form        = document.getElementById('ContactForm');
           const fileInput   = document.getElementById('ContactForm-file');
@@ -248,44 +282,47 @@
           const btnBrowse   = document.getElementById('file-select-button');
           const preview     = document.getElementById('preview');
           const hiddenLinks = document.getElementById('ContactForm-image_links');
-        
-          // keep our own array of Files
-          let allFiles = [];
-        
-          // open file picker
+          const formIdField = document.getElementById('ContactForm-form_id');
+          const submitBtn   = form ? form.querySelector('.contact__button .button') : null;
+
+          if (!form || !fileInput) return;
+
+          let allFiles = [];        // every file the visitor has chosen
+          let uploaded = [];        // { url, title, mimeType, size } once hosted
+          let uploading = 0;        // in-flight uploads
+          const originalBtnText = submitBtn ? submitBtn.textContent.trim() : 'SEND MESSAGE';
+
           btnBrowse.addEventListener('click', () => fileInput.click());
-        
-          // drag/drop styling
+
           ['dragenter','dragover','dragleave','drop'].forEach(evt => {
             dropArea.addEventListener(evt, e => {
               e.preventDefault(); e.stopPropagation();
               dropArea.classList[evt==='dragenter'||evt==='dragover' ? 'add':'remove']('dragover');
             });
           });
-        
-          // on drop, merge new files
+
           dropArea.addEventListener('drop', e => {
-            const dropped = Array.from(e.dataTransfer.files);
-            allFiles.push(...dropped);
-            updateFileInput();
-            renderPreviews();
+            addFiles(Array.from(e.dataTransfer.files));
           });
-        
-          // on manual select, merge new files
+
           fileInput.addEventListener('change', () => {
-            const selected = Array.from(fileInput.files);
-            allFiles.push(...selected);
+            addFiles(Array.from(fileInput.files));
+          });
+
+          function addFiles(files) {
+            if (!files.length) return;
+            allFiles.push(...files);
             updateFileInput();
             renderPreviews();
-          });
-        
-          function updateFileInput() {
-            // rebuild FileList from our array
-            const dataTransfer = new DataTransfer();
-            allFiles.forEach(f => dataTransfer.items.add(f));
-            fileInput.files = dataTransfer.files;
+            uploadFiles(files);
           }
-        
+
+          function updateFileInput() {
+            const dt = new DataTransfer();
+            allFiles.forEach(f => dt.items.add(f));
+            fileInput.files = dt.files;
+          }
+
           function renderPreviews() {
             preview.innerHTML = '';
             allFiles.forEach(file => {
@@ -299,62 +336,105 @@
               reader.readAsDataURL(file);
             });
           }
-        
-          form.addEventListener('submit', async e => {
-            e.preventDefault();
 
-            const hiddenField = document.getElementById('ContactForm-image_links');
-
-            // Build dynamic form_id
-            const email     = document.getElementById('ContactForm-email').value.trim();
-            const timestamp = new Date().toISOString();
-            const formId    = `${email}-${timestamp}`;
-            document.getElementById('ContactForm-form_id').value = formId;
-
-            // Only upload images if files were selected
-            if (allFiles.length > 0) {
-              try {
-                // Read & Base64-encode images
-                const base64s = await Promise.all(
-                  allFiles.map(f => new Promise((res, rej) => {
-                    const reader = new FileReader();
-                    reader.onload  = () => res(reader.result);
-                    reader.onerror = rej;
-                    reader.readAsDataURL(f);
-                  }))
-                );
-
-                // POST images → Xano
-                const resp = await fetch(
-                  'https://app.ezquotepro.com/api:1KsPryE0/uploadImages',
-                  {
-                    method:  'POST',
-                    headers: {'Content-Type':'application/json'},
-                    body:    JSON.stringify({ form_id: formId, images: base64s })
-                  }
-                );
-
-                if (!resp.ok) {
-                  // Continue without images if upload fails
-                  form.submit();
-                  return;
-                }
-
-                // Parse Xano's response
-                const returned = await resp.json();
-
-                // Extract URLs if response is valid
-                if (Array.isArray(returned)) {
-                  const urls = returned.map(item => item.image?.url).filter(Boolean);
-                  hiddenField.value = urls.join('\n');
-                }
-              } catch (err) {
-                // Continue with form submission even if image upload fails
-              }
+          // Keep the visitor informed and stop them sending mid-upload. The button
+          // is only disabled while something is actually in flight.
+          function syncButton() {
+            if (!submitBtn) return;
+            if (uploading > 0) {
+              submitBtn.disabled = true;
+              submitBtn.dataset.lzWaiting = '1';
+              submitBtn.textContent = 'ADDING YOUR PHOTOS…';
+            } else {
+              submitBtn.disabled = false;
+              delete submitBtn.dataset.lzWaiting;
+              submitBtn.textContent = originalBtnText;
             }
+          }
 
-            form.submit();
+          async function uploadFiles(files) {
+            uploading++;
+            syncButton();
+            try {
+              const email = (document.getElementById('ContactForm-email') || {}).value || '';
+              const formId = `${email.trim()}-${new Date().toISOString()}`;
+              if (formIdField && !formIdField.value) formIdField.value = formId;
+
+              const base64s = await Promise.all(files.map(f => new Promise((res, rej) => {
+                const r = new FileReader();
+                r.onload = () => res(r.result);
+                r.onerror = rej;
+                r.readAsDataURL(f);
+              })));
+
+              const resp = await fetch('https://app.ezquotepro.com/api:1KsPryE0/uploadImages', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ form_id: formIdField ? formIdField.value : formId, images: base64s })
+              });
+              if (!resp.ok) throw new Error('upload HTTP ' + resp.status);
+
+              const returned = await resp.json();
+              if (Array.isArray(returned)) {
+                returned.forEach((item, i) => {
+                  const url = item.image && item.image.url;
+                  if (!url) return;
+                  uploaded.push({
+                    url,
+                    title: files[i] ? files[i].name : 'photo',
+                    mimeType: files[i] ? files[i].type : 'image/jpeg',
+                    size: files[i] ? files[i].size : 0
+                  });
+                });
+                if (hiddenLinks) hiddenLinks.value = uploaded.map(u => u.url).join('\n');
+                if (window.lzBloomSetPhotos) window.lzBloomSetPhotos(uploaded);
+              }
+            } catch (err) {
+              // The photos are lost but the enquiry is not — the message still
+              // sends, and previously this failed silently. Say so instead.
+              if (window.console && console.warn) console.warn('[upload]', err);
+              if (preview && !preview.querySelector('.lz-upload-error')) {
+                const note = document.createElement('p');
+                note.className = 'lz-upload-error';
+                note.style.cssText = 'margin:8px 0 0;font-size:1.3rem;';
+                note.textContent = "I couldn't attach your photos — please send them to stacey@lorinczi.com and your message will still reach me.";
+                preview.appendChild(note);
+              }
+            } finally {
+              uploading--;
+              syncButton();
+            }
+          }
+
+          /*
+            Submit is deliberately NOT intercepted. The only thing attached here is
+            a guard for the rare case where someone presses Send while an upload is
+            still running — it blocks that one submit and retries once the upload
+            finishes, then gets out of the way so Shopify's captcha and the native
+            post proceed untouched.
+          */
+          form.addEventListener('submit', e => {
+            if (uploading > 0) {
+              e.preventDefault();
+              if (submitBtn) submitBtn.textContent = 'ADDING YOUR PHOTOS…';
+              const wait = setInterval(() => {
+                if (uploading === 0) {
+                  clearInterval(wait);
+                  syncButton();
+                  if (typeof form.requestSubmit === 'function') form.requestSubmit();
+                  else form.submit();
+                }
+              }, 200);
+              return;
+            }
+            // Hand Bloom the lead. Uses keepalive so it survives the navigation
+            // that is about to happen — no preventDefault, nothing blocked.
+            if (window.lzBloomSend) {
+              try { window.lzBloomSend(uploaded); } catch (err) {}
+            }
           });
+
+          window.lzContactSubmitReady = true;
         });
           document.addEventListener('DOMContentLoaded', () => {
             // ——————— CURRENCY FORMATTER FOR BUDGET FIELD ———————
@@ -418,6 +498,7 @@
             }
           });
       </script>
+        {%- endunless -%}
     </div>
   </div>
 </div>
@@ -566,6 +647,55 @@
       "default": "left",
       "label": "t:sections.image-with-text.settings.mobile_content_alignment.label"
     },
+    {
+      "type": "header",
+      "content": "Form provider"
+    },
+    {
+      "type": "select",
+      "id": "form_provider",
+      "options": [
+        {
+          "value": "native",
+          "label": "Native (Shopify)"
+        },
+        {
+          "value": "bloom_api",
+          "label": "Native form + copy to Bloom"
+        },
+        {
+          "value": "bloom",
+          "label": "Bloom.io (embedded form)"
+        }
+      ],
+      "default": "native",
+      "label": "Form provider",
+      "info": "Native is the current form. \"Native form + copy to Bloom\" keeps this exact form and design and also sends each enquiry to Bloom in the background — the email still arrives either way. \"Embedded form\" replaces it with Bloom's own form, which brings Bloom's styling with it."
+    },
+    {
+      "type": "url",
+      "id": "bloom_form_url",
+      "label": "Bloom form URL",
+      "info": "Embedded form only. e.g. https://lorinczijewelry.bloom.io/contact-form"
+    },
+    {
+      "type": "text",
+      "id": "bloom_questionnaire_id",
+      "label": "Bloom form ID",
+      "default": "kj49qxnw1dl12",
+      "info": "\"Copy to Bloom\" only. The id in the Bloom builder URL: /portal/forms/<this bit>/build. If you rebuild the form in Bloom, update this."
+    },
+    {
+      "type": "range",
+      "id": "bloom_height",
+      "min": 600,
+      "max": 2200,
+      "step": 50,
+      "unit": "px",
+      "label": "Bloom form height",
+      "info": "The Bloom form is in an iframe, so the page can't measure it — set the height here. 1200 clears the Submit button on both desktop and mobile as the form stands today; raise it if you add questions.",
+      "default": 1200
+    }
   ],
   "presets": [
     {

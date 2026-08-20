@@ -1,0 +1,67 @@
+{%- comment -%}
+  Bloom.io contact form embed.
+
+  Rendered only when the parent section's "Form provider" setting is "bloom".
+  The native Shopify form is left untouched in the section — switching the
+  setting back to "Native (Shopify)" restores it exactly.
+
+  Accepts: section
+{%- endcomment -%}
+
+{%- assign bloom_url = section.settings.bloom_form_url -%}
+{%- assign bloom_height = section.settings.bloom_height | default: 1200 -%}
+
+{%- if bloom_url == blank -%}
+  {%- if request.design_mode -%}
+    <p class="lz-bloom-notice">
+      Form provider is set to Bloom.io, but no Bloom form URL has been entered yet.
+      Add the URL in this section's settings — visitors currently see nothing here.
+    </p>
+  {%- endif -%}
+{%- else -%}
+  <div class="lz-bloom-embed" style="min-height: {{ bloom_height }}px;">
+    <iframe
+      id="LzBloomForm-{{ section.id }}"
+      data-src="{{ bloom_url }}"
+      title="{{ 'templates.contact.form.title' | t }}"
+      loading="lazy"
+      style="width:100%; height:{{ bloom_height }}px; border:0; display:block;"
+    ></iframe>
+    <noscript>
+      <iframe
+        src="{{ bloom_url }}"
+        title="{{ 'templates.contact.form.title' | t }}"
+        style="width:100%; height:{{ bloom_height }}px; border:0; display:block;"
+      ></iframe>
+    </noscript>
+  </div>
+
+  <script>
+    (function () {
+      var frame = document.getElementById('LzBloomForm-{{ section.id }}');
+      if (!frame) return;
+
+      var src = frame.getAttribute('data-src');
+
+      // Carry first-touch attribution through to Bloom as query params. Bloom
+      // ignores params it doesn't recognise, so this is harmless either way —
+      // and if hidden fields are added to the Bloom form later, they populate
+      // with no further change here. Same values layout/theme.liquid stores.
+      try {
+        var params = [];
+        var src_first = sessionStorage.getItem('lz_src');
+        var landing = sessionStorage.getItem('lz_landing');
+        if (src_first) params.push('lz_src=' + encodeURIComponent(src_first));
+        if (landing) params.push('lz_landing=' + encodeURIComponent(landing));
+        params.push('lz_page=' + encodeURIComponent(window.location.pathname));
+        if (params.length) {
+          src += (src.indexOf('?') === -1 ? '?' : '&') + params.join('&');
+        }
+      } catch (e) {
+        // sessionStorage unavailable (private mode / blocked) — load the form anyway.
+      }
+
+      frame.setAttribute('src', src);
+    })();
+  </script>
+{%- endif -%}
