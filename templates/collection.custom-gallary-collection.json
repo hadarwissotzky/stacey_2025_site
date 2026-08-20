@@ -16,6 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "RE-USE YOUR OWN GEMS & JEWELRY",
+            "heading_tag_h1": false,
             "heading_size": "h1"
           }
         },
@@ -73,6 +74,7 @@
           "type": "heading",
           "settings": {
             "heading": "CUSTOM GALLERY",
+            "heading_tag_h1": false,
             "heading_size": "h2"
           }
         },
@@ -84,6 +86,7 @@
         },
         "button_cta": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Send me your photos",
             "button_link": "/pages/contact",
@@ -144,8 +147,8 @@
           "type": "heading",
           "settings": {
             "heading": "Custom Jewelry, Designed One Piece at a Time",
-            "heading_size": "h1",
-            "heading_tag_h1": true
+            "heading_tag_h1": true,
+            "heading_size": "h1"
           }
         },
         "t_intro": {
@@ -158,6 +161,7 @@
           "type": "heading",
           "settings": {
             "heading": "Bespoke & One-of-a-Kind, Never Off the Shelf",
+            "heading_tag_h1": false,
             "heading_size": "h2"
           }
         },
@@ -171,6 +175,7 @@
           "type": "heading",
           "settings": {
             "heading": "Start Your Own Custom Piece",
+            "heading_tag_h1": false,
             "heading_size": "h2"
           }
         },
@@ -197,7 +202,12 @@
         "full_width": false,
         "padding_top": 28,
         "padding_bottom": 40
-      }
+      },
+      "custom_css": [
+        ".rich-text__blocks {max-width: 972px !important;}",
+        "h1,h2 {font: 400 28px/30px Nexa, sans-serif !important; text-transform: none; margin-bottom: 0.4rem; text-align: left !important;}",
+        "p {font: 400 16px/25px \"GoudyOldStyle\", serif !important; margin-top: 0;}"
+      ]
     },
     "newsletter_tGxaW7": {
       "type": "newsletter",

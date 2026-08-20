@@ -160,7 +160,7 @@
         "padding_bottom": 40
       },
       "custom_css": [
-        ".rich-text__blocks {max-width: 844px !important;}",
+        ".rich-text__blocks {max-width: 972px !important;}",
         "h1,h2 {font: 400 28px/30px Nexa, sans-serif !important; text-transform: none; margin-bottom: 0.4rem; text-align: left !important;}",
         "p {font: 400 16px/25px \"GoudyOldStyle\", serif !important; margin-top: 0;}"
       ]
