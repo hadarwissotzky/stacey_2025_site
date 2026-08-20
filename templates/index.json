@@ -74,7 +74,7 @@
         "template--21717722104091__20029078-d2df-4c46-b126-e7d5ff72f316-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "RE-USE YOUR OWN GEMS & JEWELRY",
+            "heading": "RE-USE YOUR OWN GEMS\u00a0&\u00a0JEWELRY",
             "heading_size": "h2"
           }
         },
@@ -125,7 +125,7 @@
         "text_rp": {
           "type": "text",
           "settings": {
-            "text": "<p>Have an heirloom or jewelry you no longer wear? I redesign your old pieces and reset your stones into something you’ll treasure — using your own gems and gold.</p>",
+            "text": "<p>Have an heirloom or jewelry you no longer wear? I redesign your old pieces and reset your stones into something you\u2019ll treasure \u2014 using your own gems and gold.</p>",
             "text_style": "body"
           }
         },
@@ -177,7 +177,7 @@
         "text_zMTPYD": {
           "type": "text",
           "settings": {
-            "text": "<h2>Let me tell your story in metal.</h2><p>Have an heirloom or jewelry you no longer wear? I redesign your old pieces and reset your stones into something you’ll treasure — using your own gems and gold.</p>",
+            "text": "<h2>Let me tell your story in metal.</h2><p>Have an heirloom or jewelry you no longer wear? I redesign your old pieces and reset your stones into something you\u2019ll treasure \u2014 using your own gems and gold.</p>",
             "text_style": "body"
           }
         },
@@ -305,7 +305,7 @@
         "template--21717722104091__a756bebb-30dd-41eb-ac82-eae61074a709-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h2>A symbol of strength, protection, and resilience.</h2><p>Wear it yourself—or give it to someone you love.</p>",
+            "text": "<h2>A symbol of strength, protection, and resilience.</h2><p>Wear it yourself\u2014or give it to someone you love.</p>",
             "text_style": "body"
           }
         },
@@ -507,7 +507,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "DISCOVER MORE",
+            "heading": "DISCOVER\u00a0MORE",
             "heading_size": "h2"
           }
         },
@@ -536,9 +536,18 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "page_h1": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1 class=\"visually-hidden\">Custom Jewelry Design &amp; Jewelry Redesign in San Francisco</h1>",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
+    "page_h1",
     "image_banner",
     "20029078-d2df-4c46-b126-e7d5ff72f316",
     "redesign_promo",

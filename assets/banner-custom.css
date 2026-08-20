@@ -51,3 +51,33 @@
     max-height: none;
   }
 }
+
+/* Hero CTA pair — equal width and centred on mobile.
+ *
+ * section-image-banner.css gives each button flex-grow:1 with a
+ * min-width of 22rem, so on a phone each one sizes to its own label
+ * ("Send me your photos" vs "Book a free consultation") and the pair
+ * sits flush left. Match the homepage hero instead: both buttons the
+ * same width, centred on the viewport.
+ *
+ * Specificity: section-image-banner.css is loaded inside the section,
+ * so it comes after this file in document order. The leading .banner
+ * wins on specificity rather than relying on order. */
+@media screen and (max-width: 749px) {
+  .banner .banner__buttons.banner__buttons--multiple {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .banner .banner__buttons.banner__buttons--multiple > * {
+    display: flex;
+    flex-grow: 0;
+    min-width: 0;
+    width: 26rem;
+    max-width: 100%;
+  }
+
+  .banner .banner__buttons.banner__buttons--multiple > * > .button {
+    width: 100%;
+  }
+}

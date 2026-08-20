@@ -25,11 +25,23 @@
             "text": "Turn the ring into proof of it — a piece that remembers everything and still faces forward. I'll help you make it real.",
             "text_style": "body"
           }
+        },
+        "buttons_cta": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Send me your photos",
+            "button_link_1": "/pages/contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "Book your free consultation",
+            "button_link_2": "/products/free-consultation",
+            "button_style_secondary_2": true
+          }
         }
       },
       "block_order": [
         "heading_7G6x64",
-        "text_C9CghG"
+        "text_C9CghG",
+        "buttons_cta"
       ],
       "custom_css": [
         "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.2rem); line-height: 1.3em;}",

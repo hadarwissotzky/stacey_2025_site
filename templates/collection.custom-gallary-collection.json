@@ -81,11 +81,23 @@
           "settings": {
             "text": "<p>Let my past creations inspire a one-of-a-kind design made just for you.</p>"
           }
+        },
+        "button_cta": {
+          "type": "button",
+          "settings": {
+            "button_label": "Send me your photos",
+            "button_link": "/pages/contact",
+            "button_style_secondary": true,
+            "button_label_2": "Book a free consultation",
+            "button_link_2": "/products/free-consultation",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "heading_8VEQ88",
-        "text_M3xyeG"
+        "text_M3xyeG",
+        "button_cta"
       ],
       "custom_css": [
         "p {font-size: calc(var(--font-heading-scale) * 1.7rem);}"
