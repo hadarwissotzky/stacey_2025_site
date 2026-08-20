@@ -13,3 +13,7 @@ dist/
 # Nested projects with their own git history — version them in their own repos
 /seo-automation/
 /ai-content-updating-app/
+
+# Google service-account key (GA4 + Search Console reporting). Never commit.
+*google-key*.json
+*service-account*.json
