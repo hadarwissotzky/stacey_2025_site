@@ -117,12 +117,93 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_seo_body": {
+      "type": "rich-text",
+      "blocks": {
+        "h_intro": {
+          "type": "heading",
+          "settings": {
+            "heading": "Custom Engagement Rings, Made One at a Time",
+            "heading_size": "h2"
+          }
+        },
+        "t_intro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I design and handcraft custom engagement rings in my San Francisco studio — one at a time, by hand, in yellow, white, or rose gold, and in platinum. Nothing here comes off a tray. I’ve made engagement rings at every budget, and honestly, apart from the choice of materials I think you’d struggle to tell them apart: what makes a ring worth wearing for fifty years is the quality of the design, not the carat weight.</p>"
+          }
+        },
+        "h_stone": {
+          "type": "heading",
+          "settings": {
+            "heading": "Set Your Own Diamond, or Find One Together",
+            "heading_size": "h2"
+          }
+        },
+        "t_stone": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you already have a diamond — inherited, or from a ring that’s no longer worn — I can build the entire design around it. Using a stone you already own is often the most meaningful way to start, and it usually costs considerably less than buying new. If you don’t have a stone yet, we’ll choose one together, and I’ll tell you honestly where the money is better spent and where it isn’t.</p>"
+          }
+        },
+        "h_setting": {
+          "type": "heading",
+          "settings": {
+            "heading": "Low-Profile and Bezel Settings for Hands That Work",
+            "heading_size": "h2"
+          }
+        },
+        "t_setting": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A lot of my clients work with their hands — surgeons, nurses, scientists, gardeners, makers. For them I usually suggest a low-profile bezel rather than a raised prong setting: the stone sits closer to the finger, nothing catches on gloves, and there’s far less to knock loose over a lifetime of wearing it. If you’d rather have the height and the sparkle of prongs, that’s a good choice too — I’ll just make sure you know what each one asks of you.</p>"
+          }
+        },
+        "h_redesign": {
+          "type": "heading",
+          "settings": {
+            "heading": "Redesign an Engagement Ring You Already Own",
+            "heading_size": "h2"
+          }
+        },
+        "t_redesign": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Some of the best commissions I take on start with a ring somebody already has. If a setting feels dated, no longer fits your life, or came to you from someone else, I can reset the stones and reimagine it into something you’ll actually reach for. You keep the diamond and the gold — the two most expensive parts of any piece — and only the form changes.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "h_intro",
+        "t_intro",
+        "h_stone",
+        "t_stone",
+        "h_setting",
+        "t_setting",
+        "h_redesign",
+        "t_redesign"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 972px !important;}",
+        "h1,h2 {font: 400 28px/30px Nexa, sans-serif !important; text-transform: none; margin-bottom: 0.4rem; text-align: left !important;}",
+        "p {font: 400 16px/25px \"GoudyOldStyle\", serif !important; margin-top: 0;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 28,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
     "banner",
     "rich_text_9XYNra",
     "product-grid",
+    "rich_text_seo_body",
     "featured_collection_m4pxYL"
   ]
 }
