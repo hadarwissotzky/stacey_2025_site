@@ -9,6 +9,15 @@
  */
 {
   "sections": {
+    "page_h1": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1 class=\"visually-hidden\">Repurpose Old Jewelry Into Something You'll Wear</h1>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner_igYKz9": {
       "type": "image-banner",
       "blocks": {
@@ -22,7 +31,7 @@
         "text_z73UYV": {
           "type": "text",
           "settings": {
-            "text": "I\u2019ll reimagine your gems and metals into a timeless heirloom.",
+            "text": "I’ll reimagine your gems and metals into a timeless heirloom.",
             "text_style": "body"
           }
         }
@@ -57,13 +66,14 @@
           "type": "heading",
           "settings": {
             "heading": "REPURPOSE OLD JEWELRY INTO SOMETHING YOU'LL WEAR",
+            "heading_tag_h1": false,
             "heading_size": "h2"
           }
         },
         "text_main": {
           "type": "text",
           "settings": {
-            "text": "<p>If you have old jewelry sitting in a drawer, I can repurpose it into something you'll actually wear. I use your own gems to adapt one of my designs or create something entirely new \u2014 working with your materials preserves sentimental value, saves cost, and reduces environmental impact.</p><p>If you have old gold or platinum jewelry you no longer wear, I can refine it and apply its full value toward your new piece. I'm committed to transparent, eco-friendly refining, fair pricing, and working within your budget.</p><p>Ready to start? Send photos of your jewelry or gems and share your vision. Together, we'll transform your materials into a piece you'll truly treasure.</p>"
+            "text": "<p>If you have old jewelry sitting in a drawer, I can repurpose it into something you'll actually wear. I use your own gems to adapt one of my designs or create something entirely new — working with your materials preserves sentimental value, saves cost, and reduces environmental impact.</p><p>If you have old gold or platinum jewelry you no longer wear, I can refine it and apply its full value toward your new piece. I'm committed to transparent, eco-friendly refining, fair pricing, and working within your budget. </p><p>Ready to start? Send photos of your jewelry or gems and share your vision. Together, we'll transform your materials into a piece you'll truly treasure.</p>"
           }
         }
       },
@@ -87,6 +97,23 @@
         "padding_bottom": 52
       }
     },
+    "refining_detail": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "{width: 80%; margin-left: auto; margin-right: auto;}",
+        "h2 {font-family: \"Nexa\", sans-serif !important; font-size: 2.3rem; margin-bottom: 0.4rem;}",
+        "p {font: 400 1.6rem/25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important; text-align: left !important; margin-top: 0;}",
+        "a {font: 400 1.6rem/25px \"GoudyOldStyle\", sans-serif !important;}",
+        "@media screen and (max-width: 749px) {{width: 90%; } .custom-liquid-redesign {padding-left: 2rem !important; padding-right: 2rem !important; }}"
+      ],
+      "name": "Refining detail",
+      "settings": {
+        "custom_liquid": "<div class=\"custom-liquid-redesign\" style=\"margin:0 auto;padding:1rem 90px 2.5rem;\"><div class=\"rte\"><h2>WHAT CAN I REPURPOSE?</h2><p>Old rings are the most common thing I'm asked to repurpose &mdash; engagement rings, wedding bands, cocktail rings that no longer suit you. But you can repurpose old jewelry of almost any kind: pieces inherited from a grandmother or mother, a single earring whose partner disappeared years ago, broken chains, outdated pieces, loose stones in a little envelope. If it&rsquo;s gold, platinum, or a gemstone, it carries value &mdash; and most of the time it can become something you&rsquo;ll actually reach for.</p><h2>WHY I REFINE YOUR METAL RATHER THAN MELTING IT STRAIGHT INTO YOUR PIECE</h2><p>People often ask whether I can simply melt down their old gold and pour it straight into the new piece. I usually recommend against it, and here&rsquo;s why.</p><p>While I love incorporating materials that carry personal history, I generally recommend refining old metals rather than reusing them directly for casting.</p><p>Over the years, jewelry accumulates solder, repairs, and unknown alloys that can create porosity, pitting, or other imperfections in a new casting. The more times a metal has been melted and recast, the greater that risk becomes. Casting also requires more metal than most people expect &mdash; additional gold is needed to create the button and sprue that feed the casting process.</p><p>So instead, I refine the old metal and apply the settlement value toward your new piece. Refining transforms mixed metals into a clean monetary value that becomes a credit toward the project, while letting me cast your new piece in freshly refined metal for the best possible result.</p><h2>EVEN THE ODDS AND ENDS COUNT</h2><p>Broken chains, single earrings, earring backs, outdated pieces, little scraps tucked away in a drawer &mdash; send all of it. The more you include, the more value you receive.</p><h2>THE FULL VALUE IS YOURS</h2><p>Depending on how much gold or platinum you have to refine, it&rsquo;s entirely possible the refining value could exceed the cost of your new piece. In that case, you&rsquo;d receive both your new jewelry and a check for the remaining balance.</p><p><strong>I don&rsquo;t take any percentage of the refining payout.</strong> The full value belongs to you &mdash; it can either be applied toward the project or returned directly to you.</p><h2>HOW MUCH DOES IT COST TO REPURPOSE JEWELRY?</h2><p>Less than most people expect, because the most valuable parts &mdash; your stones and your gold &mdash; are already yours. Every piece is custom, so there&rsquo;s no flat price: it depends on the design, the materials, and the work involved. You get a clear, itemized quote after a free consultation, before any work begins. <a href=\"/pages/jewelry-redesign-cost\">Here&rsquo;s my honest guide to redesign costs</a>.</p><h2>HOW WE START</h2><p>Send me a few clear photos of the pieces you&rsquo;d like to repurpose, along with any inspiration images or descriptions of what you&rsquo;re hoping to create. Reference photos of jewelry you love are incredibly helpful &mdash; they give me a sense of your style and the direction you&rsquo;d like to explore.</p><p>From there, we&rsquo;ll work through style, stones, metals, shape, and scale until we arrive at something that feels exactly right. It helps to have a comfortable ballpark budget in mind &mdash; my job is to work backward from that as much as possible, and there are often creative ways to tailor a design so it achieves the look you want while staying in a range that feels comfortable to you.</p><p>There&rsquo;s no cost to begin the conversation. Feel free to send the pics whenever you&rsquo;re ready &mdash; I&rsquo;m excited to see what you have.</p></div></div>",
+        "color_scheme": "",
+        "padding_top": 8,
+        "padding_bottom": 16
+      }
+    },
     "image_with_text_JwrRFC": {
       "type": "image-with-text",
       "blocks": {
@@ -100,7 +127,7 @@
         "text_VfGTc7": {
           "type": "text",
           "settings": {
-            "text": "<h3>Old gems, new favorite...</h3><p>Let me turn your old gems and metal into something you\u2019ll love again. Begin with a complimentary <a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\">virtual consultation</a>.</p>",
+            "text": "<h3>Old gems, new favorite...</h3><p>Let me turn your old gems and metal into something you’ll love again. Begin with a complimentary <a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\">virtual consultation</a>.</p>",
             "text_style": "body"
           }
         },
@@ -184,7 +211,11 @@
         "header_text_color": "#ffffff",
         "padding_top": 36,
         "padding_bottom": 36,
-        "mobile_content_alignment": "left"
+        "mobile_content_alignment": "left",
+        "form_provider": "native",
+        "bloom_form_url": "",
+        "bloom_questionnaire_id": "kj49qxnw1dl12",
+        "bloom_height": 1200
       }
     },
     "main": {
@@ -198,7 +229,7 @@
     "gold_faq_schema": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"What can I repurpose old jewelry into?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Almost anything you'll wear. Old rings \u2014 engagement rings, wedding bands, cocktail rings \u2014 are the most common, but you can repurpose old jewelry of nearly any kind: pieces inherited from a grandmother or mother, single earrings, broken chains, outdated pieces, and loose stones. If it's gold, platinum, or a gemstone, it carries value and can usually become something new.\"}}, {\"@type\": \"Question\", \"name\": \"Will you use the gold from my old jewelry to make a new piece?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. If you have gold or platinum you no longer wear, I responsibly refine it and apply its value toward your new piece \u2014 preserving the sentiment, lowering the cost, and being kinder to the environment.\"}}, {\"@type\": \"Question\", \"name\": \"Can you melt down my old gold?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. I melt down and responsibly refine your old gold, then use it (or credit its value) toward your redesigned piece.\"}}, {\"@type\": \"Question\", \"name\": \"Does using my own gold make a redesign cheaper?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Because your refined gold and your own stones go toward the new design, you aren't paying for new materials \u2014 so a redesign usually costs significantly less than buying new.\"}}, {\"@type\": \"Question\", \"name\": \"Can I use my own diamonds and gemstones in a new design?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Absolutely. Reusing your own diamonds and gemstones is one of the most popular redesigns \u2014 I move your stones from a dated or damaged setting into an entirely new design made for you.\"}}, {\"@type\": \"Question\", \"name\": \"Is it safe to send you my gold and stones?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Every piece is shipped fully insured and tracked, and your jewelry is documented at each step. Your security and peace of mind come first.\"}}, {\"@type\": \"Question\", \"name\": \"What can I do with old or inherited gold I no longer wear?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"I can refine it and reimagine it into something you'll actually wear \u2014 a new ring, a pendant, or a piece that combines several heirlooms into one. If it holds meaning, it can be reimagined.\"}}, {\"@type\": \"Question\", \"name\": \"How much does it cost to repurpose jewelry?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Less than most people expect, because the most valuable parts \u2014 the stones and the gold \u2014 are already yours. Every piece is custom, so there is no flat price; you get a clear, itemized quote after a free consultation, before any work begins.\"}}]}</script>",
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"What can I repurpose old jewelry into?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Almost anything you'll wear. Old rings — engagement rings, wedding bands, cocktail rings — are the most common, but you can repurpose old jewelry of nearly any kind: pieces inherited from a grandmother or mother, single earrings, broken chains, outdated pieces, and loose stones. If it's gold, platinum, or a gemstone, it carries value and can usually become something new.\"}}, {\"@type\": \"Question\", \"name\": \"Will you use the gold from my old jewelry to make a new piece?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. If you have gold or platinum you no longer wear, I responsibly refine it and apply its value toward your new piece — preserving the sentiment, lowering the cost, and being kinder to the environment.\"}}, {\"@type\": \"Question\", \"name\": \"Can you melt down my old gold?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. I melt down and responsibly refine your old gold, then use it (or credit its value) toward your redesigned piece.\"}}, {\"@type\": \"Question\", \"name\": \"Does using my own gold make a redesign cheaper?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Because your refined gold and your own stones go toward the new design, you aren't paying for new materials — so a redesign usually costs significantly less than buying new.\"}}, {\"@type\": \"Question\", \"name\": \"Can I use my own diamonds and gemstones in a new design?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Absolutely. Reusing your own diamonds and gemstones is one of the most popular redesigns — I move your stones from a dated or damaged setting into an entirely new design made for you.\"}}, {\"@type\": \"Question\", \"name\": \"Is it safe to send you my gold and stones?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Every piece is shipped fully insured and tracked, and your jewelry is documented at each step. Your security and peace of mind come first.\"}}, {\"@type\": \"Question\", \"name\": \"What can I do with old or inherited gold I no longer wear?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"I can refine it and reimagine it into something you'll actually wear — a new ring, a pendant, or a piece that combines several heirlooms into one. If it holds meaning, it can be reimagined.\"}}, {\"@type\": \"Question\", \"name\": \"How much does it cost to repurpose jewelry?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Less than most people expect, because the most valuable parts — the stones and the gold — are already yours. Every piece is custom, so there is no flat price; you get a clear, itemized quote after a free consultation, before any work begins.\"}}]}</script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -209,24 +240,6 @@
       "settings": {
         "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Use Your Own Gold & Stones \\u2014 Jewelry Redesign\", \"serviceType\": \"Refining and reusing your own gold and gemstones in a custom redesign\", \"provider\": {\"@type\": \"Organization\", \"name\": \"Lorinczi Jewelry\", \"url\": \"https://www.lorinczi.com\"}, \"areaServed\": {\"@type\": \"City\", \"name\": \"San Francisco\"}, \"description\": \"Reuse the gold and stones you already own. I responsibly refine your old gold and reset your diamonds and gemstones into a new, custom piece \\u2014 preserving sentiment and lowering cost.\"}</script>",
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "refining_detail": {
-      "type": "custom-liquid",
-      "name": "Refining detail",
-      "settings": {
-        "custom_liquid": "<div class=\"custom-liquid-redesign\" style=\"max-width:890px;margin:0 auto;padding:1rem 20px 2.5rem;\"><div class=\"rte\"><h2>WHAT CAN I REPURPOSE?</h2><p>Old rings are the most common thing I'm asked to repurpose &mdash; engagement rings, wedding bands, cocktail rings that no longer suit you. But you can repurpose old jewelry of almost any kind: pieces inherited from a grandmother or mother, a single earring whose partner disappeared years ago, broken chains, outdated pieces, loose stones in a little envelope. If it&rsquo;s gold, platinum, or a gemstone, it carries value &mdash; and most of the time it can become something you&rsquo;ll actually reach for.</p><h2>WHY I REFINE YOUR METAL RATHER THAN MELTING IT STRAIGHT INTO YOUR PIECE</h2><p>People often ask whether I can simply melt down their old gold and pour it straight into the new piece. I usually recommend against it, and here&rsquo;s why.</p><p>While I love incorporating materials that carry personal history, I generally recommend refining old metals rather than reusing them directly for casting.</p><p>Over the years, jewelry accumulates solder, repairs, and unknown alloys that can create porosity, pitting, or other imperfections in a new casting. The more times a metal has been melted and recast, the greater that risk becomes. Casting also requires more metal than most people expect &mdash; additional gold is needed to create the button and sprue that feed the casting process.</p><p>So instead, I refine the old metal and apply the settlement value toward your new piece. Refining transforms mixed metals into a clean monetary value that becomes a credit toward the project, while letting me cast your new piece in freshly refined metal for the best possible result.</p><h2>EVEN THE ODDS AND ENDS COUNT</h2><p>Broken chains, single earrings, earring backs, outdated pieces, little scraps tucked away in a drawer &mdash; send all of it. The more you include, the more value you receive.</p><h2>THE FULL VALUE IS YOURS</h2><p>Depending on how much gold or platinum you have to refine, it&rsquo;s entirely possible the refining value could exceed the cost of your new piece. In that case, you&rsquo;d receive both your new jewelry and a check for the remaining balance.</p><p><strong>I don&rsquo;t take any percentage of the refining payout.</strong> The full value belongs to you &mdash; it can either be applied toward the project or returned directly to you.</p><h2>HOW MUCH DOES IT COST TO REPURPOSE JEWELRY?</h2><p>Less than most people expect, because the most valuable parts &mdash; your stones and your gold &mdash; are already yours. Every piece is custom, so there&rsquo;s no flat price: it depends on the design, the materials, and the work involved. You get a clear, itemized quote after a free consultation, before any work begins. <a href=\"/pages/jewelry-redesign-cost\">Here&rsquo;s my honest guide to redesign costs</a>.</p><h2>HOW WE START</h2><p>Send me a few clear photos of the pieces you&rsquo;d like to repurpose, along with any inspiration images or descriptions of what you&rsquo;re hoping to create. Reference photos of jewelry you love are incredibly helpful &mdash; they give me a sense of your style and the direction you&rsquo;d like to explore.</p><p>From there, we&rsquo;ll work through style, stones, metals, shape, and scale until we arrive at something that feels exactly right. It helps to have a comfortable ballpark budget in mind &mdash; my job is to work backward from that as much as possible, and there are often creative ways to tailor a design so it achieves the look you want while staying in a range that feels comfortable to you.</p><p>There&rsquo;s no cost to begin the conversation. Feel free to send the pics whenever you&rsquo;re ready &mdash; I&rsquo;m excited to see what you have.</p></div></div>",
-        "color_scheme": "",
-        "padding_top": 8,
-        "padding_bottom": 16
-      }
-    },
-    "page_h1": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<h1 class=\"visually-hidden\">Repurpose Old Jewelry Into Something You'll Wear</h1>",
         "padding_top": 0,
         "padding_bottom": 0
       }
