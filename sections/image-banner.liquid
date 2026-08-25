@@ -46,7 +46,12 @@
     assign stacked_sizes = '(min-width: 750px) 50vw, 100vw'
   endif
   assign fetch_priority = 'auto'
-  if section.index == 1
+  comment
+    On the homepage the banner is section 2 (a text-only custom-liquid runs first), so the
+    index check alone leaves the LCP image at default priority. Templates where a banner sits
+    at index 2 behind a full main-page block are genuinely below the fold and must stay 'auto'.
+  endcomment
+  if section.index == 1 or request.page_type == 'index'
     assign fetch_priority = 'high'
   endif
 -%}
