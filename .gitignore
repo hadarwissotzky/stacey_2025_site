@@ -17,3 +17,6 @@ dist/
 # Google service-account key (GA4 + Search Console reporting). Never commit.
 *google-key*.json
 *service-account*.json
+
+# Local tool scratch (codex session ids, etc). Not shared.
+/.context/
