@@ -304,10 +304,16 @@
         height: 100%;
       }
 
+      /* Sticky footer without depending on child order.
+         Dawn ships `grid-template-rows: auto auto 1fr auto`, which assumes body's
+         first four children are announcement / header / main / footer. Apps and
+         custom sections add their own block-level children ahead of those, so the
+         1fr track lands on the announcement bar instead of main and that bar
+         absorbs all leftover height. On a short page in a tall viewport it opened
+         a 380px white band above the header. Flex is order-independent. */
       body {
-        display: grid;
-        grid-template-rows: auto auto 1fr auto;
-        grid-template-columns: 100%;
+        display: flex;
+        flex-direction: column;
         min-height: 100%;
         margin: 0;
         font-size: 1.5rem;
@@ -316,6 +322,12 @@
         font-family: var(--font-body-family);
         font-style: var(--font-body-style);
         font-weight: var(--font-body-weight);
+      }
+
+      /* Main takes the leftover height, so the footer sits at the bottom of the
+         viewport on short pages. This replaces the 1fr grid track above. */
+      body > #MainContent {
+        flex: 1 0 auto;
       }
 
       @media screen and (min-width: 750px) {
