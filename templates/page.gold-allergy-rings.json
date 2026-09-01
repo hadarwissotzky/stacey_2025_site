@@ -1,18 +1,343 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "image_banner_FiNPq6": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_7G6x64": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Allergic to Gold?</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_C9CghG": {
+          "type": "text",
+          "settings": {
+            "text": "It is almost always the alloy rather than the gold — and your stones can move somewhere kinder without losing anything you care about.",
+            "text_style": "body"
+          }
+        },
+        "buttons_cta": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Send me your photos",
+            "button_link_1": "/pages/contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "Book a free consultation",
+            "button_link_2": "/products/free-consultation",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_7G6x64",
+        "text_C9CghG",
+        "buttons_cta"
+      ],
+      "custom_css": [
+        "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.2rem); line-height: 1.3em;}",
+        "@media screen and (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.7rem) !important; line-height: 1.2em; margin-top: 0.8em; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Final_Reset_a_Diamond_Ring_Section_Main_Top_Image_0d78cb8b-96c9-4ea2-8bbe-c3bf4c4abac2.jpg",
+        "video_background": false,
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text_rttRDE": {
+      "type": "rich-text",
+      "blocks": {
+        "text_kxwwVM": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>If the finger under your ring is red, itchy, or peeling, and it has been getting worse rather than better, the ring is the obvious suspect. Before you give up on it, one thing worth knowing: a true allergy to gold itself is rare. Far more often the problem is what the gold is mixed with — and that is a solvable problem, because your stones do not have to go anywhere.</h4><h4></h4>"
+          }
+        }
+      },
+      "block_order": [
+        "text_kxwwVM"
+      ],
+      "custom_css": [
+        "{width: 80%; margin-left: auto; margin-right: auto;}",
+        "h2 {font-family: \"Nexa\", sans-serif !important; margin-bottom: 0.4rem;}",
+        "p,ul {margin-top: 0px;}",
+        "h4 {font: 400 1.8rem / 25px \"GoudyOldStyle\" !important; text-transform: none;}",
+        "@media screen and (min-width:750px){.rich-text__blocks{max-width:none;padding-left:9rem;padding-right:9rem;}}",
+        "@media screen and (max-width: 749px) {{width: 90%; }}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "main-page",
       "custom_css": [
-        ".page-width--narrow {max-width: 72.6rem !important; margin-left: auto; margin-right: auto; padding-left: 2rem !important; padding-right: 2rem !important;}",
-        "@media screen and (max-width: 749px) {.page-width--narrow {padding-left: 1rem !important; padding-right: 1rem !important;} .main-page-title {font-size: 2.4rem; line-height: 1.3;}}",
-        ".rte h2 {font: 400 21px/30px Nexa, sans-serif; margin-top: 2.2rem;}",
-        ".rte li {margin-bottom: 0.6rem;}"
+        "{width: 80%; margin-left: auto; margin-right: auto;}",
+        "h2 {font-family: \"Nexa\", sans-serif !important; margin-bottom: 0.4rem;}",
+        "p,ul {margin-top: 0px;}",
+        "h4 {font: 400 1.8rem / 25px \"GoudyOldStyle\" !important; text-transform: none;}",
+        "@media screen and (max-width: 749px) {{width: 90%; }}"
       ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "custom_liquid_U4fpLV": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text p,\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text h3 {\ntext-align: center;\n}\n}\n\n\n.main-page-title{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}\n\n\n#MainContent .main-page-title ~ .rte p, #MainContent .main-page-title ~ .rte li, #MainContent .main-page-title ~ .rte a{font:400 1.6rem/25px \"GoudyOldStyle\",sans-serif!important;color:rgba(var(--color-foreground),0.75)!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte h2, #MainContent .main-page-title ~ .rte h3{font:400 28px/30px Nexa,sans-serif!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte ul, #MainContent .main-page-title ~ .rte ol{text-align:left!important;}\n\n\n#MainContent [class*=\"__main-padding\"]{padding-top:5rem!important;padding-bottom:5rem!important;padding-left:9rem!important;padding-right:9rem!important;}\n@media screen and (max-width:749px){#MainContent [class*=\"__main-padding\"]{padding-top:3rem!important;padding-bottom:3rem!important;padding-left:1rem!important;padding-right:1rem!important;}}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_qBVeG9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6dEETn": {
+          "type": "heading",
+          "settings": {
+            "heading": "GIVE YOUR OLD JEWELRY A NEW STORY",
+            "heading_size": "h2"
+          }
+        },
+        "text_gKXwt4": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>I reimagine unused and unloved jewelry... </h3><p>Into modern designs you’ll love to wear. Begin your transformation with a complimentary <a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\">virtual consultation</a>.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_FDcmDF": {
+          "type": "button",
+          "settings": {
+            "button_label": "MY DESIGN PROCESS",
+            "button_link": "https://lorinczi.com/pages/custom-design-journey#shopify-section-template--25996792725787__rich_text_pqnyd7",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_6dEETn",
+        "text_gKXwt4",
+        "button_FDcmDF"
+      ],
+      "custom_css": [
+        ".rich-text__buttons .base-button {background-color: #fff;}",
+        "p a,p {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important; color: rgba(var(--color-foreground), 0.75) !important; text-align: left; padding: 0;}",
+        "h3 {font: 400 28px / 30px Nexa, sans-serif; font-family: \"GoudyOldStyle\", sans-serif !important; margin-bottom: 10px; text-align: left;}",
+        ".image-with-text .image-with-text__heading {font-size: 1.3rem !important;}",
+        "@media (min-width: 750px) {.image-with-text__text-item {width: 40%; } .image-with-text__media-item {width: 60%; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/How_Much_Does_It_Cost_Section_Top_Page_Photos_d0891d75-7890-4734-8ac6-210d0708a87b.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "scheme-d23da204-75f2-431b-91aa-47efeff00978",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "redesign_cost_faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "row_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you actually be allergic to gold?",
+            "icon": "none",
+            "row_content": "<h5>Rarely. Pure gold is one of the least reactive metals there is. But pure gold is far too soft to hold a stone, so all jewelry gold is an alloy — and the other metals in the mix are usually what your skin is reacting to. Nickel is the most common culprit by a wide margin.</h5>",
+            "page": ""
+          }
+        },
+        "row_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why does white gold bother me when yellow gold doesn't?",
+            "icon": "none",
+            "row_content": "<h5>Because they are not the same alloy. White gold has historically been made white and hard with nickel, which is the most common contact allergen there is. Rose gold carries the most copper. Yellow gold at the same karat is often the mildest of the three.</h5>",
+            "page": ""
+          }
+        },
+        "row_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does karat make a difference?",
+            "icon": "none",
+            "row_content": "<h5>Yes. 14k gold is 58.5% gold and 18k is 75%. The lower the karat, the more room there is for whatever else is in the mix. A ring that bothers you in 14k may be perfectly comfortable in 18k.</h5>",
+            "page": ""
+          }
+        },
+        "row_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is platinum hypoallergenic?",
+            "icon": "none",
+            "row_content": "<h5>Jewelry platinum is typically 95% pure, so there is very little in it to react to, and it is what most people in this situation choose. I will not tell you any metal is universally safe though — people react to different things, which is exactly why a patch test is worth doing.</h5>",
+            "page": ""
+          }
+        },
+        "row_5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I know whether it's an allergy at all?",
+            "icon": "none",
+            "row_content": "<h5>You may not, and I can't tell you — I'm a jeweler, not a doctor. A ring traps water, soap and lotion against skin all day, and that alone can cause a red, sore band that looks identical to an allergic reaction. A dermatologist can patch test you and name the specific metal, which is the thing that decides what your piece should be made in. That test costs a fraction of a redesign.</h5>",
+            "page": ""
+          }
+        },
+        "row_6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you reset my stones into platinum?",
+            "icon": "none",
+            "row_content": "<h5>Yes, and it is a common request. Your diamonds and gemstones are not what your skin is reacting to, so the work is simply to move them out of the metal that bothers you. I can rebuild the same design in platinum so it still looks like your ring, or redesign it entirely if you have been quietly wanting something different anyway.</h5>",
+            "page": ""
+          }
+        },
+        "row_7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What happens to the gold I can't wear?",
+            "icon": "none",
+            "row_content": "<h5>I refine it — including the metal in the settings I am removing your stones from — and apply its full settlement value as a credit toward the new piece. I never take a percentage of it.</h5>",
+            "page": ""
+          }
+        },
+        "row_8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does it cost to reset a ring in platinum?",
+            "icon": "none",
+            "row_content": "<h5>Your stones into a ready-made setting runs $500–$1,800. A setting designed from scratch around your stones is $1,500–$3,500. Choosing platinum over gold adds roughly $500–$1,100 depending on the finished weight. Against all of that, subtract whatever your old gold refines to.</h5>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_1",
+        "row_2",
+        "row_3",
+        "row_4",
+        "row_5",
+        "row_6",
+        "row_7",
+        "row_8"
+      ],
+      "settings": {
+        "caption": "Reviewed September 2026",
+        "heading": "<em>Metal Sensitivity </em>FAQ",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "redesign_faq_schema": {
+      "type": "custom-liquid",
+      "name": "Redesign FAQ schema",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Can you actually be allergic to gold?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Rarely. Pure gold is one of the least reactive metals there is. But pure gold is far too soft to hold a stone, so all jewelry gold is an alloy — and the other metals in the mix are usually what your skin is reacting to. Nickel is the most common culprit by a wide margin.\"}}, {\"@type\": \"Question\", \"name\": \"Why does white gold bother me when yellow gold doesn't?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Because they are not the same alloy. White gold has historically been made white and hard with nickel, which is the most common contact allergen there is. Rose gold carries the most copper. Yellow gold at the same karat is often the mildest of the three.\"}}, {\"@type\": \"Question\", \"name\": \"Does karat make a difference?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. 14k gold is 58.5% gold and 18k is 75%. The lower the karat, the more room there is for whatever else is in the mix. A ring that bothers you in 14k may be perfectly comfortable in 18k.\"}}, {\"@type\": \"Question\", \"name\": \"Is platinum hypoallergenic?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Jewelry platinum is typically 95% pure, so there is very little in it to react to, and it is what most people in this situation choose. I will not tell you any metal is universally safe though — people react to different things, which is exactly why a patch test is worth doing.\"}}, {\"@type\": \"Question\", \"name\": \"How do I know whether it's an allergy at all?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"You may not, and I can't tell you — I'm a jeweler, not a doctor. A ring traps water, soap and lotion against skin all day, and that alone can cause a red, sore band that looks identical to an allergic reaction. A dermatologist can patch test you and name the specific metal, which is the thing that decides what your piece should be made in. That test costs a fraction of a redesign.\"}}, {\"@type\": \"Question\", \"name\": \"Can you reset my stones into platinum?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes, and it is a common request. Your diamonds and gemstones are not what your skin is reacting to, so the work is simply to move them out of the metal that bothers you. I can rebuild the same design in platinum so it still looks like your ring, or redesign it entirely if you have been quietly wanting something different anyway.\"}}, {\"@type\": \"Question\", \"name\": \"What happens to the gold I can't wear?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"I refine it — including the metal in the settings I am removing your stones from — and apply its full settlement value as a credit toward the new piece. I never take a percentage of it.\"}}, {\"@type\": \"Question\", \"name\": \"What does it cost to reset a ring in platinum?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Your stones into a ready-made setting runs $500–$1,800. A setting designed from scratch around your stones is $1,500–$3,500. Choosing platinum over gold adds roughly $500–$1,100 depending on the finished weight. Against all of that, subtract whatever your old gold refines to.\"}}]}</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "redesign_service_schema": {
+      "type": "custom-liquid",
+      "name": "Redesign service schema",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"The Lorinczi Redesign Program\", \"serviceType\": \"Jewelry redesign, diamond resetting & heirloom restyling\", \"description\": \"Custom jewelry redesign using your own gems and gold — reset diamonds, repurpose old gold, and reimagine inherited pieces into modern heirlooms.\", \"provider\": {\"@type\": \"Organization\", \"name\": \"Lorinczi Jewelry\", \"url\": \"https://lorinczi.com\"}, \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"url\": \"https://lorinczi.com/pages/jewelry-redesign\", \"offers\": {\"@type\": \"Offer\", \"url\": \"https://lorinczi.com/products/free-consultation\", \"price\": \"0\", \"priceCurrency\": \"USD\", \"description\": \"Free virtual jewelry redesign consultation\"}}</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "related_links": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 2.2rem;}",
+        ".mobile-br {display: none;}",
+        "@media screen and (max-width: 749px) {.mobile-br {display: inline; }}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Do you have questions?</strong> <br class=\"mobile-br\"><a href=\"https://lorinczi.com/pages/faq\">Explore the FAQs</a></p><p><strong>Popular redesigns:</strong> <a href=\"/pages/turn-ring-into-necklace\">Turn a ring into a necklace</a> &middot; <a href=\"/pages/remake-wedding-band\">Remake your wedding band</a></p><p ><strong>Serving the Bay Area and beyond:</strong> <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot; <a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",
+        "color_scheme": "",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "lorinczi_contact_form_Qc4PUF": {
+      "type": "lorinczi-contact-form",
+      "settings": {
+        "heading": "Got questions? Let's chat!",
+        "image": "shopify://shop_images/How_Much_Does_It_Cost_Section_Contact_Form_Image.jpg",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "left_background_color": "#484d1c",
+        "field_background_color": "#ffffff",
+        "field_border_color": "#000000",
+        "drop_area_background_color": "#e6e5e2",
+        "drop_area_border_color": "#000000",
+        "button_background_color": "#f3e5d6",
+        "button_border_color": "#000000",
+        "button_text_color": "#000000",
+        "header_text_color": "#ffffff",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_content_alignment": "left"
+      }
     }
   },
-  "order": ["main"]
+  "order": [
+    "image_banner_FiNPq6",
+    "rich_text_rttRDE",
+    "main",
+    "custom_liquid_U4fpLV",
+    "image_with_text_qBVeG9",
+    "redesign_cost_faq",
+    "redesign_faq_schema",
+    "redesign_service_schema",
+    "related_links",
+    "lorinczi_contact_form_Qc4PUF"
+  ]
 }
