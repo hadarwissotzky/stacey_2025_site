@@ -74,8 +74,28 @@
   }
 
   // ——— completed submission (Shopify re-renders the page on success) ———
+  // Shopify sets posted_successfully? from ?contact_posted=true, so a refresh or a
+  // back-navigation onto the thank-you page re-renders it as "posted" and would fire
+  // generate_lead a second time for the same enquiry. Guard with a session flag, and
+  // clear that flag on any page that is NOT the thank-you render — so a genuine second
+  // enquiry later in the same session still counts.
+  var LEAD_FLAG = 'lz_lead_fired';
+  function sess(op, key, val) {
+    try {
+      if (op === 'get') return sessionStorage.getItem(key);
+      if (op === 'set') sessionStorage.setItem(key, val);
+      if (op === 'del') sessionStorage.removeItem(key);
+    } catch (e) {}
+    return null;
+  }
+
   if (window.lzContactPosted) {
-    track('generate_lead', { form_id: 'contact' });
+    if (!sess('get', LEAD_FLAG)) {
+      sess('set', LEAD_FLAG, '1');
+      track('generate_lead', { form_id: 'contact' });
+    }
+  } else {
+    sess('del', LEAD_FLAG);
   }
 
   // ——— start / abandon ———
