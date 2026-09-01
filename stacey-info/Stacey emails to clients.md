@@ -2,7 +2,7 @@ Stacey emails to clients
 
 Re. Gold Refining:This is the kind of email I send to explain the process/ drawback of reusing your own metal rather than refining it:
 
-Dear Lael,
+Dear [client],
 
 Congratulations on your engagement\! That’s such wonderful news, and I’m thrilled for you and your fiancé. It would be an honor to create a meaningful engagement ring using your family’s combined jewelry. Repurposing heirlooms is a specialty of mine—it’s not only deeply sentimental but also environmentally friendly and cost-effective compared to sourcing new materials.
 
@@ -47,7 +47,7 @@ These emails go from oldest to newest:
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-Hi Bruno,
+Hi [client],
 
 Thank you so much for sending over the videos and photos. They were incredibly helpful\!
 
@@ -93,7 +93,7 @@ Best,
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-Hi Bruno,
+Hi [client],
 
 Can you hear me saying, "*Ahhhh\! NOW I get it\!*" all the way from San Francisco? 😊
 
@@ -133,7 +133,7 @@ Stacey
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Hi Sharon,
+Hi [client],
 
 Thank you so much for reaching out—I’m so glad you did. You picked a ring that’s very close to my heart; that branch design has always been one of my personal favorites.
 
@@ -167,7 +167,7 @@ Stacey
 
  \_\_\_\_\_\_\_\_\_\_\_
 
-Hi Laurie,
+Hi [client],
 
 Thank you for the kind words\! I’d absolutely love to work with your gemstones. Repurposing heirlooms is one of my favorite things to do: it’s meaningful and more sustainable than mining new gems.
 
@@ -191,7 +191,7 @@ Stacey
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Hi Evie,
+Hi [client],
 
 I’m so glad this all sounds good to you — I’m really excited to get started\!
 
@@ -212,7 +212,7 @@ Stacey
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Hi Ella,
+Hi [client],
 
 I hope you're having a wonderful day\! Thanks for sending over those photos—they're extremely helpful, and I've also saved the inspiration photo of the ring you love to our thread.
 
@@ -256,7 +256,7 @@ Feel free to ask any questions you may have; my website, www.Lorinczi.com, will 
 All my best,  
 Stacey
 
-Dear David,  
+Dear [client],  
    
 Again, thank you so much for reaching out to me, and for the kind words about my work\!  You had asked about how my process work, so I’ll try to fill you in here-- of course, if there’s anything I’ve neglected to cover, please don’t hesitate to ask.      
    
@@ -276,7 +276,7 @@ Feel free to ask any questions you may have; I am also including some screen gra
 All my best,  
 Stacey  
 \_\_\_\_\_\_\_\_  
-Dear Kim,  
+Dear [client],  
    
 Thank you so much for the kind words—I’m new to social media and tend more toward Instagram than TikTok, so I’m glad you found me\!  
    
@@ -313,7 +313,7 @@ Stacey
 
 Here’s an example of a recent email thread where it turned out I wasn’t right for the job. The emails go from oldest to newest:
 
-On Aug 3, 2026, at 6:04 PM, Jasmin R Torres \<jrt81@humboldt.edu\> wrote:
+On Aug 3, 2026, at 6:04 PM, [client] \<[email removed]\> wrote:
 
 Hello,
 
@@ -329,11 +329,11 @@ Before scheduling a consultation, I was hoping you could let me know:
   If so, we’d love to schedule a consultation while we’re in San Francisco in a couple of weeks.  
   Thank you, and I look forward to hearing from you\!  
     
-  Jasmin R Torres
+  [client]
 
 > On Tue, Aug 4, 2026 at 10:07 AM stacey lorinczi \<stacey@lorinczi.com\> wrote:
 
-Hi Jasmin,
+Hi [client],
 
 Thank you so much for reaching out. Your project sounds absolutely wonderful, and I have to say it's always exciting—not to mention incredibly helpful—when clients have such a clear, well-thought-out vision before we begin. It makes my job much easier, and I love collaborating with people who have already spent time dreaming about what they want.
 
@@ -370,7 +370,7 @@ insta: @lorinczijewelry
 stacey@lorinczi.com    
 415.425.7394   
 
-> On Aug 4, 2026, at 2:56 PM, Jasmin R Torres \<jrt81@humboldt.edu\> wrote:  
+> On Aug 4, 2026, at 2:56 PM, [client] \<[email removed]\> wrote:  
 >   
 > Hi Stacey,  
 >   
@@ -393,11 +393,11 @@ stacey@lorinczi.com
 > Thank you again, and I look forward to hearing from you.
 
 > Kind regards,  
-> Jasmin 
+> [client] 
 
  
 
-Hi Jasmin,
+Hi [client],
 
 Thank you so much for sending these wonderful photos over\!
 
@@ -430,7 +430,7 @@ insta: @lorinczijewelry
 stacey@lorinczi.com    
 415.425.7394   
 
-> On Aug 4, 2026, at 7:45 PM, Jasmin R Torres \<jrt81@humboldt.edu\> wrote:  
+> On Aug 4, 2026, at 7:45 PM, [client] \<[email removed]\> wrote:  
 > 
 
 > Hi Stacey,
@@ -445,7 +445,7 @@ stacey@lorinczi.com
 
 > 
 
-Hi Jasmin,
+Hi [client],
 
 It was truly my pleasure\!
 
@@ -490,7 +490,7 @@ Stacey
 ———————————————  
     Reimagining Your Jewelry
 
-Hi Rhonda,
+Hi [client],
 
 Thank you so much for reaching out\!
 
@@ -550,7 +550,7 @@ Feel free to email photos (Stacey@Lorinczi.com) whenever you’re ready. I’m e
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-Hi Kathy, it’s SO lovely to hear from you\! I'd be delighted to transform your old jewelry into something you'd love\! Can you send me an email with images of your old jewelry and some inspiration photos so we can get the ball rolling? Of course we’ll meet in person, too, but it’s always nice to get a sense of your aesthetic/ goals in advance. I’m stacey@lorinczi.com. I’m really looking forward to touching base with you soon\!
+Hi [client], it’s SO lovely to hear from you\! I'd be delighted to transform your old jewelry into something you'd love\! Can you send me an email with images of your old jewelry and some inspiration photos so we can get the ball rolling? Of course we’ll meet in person, too, but it’s always nice to get a sense of your aesthetic/ goals in advance. I’m stacey@lorinczi.com. I’m really looking forward to touching base with you soon\!
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
@@ -570,7 +570,7 @@ Thanks\! For a .37 carat (\~4.74mm wide) lab grown diamond 14k gold necklace it�
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-Hi Jen,  
+Hi [client],  
 Thank you so much for reaching out — I’m glad you found me on TikTok\! Repurposing old pieces is one of my favorite kinds of projects, and the process is really simple.  
 All of my work is custom, so the first step is for you to send me a few clear photos of the pieces you’d like to reuse, along with any inspiration images or a description of what you’re hoping to create. That gives me a great starting point for the design.  
 From there, we’ll collaborate on the direction — style, stones, metals, shape, scale — and you can let me know a comfortable ballpark budget. I always try to work backward from my clients’ budgets, and there are lots of creative ways to tailor the design so it fits both the look you want and the price you’re aiming for. If any of your old jewelry contains gold we can refine, I can also apply that metal credit directly toward the cost of the new piece.  
@@ -581,7 +581,7 @@ Yours,
 Stacey
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*  
-Dear Michelle,
+Dear [client],
 
 I hope this email finds you well. Thank you for reaching out to me\! To answer your question, most of my clients are remote, so it’s not a problem if you’re not in the San Francisco Bay area.   
 I’m not sure what you’d like to create out of the heirlooms from three generations of women in your family, but I love the idea of re-imagining a new piece that honors them.  
@@ -594,7 +594,7 @@ Stacey
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-Hi Syd, thank you so much for the kind words\! 😌
+Hi [client], thank you so much for the kind words\! 😌
 
 Most of my customers are actually remote, so yes, I definitely ship. That ring was custom—it was made for a man with a pretty large finger size. Were I to make it for you, I imagine yours would cost less since you would have a smaller ring size.
 
@@ -642,7 +642,7 @@ Thanks so much for reaching out to me\! All of my work is custom, so before I ca
 
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-Hi Jen,
+Hi [client],
 
 I hope you had a lovely Thanksgiving, and thank you so much for reaching out\! My apologies for the delay in getting back to you; it’s been a hectic holiday week.
 
@@ -658,7 +658,7 @@ Warmly,
 Stacey  
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-Hi Patricia, thanks so much for reaching out to me\! All of my work is custom, so before I can give you an estimate I’d need to know what you’re envisioning and what pieces you’d like to re-use or recycle. If you have any pictures you can send me that would be a terrific starting-off point. 
+Hi [client], thanks so much for reaching out to me\! All of my work is custom, so before I can give you an estimate I’d need to know what you’re envisioning and what pieces you’d like to re-use or recycle. If you have any pictures you can send me that would be a terrific starting-off point. 
 
 I generally try to work backwards from my customer’s budget whenever possible. I don’t have any hard and fast rules on what the minimum or maximum cost would be. 
 
@@ -693,7 +693,7 @@ If the ring you're interested in purchasing has a band that is wider than 4mm, y
 	•	If the ring band is 4-6mm wide, it's recommended that you add on 1/2 a size \~ e.g. if you measured a ring size M, choose ring size M 1/2  
 	•	If the ring band is 7mm wide and over, it's recommended that you add on 1 full size \~ e.g. if you measured a ring size M, choose ring size N  
 Taking this approach will account for the wider band and ensure you have a comfortable fit when wearing it.  
-I'd be happy to answer any questions you have about ring sizing so please send me a message at emma@myjewellerygarden.com  
+I'd be happy to answer any questions you have about ring sizing so please send me a message at [email removed]  
 
 Looking for a US or International to UK ring size comparison chart?  
 You can find a UK & International ring size comparison chart on my jewellery sizing guide page.   
@@ -717,7 +717,7 @@ If the ring you're interested in purchasing has a band that is wider than 4mm, y
 	•	If the ring band is 4-6mm wide, it's recommended that you add on 1/2 a size \~ e.g. if you measured a ring size M, choose ring size M 1/2  
 	•	If the ring band is 7mm wide and over, it's recommended that you add on 1 full size \~ e.g. if you measured a ring size M, choose ring size N  
 Taking this approach will account for the wider band and ensure you have a comfortable fit when wearing it.  
-I'd be happy to answer any questions you have about ring sizing so please send me a message at emma@myjewellerygarden.com  
+I'd be happy to answer any questions you have about ring sizing so please send me a message at [email removed]  
 
 Looking for a US or International to UK ring size comparison chart?  
 You can find a UK & International ring size comparison chart on my jewellery sizing guide page.   

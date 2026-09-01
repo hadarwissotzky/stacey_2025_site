@@ -123,11 +123,11 @@ Everything here is lifted from her own patterns rather than invented:
 |---|---|
 | "Thank you so much for reaching out!" | opens virtually every first reply in the file |
 | "there's no team here, it's just me" | matches the solo-studio framing throughout |
-| "I'm a very visual person" | near-verbatim from the Bruno email |
+| "I'm a very visual person" | near-verbatim from a client email |
 | photos of the pieces + inspiration images | the standard first ask in every enquiry reply |
-| "It doesn't need to be exact" | verbatim from the Bruno email on budget |
+| "It doesn't need to be exact" | verbatim from a client email on budget |
 | "work backward from a number you're comfortable with" | her recurring budget line |
-| "there's no design fee to begin" | appears in the Laurie and Lael emails |
+| "there's no design fee to begin" | appears in two other client emails |
 | "Send whatever you have whenever you're ready" | close paraphrase of "feel free to send the pics whenever you're ready" |
 | "Yours, Stacey" | her most frequent sign-off on first replies |
 
