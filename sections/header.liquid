@@ -12,16 +12,11 @@
 {%- endif -%}
 
 {%- if settings.cart_type == "drawer" -%}
-  <link rel="stylesheet" href="{{ 'component-cart-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="{{ 'component-cart.css' | asset_url }}" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="{{ 'component-totals.css' | asset_url }}" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="{{ 'component-discounts.css' | asset_url }}" media="print" onload="this.media='all'">
-  <noscript>{{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}</noscript>
-  <noscript>{{ 'component-cart.css' | asset_url | stylesheet_tag }}</noscript>
-  <noscript>{{ 'component-totals.css' | asset_url | stylesheet_tag }}</noscript>
-  <noscript>{{ 'component-price.css' | asset_url | stylesheet_tag }}</noscript>
-  <noscript>{{ 'component-discounts.css' | asset_url | stylesheet_tag }}</noscript>
+  {{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}
+  {{ 'component-cart.css' | asset_url | stylesheet_tag }}
+  {{ 'component-totals.css' | asset_url | stylesheet_tag }}
+  {{ 'component-price.css' | asset_url | stylesheet_tag }}
+  {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
 {%- endif -%}
 
 <noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
@@ -35,19 +30,6 @@
     justify-self: start;
     margin-left: -1.2rem;
   }
-
-  {%- if settings.cart_type == "drawer" -%}
-    /* Keeps the cart drawer out of normal flow while its stylesheet loads async
-       above. Without this the closed drawer takes ~478px of layout space and
-       everything below it jumps when the CSS arrives. */
-    cart-drawer {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100%;
-    }
-  {%- endif -%}
 
   {%- if section.settings.sticky_header_type == 'reduce-logo-size' -%}
     .scrolled-past-header .header__heading-logo-wrapper {
