@@ -46,8 +46,8 @@
       "custom_css": [
         "p {font-weight: normal; text-shadow: 0 2px 7px rgba(0, 0, 0, 1); margin-bottom: 22px; font-size: calc(var(--font-heading-scale) * 2.2rem); line-height: 1.3em;}",
         "@media screen and (max-width: 749px) {p {font-size: calc(var(--font-heading-scale) * 1.7rem) !important; line-height: 1.2em; margin-top: 0.8em; }}",
-        ".banner__heading{text-shadow:0 2px 7px rgba(0,0,0,.95);}",
-        ".banner__text em{display:block;margin-top:.7em;font-size:1.1rem;font-style:normal;line-height:1.5;}"
+        ".banner__heading {text-shadow: 0 2px 7px rgba(0, 0, 0, 0.95);}",
+        ".banner__text em {display: block; margin-top: 0.7em; font-size: 1.1rem; font-style: normal; line-height: 1.5;}"
       ],
       "settings": {
         "image": "shopify://shop_images/Turn_Your_Ring_Into_a_Necklace_Section_Main_Top_Image.jpg",
@@ -75,6 +75,42 @@
         "padding_bottom": 12
       }
     },
+    "custom_necklaces": {
+      "type": "featured-collection-conditional",
+      "custom_css": [
+        ".slider-buttons {display: flex; margin-bottom: 0.5rem; padding-top: 2rem; border-top: 1px solid #dee0e3;}",
+        ".slider-counter {display: none;}",
+        ".collection__title {padding-bottom: 12px !important;}",
+        ".collection__title h2 {margin-bottom: 0rem; font-family: Nexa, sans-serif !important; font-size: calc(var(--font-heading-scale) * 2.3rem) !important; text-align: center;}",
+        ".collection__description p {font-size: calc(var(--font-heading-scale) * 1.6rem); text-align: center;}"
+      ],
+      "name": "Custom necklaces",
+      "settings": {
+        "title": "RECENT NECKLACES",
+        "heading_size": "h1",
+        "description": "<p>Many of these started as a ring. Let them inspire yours.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "custom-necklaces",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
     "main": {
       "type": "main-page",
       "custom_css": [
@@ -92,7 +128,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text p,\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text h3 {\ntext-align: center;\n}\n}\n\n\n.main-page-title{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}\n\n\n#MainContent .main-page-title ~ .rte p, #MainContent .main-page-title ~ .rte li, #MainContent .main-page-title ~ .rte a{font:400 1.6rem/25px \"GoudyOldStyle\",sans-serif!important;color:rgba(var(--color-foreground),0.75)!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte h2, #MainContent .main-page-title ~ .rte h3{font:400 28px/30px Nexa,sans-serif!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte ul, #MainContent .main-page-title ~ .rte ol{text-align:left!important;}\n\n\n#MainContent [class*=\"__main-padding\"]{padding-top:5rem!important;padding-bottom:5rem!important;padding-left:9rem!important;padding-right:9rem!important;}\n@media screen and (max-width:749px){#MainContent [class*=\"__main-padding\"]{padding-top:3rem!important;padding-bottom:3rem!important;padding-left:2rem!important;padding-right:2rem!important;}}\n</style>",
+        "custom_liquid": "<style>\n.rich-text__buttons .outter-button .button:hover{\n    background: #000 !important;\n}\n.banner__box .banner__heading+* {\n    margin-top: 0rem !important;\n}\n.banner__heading {\n  font-family: Nexa, sans-serif !important;\ntext-transform: uppercase;\n}\n@media screen and (max-width: 749px) {\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text p,\n#ImageWithText--template--25996792168731__image_with_text_qBVeG9 .image-with-text__text h3 {\ntext-align: center;\n}\n}\n\n\n.main-page-title{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}\n\n\n#MainContent .main-page-title ~ .rte p, #MainContent .main-page-title ~ .rte li, #MainContent .main-page-title ~ .rte a{font:400 1.6rem/25px \"GoudyOldStyle\",sans-serif!important;color:rgba(var(--color-foreground),0.75)!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte h2, #MainContent .main-page-title ~ .rte h3{font:400 21px/30px Nexa,sans-serif!important;text-align:left!important;}\n#MainContent .main-page-title ~ .rte ul, #MainContent .main-page-title ~ .rte ol{text-align:left!important;}\n\n\n#MainContent [class*=\"__main-padding\"]{padding-top:5rem!important;padding-bottom:5rem!important;padding-left:9rem!important;padding-right:9rem!important;}\n@media screen and (max-width:749px){#MainContent [class*=\"__main-padding\"]{padding-top:3rem!important;padding-bottom:3rem!important;padding-left:1rem!important;padding-right:1rem!important;}}\n</style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -221,42 +257,6 @@
         "padding_top": 36,
         "padding_bottom": 36,
         "mobile_content_alignment": "left"
-      }
-    },
-    "custom_necklaces": {
-      "type": "featured-collection-conditional",
-      "name": "Custom necklaces",
-      "custom_css": [
-        ".slider-buttons {display: flex; margin-bottom: 0.5rem; padding-top: 2rem; border-top: 1px solid #dee0e3;}",
-        ".slider-counter {display: none;}",
-        ".collection__title {padding-bottom: 12px !important;}",
-        ".collection__title h2 {margin-bottom: 0rem; font-family: Nexa, sans-serif !important; font-size: calc(var(--font-heading-scale) * 2.3rem) !important; text-align: center;}",
-        ".collection__description p {font-size: calc(var(--font-heading-scale) * 1.6rem); text-align: center;}"
-      ],
-      "settings": {
-        "title": "NECKLACES I'VE MADE",
-        "heading_size": "h1",
-        "description": "<p>Many of these started as a ring. Let them inspire yours.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "custom-necklaces",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 28
       }
     }
   },
