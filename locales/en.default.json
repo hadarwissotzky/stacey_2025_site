@@ -259,9 +259,10 @@
         "email": "Email",
         "phone": "Phone number (optional)",
         "budget": "Budget (optional)",
-        "comment": "Tell me a bit about what you would like to make.",
+        "comment": "What do you have, and what's prompting this?",
+        "comment_placeholder": "Metal, stones, and where your head's at \u2014 'no idea yet' is a perfectly good answer.",
         "send": "Send Message",
-        "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
+        "post_success": "Thank you \u2014 I've got your message and the photos. I read every one myself and I'll come back to you personally, usually within a day or two.",
         "error_heading": "Please adjust the following:"
       }
     },
