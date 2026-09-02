@@ -73,6 +73,25 @@
     gtag('event', name, params);
   }
 
+  /* Meta Lead, alongside the GA4 event. The Facebook & Instagram channel's pixel
+     runs in the main frame (runtimeContext OPEN), so fbq is reachable from theme
+     scope; if the library hasn't finished loading, fbq's own stub queues the call.
+     Gated on marketing consent, because a theme-level call bypasses the privacy
+     layer Shopify's own web pixels sit behind.
+
+     Why this exists: Meta had no lead signal at all. Its only conversion event was
+     Purchase, and this store almost never fires one -- custom work is quoted and
+     invoiced off-platform, consultations are booked through Bloom without a
+     checkout, and the gallery pieces have no add-to-cart. Optimising Meta
+     campaigns on Purchase here would train them on almost nothing. */
+  function metaLead(params) {
+    try {
+      var cp = window.Shopify && window.Shopify.customerPrivacy;
+      if (cp && typeof cp.marketingAllowed === 'function' && !cp.marketingAllowed()) return;
+      if (typeof window.fbq === 'function') window.fbq('track', 'Lead', params);
+    } catch (e) {}
+  }
+
   // ——— completed submission (Shopify re-renders the page on success) ———
   // Shopify sets posted_successfully? from ?contact_posted=true, so a refresh or a
   // back-navigation onto the thank-you page re-renders it as "posted" and would fire
@@ -93,6 +112,7 @@
     if (!sess('get', LEAD_FLAG)) {
       sess('set', LEAD_FLAG, '1');
       track('generate_lead', { form_id: 'contact' });
+      metaLead({ content_name: 'contact form' });
     }
   } else {
     sess('del', LEAD_FLAG);
