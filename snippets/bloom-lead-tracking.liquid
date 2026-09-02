@@ -17,6 +17,18 @@
     if (window.lzLeadTracked) return;
     window.lzLeadTracked = true;
 
+    /* Arriving here is the conversion, but a refresh or a back-navigation
+       re-renders the same page. window.lzLeadTracked only survives one load, so
+       both GA4 and Meta counted the reload as a second lead. Trade-off noted:
+       this snippet only renders on the thank-you page, so it cannot clear the
+       flag elsewhere -- a genuine second booking in the same session is
+       suppressed. Far rarer than a refresh. */
+    var BLOOM_FLAG = 'lz_bloom_lead_fired';
+    try {
+      if (sessionStorage.getItem(BLOOM_FLAG)) return;
+      sessionStorage.setItem(BLOOM_FLAG, '1');
+    } catch (e) {}
+
     var GA_ID = 'G-NL5P1911ZX';
 
     function gtag() {
@@ -51,24 +63,38 @@
       page_title: document.title
     });
 
-  /* Meta Lead, alongside the GA4 event. The Facebook & Instagram channel's pixel
-     runs in the main frame (runtimeContext OPEN), so fbq is reachable from theme
-     scope; if the library hasn't finished loading, fbq's own stub queues the call.
-     Gated on marketing consent, because a theme-level call bypasses the privacy
-     layer Shopify's own web pixels sit behind.
+    /* Meta Lead, alongside the GA4 event.
 
-     Why this exists: Meta had no lead signal at all. Its only conversion event was
-     Purchase, and this store almost never fires one -- custom work is quoted and
-     invoiced off-platform, consultations are booked through Bloom without a
-     checkout, and the gallery pieces have no add-to-cart. Optimising Meta
-     campaigns on Purchase here would train them on almost nothing. */
-  function metaLead(params) {
-    try {
-      var cp = window.Shopify && window.Shopify.customerPrivacy;
-      if (cp && typeof cp.marketingAllowed === 'function' && !cp.marketingAllowed()) return;
-      if (typeof window.fbq === 'function') window.fbq('track', 'Lead', params);
-    } catch (e) {}
-  }
+       Two things have to be true before this can fire, and neither is true when
+       this script first runs: the Facebook pixel is delivered by Shopify's async
+       web-pixels-manager, so window.fbq is still undefined at parse time, and the
+       customer-privacy API resolves separately. So wait for both rather than
+       testing once and giving up -- the earlier version tested `typeof fbq ===
+       "function"` immediately and silently dropped every Lead.
+
+       Fails closed on consent: if the privacy API has not resolved yet we keep
+       waiting rather than sending, and if it resolves to "marketing not allowed"
+       we never send at all. A theme-level fbq call bypasses the privacy layer
+       Shopify's own web pixels sit behind, so this has to gate itself.
+
+       Why it exists: Meta had no lead signal. Its only conversion event was
+       Purchase, which this store almost never fires -- custom work is invoiced off
+       Shopify, consultations book through Bloom without a checkout, and the gallery
+       products have no add-to-cart. */
+    function metaLead(params) {
+      var tries = 0;
+      (function attempt() {
+        var cp = window.Shopify && window.Shopify.customerPrivacy;
+        var consentKnown = cp && typeof cp.marketingAllowed === 'function';
+        if (consentKnown && !cp.marketingAllowed()) return;
+        if (consentKnown && typeof window.fbq === 'function') {
+          try { window.fbq('track', 'Lead', params); } catch (e) {}
+          return;
+        }
+        if (++tries > 40) return;
+        setTimeout(attempt, 250);
+      })();
+    }
     metaLead({ content_name: 'consultation booking' });
   })();
 </script>

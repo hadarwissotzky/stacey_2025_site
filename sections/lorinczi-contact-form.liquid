@@ -46,6 +46,16 @@
   .lorinczi-contact-form-1-{{ section.id }} .contact__button .button:hover {
     background-color: color-mix(in srgb, {{ section.settings.left_background_color }} 50%, white 50%) !important;
   }
+
+  /* Guidance under the message box. Dawn zeroes ::placeholder opacity -- the
+     attribute is only there to drive :placeholder-shown for the floating label --
+     so this copy has to be a real element to be readable at all. */
+  .lz-field-hint {
+    margin: 0.6rem 0 0;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: rgba(var(--color-foreground), 0.62);
+  }
 {%- endstyle -%}
 <div class="page-width">
   <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
@@ -166,7 +176,7 @@
                   rows="10"
                   id="ContactForm-body"
                   class="text-area field__input"
-                  name="contact[Message]"
+                  name="contact[body]"
                   placeholder="{{ 'templates.contact.form.comment_placeholder' | t }}"
                 >
           {{- form.body -}}
@@ -175,6 +185,7 @@
                   {{- 'templates.contact.form.comment' | t -}}
                 </label>
               </div>
+              <p class="lz-field-hint">{{ 'templates.contact.form.comment_placeholder' | t }}</p>
               <!-- … all your other <div class="field"> blocks … -->
             
               <!-- 1) HIDDEN FIELDS FOR XANO INTEGRATION -->
