@@ -82,11 +82,14 @@
         "text_main"
       ],
       "custom_css": [
-        ".rich-text__blocks {max-width: 85rem;}",
-        ".rich-text__heading {font-family: \"Nexa\" !important; font-size: calc(var(--font-heading-scale) * 2.3rem); font-weight: 300;}",
-        "p {font-size: calc(var(--font-heading-scale) * 1.8rem);}",
-        ".rich-text h3 {font-family: \"GoudyOldStyle\" !important;}",
-        ".rich-text__text h5 a {color: #919191; font-family: \"A-Gothic\" !important;}"
+        "{width:80%;margin-left:auto;margin-right:auto}",
+        ".rich-text__blocks{max-width:none}",
+        ".rich-text__wrapper{padding-inline:90px}",
+        ".rich-text__heading{font-family:\"Nexa\"!important;font-size:calc(var(--font-heading-scale)*2.3rem);font-weight:300}",
+        "p{font-size:calc(var(--font-heading-scale)*1.8rem)}",
+        ".rich-text h3{font-family:\"GoudyOldStyle\"!important}",
+        ".rich-text__text h5 a{color:#919191;font-family:\"A-Gothic\"!important}",
+        "@media(max-width:749px){{width:90%}.rich-text__wrapper{padding-inline:2rem!important}}"
       ],
       "settings": {
         "desktop_content_position": "center",
