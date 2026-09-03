@@ -22,7 +22,7 @@
         "text_C9CghG": {
           "type": "text",
           "settings": {
-            "text": "I reset your own stone and gold into a pendant you&rsquo;ll actually reach for. <em>Free consultation &middot; Insured &amp; tracked both ways &middot; Made by one person &mdash; me</em>",
+            "text": "I reset your own stone and gold into a pendant you’ll actually reach for",
             "text_style": "body"
           }
         },
@@ -78,17 +78,21 @@
     "custom_necklaces": {
       "type": "featured-collection-conditional",
       "custom_css": [
-        ".slider-buttons {display: flex; margin-bottom: 0.5rem; padding-top: 2rem; border-top: 1px solid #dee0e3;}",
-        ".slider-counter {display: none;}",
-        ".collection__title {padding-bottom: 12px !important;}",
-        ".collection__title h2 {margin-bottom: 0rem; font-family: Nexa, sans-serif !important; font-size: calc(var(--font-heading-scale) * 2.3rem) !important; text-align: center;}",
-        ".collection__description p {font-size: calc(var(--font-heading-scale) * 1.6rem); text-align: center;}"
+        ".product-card-wrapper .card{--border-width:none;--image-padding:0}",
+        ".price,.slider-counter,.card:not(.ratio)>.card__content{display:none}",
+        ".card--media .card__inner .card__content{padding:0;width:100%}",
+        ".card-wrapper{border-bottom:1px solid #dee0e3}",
+        ".grid{margin-bottom:0}",
+        ".slider__slide{padding:0!important;margin:0!important}",
+        ".slider:after{display:none!important}",
+        ".slider-buttons{display:flex!important;padding-block:2rem 1.2rem}",
+        ".collection__title h2{font:21px Nexa!important;text-align:center}"
       ],
       "name": "Custom necklaces",
       "settings": {
         "title": "RECENT NECKLACES",
-        "heading_size": "h1",
-        "description": "<p>Many of these started as a ring. Let them inspire yours.</p>",
+        "heading_size": "h2",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "custom-necklaces",
@@ -96,9 +100,9 @@
         "columns_desktop": 4,
         "full_width": true,
         "show_view_all": false,
-        "view_all_style": "solid",
+        "view_all_style": "outline",
         "enable_desktop_slider": true,
-        "color_scheme": "background-1",
+        "color_scheme": "",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -107,8 +111,8 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 28
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "main": {
@@ -256,7 +260,11 @@
         "header_text_color": "#ffffff",
         "padding_top": 36,
         "padding_bottom": 36,
-        "mobile_content_alignment": "left"
+        "mobile_content_alignment": "left",
+        "form_provider": "native",
+        "bloom_form_url": "",
+        "bloom_questionnaire_id": "kj49qxnw1dl12",
+        "bloom_height": 1200
       }
     }
   },
