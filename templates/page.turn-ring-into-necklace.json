@@ -82,7 +82,7 @@
         ".price,.slider-counter,.card:not(.ratio)>.card__content{display:none}",
         ".card--media .card__inner .card__content{padding:0;width:100%}",
         ".card-wrapper{border-bottom:1px solid #dee0e3}",
-        ".grid{margin-bottom:0}",
+        ".grid{margin-bottom:0;column-gap:0}",
         ".slider__slide{padding:0!important;margin:0!important}",
         ".slider:after{display:none!important}",
         ".slider-buttons{display:flex!important;padding-block:2rem 1.2rem}",

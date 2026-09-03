@@ -102,7 +102,7 @@
   flex-wrap: nowrap !important;
   overflow-x: auto !important;
   scroll-snap-type: x mandatory !important;
-  gap: 1.5rem !important;
+  gap: 0 !important;
 }
 
 .page-turn-ring-into-necklace [id$="__custom_necklaces"] .slider__slide {
@@ -130,6 +130,14 @@
    any page that loads it, which forced these 347px-wide square cards to 750px
    tall and left a deep empty band above each photo. Clearing min-height lets
    the square aspect ratio drive the height again. */
+/* The photos are mixed aspect ratios in a square frame. RECENT REDESIGNS on
+   /pages/jewelry-redesign renders them with object-fit:cover, so each fills its
+   tile; here they were inheriting `contain`, which letterboxed every non-square
+   image and read as white gaps between the pictures. */
+.page-turn-ring-into-necklace [id$="__custom_necklaces"] img {
+  object-fit: cover !important;
+}
+
 .page-turn-ring-into-necklace [id$="__custom_necklaces"] .card__inner,
 .page-turn-ring-into-necklace [id$="__custom_necklaces"] .card__inner.ratio,
 .page-turn-ring-into-necklace [id$="__custom_necklaces"] .card-wrapper,
