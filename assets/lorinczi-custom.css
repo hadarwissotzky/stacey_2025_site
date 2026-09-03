@@ -283,3 +283,18 @@
     margin-right: auto;
   }
 }
+
+/* ---------------------------------------------------------------------------
+   Product description links
+
+   sections/custom-font.liquid applies the theme's body face to
+   `h1..h6,p,a,span,body,ul,li,small,div` with !important, which catches inline
+   links inside the product description and renders them in A Gothic while the
+   prose around them is GoudyOldStyle. The blanket rule is driven by a theme
+   setting and is right for navigation and buttons, so it stays; this is a
+   scoped exception for links sitting inside body copy on product pages.
+--------------------------------------------------------------------------- */
+.template-product .product__description a,
+.template-product .product__description a:visited {
+  font-family: 'GoudyOldStyle', sans-serif !important;
+}
