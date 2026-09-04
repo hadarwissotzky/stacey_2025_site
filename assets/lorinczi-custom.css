@@ -256,9 +256,13 @@
    These templates centre their main section at 70-80% width, which is right on
    desktop but wastes a fifth of an already narrow phone screen and forces the
    copy into a tall, thin column. Full width below 750px; desktop untouched.
+
+   Scoped to .template-page. Product, collection, index and article pages also
+   carry a __main section, but theirs is already full width — the rule only
+   ever did anything here.
 --------------------------------------------------------------------------- */
 @media screen and (max-width: 749px) {
-  [id$="__main"] {
+  .template-page [id$="__main"] {
     width: 100% !important;
   }
 }
