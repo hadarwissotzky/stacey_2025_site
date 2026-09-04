@@ -267,25 +267,13 @@
   }
 }
 
-@media screen and (max-width: 749px) {
-  .page-jewelry-redesign #MainContent .main-page-title ~ .rte h2,
-  .page-jewelry-redesign-san-francisco #MainContent .main-page-title ~ .rte h2,
-  .page-jewelry-redesign-marin #MainContent .main-page-title ~ .rte h2,
-  .page-jewelry-redesign-palo-alto #MainContent .main-page-title ~ .rte h2,
-  .page-remake-wedding-band #MainContent .main-page-title ~ .rte h2,
-  .page-turn-ring-into-necklace #MainContent .main-page-title ~ .rte h2,
-  .page-reset-diamond-ring #MainContent .main-page-title ~ .rte h2,
-  .page-redesign-engagement-ring #MainContent .main-page-title ~ .rte h2,
-  .page-use-your-own-gems-metal #MainContent .main-page-title ~ .rte h2,
-  /* the Refining detail custom-liquid block isn't a sibling of .main-page-title,
-     so it needs its own selector to pick up the same centring */
-  .page-use-your-own-gems-metal .custom-liquid-redesign .rte h2 {
-    text-align: center !important;
-    text-wrap: balance;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+/* Mobile headings are left-aligned, per the mobile spec in
+   THEME-PAGE-TYPOGRAPHY.md (reference /pages/heirloom-jewelry-redesign).
+   This block used to centre them on ten pages, and because its selector
+   carries one class more than the pages' own `#MainContent … h2`, it beat
+   every page-level `text-align:left!important`. Removed rather than
+   overridden. If a page ever needs centred mobile headings again, add it
+   here and expect to fight the page block. */
 
 /* ---------------------------------------------------------------------------
    Product description links

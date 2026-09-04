@@ -136,12 +136,19 @@ and in the `main` section's own `custom_css`, which Shopify scopes to
 
 ### Mobile traps
 
-**The heading-centring rule in `assets/lorinczi-custom.css` outranks the page
-block.** It lists pages as `.page-<handle> #MainContent .main-page-title ~ .rte h2`
-— one class more specific than the page's own `#MainContent … h2`, so the page's
-`text-align:left!important` can never win. To left-align a page, **remove its
-handle from that selector list**; do not add a third override. Check the other
-pages on the list still centre afterwards.
+**The heading-centring rule in `assets/lorinczi-custom.css` is gone** (removed
+2026-09-04). It listed pages as `.page-<handle> #MainContent .main-page-title ~
+.rte h2` — one class more specific than the page's own `#MainContent … h2`, so
+no page-level `text-align:left!important` could ever beat it. If mobile headings
+ever centre again, that block has come back; delete it rather than overriding.
+
+**Put the mobile block in the LAST enabled style block on the page, not the
+first.** Several templates carry two sections with `#MainContent .main-page-title
+~ .rte` rules (jewelry-redesign-cost and redesign-your-engagment do), and on
+redesign-your-engagment the later one is confusingly named `related_links`.
+Equal specificity means source order decides, so a block inserted into the
+earlier section loses to the 1.6rem body rule in the later one and nothing
+changes on the page.
 
 **`list-style-position: inside` is usually already set**, so setting it again
 changes nothing. The declaration that actually moves bullets is
@@ -152,27 +159,38 @@ not the CSS.
 to desktop rules with the same selectors; it is easy to move both. Confirm the
 desktop numbers are untouched before calling it done.
 
-### Conformance, measured 2026-09-04
+### Conformance
 
-Only the reference page is on this spec. Recorded so nobody assumes the others
-already match:
+**Rolled out 2026-09-04. All fifteen content pages measure to the mobile spec**
+at 390px: lead 16 · heading 20 left · body 17 · gutters 20px · lists flush.
+Desktop was re-measured on all of them and is unchanged.
 
-| Page | lead | heading | body | gutter | list |
-|---|---|---|---|---|---|
-| heirloom-jewelry-redesign | 16 | 20 left | 17 | 20px | 0 |
-| jewelry-redesign | 21 | 21 **centre** | 16 | 10px | 20px |
-| jewelry-redesign-cost | — | **28** left | 16 | 10px | — |
-| gold-allergy-rings | 16 | 21 left | 16 | 10px | 20px |
-| ring-resizing-cost | 21 | 21 left | **21** | 10px | 20px |
-| reset-diamond-ring | 21 | 21 **centre** | 16 | 10px | 20px |
-| remake-wedding-band | 21 | 21 **centre** | 16 | 10px | — |
-| turn-ring-into-necklace | 21 | 21 **centre** | 16 | 10px | — |
-| divorce guide | 21 | 21 left | **21** | 20px | — |
-| widow guide | 21 | 21 left | **21** | 20px | 20px |
-| jewelry-redesign-san-francisco | 21 | 21 **centre** | 16 | 10px | 20px |
+The pages carrying the block:
 
-`/pages/use-your-own-gems-metal` has no enabled `main` section, so it has no row.
+```
+heirloom-jewelry-redesign     jewelry-redesign           jewelry-redesign-cost
+jewelry-redesign-cost-in-san-francisco                   gold-allergy-rings
+ring-resizing-cost            reset-diamond-ring         remake-wedding-band
+turn-ring-into-necklace       divorce guide              widow guide
+jewelry-redesign-san-francisco  -marin  -palo-alto       redesign-engagement-ring
+custom-engagement-rings (template only — the page is unpublished, 404s)
+```
 
+Two content-shape exceptions, both fine:
+
+- **jewelry-redesign-cost has no lead paragraph.** It opens straight on an `h2`,
+  so there is nothing for the lead rule to size. Its body copy is 17px as
+  specified.
+- **Some pages lead with an `h4`, others with a plain first paragraph.** The
+  mobile block sizes both: `h4` from the `main` section's `custom_css`, and
+  `.rte > p:first-child` from the page style block.
+
+### Two desktop deviations, pre-existing, not touched by the rollout
+
+Recorded so they are not mistaken for rollout damage. Both were already there:
+
+- `/pages/jewelry-redesign-cost` renders `h2` at **28px** on desktop, not 21.
+- `/pages/gold-allergy-rings` renders its lead at **16px** on desktop, not 21.
 
 ## Traps, all of which have cost time
 
