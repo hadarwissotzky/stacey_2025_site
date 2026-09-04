@@ -276,7 +276,6 @@
   .page-turn-ring-into-necklace #MainContent .main-page-title ~ .rte h2,
   .page-reset-diamond-ring #MainContent .main-page-title ~ .rte h2,
   .page-redesign-engagement-ring #MainContent .main-page-title ~ .rte h2,
-  .page-heirloom-jewelry-redesign #MainContent .main-page-title ~ .rte h2,
   .page-use-your-own-gems-metal #MainContent .main-page-title ~ .rte h2,
   /* the Refining detail custom-liquid block isn't a sibling of .main-page-title,
      so it needs its own selector to pick up the same centring */
