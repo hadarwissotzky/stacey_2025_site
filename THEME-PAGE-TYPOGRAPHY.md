@@ -1,9 +1,13 @@
 # Page typography & spacing spec
 
-The reference is **`/pages/jewelry-redesign`**. `/pages/heirloom-jewelry-redesign`
-matches it exactly; treat either as canonical. Every content page should measure
-the same. Values below are computed values on the live site at 1440px and 390px —
-they are identical at both widths unless noted.
+**Desktop reference: `/pages/jewelry-redesign`.** `/pages/heirloom-jewelry-redesign`
+matches it at 1440px; treat either as canonical there.
+
+**Mobile reference: `/pages/heirloom-jewelry-redesign`** (set 2026-09-04). Below
+750px the page does *not* just reflow the desktop scale, it uses its own, which
+is in "Mobile" below. Where the two specs disagree, the width decides.
+
+Values are computed values measured on the live site.
 
 Verify a page with the browser, not by reading CSS: several stylesheets on this
 theme set the same properties with `!important`, so what a rule says and what an
@@ -78,6 +82,98 @@ jewelry-redesign the lead is an `<h4>`, which already resolves to 2.1rem — do 
 retag paragraphs as headings to get the size, it pushes the heading hierarchy
 further out of shape on pages that already have no visible `h1`.
 
+## Mobile, below 750px
+
+The desktop scale does not survive a 390px screen: a 21px lead paragraph over
+16px body reads as a wall, centred headings fight left-aligned copy, and 10px
+gutters put text against the glass. Measured on `/pages/heirloom-jewelry-redesign`:
+
+| Element | Desktop | **Mobile** |
+|---|---|---|
+| Lead paragraph (`h4`) | 21px | **16px** |
+| Section heading `h2`/`h3` | 21px / 30px | **20px / 30px** |
+| Heading alignment | left | **left** (not centred) |
+| Body `p` / `li` | 16px / 25px | **17px / 25px** |
+| Content width | 80% | 90% |
+| Gutters (`__main-padding` left/right) | 90px | **2rem** |
+| Vertical padding (`__main-padding`) | 5rem | **3rem** |
+| List indent (`.rte ul/ol` padding-left) | 20px | **0**, flush with the copy |
+
+Body copy is deliberately one step *larger* than the lead on mobile. On a narrow
+screen the lead's job is to introduce, not to dominate, and 17px body is the
+readable size. Do not "fix" the inversion.
+
+Vertical rhythm is inherited, not re-specified: the spacer paragraphs that
+produce the desktop 70 / 58 / 4 are still doing the work, but the smaller lead
+and larger body shift the result to **63 / 57-59 / 4** at 390. Those are the
+numbers to check against, not the desktop ones.
+
+### The CSS
+
+In the page's style block (the `custom-liquid` section that holds
+`#MainContent .main-page-title ~ .rte` rules), one media query:
+
+```
+@media screen and (max-width:749px){
+#MainContent .main-page-title ~ .rte h2,#MainContent .main-page-title ~ .rte h3
+  {font:400 20px/30px Nexa,sans-serif!important;text-align:left!important;}
+#MainContent .main-page-title ~ .rte p,#MainContent .main-page-title ~ .rte li,
+#MainContent .main-page-title ~ .rte a
+  {font-size:calc(var(--font-heading-scale) * 1.7rem)!important;padding:0!important;}
+.rte ul,.rte ol{list-style-position:inside;padding-left:0rem;}
+}
+@media screen and (max-width:749px){#MainContent [class*="__main-padding"]
+  {padding-top:3rem!important;padding-bottom:3rem!important;
+   padding-left:2rem!important;padding-right:2rem!important;}}
+```
+
+and in the `main` section's own `custom_css`, which Shopify scopes to
+`#shopify-section-…__main` for you, so a bare `h4` is enough:
+
+```
+@media screen and (max-width: 749px) {{width: 90%;} h4 {font: 400 1.6rem / 25px "GoudyOldStyle" !important;}}
+```
+
+### Mobile traps
+
+**The heading-centring rule in `assets/lorinczi-custom.css` outranks the page
+block.** It lists pages as `.page-<handle> #MainContent .main-page-title ~ .rte h2`
+— one class more specific than the page's own `#MainContent … h2`, so the page's
+`text-align:left!important` can never win. To left-align a page, **remove its
+handle from that selector list**; do not add a third override. Check the other
+pages on the list still centre afterwards.
+
+**`list-style-position: inside` is usually already set**, so setting it again
+changes nothing. The declaration that actually moves bullets is
+`padding-left: 0`. Measure the `li` left edge against the paragraph left edge,
+not the CSS.
+
+**Measure both widths on every change.** These rules live in media queries next
+to desktop rules with the same selectors; it is easy to move both. Confirm the
+desktop numbers are untouched before calling it done.
+
+### Conformance, measured 2026-09-04
+
+Only the reference page is on this spec. Recorded so nobody assumes the others
+already match:
+
+| Page | lead | heading | body | gutter | list |
+|---|---|---|---|---|---|
+| heirloom-jewelry-redesign | 16 | 20 left | 17 | 20px | 0 |
+| jewelry-redesign | 21 | 21 **centre** | 16 | 10px | 20px |
+| jewelry-redesign-cost | — | **28** left | 16 | 10px | — |
+| gold-allergy-rings | 16 | 21 left | 16 | 10px | 20px |
+| ring-resizing-cost | 21 | 21 left | **21** | 10px | 20px |
+| reset-diamond-ring | 21 | 21 **centre** | 16 | 10px | 20px |
+| remake-wedding-band | 21 | 21 **centre** | 16 | 10px | — |
+| turn-ring-into-necklace | 21 | 21 **centre** | 16 | 10px | — |
+| divorce guide | 21 | 21 left | **21** | 20px | — |
+| widow guide | 21 | 21 left | **21** | 20px | 20px |
+| jewelry-redesign-san-francisco | 21 | 21 **centre** | 16 | 10px | 20px |
+
+`/pages/use-your-own-gems-metal` has no enabled `main` section, so it has no row.
+
+
 ## Traps, all of which have cost time
 
 **The 500-character cap on section `custom_css` is enforced on push.** `shopify
@@ -112,15 +208,27 @@ current work; noted so nobody "fixes" one page in isolation.
 
 ## Checking a page
 
+Both widths, every time. For the section holding the prose:
+
 ```
-1440 and 390. For the section holding the prose:
-  lead font-size                     21px
-  heading font-size / transform      21px / uppercase
-  body font-size / line-height       16px / 25px
-  gap lead → first heading           70px
-  gap body → heading                 58px
-  gap heading → body                 4px
+at 1440                              at 390
+  lead                21px             16px
+  heading             21px             20px
+  heading align       left             left
+  body / line-height  16px / 25px      17px / 25px
+  gutters             90px             2rem
+  list padding-left   20px             0
+  gap lead → heading  70px             63px
+  gap body → heading  58px             57-59px
+  gap heading → body  4px              4px
+  heading transform   uppercase        uppercase
 ```
+
+The mobile gaps are not the desktop ones. They come out of the same empty
+spacer paragraphs, but the lead is 5px smaller and the body 1px larger at 390,
+so the arithmetic lands at 63 and 57-59 rather than 70 and 58. Measure between
+*text-bearing* blocks; between raw siblings you will read 21 / 17 / 4 and think
+the page is broken.
 
 Measure gaps between *consecutive siblings*, not between elements of a given tag —
 filtering out empty paragraphs hides the spacers that produce heirloom's rhythm and

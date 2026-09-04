@@ -73,9 +73,14 @@ timing.
 matches it. **THEME-PAGE-TYPOGRAPHY.md** holds the numbers, the CSS that produces
 them, and the traps. Read it before styling any content page.
 
-The short version: lead 21px, headings 21px/30px Nexa uppercase, body 16px/25px
-GoudyOldStyle, 70px under the lead, 58px above a heading, 4px under it, 16px
-between paragraphs, content at 80% width. Section `custom_css` is capped at 500
+There are **two specs, one per width**, and they are not the same numbers.
+Desktop (reference `/pages/jewelry-redesign`): lead 21px, headings 21px/30px Nexa
+uppercase, body 16px/25px GoudyOldStyle, 70px under the lead, 58px above a
+heading, 4px under it, content 80% width, 90px gutters. Mobile below 750px
+(reference `/pages/heirloom-jewelry-redesign`): lead 16px, headings 20px
+left-aligned, body 17px, 2rem gutters, 3rem vertical padding, lists flush at
+`padding-left:0`, content 90% width. Mobile is its own scale, not a reflow.
+Measure both widths on every change. Section `custom_css` is capped at 500
 characters and the cap **is enforced on push**.
 
 ## Headings — use the theme's rich-text markup, never a bare `<h2>`
