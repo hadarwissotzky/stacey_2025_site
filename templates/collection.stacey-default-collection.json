@@ -13,7 +13,8 @@
       "type": "main-collection-banner",
       "custom_css": [
         "h1{margin-top:1.3rem!important;font-size:2.3rem!important;font-style:var(--font-heading-style)!important;font-weight:var(--font-heading-weight)!important;letter-spacing:.06rem;color:rgb(var(--color-foreground))!important;line-height:1.3!important;word-break:break-word;font-family:\"A Gothic\"!important;text-transform:uppercase}",
-        "p{font-size:1.7rem!important;line-height:22.1px!important}"
+        "p{font-size:1.7rem!important;line-height:22.1px!important}",
+        "a{font-family:GoudyOldStyle,serif!important}"
       ],
       "settings": {
         "show_collection_description": true,
