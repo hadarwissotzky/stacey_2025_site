@@ -75,9 +75,17 @@
           "settings": {
             "text": "<p>If you have old jewelry sitting in a drawer, I can repurpose it into something you'll actually wear. I use your own gems to adapt one of my designs or create something entirely new — working with your materials preserves sentimental value, saves cost, and reduces environmental impact.</p><p>If you have old gold or platinum jewelry you no longer wear, I can refine it and apply its full value toward your new piece. I'm committed to transparent, eco-friendly refining, fair pricing, and working within your budget. </p><p>Ready to start? Send photos of your jewelry or gems and share your vision. Together, we'll transform your materials into a piece you'll truly treasure.</p>"
           }
+        },
+        "text_lead": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether it’s revitalizing a cherished heirloom, adapting one of my designs, or creating something new, I’m happy to use your gems. Using your materials preserves sentimental value, cuts costs, and reduces environmental impact.</p>",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
+        "text_lead",
         "heading_main",
         "text_main"
       ],
@@ -85,11 +93,11 @@
         "{width:80%;margin-left:auto;margin-right:auto}",
         ".rich-text__blocks{max-width:none}",
         ".rich-text__wrapper{padding-inline:90px}",
-        ".rich-text__heading{font-family:\"Nexa\"!important;font-size:calc(var(--font-heading-scale)*2.3rem);font-weight:300}",
-        "p{font-size:calc(var(--font-heading-scale)*1.8rem)}",
-        ".rich-text h3{font-family:\"GoudyOldStyle\"!important}",
+        ".rich-text__heading{font-family:\"Nexa\"!important;font-size:2.3rem;font-weight:300;margin-top:44px}",
+        "p{font-size:1.8rem}",
         ".rich-text__text h5 a{color:#919191;font-family:\"A-Gothic\"!important}",
-        "@media(max-width:749px){{width:90%}.rich-text__wrapper{padding-inline:2rem!important}}"
+        "@media(max-width:749px){{width:90%}.rich-text__wrapper{padding-inline:2rem!important}}",
+        "div.rich-text__text:first-of-type p{font-size:2.1rem!important}"
       ],
       "settings": {
         "desktop_content_position": "center",
