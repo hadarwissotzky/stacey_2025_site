@@ -79,8 +79,7 @@
         "text_lead": {
           "type": "text",
           "settings": {
-            "text": "<p>Whether it’s revitalizing a cherished heirloom, adapting one of my designs, or creating something new, I’m happy to use your gems. Using your materials preserves sentimental value, cuts costs, and reduces environmental impact.</p>",
-            "text_style": "body"
+            "text": "<p>Whether it’s revitalizing a cherished heirloom, adapting one of my designs, or creating something new, I’m happy to use your gems. Using your materials preserves sentimental value, cuts costs, and reduces environmental impact.</p>"
           }
         }
       },
@@ -93,11 +92,10 @@
         "{width:80%;margin-left:auto;margin-right:auto}",
         ".rich-text__blocks{max-width:none}",
         ".rich-text__wrapper{padding-inline:90px}",
-        ".rich-text__heading{font-family:\"Nexa\"!important;font-size:2.3rem;font-weight:300;margin-top:44px}",
-        "p{font-size:1.8rem}",
-        ".rich-text__text h5 a{color:#919191;font-family:\"A-Gothic\"!important}",
-        "@media(max-width:749px){{width:90%}.rich-text__wrapper{padding-inline:2rem!important}}",
-        "div.rich-text__text:first-of-type p{font-size:2.1rem!important}"
+        ".rich-text__heading{font:400 2.1rem/30px Nexa!important;text-transform:uppercase;margin:58px 0 4px}",
+        "p{font:400 1.6rem/25px GoudyOldStyle!important;margin-bottom:16px}",
+        "div.rich-text__text:first-of-type p{font-size:2.1rem!important;margin-bottom:70px}",
+        "@media(max-width:749px){{width:90%}.rich-text__wrapper{padding-inline:2rem!important}}"
       ],
       "settings": {
         "desktop_content_position": "center",

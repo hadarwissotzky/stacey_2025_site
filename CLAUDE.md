@@ -58,6 +58,17 @@ grief/divorce/heirloom surfaces, ICP-COMMUNICATION-PLAYBOOK.md is binding on reg
 one woman (never about "widows" as a class), plain words for death, prescribe method never
 timing.
 
+## Page typography & spacing — one spec, measured not guessed
+
+`/pages/jewelry-redesign` is the reference; `/pages/heirloom-jewelry-redesign`
+matches it. **THEME-PAGE-TYPOGRAPHY.md** holds the numbers, the CSS that produces
+them, and the traps. Read it before styling any content page.
+
+The short version: lead 21px, headings 21px/30px Nexa uppercase, body 16px/25px
+GoudyOldStyle, 70px under the lead, 58px above a heading, 4px under it, 16px
+between paragraphs, content at 80% width. Section `custom_css` is capped at 500
+characters and the cap **is enforced on push**.
+
 ## Headings — use the theme's rich-text markup, never a bare `<h2>`
 
 When adding a section heading + subtext, match the full visual treatment via the theme's
