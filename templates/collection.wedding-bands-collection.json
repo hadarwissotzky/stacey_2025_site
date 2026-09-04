@@ -35,7 +35,7 @@
         "text_wGgtaJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Need inspiration? Customize any of these to your specifications, or let them spark a new idea.</p>"
+            "text": "<p>I make wedding bands for couples who want something that’s truly theirs—custom his-and-hers rings, handmade in solid gold and diamond in my San Francisco studio. I can personalize them with engraving, texture, or <a href=\"/pages/use-your-own-gems-metal\">the gold and stones you already own</a>. Ready to begin? Let’s <a href=\"/pages/custom-design-journey\">design your bands together</a>.</p>"
           }
         }
       },
@@ -44,7 +44,8 @@
         "text_wGgtaJ"
       ],
       "custom_css": [
-        "p {font-size: calc(var(--font-heading-scale) * 1.7rem);}"
+        "p {font-size: calc(var(--font-heading-scale) * 1.7rem);}",
+        "a{font-family:GoudyOldStyle,serif!important}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {

@@ -34,7 +34,7 @@
         "text_dyz7XT": {
           "type": "text",
           "settings": {
-            "text": "<p>Need inspiration? Customize any of these to your specifications, or let them spark a new idea.</p>"
+            "text": "<p>I design unique engagement rings the way you’d design a marriage—one of a kind, made just for you. Each ring is handmade in solid gold with the diamond or stone of your choosing, often <a href=\"/pages/redesign-engagement-ring\">reset from a diamond you already own</a>. If you have an idea (or just a feeling), I’d love to <a href=\"/pages/custom-design-journey\">design it with you</a>.</p>"
           }
         }
       },
@@ -43,7 +43,8 @@
         "text_dyz7XT"
       ],
       "custom_css": [
-        "p {font-size: calc(var(--font-heading-scale) * 1.7rem);}"
+        "p {font-size: calc(var(--font-heading-scale) * 1.7rem);}",
+        "a{font-family:GoudyOldStyle,serif!important}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {

@@ -81,7 +81,7 @@
         "text_M3xyeG": {
           "type": "text",
           "settings": {
-            "text": "<p>Let my past creations inspire a one-of-a-kind design made just for you.</p>"
+            "text": "<p>Every piece here was made for one person — bespoke rings, necklaces, earrings and bracelets, handmade in sterling silver and solid gold in my San Francisco studio. Many began as <a href=\"/pages/heirloom-jewelry-redesign\">an heirloom</a> or a stone someone already owned. Browse for inspiration, then let’s <a href=\"/pages/custom-design-journey\">design yours</a>.</p>"
           }
         },
         "button_cta": {
@@ -103,7 +103,8 @@
         "button_cta"
       ],
       "custom_css": [
-        "p {font-size: calc(var(--font-heading-scale) * 1.7rem);}"
+        "p {font-size: calc(var(--font-heading-scale) * 1.7rem);}",
+        "a{font-family:GoudyOldStyle,serif!important}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {

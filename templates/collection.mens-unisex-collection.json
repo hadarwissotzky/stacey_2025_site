@@ -34,7 +34,7 @@
         "text_wqHhiE": {
           "type": "text",
           "settings": {
-            "text": "<p>Need inspiration? Customize any of these to your specifications, or let them spark a new idea.</p>"
+            "text": "<p>I make men’s and unisex rings with presence—bold, sculptural bands handmade in sterling silver and solid gold in my San Francisco studio, made to be worn by anyone. Want yours personalized, or built from <a href=\"/pages/use-your-own-gems-metal\">metal you already own</a>? Let’s <a href=\"/pages/custom-design-journey\">design it together</a>.</p>"
           }
         }
       },
@@ -43,7 +43,8 @@
         "text_wqHhiE"
       ],
       "custom_css": [
-        "p {font-size: calc(var(--font-heading-scale) * 1.7rem);}"
+        "p {font-size: calc(var(--font-heading-scale) * 1.7rem);}",
+        "a{font-family:GoudyOldStyle,serif!important}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
