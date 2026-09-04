@@ -191,7 +191,8 @@
         ".rich-text__blocks {max-width: 972px !important;}",
         "h1,h2 {font: 400 21px/30px Nexa, sans-serif !important; text-transform: uppercase; margin: 58px 0 4px; text-align: left !important;}",
         "p {font: 400 16px/25px \"GoudyOldStyle\", serif !important; margin: 0 0 16px;}",
-        ".rich-text__text {margin-top: 0 !important;}"
+        ".rich-text__text {margin-top: 0 !important;}",
+        "a {font: 400 16px/25px \"GoudyOldStyle\", serif !important;}"
       ],
       "settings": {
         "desktop_content_position": "center",
