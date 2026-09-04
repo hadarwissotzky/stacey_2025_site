@@ -35,6 +35,19 @@ element renders are often different things.
 | paragraph → paragraph | **16px** |
 | paragraph → list | 16px |
 
+## When prose spans two sections
+
+`/pages/use-your-own-gems-metal` runs its copy across a rich-text section and a
+custom-liquid section. Together they are one flow, so the join must read like any
+other body-to-heading gap: **58px**, not the sum of both sections' padding.
+
+Zero `padding_bottom` on the upper section and `padding_top` on the lower one,
+override any inline padding on the inner wrapper, and let the heading's margin
+supply the gap. The previous paragraph's 16px does not collapse across the
+boundary on desktop, so the first heading needs `margin-top: 42px` there to land
+on 58 — but on narrow screens, with every padding at zero, the margins *do*
+collapse and it needs the full 58. Set both.
+
 ## How to hit them
 
 Section `custom_css`, on the section holding the prose:
