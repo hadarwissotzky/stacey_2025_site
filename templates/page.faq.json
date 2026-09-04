@@ -64,7 +64,7 @@
           "settings": {
             "heading": "Is Custom Jewelry Expensive?",
             "icon": "none",
-            "row_content": "<h5>Custom jewelry can be surprisingly affordable! I start by understanding your budget and work with you to make smart, creative choices. Even with a limited budget, we can find innovative solutions—often, creativity thrives within constraints. My goal is to bring your vision to life in a way that fits your style and finances.</h5>",
+            "row_content": "<h5>Custom jewelry can be surprisingly affordable! I start by understanding your budget and work with you to make smart, creative choices. Even with a limited budget, we can find innovative solutions, often, creativity thrives within constraints. My goal is to bring your vision to life in a way that fits your style and finances.</h5>",
             "page": ""
           }
         },
@@ -73,7 +73,7 @@
           "settings": {
             "heading": "Do you work with clients remotely?",
             "icon": "none",
-            "row_content": "<h5>Absolutely! I can collaborate with you no matter where you are. You can expect a straightforward and transparent design process, with involvement every step of the way—from initial sketches to the final creation. With regular updates, photos, and videos, you’ll be part of the entire process, ensuring your finished piece is exactly as you imagined—no surprises, just the joy of seeing your vision come to life.</h5><h5>Consultations are available via phone, video, or your preferred method. Feel free to <a href=\"/pages/contact\" title=\"Contact\"><span style=\"text-decoration:underline\">email me</span></a> or <a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\"><span style=\"text-decoration:underline\">schedule a virtual consultation</span></a> to start your custom jewelry journey.</h5>",
+            "row_content": "<h5>Absolutely! I can collaborate with you no matter where you are. You can expect a straightforward and transparent design process, with involvement every step of the way, from initial sketches to the final creation. With regular updates, photos, and videos, you’ll be part of the entire process, ensuring your finished piece is exactly as you imagined, no surprises, just the joy of seeing your vision come to life.</h5><h5>Consultations are available via phone, video, or your preferred method. Feel free to <a href=\"/pages/contact\" title=\"Contact\"><span style=\"text-decoration:underline\">email me</span></a> or <a href=\"/products/free-consultation\" title=\"Free Virtual Consultation\"><span style=\"text-decoration:underline\">schedule a virtual consultation</span></a> to start your custom jewelry journey.</h5>",
             "page": ""
           }
         },
@@ -167,7 +167,7 @@
           "settings": {
             "heading": "Can I use my own gold or other precious metals in a new piece?",
             "icon": "none",
-            "row_content": "<h5>Yes! Using your old gold or platinum in a new piece is a great idea. However, casting directly from old jewelry is not recommended. Metals that have been cast before, especially those with solder or multiple recasts, might develop issues like pitting or structural weakness. Instead, I prefer to refine your old metals first, then apply the full value of your refined metal toward your new creation. Recycling your gold isn’t just eco-friendly and cost-effective—it can reduce or even cover the entire cost of your new piece.</h5><h5>And I don&rsquo;t take any percentage of the refining payout &mdash; the full value belongs to you. Depending on how much gold or platinum you have, the refining value can even come to more than the cost of your new piece. If it does, you&rsquo;ll receive both the jewelry and a check for the balance.</h5>",
+            "row_content": "<h5>Yes! Using your old gold or platinum in a new piece is a great idea. However, casting directly from old jewelry is not recommended. Metals that have been cast before, especially those with solder or multiple recasts, might develop issues like pitting or structural weakness. Instead, I prefer to refine your old metals first, then apply the full value of your refined metal toward your new creation. Recycling your gold isn’t just eco-friendly and cost-effective, it can reduce or even cover the entire cost of your new piece.</h5><h5>And I don&rsquo;t take any percentage of the refining payout, the full value belongs to you. Depending on how much gold or platinum you have, the refining value can even come to more than the cost of your new piece. If it does, you&rsquo;ll receive both the jewelry and a check for the balance.</h5>",
             "page": ""
           }
         },
@@ -564,7 +564,7 @@
           "settings": {
             "heading": "Can you provide an evaluation report or appraisal?",
             "icon": "none",
-            "row_content": "<h5>Once you've completed your purchase, I'm happy to provide an evaluation report outlining the retail value of your jewelry, useful for insurance purposes. Please note that an evaluation report is different from a formal appraisal, which requires an independent assessment by a certified appraiser—a service I currently do not offer.</h5>",
+            "row_content": "<h5>Once you've completed your purchase, I'm happy to provide an evaluation report outlining the retail value of your jewelry, useful for insurance purposes. Please note that an evaluation report is different from a formal appraisal, which requires an independent assessment by a certified appraiser, a service I currently do not offer.</h5>",
             "page": ""
           }
         },
@@ -859,9 +859,18 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {}
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {}
     }
   },
   "order": [
+    "shogun-helper",
     "main",
     "custom_liquid_MtmwAX",
     "rich_text_V6eHXj",
@@ -875,6 +884,7 @@
     "collapsible_content_nwKJeH",
     "collapsible_content_KWY7TC",
     "collapsible_content_bVeyBD",
-    "collapsible_content_rUDThb"
+    "collapsible_content_rUDThb",
+    "shogun-optimizer"
   ]
 }

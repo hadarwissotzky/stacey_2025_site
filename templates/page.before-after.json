@@ -22,7 +22,7 @@
         "text_ba": {
           "type": "text",
           "settings": {
-            "text": "Before & after jewelry redesigns — Stories of heirlooms and unworn jewelry reimagined into pieces to treasure again.",
+            "text": "Before & after jewelry redesigns, Stories of heirlooms and unworn jewelry reimagined into pieces to treasure again.",
             "text_style": "subtitle"
           }
         }
@@ -65,13 +65,14 @@
           "type": "heading",
           "settings": {
             "heading": "JEWELRY REDESIGN IDEAS",
+            "heading_tag_h1": false,
             "heading_size": "h2"
           }
         },
         "text_ri": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Before-and-after</strong> jewelry redesigns — heirlooms, inherited pieces, and unworn rings I've reimagined using your own diamonds, stones, and gold. Browse these transformations for jewelry redesign ideas, from resetting a diamond to repurposing old jewelry into something you'll actually wear.</p>"
+            "text": "<p><strong>Before-and-after</strong> jewelry redesigns, heirlooms, inherited pieces, and unworn rings I've reimagined using your own diamonds, stones, and gold. Browse these transformations for jewelry redesign ideas, from resetting a diamond to repurposing old jewelry into something you'll actually wear.</p>"
           }
         }
       },
@@ -90,7 +91,17 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 36,
-        "padding_bottom": 12
+        "padding_bottom": 28
+      }
+    },
+    "redesign_index_ba": {
+      "type": "custom-liquid",
+      "name": "Explore buttons",
+      "settings": {
+        "custom_liquid": "<div class=\"redesign-index-grid\" style=\"display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;max-width:1000px;margin:0 auto;\"><div class=\"rich-text__buttons\" style=\"display:block;max-width:none;width:auto;margin:0;\"><div class=\"outter-button\" style=\"display:block;\"><a href=\"/pages/reset-diamond-ring\" class=\"base-button button button--primary\" style=\"display:block;width:100%;text-align:center;\">Reset a Diamond Ring</a></div></div><div class=\"rich-text__buttons\" style=\"display:block;max-width:none;width:auto;margin:0;\"><div class=\"outter-button\" style=\"display:block;\"><a href=\"/pages/redesign-engagement-ring\" class=\"base-button button button--primary\" style=\"display:block;width:100%;text-align:center;\">Redesign an Engagement Ring</a></div></div><div class=\"rich-text__buttons\" style=\"display:block;max-width:none;width:auto;margin:0;\"><div class=\"outter-button\" style=\"display:block;\"><a href=\"/pages/heirloom-jewelry-redesign\" class=\"base-button button button--primary\" style=\"display:block;width:100%;text-align:center;\">Heirloom Jewelry Redesign</a></div></div><div class=\"rich-text__buttons\" style=\"display:block;max-width:none;width:auto;margin:0;\"><div class=\"outter-button\" style=\"display:block;\"><a href=\"/pages/remake-wedding-band\" class=\"base-button button button--primary\" style=\"display:block;width:100%;text-align:center;\">Remake a Wedding Band</a></div></div></div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 28
       }
     },
     "featured_blog_ba": {
@@ -125,16 +136,6 @@
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "redesign_index_ba": {
-      "type": "custom-liquid",
-      "name": "Explore buttons",
-      "settings": {
-        "custom_liquid": "<div class=\"redesign-index-grid\" style=\"display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;max-width:1000px;margin:0 auto;\"><div class=\"rich-text__buttons\" style=\"display:block;max-width:none;width:auto;margin:0;\"><div class=\"outter-button\" style=\"display:block;\"><a href=\"/pages/reset-diamond-ring\" class=\"base-button button button--primary\" style=\"display:block;width:100%;text-align:center;\">Reset a Diamond Ring</a></div></div><div class=\"rich-text__buttons\" style=\"display:block;max-width:none;width:auto;margin:0;\"><div class=\"outter-button\" style=\"display:block;\"><a href=\"/pages/redesign-engagement-ring\" class=\"base-button button button--primary\" style=\"display:block;width:100%;text-align:center;\">Redesign an Engagement Ring</a></div></div><div class=\"rich-text__buttons\" style=\"display:block;max-width:none;width:auto;margin:0;\"><div class=\"outter-button\" style=\"display:block;\"><a href=\"/pages/heirloom-jewelry-redesign\" class=\"base-button button button--primary\" style=\"display:block;width:100%;text-align:center;\">Heirloom Jewelry Redesign</a></div></div><div class=\"rich-text__buttons\" style=\"display:block;max-width:none;width:auto;margin:0;\"><div class=\"outter-button\" style=\"display:block;\"><a href=\"/pages/remake-wedding-band\" class=\"base-button button button--primary\" style=\"display:block;width:100%;text-align:center;\">Remake a Wedding Band</a></div></div></div>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 28
       }
     }
   },

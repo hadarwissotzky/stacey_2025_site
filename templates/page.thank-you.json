@@ -15,14 +15,14 @@
         "heading_ty": {
           "type": "heading",
           "settings": {
-            "heading": "THANK YOU \u2014 IT'S IN MY INBOX",
+            "heading": "THANK YOU, IT'S IN MY INBOX",
             "heading_size": "h2"
           }
         },
         "text_ty": {
           "type": "text",
           "settings": {
-            "text": "<p>Your note just came through, along with any photos you sent. I read every one of these myself \u2014 there's no team here, it's just me \u2014 and I'll write back to you personally, usually within a day or two.</p><p>If you think of something you forgot to mention, or you find a better photo, just reply to my email whenever you're ready. There's no rush and nothing to commit to.</p><p>\u2014 Stacey</p>"
+            "text": "<p>Your note just came through, along with any photos you sent. I read every one of these myself, there's no team here, it's just me, and I'll write back to you personally, usually within a day or two.</p><p>If you think of something you forgot to mention, or you find a better photo, just reply to my email whenever you're ready. There's no rush and nothing to commit to.</p><p>, Stacey</p>"
           }
         },
         "links_ty": {

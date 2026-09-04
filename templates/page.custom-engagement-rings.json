@@ -22,7 +22,7 @@
         "text_hero": {
           "type": "text",
           "settings": {
-            "text": "Designed with you and handcrafted one at a time — your stones, your vision, a ring no one else will ever wear.",
+            "text": "Designed with you and handcrafted one at a time, your stones, your vision, a ring no one else will ever wear.",
             "text_style": "body"
           }
         }
@@ -63,7 +63,7 @@
         "text_ynNBt7": {
           "type": "text",
           "settings": {
-            "text": "<h2>Let me tell your story in metal.</h2><p>Have an heirloom or jewelry you no longer wear? I redesign your old pieces and reset your stones into something you’ll treasure — using your own gems and gold.</p>",
+            "text": "<h2>Let me tell your story in metal.</h2><p>Have an heirloom or jewelry you no longer wear? I redesign your old pieces and reset your stones into something you’ll treasure, using your own gems and gold.</p>",
             "text_style": "body"
           }
         },
@@ -194,7 +194,7 @@
         "text_iwt": {
           "type": "text",
           "settings": {
-            "text": "<h3>A custom engagement ring, made by hand</h3><p>I work with you directly to design a one-of-a-kind ring — your diamond or a stone we source together, your vision, my bench. Start with a complimentary <a href=\"/products/free-consultation\" title=\"Book a consultation\">virtual consultation</a>.</p>",
+            "text": "<h3>A custom engagement ring, made by hand</h3><p>I work with you directly to design a one-of-a-kind ring, your diamond or a stone we source together, your vision, my bench. Start with a complimentary <a href=\"/products/free-consultation\" title=\"Book a consultation\">virtual consultation</a>.</p>",
             "text_style": "body"
           }
         },
@@ -249,7 +249,7 @@
       "type": "custom-liquid",
       "name": "Custom engagement service schema",
       "settings": {
-        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Custom Engagement Ring Design by Lorinczi\",\"serviceType\":\"Custom engagement ring design & bespoke fine jewelry\",\"description\":\"Bespoke custom engagement rings designed with you and handcrafted one at a time — your stones or ours, your vision, made by an independent designer.\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Lorinczi Jewelry\",\"url\":\"https://lorinczi.com\"},\"areaServed\":[{\"@type\":\"City\",\"name\":\"San Francisco\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Marin County\"},{\"@type\":\"Country\",\"name\":\"United States\"}],\"url\":\"https://lorinczi.com/pages/custom-engagement-rings\",\"offers\":{\"@type\":\"Offer\",\"url\":\"https://lorinczi.com/products/free-consultation\",\"description\":\"Book a custom engagement ring design consultation\"}}</script>",
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Custom Engagement Ring Design by Lorinczi\",\"serviceType\":\"Custom engagement ring design & bespoke fine jewelry\",\"description\":\"Bespoke custom engagement rings designed with you and handcrafted one at a time, your stones or ours, your vision, made by an independent designer.\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Lorinczi Jewelry\",\"url\":\"https://lorinczi.com\"},\"areaServed\":[{\"@type\":\"City\",\"name\":\"San Francisco\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Marin County\"},{\"@type\":\"Country\",\"name\":\"United States\"}],\"url\":\"https://lorinczi.com/pages/custom-engagement-rings\",\"offers\":{\"@type\":\"Offer\",\"url\":\"https://lorinczi.com/products/free-consultation\",\"description\":\"Book a custom engagement ring design consultation\"}}</script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -387,7 +387,7 @@
           "settings": {
             "heading": "Do you work with clients remotely?",
             "icon": "none",
-            "row_content": "<h5>Absolutely! I can collaborate with you no matter where you are. You can expect a straightforward and transparent design process, with involvement every step of the way—from initial sketches to the final creation. With regular updates, photos, and videos, you’ll be part of the entire process, ensuring your finished piece is exactly as you imagined—no surprises, just the joy of seeing your vision come to life.</h5><h5>Consultations are available via phone, video, or your preferred method. Feel free to <span style=\"text-decoration:underline\">email me</span> or <span style=\"text-decoration:underline\">schedule a virtual consultation</span> to start your custom jewelry journey.</h5>",
+            "row_content": "<h5>Absolutely! I can collaborate with you no matter where you are. You can expect a straightforward and transparent design process, with involvement every step of the way, from initial sketches to the final creation. With regular updates, photos, and videos, you’ll be part of the entire process, ensuring your finished piece is exactly as you imagined, no surprises, just the joy of seeing your vision come to life.</h5><h5>Consultations are available via phone, video, or your preferred method. Feel free to <span style=\"text-decoration:underline\">email me</span> or <span style=\"text-decoration:underline\">schedule a virtual consultation</span> to start your custom jewelry journey.</h5>",
             "page": ""
           }
         },
@@ -507,7 +507,7 @@
             "image": "shopify://shop_images/Breanne_Logan_Testimonial_Slide.jpg",
             "heading": "–Breanne",
             "heading_size": "h2",
-            "subheading": "“My husband and I are a quirky couple. For our last anniversary he created a handmade Tardis from <em>Doctor Who</em> — see what I mean? Quirky. After he proposed, I began the search for a wedding band that would reflect who we were as a couple; not only the journey we had taken, but where we hoped our path would lead. Finding Stacey was like finding that perfect wedding gown, the one you <em>know</em> you’re going to walk down the aisle in.”",
+            "subheading": "“My husband and I are a quirky couple. For our last anniversary he created a handmade Tardis from <em>Doctor Who</em>, see what I mean? Quirky. After he proposed, I began the search for a wedding band that would reflect who we were as a couple; not only the journey we had taken, but where we hoped our path would lead. Finding Stacey was like finding that perfect wedding gown, the one you <em>know</em> you’re going to walk down the aisle in.”",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -579,7 +579,7 @@
             "image": "shopify://shop_images/Chris_Lyrica_Testimonial_Slide.jpg",
             "heading": "–Chris",
             "heading_size": "h2",
-            "subheading": "\"The first person who knew I was going to propose, Stacey was a trusted co-conspirator every step of the way — from suggesting strategies for measuring Lyrica’s ring finger, to providing ideas for engagement rings, and ultimately designing the wedding rings we wear every day.”",
+            "subheading": "\"The first person who knew I was going to propose, Stacey was a trusted co-conspirator every step of the way, from suggesting strategies for measuring Lyrica’s ring finger, to providing ideas for engagement rings, and ultimately designing the wedding rings we wear every day.”",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -651,7 +651,7 @@
             "image": "shopify://shop_images/Erik_Elizabeth_Commitment_Testimonial.jpg",
             "heading": "–J.",
             "heading_size": "h1",
-            "subheading": "\"When Elizabeth approached me to create her rings, she captivated me with her plans to sail the Pacific on an extended honeymoon. It seemed like the perfect way to launch a lifetime of adventure. I get a vicarious thrill every time I see the beautiful photos of her on her voyage across the blue velvet ocean. Have ring — will travel.<em>\"</em>",
+            "subheading": "\"When Elizabeth approached me to create her rings, she captivated me with her plans to sail the Pacific on an extended honeymoon. It seemed like the perfect way to launch a lifetime of adventure. I get a vicarious thrill every time I see the beautiful photos of her on her voyage across the blue velvet ocean. Have ring, will travel.<em>\"</em>",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,

@@ -87,7 +87,7 @@
         "text_gfiLDN": {
           "type": "text",
           "settings": {
-            "text": "<strong>Appointments only—let’s chat!</strong>",
+            "text": "<strong>Appointments only, let’s chat!</strong>",
             "text_style": "body"
           }
         },

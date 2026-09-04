@@ -46,10 +46,19 @@ corporate/team voice — but the **collaborative "we" (Stacey + client)** is sig
 work through style, stones, metals, shape, and scale." Tone: warm, intimate, artisanal.
 Recurring vocabulary: reimagine, transform, redesign, repurpose, meaningful, deeply personal,
 treasure/cherish, one-of-a-kind, made just for you, your story. Signature moves: rhetorical
-questions to the reader, em-dashes, ALL-CAPS section headings, no-pressure closers ("feel free
+questions to the reader, ALL-CAPS section headings, no-pressure closers ("feel free
 to send the pics whenever you're ready"), radical money transparency ("I work backward from
-your budget," "I don't take any percentage"). Applies to every surface — pages, blog, meta
+your budget," "I don't take any percentage"). Applies to every surface: pages, blog, meta
 descriptions, alt text, buttons.
+
+**No em-dashes in customer-facing copy (Hadar, 2026-09-04).** Every em-dash on the site was
+replaced with a comma. This covers pages, blog posts and excerpts, product and collection
+descriptions, SEO title/description metafields, theme templates, section text, JSON-LD and
+alt text. Em-dashes were previously a signature move here; they are not any more. Watch for
+all four encodings when auditing: the literal character, `&mdash;`, `&#8212;`, and the
+JSON escape `\u2014` (which also appears double-escaped as `\\u2014` inside JSON-LD
+embedded in `custom_liquid`). Code comments keep theirs. En-dashes in numeric ranges
+($500-$1,800) were left alone.
 
 **Canonical voice exemplar (2026-07-31, per Hadar: "the tune from now on"):** the
 jewelry-redesign-cost page body — `content-drafts/jewelry-redesign-cost-body.html` — which is

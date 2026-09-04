@@ -11,6 +11,7 @@ This file can be re-written at any time.
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
+    {%- if request.path == '/blogs/before-after' or request.path == '/pages/thank-you' -%}<meta name="robots" content="noindex, follow">{%- endif -%}
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
@@ -24,10 +25,14 @@ This file can be re-written at any time.
       {%- if template.name == 'index' -%}
         {{ shop.name }} &ndash; Handcrafted &amp; Custom Fine Jewelry
       {%- else -%}
-        {{- page_title | strip_newlines -}}
+        {%- assign clean_title = page_title | strip_newlines -%}
+        {%- unless template.name == 'product' -%}
+          {%- assign clean_title = clean_title | remove: ' | Lorinczi' -%}
+        {%- endunless -%}
+        {{- clean_title -}}
         {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
         {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-        {%- unless page_title contains shop.name or template.name == 'product' %} &ndash; {{ shop.name }}{% endunless -%}
+        {%- unless clean_title contains shop.name or template.name == 'product' or current_page != 1 %} &ndash; {{ shop.name }}{% endunless -%}
       {%- endif -%}
     </title>
 
@@ -43,13 +48,13 @@ This file can be re-written at any time.
         assign meta_description = product.description | strip_html | truncatewords: 35
       endif
       if template.name == 'list-collections'
-        assign meta_description = 'Browse every Lorinczi collection — handcrafted rings, necklaces, bracelets, earrings, and custom jewelry redesign.'
+        assign meta_description = 'Browse every Lorinczi collection, handcrafted rings, necklaces, bracelets, earrings, and custom jewelry redesign.'
       endif
       if template.name == 'index'
-        assign meta_description = 'Lorinczi Jewelry — handcrafted, bespoke fine jewelry and custom jewelry redesign. Reimagine heirlooms, reset diamonds, or commission a one-of-a-kind piece.'
+        assign meta_description = 'Lorinczi Jewelry, handcrafted, bespoke fine jewelry and custom jewelry redesign. Reimagine heirlooms, reset diamonds, or commission a one-of-a-kind piece.'
       endif
       if meta_description == blank and page_title != blank
-        assign meta_description = page_title | append: ' — ' | append: shop.name | append: '. Handcrafted, bespoke jewelry & custom jewelry redesign.'
+        assign meta_description = page_title | append: ', ' | append: shop.name | append: '. Handcrafted, bespoke jewelry & custom jewelry redesign.'
       endif
       if meta_description == blank
         assign meta_description = shop.description
@@ -70,6 +75,36 @@ This file can be re-written at any time.
     {% render 'structured-data-faq' %}
     {% render 'structured-data-howto' %}
     {% render 'structured-data-person' %}
+
+    {%- comment -%}
+      First-touch source capture — records how this visit started so the contact form
+      can report it. Runs once per session, no network calls.
+    {%- endcomment -%}
+    <script>
+      (function () {
+        try {
+          if (sessionStorage.getItem('lz_src')) return;
+          var p = new URLSearchParams(location.search);
+          var utm = p.get('utm_source');
+          var src;
+          if (utm) {
+            src = utm;
+            if (p.get('utm_medium')) src += ' / ' + p.get('utm_medium');
+            if (p.get('utm_campaign')) src += ' / ' + p.get('utm_campaign');
+          } else if (document.referrer && document.referrer.indexOf(location.host) === -1) {
+            src = document.referrer;
+          } else {
+            src = 'direct';
+          }
+          sessionStorage.setItem('lz_src', src);
+          sessionStorage.setItem('lz_landing', location.pathname);
+        } catch (e) {}
+      })();
+    </script>
+
+    {{ 'lorinczi-custom.css' | asset_url | stylesheet_tag }}
+
+    <script src="{{ 'engagement-tracking.js' | asset_url }}" defer="defer"></script>
 
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
@@ -365,7 +400,7 @@ This file can be re-written at any time.
 
     {% render 'shogun-head' %}
   </head>
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+  <body class="gradient template-{{ request.page_type }}{% if page.handle %} page-{{ page.handle }}{% endif %}{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     {% include 'shogun-content-handler' %}
 
     
@@ -413,6 +448,7 @@ This file can be re-written at any time.
       };
     </script>
 <script src="{{ 'predictive-search.js' | asset_url }}" defer></script>
+<script src="{{ 'policy-title-fix.js' | asset_url }}" defer></script>
     <style type="text/css">
       body, html {
         width: 100% !important;

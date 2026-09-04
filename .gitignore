@@ -20,3 +20,5 @@ dist/
 
 # Local tool scratch (codex session ids, etc). Not shared.
 /.context/
+.verify*/
+.live-check/

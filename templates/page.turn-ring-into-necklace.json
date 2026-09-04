@@ -22,7 +22,7 @@
         "text_C9CghG": {
           "type": "text",
           "settings": {
-            "text": "I reset your own stone and gold into a pendant you’ll actually reach for",
+            "text": "I reset your own stones and gold into a pendant you’ll actually reach for.",
             "text_style": "body"
           }
         },
@@ -69,7 +69,7 @@
       "disabled": true,
       "name": "Redesign intro",
       "settings": {
-        "custom_liquid": "<div class=\"page-width page-width--narrow custom-liquid-redesign\" style=\"padding:1rem 0 2rem; text-align:left;\"><p style=\"font-size:1.6rem; line-height:1.7;\">Some rings stop being worn — an engagement ring from a past chapter, an inherited band that doesn't fit, a style that no longer feels like you. Turning a ring into a necklace keeps everything that matters about it while making it something you'll actually wear.</p><h2>Can you turn my ring into a necklace?</h2><p>Yes. Converting a ring into a pendant or necklace is one of my most popular redesigns. I take your stone and gold and reset them into a new pendant designed around you — the sentiment stays, the form changes.</p><h2>What kinds of rings can become necklaces?</h2><p>Almost any — engagement rings, wedding bands, inherited and heirloom rings, cocktail rings, and rings with sentimental stones. If it holds meaning, it can be reimagined.</p><h2>Can you turn my engagement ring or wedding ring into a pendant?</h2><p>Absolutely. Turning an engagement or wedding ring into a necklace is a meaningful way to keep a piece close after a loss, a divorce, or simply when it no longer suits daily wear. <a href=\"/pages/redesign-engagement-ring\">See engagement ring redesign →</a></p><h2>Will you use my own diamond and gold?</h2><p>Yes. I reset your own diamond and gemstones and responsibly refine your gold toward the new pendant — preserving sentiment, lowering cost, and being kinder to the environment. <a href=\"/pages/use-your-own-gems-metal\">How using your own gold works →</a></p><h2>How much does it cost to turn a ring into a necklace?</h2><p>It depends on the new setting and chain, but because your stone and gold are already yours, it's usually far more affordable than buying new. <a href=\"/pages/jewelry-redesign-cost\">See the pricing guide →</a></p><h2>How do I start?</h2><p>Book a free virtual consultation and send me photos of your ring. I'll design a pendant and give you a transparent quote before any work begins. Everything can be done remotely with insured, tracked shipping.</p><p style=\"margin-top:2.5rem;\"><a href=\"/pages/contact\" class=\"button\">Book your free consultation</a></p></div>",
+        "custom_liquid": "<div class=\"page-width page-width--narrow custom-liquid-redesign\" style=\"padding:1rem 0 2rem; text-align:left;\"><p style=\"font-size:1.6rem; line-height:1.7;\">Some rings stop being worn, an engagement ring from a past chapter, an inherited band that doesn't fit, a style that no longer feels like you. Turning a ring into a necklace keeps everything that matters about it while making it something you'll actually wear.</p><h2>Can you turn my ring into a necklace?</h2><p>Yes. Converting a ring into a pendant or necklace is one of my most popular redesigns. I take your stone and gold and reset them into a new pendant designed around you, the sentiment stays, the form changes.</p><h2>What kinds of rings can become necklaces?</h2><p>Almost any, engagement rings, wedding bands, inherited and heirloom rings, cocktail rings, and rings with sentimental stones. If it holds meaning, it can be reimagined.</p><h2>Can you turn my engagement ring or wedding ring into a pendant?</h2><p>Absolutely. Turning an engagement or wedding ring into a necklace is a meaningful way to keep a piece close after a loss, a divorce, or simply when it no longer suits daily wear. <a href=\"/pages/redesign-engagement-ring\">See engagement ring redesign →</a></p><h2>Will you use my own diamond and gold?</h2><p>Yes. I reset your own diamond and gemstones and responsibly refine your gold toward the new pendant, preserving sentiment, lowering cost, and being kinder to the environment. <a href=\"/pages/use-your-own-gems-metal\">How using your own gold works →</a></p><h2>How much does it cost to turn a ring into a necklace?</h2><p>It depends on the new setting and chain, but because your stone and gold are already yours, it's usually far more affordable than buying new. <a href=\"/pages/jewelry-redesign-cost\">See the pricing guide →</a></p><h2>How do I start?</h2><p>Book a free virtual consultation and send me photos of your ring. I'll design a pendant and give you a transparent quote before any work begins. Everything can be done remotely with insured, tracked shipping.</p><p style=\"margin-top:2.5rem;\"><a href=\"/pages/contact\" class=\"button\">Book your free consultation</a></p></div>",
         "color_scheme": "",
         "padding_top": 24,
         "padding_bottom": 12
@@ -78,19 +78,19 @@
     "custom_necklaces": {
       "type": "featured-collection-conditional",
       "custom_css": [
-        ".product-card-wrapper .card{--border-width:none;--image-padding:0}",
-        ".price,.slider-counter,.card:not(.ratio)>.card__content{display:none}",
-        ".card--media .card__inner .card__content{padding:0;width:100%}",
-        ".card-wrapper{border-bottom:1px solid #dee0e3}",
-        ".grid{margin-bottom:0;column-gap:0}",
-        ".slider__slide{padding:0!important;margin:0!important}",
-        ".slider:after{display:none!important}",
-        ".slider-buttons{display:flex!important;padding-block:2rem 1.2rem}",
-        ".collection__title h2{font:21px Nexa!important;text-align:center}"
+        ".product-card-wrapper .card {--border-width: none; --image-padding: 0;}",
+        ".price,.slider-counter,.card:not(.ratio) > .card__content {display: none;}",
+        ".card--media .card__inner .card__content {padding: 0; width: 100%;}",
+        ".card-wrapper {border-bottom: 1px solid #dee0e3;}",
+        ".grid {margin-bottom: 0; column-gap: 0;}",
+        ".slider__slide {padding: 0 !important; margin: 0 !important;}",
+        ".slider:after {display: none !important;}",
+        ".slider-buttons {display: flex !important; padding-block: 2rem 1.2rem;}",
+        ".collection__title h2 {font: 21px Nexa !important; text-align: center;}"
       ],
       "name": "Custom necklaces",
       "settings": {
-        "title": "RECENT NECKLACES",
+        "title": "RECENT RING TO NECKLACE TRANSFORMATIONS",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -214,7 +214,7 @@
       "type": "custom-liquid",
       "name": "Redesign FAQ schema",
       "settings": {
-        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Can you turn my ring into a necklace?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Converting a ring into a pendant or necklace is one of my most popular redesigns \\u2014 I reset your stone and gold into a new pendant designed around you.\"}}, {\"@type\": \"Question\", \"name\": \"Can you turn my engagement ring or wedding ring into a pendant?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Absolutely. It's a meaningful way to keep a piece close after a loss or divorce, or when a ring no longer suits daily wear.\"}}, {\"@type\": \"Question\", \"name\": \"Will you use my own diamond and gold to make the necklace?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. I reset your own diamonds and gemstones and responsibly refine your gold toward the new pendant.\"}}, {\"@type\": \"Question\", \"name\": \"How much does it cost to turn a ring into a necklace?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"It depends on the new setting and chain, but because your stone and gold are already yours it's usually far more affordable than buying new. You get a transparent quote after a free consultation.\"}}, {\"@type\": \"Question\", \"name\": \"Can this be done remotely?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes \\u2014 consultation, design, approval and delivery can all be done remotely with insured, tracked shipping.\"}}]}</script>",
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Can you turn my ring into a necklace?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Converting a ring into a pendant or necklace is one of my most popular redesigns, I reset your stone and gold into a new pendant designed around you.\"}}, {\"@type\": \"Question\", \"name\": \"Can you turn my engagement ring or wedding ring into a pendant?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Absolutely. It's a meaningful way to keep a piece close after a loss or divorce, or when a ring no longer suits daily wear.\"}}, {\"@type\": \"Question\", \"name\": \"Will you use my own diamond and gold to make the necklace?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. I reset your own diamonds and gemstones and responsibly refine your gold toward the new pendant.\"}}, {\"@type\": \"Question\", \"name\": \"How much does it cost to turn a ring into a necklace?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"It depends on the new setting and chain, but because your stone and gold are already yours it's usually far more affordable than buying new. You get a transparent quote after a free consultation.\"}}, {\"@type\": \"Question\", \"name\": \"Can this be done remotely?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes, consultation, design, approval and delivery can all be done remotely with insured, tracked shipping.\"}}]}</script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -224,7 +224,7 @@
       "type": "custom-liquid",
       "name": "Redesign service schema",
       "settings": {
-        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"The Lorinczi Redesign Program\", \"serviceType\": \"Jewelry redesign, diamond resetting & heirloom restyling\", \"description\": \"Custom jewelry redesign using your own gems and gold — reset diamonds, repurpose old gold, and reimagine inherited pieces into modern heirlooms.\", \"provider\": {\"@type\": \"Organization\", \"name\": \"Lorinczi Jewelry\", \"url\": \"https://lorinczi.com\"}, \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"url\": \"https://lorinczi.com/pages/jewelry-redesign\", \"offers\": {\"@type\": \"Offer\", \"url\": \"https://lorinczi.com/products/free-consultation\", \"price\": \"0\", \"priceCurrency\": \"USD\", \"description\": \"Free virtual jewelry redesign consultation\"}}</script>",
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"The Lorinczi Redesign Program\", \"serviceType\": \"Jewelry redesign, diamond resetting & heirloom restyling\", \"description\": \"Custom jewelry redesign using your own gems and gold, reset diamonds, repurpose old gold, and reimagine inherited pieces into modern heirlooms.\", \"provider\": {\"@type\": \"Organization\", \"name\": \"Lorinczi Jewelry\", \"url\": \"https://lorinczi.com\"}, \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"url\": \"https://lorinczi.com/pages/jewelry-redesign\", \"offers\": {\"@type\": \"Offer\", \"url\": \"https://lorinczi.com/products/free-consultation\", \"price\": \"0\", \"priceCurrency\": \"USD\", \"description\": \"Free virtual jewelry redesign consultation\"}}</script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

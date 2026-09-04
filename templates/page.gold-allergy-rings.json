@@ -22,7 +22,7 @@
         "text_C9CghG": {
           "type": "text",
           "settings": {
-            "text": "It is almost always the alloy rather than the gold — and your stones can move somewhere kinder without losing anything you care about.",
+            "text": "It is almost always the alloy rather than the gold, and your stones can move somewhere kinder without losing anything you care about.",
             "text_style": "body"
           }
         },
@@ -68,7 +68,7 @@
         "text_kxwwVM": {
           "type": "text",
           "settings": {
-            "text": "<h4>If the finger under your ring is red, itchy, or peeling, and it has been getting worse rather than better, the ring is the obvious suspect. Before you give up on it, one thing worth knowing: a true allergy to gold itself is rare. Far more often the problem is what the gold is mixed with — and that is a solvable problem, because your stones do not have to go anywhere.</h4><h4></h4>"
+            "text": "<h4>If the finger under your ring is red, itchy, or peeling, and it has been getting worse rather than better, the ring is the obvious suspect. Before you give up on it, one thing worth knowing: a true allergy to gold itself is rare. Far more often the problem is what the gold is mixed with, and that is a solvable problem, because your stones do not have to go anywhere.</h4><h4></h4>"
           }
         }
       },
@@ -179,7 +179,7 @@
           "settings": {
             "heading": "Can you actually be allergic to gold?",
             "icon": "none",
-            "row_content": "<h5>Rarely. Pure gold is one of the least reactive metals there is. But pure gold is far too soft to hold a stone, so all jewelry gold is an alloy — and the other metals in the mix are usually what your skin is reacting to. Nickel is the most common culprit by a wide margin.</h5>",
+            "row_content": "<h5>Rarely. Pure gold is one of the least reactive metals there is. But pure gold is far too soft to hold a stone, so all jewelry gold is an alloy, and the other metals in the mix are usually what your skin is reacting to. Nickel is the most common culprit by a wide margin.</h5>",
             "page": ""
           }
         },
@@ -206,7 +206,7 @@
           "settings": {
             "heading": "Is platinum hypoallergenic?",
             "icon": "none",
-            "row_content": "<h5>Jewelry platinum is typically 95% pure, so there is very little in it to react to, and it is what most people in this situation choose. I will not tell you any metal is universally safe though — people react to different things, which is exactly why a patch test is worth doing.</h5>",
+            "row_content": "<h5>Jewelry platinum is typically 95% pure, so there is very little in it to react to, and it is what most people in this situation choose. I will not tell you any metal is universally safe though, people react to different things, which is exactly why a patch test is worth doing.</h5>",
             "page": ""
           }
         },
@@ -215,7 +215,7 @@
           "settings": {
             "heading": "How do I know whether it's an allergy at all?",
             "icon": "none",
-            "row_content": "<h5>You may not, and I can't tell you — I'm a jeweler, not a doctor. A ring traps water, soap and lotion against skin all day, and that alone can cause a red, sore band that looks identical to an allergic reaction. A dermatologist can patch test you and name the specific metal, which is the thing that decides what your piece should be made in. That test costs a fraction of a redesign.</h5>",
+            "row_content": "<h5>You may not, and I can't tell you, I'm a jeweler, not a doctor. A ring traps water, soap and lotion against skin all day, and that alone can cause a red, sore band that looks identical to an allergic reaction. A dermatologist can patch test you and name the specific metal, which is the thing that decides what your piece should be made in. That test costs a fraction of a redesign.</h5>",
             "page": ""
           }
         },
@@ -233,7 +233,7 @@
           "settings": {
             "heading": "What happens to the gold I can't wear?",
             "icon": "none",
-            "row_content": "<h5>I refine it — including the metal in the settings I am removing your stones from — and apply its full settlement value as a credit toward the new piece. I never take a percentage of it.</h5>",
+            "row_content": "<h5>I refine it, including the metal in the settings I am removing your stones from, and apply its full settlement value as a credit toward the new piece. I never take a percentage of it.</h5>",
             "page": ""
           }
         },
@@ -276,7 +276,7 @@
       "type": "custom-liquid",
       "name": "Redesign FAQ schema",
       "settings": {
-        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Can you actually be allergic to gold?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Rarely. Pure gold is one of the least reactive metals there is. But pure gold is far too soft to hold a stone, so all jewelry gold is an alloy — and the other metals in the mix are usually what your skin is reacting to. Nickel is the most common culprit by a wide margin.\"}}, {\"@type\": \"Question\", \"name\": \"Why does white gold bother me when yellow gold doesn't?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Because they are not the same alloy. White gold has historically been made white and hard with nickel, which is the most common contact allergen there is. Rose gold carries the most copper. Yellow gold at the same karat is often the mildest of the three.\"}}, {\"@type\": \"Question\", \"name\": \"Does karat make a difference?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. 14k gold is 58.5% gold and 18k is 75%. The lower the karat, the more room there is for whatever else is in the mix. A ring that bothers you in 14k may be perfectly comfortable in 18k.\"}}, {\"@type\": \"Question\", \"name\": \"Is platinum hypoallergenic?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Jewelry platinum is typically 95% pure, so there is very little in it to react to, and it is what most people in this situation choose. I will not tell you any metal is universally safe though — people react to different things, which is exactly why a patch test is worth doing.\"}}, {\"@type\": \"Question\", \"name\": \"How do I know whether it's an allergy at all?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"You may not, and I can't tell you — I'm a jeweler, not a doctor. A ring traps water, soap and lotion against skin all day, and that alone can cause a red, sore band that looks identical to an allergic reaction. A dermatologist can patch test you and name the specific metal, which is the thing that decides what your piece should be made in. That test costs a fraction of a redesign.\"}}, {\"@type\": \"Question\", \"name\": \"Can you reset my stones into platinum?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes, and it is a common request. Your diamonds and gemstones are not what your skin is reacting to, so the work is simply to move them out of the metal that bothers you. I can rebuild the same design in platinum so it still looks like your ring, or redesign it entirely if you have been quietly wanting something different anyway.\"}}, {\"@type\": \"Question\", \"name\": \"What happens to the gold I can't wear?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"I refine it — including the metal in the settings I am removing your stones from — and apply its full settlement value as a credit toward the new piece. I never take a percentage of it.\"}}, {\"@type\": \"Question\", \"name\": \"What does it cost to reset a ring in platinum?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Your stones into a ready-made setting runs $500–$1,800. A setting designed from scratch around your stones is $1,500–$3,500. Choosing platinum over gold adds roughly $500–$1,100 depending on the finished weight. Against all of that, subtract whatever your old gold refines to.\"}}]}</script>",
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Can you actually be allergic to gold?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Rarely. Pure gold is one of the least reactive metals there is. But pure gold is far too soft to hold a stone, so all jewelry gold is an alloy, and the other metals in the mix are usually what your skin is reacting to. Nickel is the most common culprit by a wide margin.\"}}, {\"@type\": \"Question\", \"name\": \"Why does white gold bother me when yellow gold doesn't?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Because they are not the same alloy. White gold has historically been made white and hard with nickel, which is the most common contact allergen there is. Rose gold carries the most copper. Yellow gold at the same karat is often the mildest of the three.\"}}, {\"@type\": \"Question\", \"name\": \"Does karat make a difference?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. 14k gold is 58.5% gold and 18k is 75%. The lower the karat, the more room there is for whatever else is in the mix. A ring that bothers you in 14k may be perfectly comfortable in 18k.\"}}, {\"@type\": \"Question\", \"name\": \"Is platinum hypoallergenic?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Jewelry platinum is typically 95% pure, so there is very little in it to react to, and it is what most people in this situation choose. I will not tell you any metal is universally safe though, people react to different things, which is exactly why a patch test is worth doing.\"}}, {\"@type\": \"Question\", \"name\": \"How do I know whether it's an allergy at all?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"You may not, and I can't tell you, I'm a jeweler, not a doctor. A ring traps water, soap and lotion against skin all day, and that alone can cause a red, sore band that looks identical to an allergic reaction. A dermatologist can patch test you and name the specific metal, which is the thing that decides what your piece should be made in. That test costs a fraction of a redesign.\"}}, {\"@type\": \"Question\", \"name\": \"Can you reset my stones into platinum?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes, and it is a common request. Your diamonds and gemstones are not what your skin is reacting to, so the work is simply to move them out of the metal that bothers you. I can rebuild the same design in platinum so it still looks like your ring, or redesign it entirely if you have been quietly wanting something different anyway.\"}}, {\"@type\": \"Question\", \"name\": \"What happens to the gold I can't wear?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"I refine it, including the metal in the settings I am removing your stones from, and apply its full settlement value as a credit toward the new piece. I never take a percentage of it.\"}}, {\"@type\": \"Question\", \"name\": \"What does it cost to reset a ring in platinum?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Your stones into a ready-made setting runs $500–$1,800. A setting designed from scratch around your stones is $1,500–$3,500. Choosing platinum over gold adds roughly $500–$1,100 depending on the finished weight. Against all of that, subtract whatever your old gold refines to.\"}}]}</script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -286,7 +286,7 @@
       "type": "custom-liquid",
       "name": "Redesign service schema",
       "settings": {
-        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"The Lorinczi Redesign Program\", \"serviceType\": \"Jewelry redesign, diamond resetting & heirloom restyling\", \"description\": \"Custom jewelry redesign using your own gems and gold — reset diamonds, repurpose old gold, and reimagine inherited pieces into modern heirlooms.\", \"provider\": {\"@type\": \"Organization\", \"name\": \"Lorinczi Jewelry\", \"url\": \"https://lorinczi.com\"}, \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"url\": \"https://lorinczi.com/pages/jewelry-redesign\", \"offers\": {\"@type\": \"Offer\", \"url\": \"https://lorinczi.com/products/free-consultation\", \"price\": \"0\", \"priceCurrency\": \"USD\", \"description\": \"Free virtual jewelry redesign consultation\"}}</script>",
+        "custom_liquid": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"The Lorinczi Redesign Program\", \"serviceType\": \"Jewelry redesign, diamond resetting & heirloom restyling\", \"description\": \"Custom jewelry redesign using your own gems and gold, reset diamonds, repurpose old gold, and reimagine inherited pieces into modern heirlooms.\", \"provider\": {\"@type\": \"Organization\", \"name\": \"Lorinczi Jewelry\", \"url\": \"https://lorinczi.com\"}, \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"url\": \"https://lorinczi.com/pages/jewelry-redesign\", \"offers\": {\"@type\": \"Offer\", \"url\": \"https://lorinczi.com/products/free-consultation\", \"price\": \"0\", \"priceCurrency\": \"USD\", \"description\": \"Free virtual jewelry redesign consultation\"}}</script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

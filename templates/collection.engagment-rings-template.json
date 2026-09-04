@@ -34,7 +34,7 @@
         "text_dyz7XT": {
           "type": "text",
           "settings": {
-            "text": "<p>I design unique engagement rings the way you’d design a marriage—one of a kind, made just for you. Each ring is handmade in solid gold with the diamond or stone of your choosing, often <a href=\"/pages/redesign-engagement-ring\">reset from a diamond you already own</a>. If you have an idea (or just a feeling), I’d love to <a href=\"/pages/custom-design-journey\">design it with you</a>.</p>"
+            "text": "<p>I design unique engagement rings the way you’d design a marriage, one of a kind, made just for you. Each ring is handmade in solid gold with the diamond or stone of your choosing, often <a href=\"/pages/redesign-engagement-ring\">reset from a diamond you already own</a>. If you have an idea (or just a feeling), I’d love to <a href=\"/pages/custom-design-journey\">design it with you</a>.</p>"
           }
         }
       },
@@ -134,7 +134,7 @@
         "t_intro": {
           "type": "text",
           "settings": {
-            "text": "<p>I design and handcraft custom engagement rings in my San Francisco studio — one at a time, by hand, in yellow, white, or rose gold, and in platinum. Nothing here comes off a tray. I’ve made engagement rings at every budget, and honestly, apart from the choice of materials I think you’d struggle to tell them apart: what makes a ring worth wearing for fifty years is the quality of the design, not the carat weight.</p>"
+            "text": "<p>I design and handcraft custom engagement rings in my San Francisco studio, one at a time, by hand, in yellow, white, or rose gold, and in platinum. Nothing here comes off a tray. I’ve made engagement rings at every budget, and honestly, apart from the choice of materials I think you’d struggle to tell them apart: what makes a ring worth wearing for fifty years is the quality of the design, not the carat weight.</p>"
           }
         },
         "h_stone": {
@@ -147,7 +147,7 @@
         "t_stone": {
           "type": "text",
           "settings": {
-            "text": "<p>If you already have a diamond — inherited, or from a ring that’s no longer worn — I can build the entire design around it. Using a stone you already own is often the most meaningful way to start, and it usually costs considerably less than buying new. If you don’t have a stone yet, we’ll choose one together, and I’ll tell you honestly where the money is better spent and where it isn’t.</p>"
+            "text": "<p>If you already have a diamond, inherited, or from a ring that’s no longer worn, I can build the entire design around it. Using a stone you already own is often the most meaningful way to start, and it usually costs considerably less than buying new. If you don’t have a stone yet, we’ll choose one together, and I’ll tell you honestly where the money is better spent and where it isn’t.</p>"
           }
         },
         "h_setting": {
@@ -160,7 +160,7 @@
         "t_setting": {
           "type": "text",
           "settings": {
-            "text": "<p>A lot of my clients work with their hands — surgeons, nurses, scientists, gardeners, makers. For them I usually suggest a low-profile bezel rather than a raised prong setting: the stone sits closer to the finger, nothing catches on gloves, and there’s far less to knock loose over a lifetime of wearing it. If you’d rather have the height and the sparkle of prongs, that’s a good choice too — I’ll just make sure you know what each one asks of you.</p>"
+            "text": "<p>A lot of my clients work with their hands, surgeons, nurses, scientists, gardeners, makers. For them I usually suggest a low-profile bezel rather than a raised prong setting: the stone sits closer to the finger, nothing catches on gloves, and there’s far less to knock loose over a lifetime of wearing it. If you’d rather have the height and the sparkle of prongs, that’s a good choice too, I’ll just make sure you know what each one asks of you.</p>"
           }
         },
         "h_redesign": {
@@ -173,7 +173,7 @@
         "t_redesign": {
           "type": "text",
           "settings": {
-            "text": "<p>Some of the best commissions I take on start with a ring somebody already has. If a setting feels dated, no longer fits your life, or came to you from someone else, I can reset the stones and reimagine it into something you’ll actually reach for. You keep the diamond and the gold — the two most expensive parts of any piece — and only the form changes.</p>"
+            "text": "<p>Some of the best commissions I take on start with a ring somebody already has. If a setting feels dated, no longer fits your life, or came to you from someone else, I can reset the stones and reimagine it into something you’ll actually reach for. You keep the diamond and the gold, the two most expensive parts of any piece, and only the form changes.</p>"
           }
         }
       },
