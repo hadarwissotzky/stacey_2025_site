@@ -1,7 +1,12 @@
 .product-grid .grid,
 .collection .grid {
       column-gap: 0;
-      margin: 0px -11px -1px -1px !important;
+      /* -11px on the right was a typo against -1px on the other three sides. It
+         pushed the grid 11px past the viewport on every collection that loads
+         this file, giving the page a horizontal pan on mobile. Zeroing left and
+         right removes the overflow and matches how /collections/rings and
+         /collections/mens-jewelry already render. */
+      margin: 0px 0px -1px 0px !important;
   }
 
 @media screen and (max-width: 749px) {
