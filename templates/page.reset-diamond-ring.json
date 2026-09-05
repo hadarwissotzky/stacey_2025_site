@@ -176,7 +176,8 @@
       "type": "custom-liquid",
       "custom_css": [
         "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 2.2rem;}",
-        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 2.2rem;}"
+        "p a {color: #919191; font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 2.2rem;}",
+        "@media screen and (max-width: 749px) {p,p a{font-size:calc(var(--font-heading-scale) * 1.6rem)!important;line-height:2.2rem!important;}}"
       ],
       "settings": {
         "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Wondering about pricing?</strong> <a href=\"/pages/jewelry-redesign-cost\">How much does jewelry redesign cost? </a></p><p><strong>Resetting into something new?</strong> <a href=\"/pages/turn-ring-into-necklace\">Turn your ring into a necklace</a> &middot; <a href=\"/pages/remake-wedding-band\">Remake your wedding band</a></p><p><strong>After a divorce?</strong> <a href=\"/pages/what-to-do-with-wedding-ring-after-divorce\">My honest guide to what your ring can become</a></p><p ><strong>Serving the Bay Area and beyond:</strong> <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot;<a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",
