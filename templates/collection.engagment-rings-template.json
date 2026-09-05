@@ -46,7 +46,7 @@
         "p {font-size: calc(var(--font-heading-scale) * 1.7rem);}",
         "a{font-family:GoudyOldStyle,serif!important}",
         ".rich-text__blocks{max-width:66.67%}",
-        "@media(max-width:749px){.rich-text__blocks{max-width:100%}.rich-text__wrapper{width:100%}}"
+        "@media(max-width:749px){.rich-text__blocks{max-width:100%}.rich-text__wrapper{width:100%;padding-inline:2rem!important}p{padding:0!important}}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -192,7 +192,8 @@
         "h1,h2 {font: 400 21px/30px Nexa, sans-serif !important; text-transform: uppercase; margin: 58px 0 4px; text-align: left !important;}",
         "p {font: 400 16px/25px \"GoudyOldStyle\", serif !important; margin: 0 0 16px;}",
         ".rich-text__text {margin-top: 0 !important;}",
-        "a {font: 400 16px/25px \"GoudyOldStyle\", serif !important;}"
+        "a {font: 400 16px/25px \"GoudyOldStyle\", serif !important;}",
+        "@media(max-width:749px){.rich-text__wrapper{width:100%!important;margin:0!important;padding-inline:2rem!important}p{padding:0!important}}"
       ],
       "settings": {
         "desktop_content_position": "center",
