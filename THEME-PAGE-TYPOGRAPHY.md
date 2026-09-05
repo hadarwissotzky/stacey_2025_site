@@ -93,15 +93,20 @@ gutters put text against the glass. Measured on `/pages/heirloom-jewelry-redesig
 | Lead paragraph (`h4`) | 21px | **16px** |
 | Section heading `h2`/`h3` | 21px / 30px | **20px / 30px** |
 | Heading alignment | left | **left** (not centred) |
-| Body `p` / `li` | 16px / 25px | **17px / 25px** |
+| Body `p` / `li` | 16px / 25px | **16px / 25px** |
 | Content width | 80% | 90% |
 | Gutters (`__main-padding` left/right) | 90px | **2rem** |
 | Vertical padding (`__main-padding`) | 5rem | **3rem** |
 | List indent (`.rte ul/ol` padding-left) | 20px | **0**, flush with the copy |
 
-Body copy is deliberately one step *larger* than the lead on mobile. On a narrow
-screen the lead's job is to introduce, not to dominate, and 17px body is the
-readable size. Do not "fix" the inversion.
+Lead and body are the **same size** on mobile (both 16px). The lead's job on a
+narrow screen is to introduce, not to dominate, so it drops to the body size and
+does its work through position rather than scale. Set 2026-09-04, replacing a
+brief period where body ran at 17px, one step *above* the lead.
+
+The banner strapline is **not** part of this: it stays at 17px on mobile, set in
+the `image-banner` section's own `custom_css`. It is hero furniture, not body
+copy, and it is the same on every page.
 
 Vertical rhythm is inherited, not re-specified: the spacer paragraphs that
 produce the desktop 70 / 58 / 4 are still doing the work, but the smaller lead
@@ -119,7 +124,7 @@ In the page's style block (the `custom-liquid` section that holds
   {font:400 20px/30px Nexa,sans-serif!important;text-align:left!important;}
 #MainContent .main-page-title ~ .rte p,#MainContent .main-page-title ~ .rte li,
 #MainContent .main-page-title ~ .rte a
-  {font-size:calc(var(--font-heading-scale) * 1.7rem)!important;padding:0!important;}
+  {font-size:calc(var(--font-heading-scale) * 1.6rem)!important;padding:0!important;}
 .rte ul,.rte ol{list-style-position:inside;padding-left:0rem;}
 }
 @media screen and (max-width:749px){#MainContent [class*="__main-padding"]
@@ -161,8 +166,8 @@ desktop numbers are untouched before calling it done.
 
 ### Conformance
 
-**Rolled out 2026-09-04. All fifteen content pages measure to the mobile spec**
-at 390px: lead 16 · heading 20 left · body 17 · gutters 20px · lists flush.
+**Rolled out 2026-09-04. All content pages measure to the mobile spec** at
+390px: lead 16 · heading 20 left · body 16 · gutters 20px · lists flush.
 Desktop was re-measured on all of them and is unchanged.
 
 The pages carrying the block:
@@ -233,7 +238,7 @@ at 1440                              at 390
   lead                21px             16px
   heading             21px             20px
   heading align       left             left
-  body / line-height  16px / 25px      17px / 25px
+  body / line-height  16px / 25px      16px / 25px
   gutters             90px             2rem
   list padding-left   20px             0
   gap lead → heading  70px             63px

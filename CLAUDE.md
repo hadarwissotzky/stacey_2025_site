@@ -78,7 +78,7 @@ Desktop (reference `/pages/jewelry-redesign`): lead 21px, headings 21px/30px Nex
 uppercase, body 16px/25px GoudyOldStyle, 70px under the lead, 58px above a
 heading, 4px under it, content 80% width, 90px gutters. Mobile below 750px
 (reference `/pages/heirloom-jewelry-redesign`): lead 16px, headings 20px
-left-aligned, body 17px, 2rem gutters, 3rem vertical padding, lists flush at
+left-aligned, body 16px, 2rem gutters, 3rem vertical padding, lists flush at
 `padding-left:0`, content 90% width. Mobile is its own scale, not a reflow.
 Measure both widths on every change. Section `custom_css` is capped at 500
 characters and the cap **is enforced on push**.
