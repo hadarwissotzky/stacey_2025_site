@@ -95,7 +95,7 @@
         ".rich-text__heading{font:400 2.1rem/30px Nexa!important;text-transform:uppercase;margin:58px 0 4px}",
         "p{font:400 1.6rem/25px GoudyOldStyle!important;margin-bottom:16px}",
         "div.rich-text__text:first-of-type p{font-size:2.1rem!important;margin-bottom:70px}",
-        "@media(max-width:749px){{width:90%}.rich-text__wrapper{padding-inline:2rem!important}}"
+        "@media(max-width:749px){{width:100%}.rich-text__wrapper{padding-inline:2rem!important}}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -114,7 +114,7 @@
         "h2:first-of-type{margin-top:42px}",
         ".custom-liquid-redesign{padding-top:0!important}",
         "p,a{font:400 1.6rem/25px GoudyOldStyle,sans-serif!important;color:rgba(var(--color-foreground),.75)!important;text-align:left!important;margin-top:0}",
-        "@media(max-width:749px){{width:90%}.custom-liquid-redesign{padding-inline:2rem!important}h2:first-of-type{margin-top:55px}}"
+        "@media(max-width:749px){{width:90%}.custom-liquid-redesign{padding-inline:0rem!important}h2:first-of-type{margin-top:55px}}"
       ],
       "name": "Refining detail",
       "settings": {
