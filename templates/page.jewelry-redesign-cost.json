@@ -81,7 +81,7 @@
         "p,ul {margin-top: 0px;}",
         "h4 {font: 400 2.1rem / 25px \"GoudyOldStyle\" !important; text-transform: none;}",
         "@media screen and (min-width:750px){.rich-text__blocks{max-width:none;padding-left:9rem;padding-right:9rem;}}",
-        "@media screen and (max-width: 749px) {{width: 90%; }}"
+        "@media screen and (max-width: 749px) {{width: 100%;} h4 {font: 400 1.6rem / 25px \"GoudyOldStyle\" !important; text-transform: none;}}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
