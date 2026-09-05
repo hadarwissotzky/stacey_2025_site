@@ -344,7 +344,7 @@
       "custom_css": [
         "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 2.2rem;}",
         ".mobile-br {display: none;}",
-        "@media screen and (max-width: 749px) {.mobile-br {display: inline; }}"
+        "@media screen and (max-width: 749px) {.mobile-br {display: inline;} p,p a{font-size:calc(var(--font-heading-scale) * 1.6rem)!important;line-height:2.2rem!important;}}"
       ],
       "settings": {
         "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Do you have questions?</strong> <br class=\"mobile-br\"><a href=\"https://lorinczi.com/pages/faq\">Explore the FAQs</a></p><p><strong>Popular redesigns:</strong> <a href=\"/pages/turn-ring-into-necklace\">Turn a ring into a necklace</a> &middot; <a href=\"/pages/remake-wedding-band\">Remake your wedding band</a></p><p ><strong>Serving the Bay Area and beyond:</strong> <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot; <a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",

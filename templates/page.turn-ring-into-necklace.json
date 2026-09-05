@@ -234,7 +234,8 @@
     "related_links": {
       "type": "custom-liquid",
       "custom_css": [
-        "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 0.5em;}"
+        "p {font-family: \"GoudyOldStyle\", sans-serif !important; font-size: calc(var(--font-heading-scale) * 1.8rem); line-height: 0.5em;}",
+        "@media screen and (max-width: 749px) {p,p a{font-size:calc(var(--font-heading-scale) * 1.6rem)!important;line-height:2.2rem!important;}}"
       ],
       "settings": {
         "custom_liquid": "<div class=\"page-width page-width--narrow\"><p><strong>Wondering about pricing?</strong> <a href=\"/pages/jewelry-redesign-cost\">How much does jewelry redesign cost? </a></p><p><strong>Two gentle guides:</strong> <a href=\"/pages/what-to-do-with-wedding-rings-after-your-spouse-dies\">Your rings after your spouse dies</a> &middot; <a href=\"/pages/what-to-do-with-wedding-ring-after-divorce\">Your ring after a divorce</a></p><p ><strong>Serving the Bay Area and beyond:</strong> <a href=\"/pages/jewelry-redesign-san-francisco\">San Francisco</a> &middot; <a href=\"/pages/jewelry-redesign-marin\">Marin</a> &middot; <a href=\"/pages/jewelry-redesign-palo-alto\">Palo Alto &amp; the Peninsula</a></p></div>",
