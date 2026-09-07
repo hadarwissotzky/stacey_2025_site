@@ -291,29 +291,21 @@
 }
 
 /* ---------------------------------------------------------------------------
-   Stop the page panning sideways on iOS Safari
+   Why there is no html/body overflow clip here
 
-   base.css sets `body {overflow-x: hidden}` to contain the off-canvas cart and
-   menu drawers, which sit at x 390-750 by design. That works in Chrome. It is
-   unreliable in iOS Safari: when `html` is `overflow: visible`, the body's
-   overflow value propagates to the viewport and the body itself computes back
-   to visible, so nothing actually clips and the page can be dragged sideways.
+   An earlier fix set `html, body {overflow-x: clip}` on mobile to stop the page
+   panning sideways on iOS. It was the wrong tool and it broke the drawers.
 
-   `overflow-x: clip` is the fix rather than more `hidden`, because clip does
-   NOT create a scroll container. `hidden` on `html` would kill `position:
-   sticky` on the header, which this theme uses (`data-sticky-type=on-scroll-up`).
-   Verified in Chrome: document width unchanged at 390, scrollLeft pinned at 0,
-   vertical scrolling identical to baseline, a forced-sticky header still sticks.
+   Dawn locks background scrolling by putting `overflow: hidden` on <body> (the
+   .overflow-hidden-mobile class, base.css:3088). That only works because the
+   body's overflow propagates to the viewport while <html> is `visible`. Setting
+   any overflow on <html> stops the propagation, so the lock clipped the body box
+   and the page carried on scrolling behind the open menu.
 
-   Safari below 16 ignores `clip` and falls back to today's behaviour, so this
-   cannot regress older devices. Mobile only; desktop never had the problem.
+   The pan had a real cause, not a containment gap: off-canvas panels parked
+   outside the viewport inside non-clipping position:fixed containers. Those are
+   clipped individually further down this file, so nothing needs clipping here.
 --------------------------------------------------------------------------- */
-@media screen and (max-width: 749px) {
-  html,
-  body {
-    overflow-x: clip;
-  }
-}
 
 /* ---------------------------------------------------------------------------
    The closed search overlay was hanging 37px off the right edge
