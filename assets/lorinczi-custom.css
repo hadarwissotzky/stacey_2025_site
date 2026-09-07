@@ -387,3 +387,25 @@ cart-drawer {
     min-height: 100vh;
   }
 }
+
+/* ---------------------------------------------------------------------------
+   Jewelry care: italic sub-headings were jumping out of the copy
+
+   base.css:3750 sets `#MainContent h5 em` (among others) to GoudyOldStyle at
+   2rem. That page's body is built from h5 elements styled as A Gothic 1.2rem,
+   so every italic rendered at 20px in a different face inside 12px lines.
+
+   `inherit` rather than restating the values, so the italics track whatever the
+   h5 around them is set to. The page class carries an extra class over
+   base.css's selector, so this wins on specificity and does not depend on load
+   order; lorinczi-custom.css loads BEFORE base.css, so an equal-specificity
+   rule here would lose.
+--------------------------------------------------------------------------- */
+.page-jewelry-care-instructions #MainContent h5 em,
+.page-jewelry-care-instructions #MainContent h5 em strong,
+.page-jewelry-care-instructions #MainContent h5 span,
+.page-jewelry-care-instructions #MainContent h6 em {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
