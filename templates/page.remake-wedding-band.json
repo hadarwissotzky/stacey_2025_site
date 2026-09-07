@@ -80,6 +80,7 @@
         "h2 {font-family: \"Nexa\", sans-serif !important; margin-bottom: 0.4rem;}",
         "p,ul {margin-top: 0px;}",
         "h4 {font: 400 2.1rem / 25px \"GoudyOldStyle\" !important; text-transform: none;}",
+        "h4:first-of-type {margin-top: 0 !important;} .page-width {padding-top: 0 !important;}",
         "@media screen and (max-width: 749px) {h4 {font: 400 1.6rem / 25px \"GoudyOldStyle\" !important;}}"
       ],
       "settings": {
