@@ -328,7 +328,13 @@
    layout, not the width property. Taking the closed modal out of layout is what
    works. Opening still behaves: the modal returns to display:flex and the input
    renders full width.
+
+   The share button on blog articles is the same bug in another place: its
+   `.share-button__fallback` is a position:absolute child of a closed <details>,
+   laid out at x 323-570, 180px past a 390px screen, on all 15 article pages.
+   Same treatment.
 --------------------------------------------------------------------------- */
-details:not([open]) > .search-modal {
+details:not([open]) > .search-modal,
+details:not([open]) > .share-button__fallback {
   display: none !important;
 }
