@@ -363,3 +363,27 @@ cart-drawer {
 .mobile-facets {
   overflow-x: hidden;
 }
+
+/* ---------------------------------------------------------------------------
+   Menu drawer: close the strip of page showing under an open submenu
+
+   Opening a submenu (SHOP, ABOUT and the rest) left a band of the page visible
+   along the bottom of the screen. Measured at 390x844: the drawer runs 56-830
+   against an 844 viewport, so 14px of page content sat below it, and
+   .menu-drawer__submenu is `top:0; bottom:0` inside that drawer so it inherits
+   the shortfall exactly.
+
+   The drawer is `position:absolute` with a height that assumes a 70px header
+   and no announcement bar. This site has both, so the arithmetic lands short.
+   min-height pins it to the viewport instead of trusting that sum. It can only
+   ever make the drawer taller, so the top-level menu, which already covered, is
+   untouched.
+
+   Verified with the submenu open at 390x844, 375x667, 430x932 and 390x600:
+   gap before, covered after, and the top-level menu still covered at all four.
+--------------------------------------------------------------------------- */
+@media screen and (max-width: 989px) {
+  .menu-drawer {
+    min-height: 100vh;
+  }
+}
