@@ -44,7 +44,7 @@
       ],
       "custom_css": [
         "h4 {font: 400 1.8rem / 25px \"GoudyOldStyle\" !important; text-transform: none;}",
-        "h2 span,h2 {font: 400 23px / 30px Nexa, sans-serif !important; text-align: left !important; text-transform: uppercase;}",
+        "h2 span,h2 {font: 400 23px / 30px \"GoudyOldStyle\", serif !important; text-align: left !important; text-transform: none;}",
         ".article-template__content {max-width: 80rem; margin: 0 auto; padding: 0 2rem; text-align: left;}",
         ".article-template > *:first-child:not(.article-template__hero-container) {margin-top: 0;}",
         "p span,p,li,a {font: 400 1.6rem / 25px \"GoudyOldStyle\", sans-serif !important;}"
