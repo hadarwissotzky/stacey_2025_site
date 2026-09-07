@@ -314,3 +314,21 @@
     overflow-x: clip;
   }
 }
+
+/* ---------------------------------------------------------------------------
+   The closed search overlay was hanging 37px off the right edge
+
+   The header's search sits in a <details>. While closed, Dawn keeps the modal
+   in the layout at opacity 0, and inside it `.field` computes to width 0 while
+   `#Search-In-Modal` still lays out at its intrinsic 113px, so the input's box
+   ran from x=314 to x=427 on a 390px screen. Nothing above it clipped, so it
+   was the one element in normal flow sticking past the viewport on every page.
+
+   Setting `width: 0` on the input does nothing — the 113px comes from flex
+   layout, not the width property. Taking the closed modal out of layout is what
+   works. Opening still behaves: the modal returns to display:flex and the input
+   renders full width.
+--------------------------------------------------------------------------- */
+details:not([open]) > .search-modal {
+  display: none !important;
+}
