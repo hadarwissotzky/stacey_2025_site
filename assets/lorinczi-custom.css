@@ -289,3 +289,28 @@
 .template-product .product__description a:visited {
   font-family: 'GoudyOldStyle', sans-serif !important;
 }
+
+/* ---------------------------------------------------------------------------
+   Stop the page panning sideways on iOS Safari
+
+   base.css sets `body {overflow-x: hidden}` to contain the off-canvas cart and
+   menu drawers, which sit at x 390-750 by design. That works in Chrome. It is
+   unreliable in iOS Safari: when `html` is `overflow: visible`, the body's
+   overflow value propagates to the viewport and the body itself computes back
+   to visible, so nothing actually clips and the page can be dragged sideways.
+
+   `overflow-x: clip` is the fix rather than more `hidden`, because clip does
+   NOT create a scroll container. `hidden` on `html` would kill `position:
+   sticky` on the header, which this theme uses (`data-sticky-type=on-scroll-up`).
+   Verified in Chrome: document width unchanged at 390, scrollLeft pinned at 0,
+   vertical scrolling identical to baseline, a forced-sticky header still sticks.
+
+   Safari below 16 ignores `clip` and falls back to today's behaviour, so this
+   cannot regress older devices. Mobile only; desktop never had the problem.
+--------------------------------------------------------------------------- */
+@media screen and (max-width: 749px) {
+  html,
+  body {
+    overflow-x: clip;
+  }
+}
