@@ -389,22 +389,30 @@ cart-drawer {
 }
 
 /* ---------------------------------------------------------------------------
-   Jewelry care: italic sub-headings were jumping out of the copy
+   Italic sub-headings inside h5/h6 follow the heading they sit in
 
-   base.css:3750 sets `#MainContent h5 em` (among others) to GoudyOldStyle at
-   2rem. That page's body is built from h5 elements styled as A Gothic 1.2rem,
-   so every italic rendered at 20px in a different face inside 12px lines.
+   base.css:3750 sets `#MainContent h5 em`, `h6 em` and `h5 span` to
+   GoudyOldStyle at 2rem. Several pages build their body from h5 elements styled
+   as A Gothic 1.2rem, so every italic rendered at 20px in a different face
+   inside 12px lines.
 
-   `inherit` rather than restating the values, so the italics track whatever the
-   h5 around them is set to. The page class carries an extra class over
-   base.css's selector, so this wins on specificity and does not depend on load
-   order; lorinczi-custom.css loads BEFORE base.css, so an equal-specificity
-   rule here would lose.
+   `inherit` rather than restating values, so the italics track whatever the
+   heading around them is set to, at any breakpoint.
+
+   Deliberately not page-scoped. Only four pages on the site contain these
+   elements at all (faq, jewelry-care-instructions, where-to-start,
+   custom-design-journey) and all four want the same behaviour, so a third
+   page-scoped copy of this rule would have been the wrong shape.
+
+   `body` prefix is load-bearing: lorinczi-custom.css loads BEFORE base.css, so
+   an equal-specificity rule here would lose on order. The extra element bumps
+   it past base.css's (1,0,2).
 --------------------------------------------------------------------------- */
-.page-jewelry-care-instructions #MainContent h5 em,
-.page-jewelry-care-instructions #MainContent h5 em strong,
-.page-jewelry-care-instructions #MainContent h5 span,
-.page-jewelry-care-instructions #MainContent h6 em {
+body #MainContent h5 em,
+body #MainContent h5 em strong,
+body #MainContent h5 span,
+body #MainContent h6 em,
+body #MainContent h6 em strong {
   font-family: inherit !important;
   font-size: inherit !important;
   line-height: inherit !important;
