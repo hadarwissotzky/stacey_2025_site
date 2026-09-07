@@ -338,3 +338,36 @@ details:not([open]) > .search-modal,
 details:not([open]) > .share-button__fallback {
   display: none !important;
 }
+
+/* ---------------------------------------------------------------------------
+   The off-canvas cart drawer was the real cause of the iOS side-drag
+
+   <cart-drawer> is position:fixed, inset 0, so its own box is exactly the
+   viewport. But it is `overflow: visible`, and its `.drawer__inner` sits at
+   translateX(100%) while closed, i.e. x 390-750 on a 390px screen: 370px of
+   content parked outside the viewport.
+
+   Chrome does not let a fixed element's children extend the document's
+   scrollable area, which is why every measurement here came back clean while
+   the page still dragged sideways on iPhone Safari. iOS Safari does let them,
+   and 370px is a lot of drag.
+
+   Clipping the container is safe with how the drawer animates: closed is
+   translateX(100%), outside the box and visibility:hidden anyway; open is
+   translateX(0), fully inside the box, so nothing that should be visible is
+   clipped. `hidden` rather than `clip` so iOS below 16 is covered too.
+--------------------------------------------------------------------------- */
+cart-drawer {
+  overflow-x: hidden;
+}
+
+/* Same shape on collection pages: the mobile filter panel. Its form
+   (.mobile-facets) is position:fixed and, while closed, computes to zero width,
+   yet `.mobile-facets__inner` is parked at translateX(105vw) with its children
+   running out to x=682 on a 390px screen. When the panel opens the form becomes
+   the full viewport (0-390) and the inner slides to translateX(0), inside it, so
+   clipping the form hides only the parked state. Verified by clicking Filter and
+   sort with the clip live: inner lands at 50-390 and its contents render. */
+.mobile-facets {
+  overflow-x: hidden;
+}
