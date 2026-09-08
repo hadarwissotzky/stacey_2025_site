@@ -468,3 +468,42 @@ body #MainContent h6 a span {
     padding: 0.3rem 0 !important;
   }
 }
+
+/* ---------------------------------------------------------------------------
+   Policy pages: one typeface, one size, sub-headings excepted
+
+   The policy body came out in three faces at three sizes: A Gothic 13px for the
+   copy, A Gothic 18px for the page title, and GoudyOldStyle 20px for the
+   section sub-headings. The sub-headings are `p > span > strong`, and it is the
+   `span` that pulls in base.css:3750's GoudyOldStyle at 2rem; ordinary inline
+   bold is `p > strong` with no span and stays 13px.
+
+   Everything is now Nexa. Body copy keeps its single 13px, which it already
+   had. The sub-headings keep their larger size, that is the one exception, so
+   the sections still read as sections.
+
+   Scoped to .template-policy, so it covers privacy, refund, terms, shipping and
+   contact together without touching anything else.
+
+   The `body` prefix is load-bearing on the h1: this file loads before the sheet
+   that sets the title face, so an equal-specificity !important rule lost on
+   order. The body copy selectors already outranked their competition, but they
+   carry the prefix too so the block stays consistent.
+--------------------------------------------------------------------------- */
+body.template-policy #MainContent h1,
+body.template-policy #MainContent .rte p,
+body.template-policy #MainContent .rte li,
+body.template-policy #MainContent .rte a,
+body.template-policy #MainContent .rte strong,
+body.template-policy #MainContent .rte em,
+body.template-policy #MainContent .rte span {
+  font-family: "Nexa", sans-serif !important;
+}
+
+.template-policy #MainContent .rte p,
+.template-policy #MainContent .rte li,
+.template-policy #MainContent .rte a,
+.template-policy #MainContent .rte p > strong {
+  font-size: calc(var(--font-heading-scale) * 1.3rem) !important;
+  line-height: 1.6 !important;
+}
