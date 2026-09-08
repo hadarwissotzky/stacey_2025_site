@@ -503,7 +503,26 @@ body.template-policy #MainContent .rte span {
 .template-policy #MainContent .rte p,
 .template-policy #MainContent .rte li,
 .template-policy #MainContent .rte a,
-.template-policy #MainContent .rte p > strong {
+.template-policy #MainContent .rte p > strong,
+.template-policy #MainContent .rte p span,
+.template-policy #MainContent .rte p b,
+.template-policy #MainContent .rte p em,
+.template-policy #MainContent .rte li span,
+.template-policy #MainContent .rte li em {
   font-size: calc(var(--font-heading-scale) * 1.3rem) !important;
   line-height: 1.6 !important;
+}
+
+/* This content was pasted from Google Docs, the markup still carries
+   docs-internal-guid ids, and Docs wraps arbitrary runs in <span> and <b>.
+   base.css:3750 styles `p span` as GoudyOldStyle 2rem, so whole paragraphs of
+   ordinary body copy rendered at 20px purely because a span happened to wrap
+   them, and every <em> in the California section did the same. The rule above
+   pins spans, bs and ems to the body size.
+
+   The real sub-headings survive it: they are `span > strong`, one level deeper
+   than a bare span, so this outranks the line above. They are the only thing in
+   the policy body that is not 1.3rem. */
+.template-policy #MainContent .rte p span strong {
+  font-size: calc(var(--font-heading-scale) * 2rem) !important;
 }
