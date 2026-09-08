@@ -464,7 +464,15 @@ body #MainContent h6 a span {
   .page-ring-sizing #MainContent .accordion__content h5,
   .page-ring-sizing #MainContent .accordion__content p,
   .page-ring-sizing #MainContent .accordion__content li,
-  .page-ring-sizing #MainContent summary .accordion__title {
+  .page-ring-sizing #MainContent summary .accordion__title,
+  .page-shipping #MainContent .accordion__content h5,
+  .page-shipping #MainContent .accordion__content p,
+  .page-shipping #MainContent .accordion__content li,
+  .page-shipping #MainContent summary .accordion__title,
+  .page-returns #MainContent .accordion__content h5,
+  .page-returns #MainContent .accordion__content p,
+  .page-returns #MainContent .accordion__content li,
+  .page-returns #MainContent summary .accordion__title {
     font-size: calc(var(--font-heading-scale) * 1.5rem) !important;
     line-height: 1.45 !important;
   }
