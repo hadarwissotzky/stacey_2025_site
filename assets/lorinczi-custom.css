@@ -524,5 +524,12 @@ body.template-policy #MainContent .rte span {
    than a bare span, so this outranks the line above. They are the only thing in
    the policy body that is not 1.3rem. */
 .template-policy #MainContent .rte p span strong {
+  font-size: calc(var(--font-heading-scale) * 1.8rem) !important;
+}
+
+/* Page title above the sub-headings, which it was not: the title rendered 18px
+   against 20px sub-headings. Now 20 / 18 / 13 down the page. Needs the `body`
+   prefix for the same load-order reason as the family rule above. */
+body.template-policy #MainContent h1 {
   font-size: calc(var(--font-heading-scale) * 2rem) !important;
 }
