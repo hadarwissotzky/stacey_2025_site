@@ -417,3 +417,25 @@ body #MainContent h6 em strong {
   font-size: inherit !important;
   line-height: inherit !important;
 }
+
+/* ---------------------------------------------------------------------------
+   Link underlines inside h5/h6 body copy
+
+   collapsible-content.css sets `text-underline-offset: 0.3rem` (3px). That is
+   fine under 20px text but not under 12px: the underline lands below the
+   15.6px line box, and `.accordion__content` is `overflow-x: auto`
+   (component-accordion.css:56), which makes overflow-y auto too and clips it.
+   The FAQ link read as plain text on mobile while desktop, with a 16.9px line
+   box, still showed it.
+
+   Caused by the h5 em/span rule above: bringing those spans from 20px down to
+   the heading's 12px shrank the line box under a fixed 3px offset. An em-based
+   offset scales with whatever size the text ends up at, so it cannot recur if
+   the sizes change again.
+--------------------------------------------------------------------------- */
+body #MainContent h5 a,
+body #MainContent h5 a span,
+body #MainContent h6 a,
+body #MainContent h6 a span {
+  text-underline-offset: 0.15em !important;
+}
