@@ -441,42 +441,42 @@ body #MainContent h6 a span {
 }
 
 /* ---------------------------------------------------------------------------
-   FAQ answers: 1.5rem on mobile
+   Q&A pages: 1.5rem at every width
 
    Both halves. The answers are built from h5 elements and the questions from an
-   h3 inside the summary, and both rendered at 12px, small for reading on a
-   phone. 15px at 390 for each. Sizing only the answers left the questions
-   looking smaller than the text they introduce. Desktop is left where it is.
+   h3 inside the summary, and both rendered at 12 to 13px, small for reading
+   anywhere. 15px now, at every width, on the five Q&A pages. Sizing only the
+   answers left the questions looking smaller than the text they introduce.
 
    The italics and the link underline follow automatically: the h5 em/span rule
    above is `inherit`, and the underline offset is em-based, so both scale with
    this rather than needing their own values.
 --------------------------------------------------------------------------- */
-@media screen and (max-width: 749px) {
-  .page-faq #MainContent .accordion__content h5,
-  .page-faq #MainContent .accordion__content p,
-  .page-faq #MainContent .accordion__content li,
-  .page-faq #MainContent summary .accordion__title,
-  .page-jewelry-care-instructions #MainContent .accordion__content h5,
-  .page-jewelry-care-instructions #MainContent .accordion__content p,
-  .page-jewelry-care-instructions #MainContent .accordion__content li,
-  .page-jewelry-care-instructions #MainContent summary .accordion__title,
-  .page-ring-sizing #MainContent .accordion__content h5,
-  .page-ring-sizing #MainContent .accordion__content p,
-  .page-ring-sizing #MainContent .accordion__content li,
-  .page-ring-sizing #MainContent summary .accordion__title,
-  .page-shipping #MainContent .accordion__content h5,
-  .page-shipping #MainContent .accordion__content p,
-  .page-shipping #MainContent .accordion__content li,
-  .page-shipping #MainContent summary .accordion__title,
-  .page-returns #MainContent .accordion__content h5,
-  .page-returns #MainContent .accordion__content p,
-  .page-returns #MainContent .accordion__content li,
-  .page-returns #MainContent summary .accordion__title {
-    font-size: calc(var(--font-heading-scale) * 1.5rem) !important;
-    line-height: 1.45 !important;
-  }
+.page-faq #MainContent .accordion__content h5,
+.page-faq #MainContent .accordion__content p,
+.page-faq #MainContent .accordion__content li,
+.page-faq #MainContent summary .accordion__title,
+.page-jewelry-care-instructions #MainContent .accordion__content h5,
+.page-jewelry-care-instructions #MainContent .accordion__content p,
+.page-jewelry-care-instructions #MainContent .accordion__content li,
+.page-jewelry-care-instructions #MainContent summary .accordion__title,
+.page-ring-sizing #MainContent .accordion__content h5,
+.page-ring-sizing #MainContent .accordion__content p,
+.page-ring-sizing #MainContent .accordion__content li,
+.page-ring-sizing #MainContent summary .accordion__title,
+.page-shipping #MainContent .accordion__content h5,
+.page-shipping #MainContent .accordion__content p,
+.page-shipping #MainContent .accordion__content li,
+.page-shipping #MainContent summary .accordion__title,
+.page-returns #MainContent .accordion__content h5,
+.page-returns #MainContent .accordion__content p,
+.page-returns #MainContent .accordion__content li,
+.page-returns #MainContent summary .accordion__title {
+  font-size: calc(var(--font-heading-scale) * 1.5rem) !important;
+  line-height: 1.45 !important;
+}
 
+@media screen and (max-width: 749px) {
   /* Tighter question rows. The 1.5rem bump above grew each row from 36px to
      42px, and with 57 of them that is a lot of scrolling. 0.3rem top and bottom
      pulls the row back under its pre-bump height while the text stays larger. */
