@@ -460,7 +460,11 @@ body #MainContent h6 a span {
   .page-jewelry-care-instructions #MainContent .accordion__content h5,
   .page-jewelry-care-instructions #MainContent .accordion__content p,
   .page-jewelry-care-instructions #MainContent .accordion__content li,
-  .page-jewelry-care-instructions #MainContent summary .accordion__title {
+  .page-jewelry-care-instructions #MainContent summary .accordion__title,
+  .page-ring-sizing #MainContent .accordion__content h5,
+  .page-ring-sizing #MainContent .accordion__content p,
+  .page-ring-sizing #MainContent .accordion__content li,
+  .page-ring-sizing #MainContent summary .accordion__title {
     font-size: calc(var(--font-heading-scale) * 1.5rem) !important;
     line-height: 1.45 !important;
   }
