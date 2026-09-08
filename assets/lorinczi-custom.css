@@ -460,4 +460,11 @@ body #MainContent h6 a span {
     font-size: calc(var(--font-heading-scale) * 1.5rem) !important;
     line-height: 1.45 !important;
   }
+
+  /* Tighter question rows. The 1.5rem bump above grew each row from 36px to
+     42px, and with 57 of them that is a lot of scrolling. 0.3rem top and bottom
+     pulls the row back under its pre-bump height while the text stays larger. */
+  .page-faq #MainContent .accordion summary {
+    padding: 0.3rem 0 !important;
+  }
 }
