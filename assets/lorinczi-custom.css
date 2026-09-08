@@ -439,3 +439,25 @@ body #MainContent h6 a,
 body #MainContent h6 a span {
   text-underline-offset: 0.15em !important;
 }
+
+/* ---------------------------------------------------------------------------
+   FAQ answers: 1.5rem on mobile
+
+   Both halves. The answers are built from h5 elements and the questions from an
+   h3 inside the summary, and both rendered at 12px, small for reading on a
+   phone. 15px at 390 for each. Sizing only the answers left the questions
+   looking smaller than the text they introduce. Desktop is left where it is.
+
+   The italics and the link underline follow automatically: the h5 em/span rule
+   above is `inherit`, and the underline offset is em-based, so both scale with
+   this rather than needing their own values.
+--------------------------------------------------------------------------- */
+@media screen and (max-width: 749px) {
+  .page-faq #MainContent .accordion__content h5,
+  .page-faq #MainContent .accordion__content p,
+  .page-faq #MainContent .accordion__content li,
+  .page-faq #MainContent summary .accordion__title {
+    font-size: calc(var(--font-heading-scale) * 1.5rem) !important;
+    line-height: 1.45 !important;
+  }
+}
