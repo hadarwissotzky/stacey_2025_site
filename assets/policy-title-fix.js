@@ -26,8 +26,18 @@ document.addEventListener('DOMContentLoaded', function () {
   body.querySelectorAll('p strong').forEach(function (el) {
     const text = el.textContent.replace(/\s+/g, ' ').trim();
     if (text.length < 4) return;
-    if (!/[A-Z]/.test(text)) return;
-    if (text !== text.toUpperCase()) return;
-    el.classList.add('policy-subheading');
+
+    // Never promote something that is really a link. The support email is
+    // wrapped in span > strong > a on some pages and would otherwise qualify.
+    if (el.querySelector('a')) return;
+
+    const allCaps = /[A-Z]/.test(text) && text === text.toUpperCase();
+
+    // "SECTION 5 - PRODUCTS OR SERVICES (if applicable)" is a heading but not
+    // all caps, so the caps test alone left it at body size while 1 to 14
+    // around it were promoted.
+    const numbered = /^SECTION\s+\d+/i.test(text);
+
+    if (allCaps || numbered) el.classList.add('policy-subheading');
   });
 });
