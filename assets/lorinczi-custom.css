@@ -532,4 +532,5 @@ body.template-policy #MainContent .rte span {
    prefix for the same load-order reason as the family rule above. */
 body.template-policy #MainContent h1 {
   font-size: calc(var(--font-heading-scale) * 2rem) !important;
+  font-weight: 700 !important;
 }
