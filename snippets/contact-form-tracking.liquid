@@ -25,3 +25,8 @@
   instant-estimate widget on the cost page. No-ops without that parameter.
 {%- endcomment -%}
 <script src="{{ 'contact-form-prefill.js' | asset_url }}" defer="defer"></script>
+{%- comment -%}
+  Warns before leaving with an unsent enquiry, and puts a saved draft back if
+  someone returns. Loaded after the prefill so ?estimate= wins over a stale draft.
+{%- endcomment -%}
+<script src="{{ 'contact-form-draft.js' | asset_url }}" defer="defer"></script>

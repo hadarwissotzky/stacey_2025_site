@@ -172,6 +172,18 @@
 .drop-area .link{
   font-style: italic;
 }
+/* Shown once, at the top of the form, when a saved draft has been put back. */
+.contact-draft-notice {
+  margin: 0 0 1.2rem;
+  padding: 1rem 1.2rem;
+  background-color: #E6E5E2;
+  border-left: 3px solid rgba(var(--color-foreground), 0.4);
+  color: rgba(var(--color-foreground), 0.85);
+  font-size: 1.4rem;
+  line-height: 1.45;
+  font-style: italic;
+}
+
 /* "Drag & drop" describes something a phone cannot do, and below 750px the whole box is
    the tap target, so the small "browse files" link is not the instruction any more. */
 .drop-area__touch {
