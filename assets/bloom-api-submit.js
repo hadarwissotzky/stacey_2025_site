@@ -238,6 +238,41 @@
     If the group was never created (no email, or Bloom unreachable) this quietly
     does nothing and Shopify still delivers the enquiry.
   */
+  /*
+    Deliver the final "mark submitted" call so it survives the navigation to the
+    thank-you page. A keepalive fetch fired at unload is honoured on desktop and
+    Android but iOS Safari routinely cancels it, which left iPhone enquiries
+    created and filled in Bloom yet never marked submitted, so they never appeared
+    in the dashboard (verified 14 Sep: a real iPhone submission reached Shopify but
+    not Bloom, while the same flow succeeded in every non-iOS test).
+
+    navigator.sendBeacon is purpose-built for exactly this and iOS honours it. A
+    Blob preserves the application/json content type Bloom expects. Fall back to
+    the keepalive fetch only where sendBeacon is unavailable or refuses the payload.
+  */
+  function submitMark(id) {
+    var url = API + '/questionnaires/' + QUESTIONNAIRE + '/answers';
+    var body = JSON.stringify({ answerGroupId: id, payload: 'SUBMIT' });
+
+    if (typeof navigator !== 'undefined' && navigator.sendBeacon) {
+      try {
+        var queued = navigator.sendBeacon(url, new Blob([body], { type: 'application/json' }));
+        if (queued) {
+          persist({ stage: 'submitted', ok: true, via: 'beacon' });
+          return;
+        }
+      } catch (e) { /* fall through to fetch */ }
+    }
+
+    post('/questionnaires/' + QUESTIONNAIRE + '/answers',
+      { answerGroupId: id, payload: 'SUBMIT' }, { keepalive: true })
+      .then(function () { persist({ stage: 'submitted', ok: true, via: 'fetch' }); })
+      .catch(function (err) {
+        persist({ stage: 'submit-failed', ok: false, detail: String(err && err.message).slice(0, 120) });
+        track('bloom_submit_failed', { form_id: 'contact', bloom_fail_reason: 'error' });
+      });
+  }
+
   window.lzBloomSend = function () {
     if (!agId) {
       persist({ stage: 'submit-skipped', reason: 'no answer group' });
@@ -249,13 +284,7 @@
     if (Date.now() - lastSaveAt > 1500) {
       try { saveAnswers(); } catch (e) {}
     }
-    post('/questionnaires/' + QUESTIONNAIRE + '/answers',
-      { answerGroupId: agId, payload: 'SUBMIT' }, { keepalive: true })
-      .then(function () { persist({ stage: 'submitted', ok: true }); })
-      .catch(function (err) {
-        persist({ stage: 'submit-failed', ok: false, detail: String(err && err.message).slice(0, 120) });
-        track('bloom_submit_failed', { form_id: 'contact', bloom_fail_reason: 'error' });
-      });
+    submitMark(agId);
     persist({ stage: 'submit-fired' });
   };
 
