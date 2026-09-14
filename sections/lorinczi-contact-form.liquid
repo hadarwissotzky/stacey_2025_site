@@ -191,12 +191,17 @@
                     <span class="drop-area__pointer">Drag &amp; drop photos here or<button type="button" id="file-select-button" class="link">browse files</button></span>
                     <span class="drop-area__touch">Tap to add photos of your piece</span>
                   </p>
+                  {%- comment -%}
+                    No `capture` attribute: it forced the rear camera on phones and hid the
+                    photo library, so people could not send an existing photo of their piece,
+                    which is almost always what they want here. Without it, the OS shows its
+                    normal chooser (Photo Library / Take Photo / Choose File).
+                  {%- endcomment -%}
                   <input
                     type="file"
                     id="ContactForm-file"
                     accept="image/*"
                     multiple
-                    capture="environment"
                     class="visually-hidden"
                   />
                 </div>
