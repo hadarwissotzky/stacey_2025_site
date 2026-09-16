@@ -106,13 +106,6 @@
     })();
   }
 
-  // ——— completed submission (Shopify re-renders the page on success) ———
-  // Shopify sets posted_successfully? from ?contact_posted=true, so a refresh or a
-  // back-navigation onto the thank-you page re-renders it as "posted" and would fire
-  // generate_lead a second time for the same enquiry. Guard with a session flag, and
-  // clear that flag on any page that is NOT the thank-you render — so a genuine second
-  // enquiry later in the same session still counts.
-  var LEAD_FLAG = 'lz_lead_fired';
   function sess(op, key, val) {
     try {
       if (op === 'get') return sessionStorage.getItem(key);
@@ -122,14 +115,29 @@
     return null;
   }
 
+  // ——— completed submission (Shopify re-renders the page on success) ———
+  // Shopify sets posted_successfully? from ?contact_posted=true, so ANY landing on
+  // that URL — a refresh, a back-navigation, a bookmark, a fresh session hours later —
+  // re-renders as "posted". The old guard fired on the first such render per session,
+  // which over-counted badly: one struggling visitor who reached the thank-you page
+  // across three sessions logged three generate_lead events (verified 14 Sep). Some
+  // were revisits, not submissions.
+  //
+  // Tie the lead to an ACTUAL submit instead of to the URL. The submit handler below
+  // stamps a timestamp when a real form submission fires; that stamp survives the
+  // POST -> redirect (same session, same tab), so the thank-you render fires the lead
+  // exactly once and consumes the stamp. A revisit or refresh has no fresh stamp, so
+  // it never fires. A genuinely new submission stamps again and counts again.
+  var LEAD_PENDING = 'lz_lead_pending';
+  var PENDING_WINDOW_MS = 10 * 60 * 1000; // the redirect lands in seconds; 10 min is generous margin
+
   if (window.lzContactPosted) {
-    if (!sess('get', LEAD_FLAG)) {
-      sess('set', LEAD_FLAG, '1');
+    var pend = sess('get', LEAD_PENDING);
+    sess('del', LEAD_PENDING); // consume it either way, so a refresh can never refire
+    if (pend && (Date.now() - Number(pend)) < PENDING_WINDOW_MS) {
       track('generate_lead', { form_id: 'contact' });
       metaLead({ content_name: 'contact form' });
     }
-  } else {
-    sess('del', LEAD_FLAG);
   }
 
   // ——— start / abandon ———
@@ -154,10 +162,15 @@
   if (fileInput) fileInput.addEventListener('change', onFirstInput);
 
   // Capture phase: runs before the section's own handler calls preventDefault().
+  // Stamp the moment of a real submit so the thank-you render — after Shopify's
+  // POST -> redirect, same session — knows a genuine submission just happened and
+  // fires generate_lead exactly once. setItem is synchronous, so it lands before
+  // the browser starts navigating.
   form.addEventListener(
     'submit',
     function () {
       submitted = true;
+      sess('set', LEAD_PENDING, String(Date.now()));
     },
     true
   );
