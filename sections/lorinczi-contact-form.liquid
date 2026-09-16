@@ -462,6 +462,14 @@
             };
 
             const afterUploads = () => {
+              // Show a live sending state so the sub-2.5s Bloom wait reads as
+              // purposeful progress, not a frozen button. On a slow connection this
+              // is the difference between "it's working" and "something is stuck".
+              if (submitBtn) {
+                submitBtn.disabled = true;
+                submitBtn.dataset.lzWaiting = '1';
+                submitBtn.textContent = 'SENDING…';
+              }
               // Bloom is best-effort and must never hold the enquiry hostage, so a
               // timeout always wins if Bloom is slow or down. Data was saved on blur;
               // this only flips the submitted flag.
