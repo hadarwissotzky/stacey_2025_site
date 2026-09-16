@@ -433,31 +433,60 @@
           }
 
           /*
-            Submit is deliberately NOT intercepted. The only thing attached here is
-            a guard for the rare case where someone presses Send while an upload is
-            still running — it blocks that one submit and retries once the upload
-            finishes, then gets out of the way so Shopify's captcha and the native
-            post proceed untouched.
+            Submit is intercepted only long enough to guarantee two best-effort
+            copies land before the page navigates to the thank-you screen:
+
+              1. any photo still uploading finishes, and
+              2. Bloom's "mark submitted" call completes.
+
+            Bloom's flag call must be a normal CORS fetch (a beacon is dropped, see
+            bloom-api-submit.js), and a fetch fired at unload is cancelled by iOS
+            Safari. So we hold the native post back until Bloom answers OR a short
+            timeout elapses, then continue. Shopify still delivers the enquiry by
+            email regardless; nothing here can lose it. The proceed() path re-runs
+            the native submit so Shopify's invisible captcha attaches normally.
           */
+          let submitContinuing = false;
+          const BLOOM_WAIT_MS = 2500;
+
           form.addEventListener('submit', e => {
+            if (submitContinuing) return; // second pass: let the native post go
+
+            e.preventDefault();
+
+            const proceed = () => {
+              submitContinuing = true;
+              syncButton();
+              if (typeof form.requestSubmit === 'function') form.requestSubmit();
+              else form.submit();
+            };
+
+            const afterUploads = () => {
+              // Bloom is best-effort and must never hold the enquiry hostage, so a
+              // timeout always wins if Bloom is slow or down. Data was saved on blur;
+              // this only flips the submitted flag.
+              let done = false;
+              const go = () => { if (!done) { done = true; proceed(); } };
+              const timer = setTimeout(go, BLOOM_WAIT_MS);
+              if (window.lzBloomSend) {
+                Promise.resolve()
+                  .then(() => window.lzBloomSend(uploaded))
+                  .catch(() => {})
+                  .then(() => { clearTimeout(timer); go(); });
+              } else {
+                clearTimeout(timer);
+                go();
+              }
+            };
+
             if (uploading > 0) {
-              e.preventDefault();
               if (submitBtn) submitBtn.textContent = 'ADDING YOUR PHOTOS…';
               const wait = setInterval(() => {
-                if (uploading === 0) {
-                  clearInterval(wait);
-                  syncButton();
-                  if (typeof form.requestSubmit === 'function') form.requestSubmit();
-                  else form.submit();
-                }
+                if (uploading === 0) { clearInterval(wait); afterUploads(); }
               }, 200);
               return;
             }
-            // Hand Bloom the lead. Uses keepalive so it survives the navigation
-            // that is about to happen — no preventDefault, nothing blocked.
-            if (window.lzBloomSend) {
-              try { window.lzBloomSend(uploaded); } catch (err) {}
-            }
+            afterUploads();
           });
 
           window.lzContactSubmitReady = true;

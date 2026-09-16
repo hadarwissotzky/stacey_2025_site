@@ -239,37 +239,30 @@
     does nothing and Shopify still delivers the enquiry.
   */
   /*
-    Deliver the final "mark submitted" call so it survives the navigation to the
-    thank-you page. A keepalive fetch fired at unload is honoured on desktop and
-    Android but iOS Safari routinely cancels it, which left iPhone enquiries
-    created and filled in Bloom yet never marked submitted, so they never appeared
-    in the dashboard (verified 14 Sep: a real iPhone submission reached Shopify but
-    not Bloom, while the same flow succeeded in every non-iOS test).
+    Mark the answer group submitted so it appears in Bloom's dashboard.
 
-    navigator.sendBeacon is purpose-built for exactly this and iOS honours it. A
-    Blob preserves the application/json content type Bloom expects. Fall back to
-    the keepalive fetch only where sendBeacon is unavailable or refuses the payload.
+    This MUST be a normal fetch, not a beacon. Bloom's SUBMIT endpoint accepts
+    only application/json (text/plain and no content-type both return 400,
+    verified 16 Sep), and a cross-origin application/json POST requires a CORS
+    preflight. navigator.sendBeacon cannot perform a preflight, so a beacon to
+    this endpoint is dropped — that was the cause of iPhone enquiries reaching
+    Shopify but never showing in Bloom.
+
+    The catch: a fetch fired as the page navigates to the thank-you screen is
+    cancelled by iOS Safari mid-flight. So delivery is not left to survive the
+    navigation. lzBloomSend RETURNS this promise, and the section's submit
+    handler waits on it (with a short timeout) BEFORE letting the native post
+    navigate away. The answers themselves were already saved on blur; this call
+    only flips the submitted flag.
   */
   function submitMark(id) {
-    var url = API + '/questionnaires/' + QUESTIONNAIRE + '/answers';
-    var body = JSON.stringify({ answerGroupId: id, payload: 'SUBMIT' });
-
-    if (typeof navigator !== 'undefined' && navigator.sendBeacon) {
-      try {
-        var queued = navigator.sendBeacon(url, new Blob([body], { type: 'application/json' }));
-        if (queued) {
-          persist({ stage: 'submitted', ok: true, via: 'beacon' });
-          return;
-        }
-      } catch (e) { /* fall through to fetch */ }
-    }
-
-    post('/questionnaires/' + QUESTIONNAIRE + '/answers',
-      { answerGroupId: id, payload: 'SUBMIT' }, { keepalive: true })
-      .then(function () { persist({ stage: 'submitted', ok: true, via: 'fetch' }); })
+    return post('/questionnaires/' + QUESTIONNAIRE + '/answers',
+      { answerGroupId: id, payload: 'SUBMIT' })
+      .then(function () { persist({ stage: 'submitted', ok: true }); return true; })
       .catch(function (err) {
         persist({ stage: 'submit-failed', ok: false, detail: String(err && err.message).slice(0, 120) });
         track('bloom_submit_failed', { form_id: 'contact', bloom_fail_reason: 'error' });
+        return false;
       });
   }
 
@@ -277,15 +270,15 @@
     if (!agId) {
       persist({ stage: 'submit-skipped', reason: 'no answer group' });
       track('bloom_submit_failed', { form_id: 'contact', bloom_fail_reason: 'no_group' });
-      return;
+      return Promise.resolve(false);
     }
-    // If a field changed within the debounce window, the blur handler may not
-    // have fired yet — send the answers once more before marking it submitted.
-    if (Date.now() - lastSaveAt > 1500) {
-      try { saveAnswers(); } catch (e) {}
-    }
-    submitMark(agId);
     persist({ stage: 'submit-fired' });
+    // If a field changed within the debounce window the blur save may not have
+    // landed yet, so save once more, THEN mark submitted. Chaining guarantees the
+    // answers are in before the flag flips.
+    var fresh = (Date.now() - lastSaveAt > 1500);
+    var ready = fresh ? saveAnswers().catch(function () { return false; }) : Promise.resolve(true);
+    return ready.then(function () { return submitMark(agId); });
   };
 
   // ——— wire up: create early, save on blur ———
